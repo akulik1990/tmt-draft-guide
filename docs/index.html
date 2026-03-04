@@ -712,10 +712,10 @@ async function loadData(setCode) {
         renderAll();
         document.getElementById('loading-overlay').style.display = 'none';
 
-        if (isNewSet) {
-            // Show the data menu and prompt user to fetch
+        if (isNewSet && Object.keys(DB).length === 0) {
+            // Truly empty new set — prompt user to fetch
             const dm = document.getElementById('data-menu');
-            if (dm) dm.style.display = 'block';
+            if (dm) dm.classList.add('show');
             alert(`New set "${CURRENT_SET}" created. Use the Data Menu to fetch cards from Scryfall and 17Lands.`);
         }
 
@@ -928,6 +928,7 @@ async function refresh17lands() {
         updateStatsBar();
         renderAll();
         setStatus(`✓ 17Lands: ${updated} updated, ${created} new cards (${data.length} total)`);
+        setTimeout(() => document.getElementById('data-menu')?.classList.remove('show'), 1500);
     } catch (err) {
         setStatus('✗ Error: ' + err.message);
         console.error('17Lands refresh error:', err);
@@ -1011,6 +1012,7 @@ async function refreshScryfall() {
         saveConfig();
         renderAll();
         setStatus(`✓ Scryfall: ${updated} updated, ${created} new cards (${Object.keys(allCards).length} total)`);
+        setTimeout(() => document.getElementById('data-menu')?.classList.remove('show'), 1500);
     } catch (err) {
         setStatus('✗ Error: ' + err.message);
         console.error('Scryfall refresh error:', err);
