@@ -6,15 +6,16 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>TMT Draft Guide v2</title>
+<title>Draft Guide</title>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 body { background:#0d1117; color:#c9d1d9; font-family:system-ui,-apple-system,sans-serif; font-size:15px; line-height:1.5; }
 .page { width:100%; padding:6px 12px; }
 
 /* ── Header ── */
-h1 { font-size:22px; text-align:center; color:#58a6ff; padding:8px 0 2px; }
-h1 small { font-size:12px; color:#8b949e; font-weight:normal; display:block; }
+h1 { font-size:22px; text-align:center; color:#58a6ff; padding:8px 0 2px; display:flex; align-items:center; justify-content:center; gap:8px; flex-wrap:wrap; }
+h1 select { background:#0d1117; color:#58a6ff; border:1px solid #21262d; font-size:20px; font-weight:bold; padding:2px 8px; border-radius:4px; cursor:pointer; }
+h1 small { font-size:12px; color:#8b949e; font-weight:normal; display:block; width:100%; }
 h2 { font-size:18px; color:#f0883e; padding:8px 0 4px; border-bottom:1px solid #21262d; margin-bottom:6px; }
 h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
 
@@ -37,6 +38,12 @@ h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
 .persistence-btns button { padding:3px 8px; font-size:11px; background:#161b22; color:#8b949e;
     border:1px solid #21262d; border-radius:3px; cursor:pointer; }
 .persistence-btns button:hover { background:#21262d; color:#c9d1d9; }
+
+/* ── Management buttons (shown only in edit mode) ── */
+#mgmt-btns { display:none; gap:3px; margin-left:8px; }
+#mgmt-btns button { padding:3px 8px; font-size:11px; background:#21262d; color:#79c0ff;
+    border:1px solid #30363d; border-radius:3px; cursor:pointer; }
+#mgmt-btns button:hover { background:#30363d; color:#58a6ff; }
 
 /* ── Data refresh menu ── */
 .data-menu-btn { padding:3px 8px; font-size:11px; background:#161b22; color:#2ea043;
@@ -99,104 +106,58 @@ h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
 @media(max-width:900px) { .picks-grid { grid-template-columns:1fr; } }
 .col-box { background:#161b22; border:1px solid #21262d; border-radius:6px; padding:8px; }
 
-/* ── Archetypes ── */
-.arch-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(350px,1fr)); gap:6px; margin-bottom:6px; }
-@media(max-width:700px) { .arch-grid { grid-template-columns:1fr; } }
-.arch-box { background:#161b22; border:1px solid #21262d; border-radius:6px; padding:8px; }
-.arch-title { font-size:16px; font-weight:bold; margin-bottom:3px; }
-.arch-desc { font-size:13px; color:#8b949e; margin-bottom:4px; }
-.arch-strat { font-size:13px; color:#c9d1d9; margin-bottom:6px; }
-.arch-cat-label { font-size:12px; color:#f0883e; font-weight:bold; margin:4px 0 2px; }
-.synergy-row { display:flex; align-items:center; gap:4px; font-size:11px; color:#8b949e;
-    padding:2px 0; border-top:1px solid #21262d; margin-top:2px; }
-
-/* ── Card Browser filters ── */
-.filter-bar { display:flex; flex-wrap:wrap; gap:4px; padding:6px 0; align-items:center; }
-.filter-group { display:flex; gap:2px; align-items:center; }
-.filter-group label { font-size:11px; color:#8b949e; margin-right:4px; }
-.pill { padding:3px 8px; font-size:11px; background:#161b22; color:#8b949e; border:1px solid #21262d;
-    border-radius:12px; cursor:pointer; transition:all .15s; user-select:none; }
-.pill:hover { background:#21262d; color:#c9d1d9; }
-.pill.active { background:#1f6feb; color:#fff; border-color:#1f6feb; }
-.view-pill { padding:4px 12px; font-size:12px; font-weight:600; background:#161b22; color:#8b949e; border:1px solid #30363d;
-    border-radius:6px; cursor:pointer; transition:all .15s; user-select:none; }
-.view-pill:hover { background:#21262d; color:#c9d1d9; border-color:#484f58; }
-.view-pill.active { background:#f0883e; color:#000; border-color:#f0883e; }
-.sort-select { padding:3px 8px; font-size:11px; background:#161b22; color:#c9d1d9;
-    border:1px solid #21262d; border-radius:4px; }
-.browser-grid { display:flex; flex-wrap:wrap; gap:2px; margin-top:6px; }
-.browser-count { font-size:12px; color:#8b949e; margin:4px 0; }
-.browser-table-wrap { overflow-x:auto; overflow-y:auto; max-height:calc(100vh - 180px); margin-top:6px; border:1px solid #21262d; border-radius:6px; }
-.browser-table { width:100%; border-collapse:separate; border-spacing:0; font-size:12px; }
-.browser-table th { position:sticky; top:0; z-index:2; background:#0d1117; text-align:left; padding:8px 8px;
-    border-bottom:2px solid #30363d; color:#8b949e; font-weight:600; cursor:pointer; white-space:nowrap; font-size:11px; }
-.browser-table th:hover { color:#f0883e; }
-.browser-table td { padding:4px 8px; border-bottom:1px solid #21262d; color:#c9d1d9; vertical-align:middle; }
-.browser-table tr:hover td { background:#161b22; }
-.browser-table .tbl-img { width:32px; height:auto; border-radius:2px; vertical-align:middle; }
-.browser-table .tbl-name { font-weight:600; white-space:nowrap; cursor:pointer; }
-.browser-table .tbl-name:hover { color:#58a6ff; }
-.browser-table .tbl-grade { display:inline-block; padding:1px 5px; border-radius:3px; font-size:10px; font-weight:bold; }
-.browser-table .tbl-tag { display:inline-block; padding:1px 4px; border-radius:3px; font-size:10px;
-    background:#21262d; color:#8b949e; margin:0 1px; }
-
-/* ── Edit Panel ── */
-#edit-panel { position:fixed; top:0; right:-420px; width:400px; height:100vh; z-index:2000;
-    background:#0d1117; border-left:2px solid #f0883e; box-shadow:-8px 0 32px rgba(0,0,0,.7);
-    transition:right .3s ease; overflow-y:auto; }
+/* ── Edit panel ── */
+#edit-panel { position:fixed; right:-500px; top:0; width:500px; height:100vh; background:#0d1117;
+    border-left:1px solid #21262d; box-shadow:-4px 0 12px rgba(0,0,0,.5); z-index:500;
+    overflow-y:auto; transition:right .3s; padding:12px; }
 #edit-panel.open { right:0; }
-#edit-panel .ep-header { position:sticky; top:0; background:#161b22; padding:10px 12px;
-    border-bottom:1px solid #21262d; display:flex; align-items:center; justify-content:space-between; z-index:1; }
-#edit-panel .ep-header h3 { font-size:14px; color:#f0883e; margin:0; }
-#edit-panel .ep-close { background:none; border:1px solid #30363d; color:#c9d1d9;
-    padding:4px 10px; border-radius:4px; cursor:pointer; font-size:13px; }
-#edit-panel .ep-body { padding:10px 12px; }
-#edit-panel .ep-card-img { width:180px; display:block; margin:0 auto 8px; border-radius:8px; }
-#edit-panel .ep-section { margin-bottom:10px; }
-#edit-panel .ep-section-title { font-size:12px; color:#58a6ff; font-weight:bold; margin-bottom:4px;
-    text-transform:uppercase; letter-spacing:.5px; }
-.tag-chips { display:flex; flex-wrap:wrap; gap:3px; }
-.tag-chip { padding:3px 8px; font-size:11px; border-radius:10px; cursor:pointer; transition:all .15s;
-    user-select:none; border:1px solid #30363d; }
-.tag-chip.on { background:#1f6feb; color:#fff; border-color:#1f6feb; }
-.tag-chip.off { background:#161b22; color:#58595e; }
-.tag-chip:hover { opacity:.85; }
-.tag-chip.role { border-color:#f0883e; }
-.tag-chip.role.on { background:#f0883e; color:#0d1117; border-color:#f0883e; }
-.tag-chip.type { border-color:#3498db; }
-.tag-chip.type.on { background:#3498db; color:#fff; border-color:#3498db; }
-.tag-chip.speed { border-color:#2ecc71; }
-.tag-chip.speed.on { background:#2ecc71; color:#0d1117; border-color:#2ecc71; }
-.tag-chip.section { border-color:#9b59b6; }
-.tag-chip.section.on { background:#9b59b6; color:#fff; border-color:#9b59b6; }
-.tag-chip.arch { border-color:#e67e22; }
-.tag-chip.arch.on { background:#e67e22; color:#fff; border-color:#e67e22; }
-#edit-panel textarea { width:100%; min-height:60px; background:#161b22; color:#c9d1d9;
-    border:1px solid #21262d; border-radius:4px; padding:6px; font-size:12px; resize:vertical;
-    font-family:inherit; }
-#edit-panel .ep-save { display:block; width:100%; padding:8px; margin-top:8px; background:#1f6feb;
-    color:#fff; border:none; border-radius:4px; cursor:pointer; font-size:13px; font-weight:bold; }
-#edit-panel .ep-save:hover { background:#388bfd; }
+#edit-panel h3 { margin-top:12px; margin-bottom:8px; }
+.ep-section { margin-bottom:16px; }
+.ep-section label { display:block; font-size:12px; color:#8b949e; margin-bottom:4px; font-weight:bold; text-transform:uppercase; }
+.ep-section input[type="text"], .ep-section textarea, .ep-section select { width:100%; padding:6px 8px;
+    background:#161b22; color:#c9d1d9; border:1px solid #21262d; border-radius:4px; font-size:12px; font-family:inherit; }
+.ep-section textarea { min-height:60px; resize:vertical; }
+.ep-section select { padding:4px 6px; }
+.ep-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.ep-full { grid-column:1/-1; }
+.ep-checkbox-group { display:flex; flex-wrap:wrap; gap:6px; }
+.ep-checkbox-group label { display:flex; align-items:center; gap:4px; margin:0; font-size:12px; cursor:pointer; }
+.ep-checkbox-group input { margin:0; }
+#preview { display:flex; gap:6px; flex-direction:column; }
+#preview > * { flex:1; min-height:80px; background:#161b22; border:1px solid #21262d; border-radius:4px; padding:6px; overflow-y:auto; font-size:11px; }
+.btn-group { display:flex; gap:4px; margin-top:12px; }
+.btn-group button { flex:1; padding:6px 8px; font-size:12px; border:1px solid; border-radius:4px; cursor:pointer; }
+.btn-save { background:#238636; color:#fff; border-color:#3fb950; }
+.btn-save:hover { background:#2ea043; }
+.btn-close { background:#21262d; color:#c9d1d9; border-color:#30363d; }
+.btn-close:hover { background:#30363d; }
 
-/* ── Hover Preview ── */
-#preview { display:none; position:fixed; z-index:3000; pointer-events:none;
-    border-radius:10px; box-shadow:0 8px 32px rgba(0,0,0,.9); background:#161b22;
-    border:1px solid #30363d; width:300px; max-height:90vh; overflow-y:auto; }
-#preview img { width:100%; display:block; border-radius:10px 10px 0 0; }
-#preview .hover-info { padding:6px 8px; font-size:11px; line-height:1.3; }
-#preview .hover-name { font-size:13px; font-weight:bold; color:#58a6ff; margin-bottom:2px; }
-#preview .hover-type { color:#8b949e; margin-bottom:3px; font-size:11px; }
-#preview .hover-stats { display:grid; grid-template-columns:1fr 1fr; gap:1px 6px; font-size:10px; }
-#preview .hover-stats .hs-label { color:#8b949e; }
-#preview .hover-stats .hs-val { color:#f0883e; font-weight:bold; }
-#preview .hover-tags { margin-top:3px; display:flex; flex-wrap:wrap; gap:2px; }
-#preview .hover-tags span { font-size:9px; padding:1px 5px; border-radius:6px;
-    background:#21262d; color:#79c0ff; border:1px solid #30363d; }
+/* Browser layout */
+.browser-layout { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+@media(max-width:1200px) { .browser-layout { grid-template-columns:1fr; } }
+.browser-col { background:#161b22; border:1px solid #21262d; border-radius:6px; padding:8px; }
+.browser-col h3 { margin-top:0; }
+.browser-sort { display:flex; gap:3px; flex-wrap:wrap; margin-bottom:6px; }
+.browser-sort button { padding:4px 8px; font-size:11px; background:#0d1117; color:#8b949e; border:1px solid #21262d;
+    border-radius:3px; cursor:pointer; }
+.browser-sort button.active { background:#1f6feb; color:#fff; border-color:#1f6feb; }
 
-/* ── Mobile Detail ── */
-#mobile-detail { display:none; position:fixed; top:0; left:0; right:0; bottom:0;
-    z-index:4000; background:#0d1117; overflow-y:auto; -webkit-overflow-scrolling:touch; }
-#mobile-detail.active { display:block; }
+/* Arch Grid */
+.arch-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); gap:8px; margin:8px 0; }
+@media(max-width:600px) { .arch-grid { grid-template-columns:1fr; } }
+.arch-card { background:#161b22; border:1px solid #21262d; border-radius:6px; padding:8px; cursor:pointer;
+    transition:all .15s; }
+.arch-card:hover { border-color:#58a6ff; background:#1a1f26; }
+.arch-card.selected { border-color:#58a6ff; background:#1a3a2a; }
+.arch-title { font-weight:bold; color:#58a6ff; margin-bottom:4px; font-size:13px; }
+.arch-colors { display:flex; gap:2px; margin:4px 0; flex-wrap:wrap; }
+.arch-color { width:16px; height:16px; border-radius:3px; border:1px solid #30363d; }
+.arch-desc { font-size:11px; color:#8b949e; line-height:1.4; }
+
+/* Mobile detail panel */
+#mobile-detail { position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.9);
+    z-index:4000; display:none; overflow-y:auto; }
+#mobile-detail.show { display:block; }
 #mobile-detail .md-close { position:fixed; top:10px; right:10px; z-index:4001;
     background:#21262d; color:#c9d1d9; border:1px solid #30363d; border-radius:50%;
     width:36px; height:36px; font-size:18px; cursor:pointer; line-height:34px; text-align:center; }
@@ -243,6 +204,24 @@ h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
 .stats-bar span { background:#161b22; padding:2px 6px; border-radius:3px; border:1px solid #21262d; }
 .stats-bar .highlight { color:#f0883e; }
 
+/* ── Management Modals ── */
+.mgmt-modal { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.7); z-index:500; overflow-y:auto; padding:20px; }
+.mgmt-modal.show { display:flex; align-items:flex-start; justify-content:center; }
+.mgmt-panel { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:16px; max-width:700px; width:100%; margin-top:40px; max-height:80vh; overflow-y:auto; }
+.mgmt-panel h3 { color:#58a6ff; margin-bottom:12px; }
+.mgmt-item { background:#0d1117; border:1px solid #21262d; border-radius:6px; padding:10px; margin-bottom:8px; }
+.mgmt-item .mi-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
+.mgmt-item .mi-name { font-weight:bold; color:#c9d1d9; }
+.mgmt-item .mi-actions button { padding:2px 8px; font-size:11px; margin-left:4px; background:#21262d; color:#8b949e; border:1px solid #30363d; border-radius:3px; cursor:pointer; }
+.mgmt-item .mi-actions .mi-delete { color:#f85149; border-color:#f85149; }
+.mgmt-field { margin:4px 0; }
+.mgmt-field label { font-size:11px; color:#8b949e; display:block; margin-bottom:2px; }
+.mgmt-field input, .mgmt-field textarea { width:100%; padding:4px 8px; font-size:12px; background:#0d1117; color:#c9d1d9; border:1px solid #30363d; border-radius:4px; }
+.mgmt-field textarea { min-height:40px; resize:vertical; }
+.mgmt-add-btn { padding:6px 12px; font-size:12px; background:#238636; color:#fff; border:none; border-radius:4px; cursor:pointer; margin-top:8px; }
+.mgmt-save-btn { padding:6px 16px; font-size:13px; background:#1f6feb; color:#fff; border:none; border-radius:6px; cursor:pointer; margin-top:12px; }
+.mgmt-close { position:absolute; top:12px; right:16px; background:none; border:none; color:#8b949e; font-size:20px; cursor:pointer; }
+
 /* ── Mobile Responsive ── */
 @media(max-width:600px) {
     .page { padding:4px 6px; }
@@ -273,8 +252,12 @@ h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
 </div>
 
 <div class="page">
-<h1>TMT Draft Guide
-<small>17Lands Win Rates · Editable Card Positions</small></h1>
+<h1>
+    <select id="set-selector" onchange="switchSet(this.value)" style="background:#0d1117;color:#58a6ff;border:1px solid #21262d;font-size:20px;font-weight:bold;padding:2px 8px;border-radius:4px;cursor:pointer;">
+    </select>
+    Draft Guide
+    <small>17Lands Win Rates · Editable Card Positions</small>
+</h1>
 
 <div class="top-nav">
     <button class="tab-btn active" onclick="switchTab('guide')">Draft Guide</button>
@@ -295,366 +278,289 @@ h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
             <div class="data-menu" id="data-menu">
                 <div class="dm-set">
                     <label>Set:</label>
-                    <input type="text" id="dm-set-code" value="TMT">
+                    <input type="text" id="dm-set-code" value="">
                 </div>
                 <button onclick="refresh17lands()">📊 Refresh 17Lands Ratings</button>
-                <button onclick="refreshScryfall()">🖼️ Refresh Scryfall Images</button>
-                <button onclick="refreshAll()">🔄 Refresh All Data</button>
-                <div class="dm-status" id="dm-status">Ready</div>
+                <div class="dm-status">✓ Data cached</div>
             </div>
+        </div>
+    </div>
+    <div class="persistence-btns" id="mgmt-btns">
+        <button onclick="openArchManager()">Archetypes</button>
+        <button onclick="openTierManager()">Tiers</button>
+    </div>
+</div>
+
+<div class="stats-bar" id="stats-bar"></div>
+
+<div class="tab-content active" id="guide-tab">
+    <!-- Draft guide rendered here -->
+</div>
+
+<div class="tab-content" id="browser-tab">
+    <div class="browser-layout">
+        <div class="browser-col">
+            <h3>Archetypes</h3>
+            <div id="arch-list-browser"></div>
+        </div>
+        <div class="browser-col">
+            <h3>All Cards</h3>
+            <div class="browser-sort" id="sort-btns"></div>
+            <div id="card-grid-browser"></div>
         </div>
     </div>
 </div>
 
-<!-- ═══ DRAFT GUIDE TAB ═══ -->
-<div class="tab-content active" id="tab-guide">
-
-<div class="stats-bar" id="stats-bar"></div>
-
-<!-- Tips (rendered by JS for editability) -->
-<div id="tips"><h2>Draft Tips</h2>
-<div class="info-columns" id="tips-container"></div>
 </div>
 
-<!-- Must-Picks + Signals -->
-<h2>Must-Pick Cards &amp; Draft Signals</h2>
-<div class="picks-grid">
-    <div class="col-box" style="border-top:3px solid #ff4757;">
-        <h3 style="color:#ff4757;">Bombs &amp; Build-Arounds</h3>
-        <p style="font-size:12px;color:#8b949e;margin-bottom:4px;">Take these over everything. Format-defining rares and mythics.</p>
-        <div id="must-pick-cards"></div>
-    </div>
-    <div class="col-box" style="border-top:3px solid #2ecc71;">
-        <h3 style="color:#2ecc71;">Archetype Signals</h3>
-        <p style="font-size:12px;color:#8b949e;margin-bottom:4px;">Premium uncommons that pull you into an archetype. Seeing these late = the archetype is open.</p>
-        <div id="signal-cards" class="card-row"></div>
-    </div>
-    <div class="col-box" style="border-top:3px solid #3498db;">
-        <h3 style="color:#3498db;">Underdrafted — Free Wins</h3>
-        <p style="font-size:12px;color:#8b949e;margin-bottom:4px;">High GIH win rate but going late. Seeing these in pack 1 means the color is open.</p>
-        <div id="late-pick-cards" class="card-row"></div>
-    </div>
-    <div class="col-box" style="border-top:3px solid #e74c3c;">
-        <h3 style="color:#e74c3c;">Overdrafted — Don't Force</h3>
-        <p style="font-size:12px;color:#8b949e;margin-bottom:4px;">Everyone wants these — high GIH but low ALSA. Don't force a color just because you got one.</p>
-        <div id="contested-cards" class="card-row"></div>
-    </div>
-    <div class="col-box" style="border-top:3px solid #f39c12; grid-column: 1 / -1;">
-        <h3 style="color:#f39c12;">Top Commons</h3>
-        <p style="font-size:12px;color:#8b949e;margin-bottom:4px;">The backbone of every deck. Best commons by GIH win rate.</p>
-        <div id="top-commons-cards" class="card-row"></div>
-    </div>
-</div>
-
-<!-- Archetypes -->
-<h2>Archetypes</h2>
-<div id="archetypes-container" class="arch-grid"></div>
-
-<!-- Removal -->
-<h2>Key Removal</h2>
-<div id="removal-container" class="card-row"></div>
-
-</div>
-
-<!-- ═══ CARD BROWSER TAB ═══ -->
-<div class="tab-content" id="tab-browser">
-<h2>Card Browser — All Cards</h2>
-
-<div class="filter-bar">
-    <div class="filter-group">
-        <label>Color:</label>
-        <span class="pill active" data-filter="color" data-val="all">All</span>
-        <span class="pill" data-filter="color" data-val="W">W</span>
-        <span class="pill" data-filter="color" data-val="U">U</span>
-        <span class="pill" data-filter="color" data-val="B">B</span>
-        <span class="pill" data-filter="color" data-val="R">R</span>
-        <span class="pill" data-filter="color" data-val="G">G</span>
-        <span class="pill" data-filter="color" data-val="M">Multi</span>
-        <span class="pill" data-filter="color" data-val="C">C/L</span>
-    </div>
-    <div class="filter-group">
-        <label>Rarity:</label>
-        <span class="pill" data-filter="rarity" data-val="mythic">M</span>
-        <span class="pill" data-filter="rarity" data-val="rare">R</span>
-        <span class="pill" data-filter="rarity" data-val="uncommon">U</span>
-        <span class="pill" data-filter="rarity" data-val="common">C</span>
-    </div>
-    <div class="filter-group">
-        <label>Role:</label>
-        <span class="pill" data-filter="role" data-val="bomb">Bomb</span>
-        <span class="pill" data-filter="role" data-val="build-around">Build-around</span>
-        <span class="pill" data-filter="role" data-val="payoff">Payoff</span>
-        <span class="pill" data-filter="role" data-val="enabler">Enabler</span>
-        <span class="pill" data-filter="role" data-val="role-player">Role Player</span>
-    </div>
-    <div class="filter-group">
-        <label>Type:</label>
-        <span class="pill" data-filter="type" data-val="unconditional-removal">Removal</span>
-        <span class="pill" data-filter="type" data-val="evasion">Evasion</span>
-        <span class="pill" data-filter="type" data-val="card-advantage">Card Adv</span>
-        <span class="pill" data-filter="type" data-val="token-maker">Tokens</span>
-    </div>
-    <div class="filter-group">
-        <label>Sort:</label>
-        <select class="sort-select" id="browser-sort" onchange="renderBrowser()">
-            <option value="tier">Tier Grade</option>
-            <option value="gih">GIH WR</option>
-            <option value="alsa">ALSA</option>
-            <option value="name">Name</option>
-            <option value="cmc">CMC</option>
-        </select>
-    </div>
-    <div class="filter-group">
-        <label>View:</label>
-        <span class="view-pill active" data-view="grid" onclick="setView('grid')">&#9638; Grid</span>
-        <span class="view-pill" data-view="table" onclick="setView('table')">&#9776; Table</span>
-    </div>
-</div>
-<div class="browser-count" id="browser-count"></div>
-<div class="browser-grid" id="browser-grid"></div>
-<div class="browser-table-wrap" id="browser-table-wrap" style="display:none;"><table class="browser-table" id="browser-table"></table></div>
-</div>
-
-<!-- ═══ EDIT PANEL ═══ -->
+<!-- Edit panel -->
 <div id="edit-panel">
-    <div class="ep-header">
-        <h3 id="ep-title">Edit Card</h3>
-        <button class="ep-close" onclick="closeEditPanel()">✕</button>
+    <h2>Edit Card</h2>
+    <div class="ep-section">
+        <label>Card Name</label>
+        <input type="text" id="edit-name" readonly>
     </div>
-    <div class="ep-body" id="ep-body"></div>
+    <div class="ep-grid">
+        <div>
+            <label>Tier</label>
+            <select id="edit-tier"></select>
+        </div>
+        <div>
+            <label>Removal Type</label>
+            <select id="edit-removal-type">
+                <option value="">None</option>
+                <option value="creature">Creature</option>
+                <option value="instant">Instant/Sorcery</option>
+                <option value="enchantment">Enchantment</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+    </div>
+    <div class="ep-section ep-full">
+        <label>Comment</label>
+        <textarea id="edit-comment"></textarea>
+    </div>
+    <div class="ep-section ep-full">
+        <label>Archetypes (check all that apply)</label>
+        <div class="ep-checkbox-group" id="edit-archs"></div>
+    </div>
+    <div class="ep-section ep-full">
+        <label>Tags</label>
+        <div class="ep-section">
+            <label>Roles (comma-sep)</label>
+            <input type="text" id="edit-roles">
+        </div>
+        <div class="ep-section">
+            <label>Types (comma-sep)</label>
+            <input type="text" id="edit-types">
+        </div>
+        <div class="ep-section">
+            <label>Speed (comma-sep)</label>
+            <input type="text" id="edit-speed">
+        </div>
+    </div>
+    <div id="preview">
+        <div id="preview-draft"></div>
+        <div id="preview-browser"></div>
+    </div>
+    <div class="btn-group">
+        <button class="btn-save" onclick="saveEdit()">Save</button>
+        <button class="btn-close" onclick="closeEditPanel()">Close</button>
+    </div>
 </div>
 
-<!-- ═══ HOVER PREVIEW ═══ -->
-<div id="preview">
-    <img src="" alt="preview">
-    <div class="hover-info">
-        <div class="hover-name"></div>
-        <div class="hover-type"></div>
-        <div class="hover-stats"></div>
-        <div class="hover-tags"></div>
-    </div>
-</div>
-
-<!-- ═══ MOBILE DETAIL ═══ -->
+<!-- Mobile detail panel -->
 <div id="mobile-detail">
     <button class="md-close" onclick="closeMobileDetail()">✕</button>
-    <div id="md-content"></div>
+    <div class="md-header"></div>
+    <div style="padding:12px;"></div>
 </div>
 
+<!-- Archetype Manager Modal -->
+<div class="mgmt-modal" id="arch-manager">
+    <div class="mgmt-panel" style="position:relative;">
+        <button class="mgmt-close" onclick="closeArchManager()">✕</button>
+        <h3>⚙️ Manage Archetypes</h3>
+        <div id="arch-list"></div>
+        <button class="mgmt-add-btn" onclick="addNewArchetype()">+ Add Archetype</button>
+        <br>
+        <button class="mgmt-save-btn" onclick="saveArchetypes()">Save Changes</button>
+    </div>
+</div>
+
+<!-- Tier Manager Modal -->
+<div class="mgmt-modal" id="tier-manager">
+    <div class="mgmt-panel" style="position:relative;">
+        <button class="mgmt-close" onclick="closeTierManager()">✕</button>
+        <h3>📊 Manage Tiers</h3>
+        <div id="tier-list"></div>
+        <div style="display:flex;gap:4px;margin-top:8px;">
+            <input type="text" id="new-tier-input" placeholder="New tier (e.g. S)" style="padding:4px 8px;font-size:12px;background:#0d1117;color:#c9d1d9;border:1px solid #30363d;border-radius:4px;width:100px;">
+            <button class="mgmt-add-btn" onclick="addNewTier()" style="margin:0;">+ Add</button>
+        </div>
+        <br>
+        <button class="mgmt-save-btn" onclick="saveTiers()">Save Changes</button>
+    </div>
 </div>
 
 <script>
-/* ═══════════════════════════════════════════════════════════════════════════
-   TMT Draft Guide v2 — Standalone app loading external JSON data
-   ═══════════════════════════════════════════════════════════════════════════ */
+// ── Global state ──
+let CURRENT_SET = 'TMT';
+let CARD_DATA = {}, CARD_CONFIG = {};
+let DEFAULT_CONFIG = {}, DEFAULT_ARCHETYPES = [], DEFAULT_TIERS = [];
+let DB = {};
+let ARCHETYPES = [];
+let TIER_RANK = {};
+let GRADE_COLORS = {};
 
-// ── Static constants (archetype definitions, colors, tier rankings) ──
-const ARCHETYPES = [
-    {
-        id: 'ur_artifacts', name: 'UR Artifacts', colors: ['U', 'R'],
-        color_hex: '#9b59b6', icon: '⚙️',
-        short: 'Artifacts-matter aggro/tempo. Play cheap artifact creatures, buff them, generate value.',
-        strategy: 'Draft artifact creatures highly. Brilliance Unleashed is the payoff. Metalhead, Buzz Bots, Mouser Foundry are key. Manhole Missile is premium removal that also makes artifacts.',
-        signposts: ['Brilliance Unleashed', 'Metalhead'],
-        payoffs: ['Brilliance Unleashed', 'Metalhead', 'Does Machines', 'Chrome Dome', 'Mouser Mark III'],
-        enablers: ['Buzz Bots', 'Mouser Foundry', 'Manhole Missile', 'Ravenous Robots', 'Sewer-veillance Cam', 'Nobody'],
-        removal: ['Manhole Missile', 'Bot Bashing Time', 'Return to the Sewers', 'Mind Transfer Protocol'],
-        role_players: ['Donatello, Turtle Techie', 'Pepperoni Shuriken'],
-        key_synergies: [
-            ['Brilliance Unleashed', 'Any artifact creature', 'Buff entire board when artifacts ETB'],
-            ['Mouser Foundry', 'Sacrifice outlet', 'Generate artifact tokens repeatedly'],
-            ['Metalhead', 'Artifact tokens', 'Copies artifact creatures for massive value'],
-        ],
-    },
-    {
-        id: 'wb_sneak', name: 'WB Sneak', colors: ['W', 'B'],
-        color_hex: '#95a5a6', icon: '🥷',
-        short: 'Evasion & disruption. Sneak creatures deal combat damage → trigger bonus effects.',
-        strategy: 'Draft Sneak creatures that get value from dealing damage. Combine evasion (flying, unblockable) with Sneak payoffs. Removal-heavy to clear path.',
-        signposts: ['Karai, Future of the Foot', 'Foot Ninjas'],
-        payoffs: ['Turncoat Kunoichi', 'Karai, Future of the Foot', 'Oroku Saki, Shredder Rising', "April O'Neil, Kunoichi Trainee"],
-        enablers: ['Foot Ninjas', 'Leonardo, Big Brother', 'Dimensional Exile', 'Grounded for Life'],
-        removal: ['Dimensional Exile', 'Stomped by the Foot', 'Anchovy & Banana Pizza', 'Grounded for Life', 'Tainted Treats'],
-        role_players: ['Mighty Mutanimals', 'Uneasy Alliance'],
-        key_synergies: [
-            ['Turncoat Kunoichi', 'Any Sneak creature', 'Repeated disruption on combat damage'],
-            ['Karai, Future of the Foot', 'Foot Ninjas', 'Signpost combo: evasive + payoff'],
-            ['Dimensional Exile', 'Any creature', 'Premium removal clears path for Sneak'],
-        ],
-    },
-    {
-        id: 'bg_disappear', name: 'BG Disappear', colors: ['B', 'G'],
-        color_hex: '#27ae60', icon: '💀',
-        short: 'Sacrifice & recursion. Cards Disappear (exile from grave) to fuel powerful effects.',
-        strategy: 'Self-mill and sacrifice to fill graveyard, then Disappear cards for value. Strong midrange/grindy plan. Courier of Comestibles is a top common.',
-        signposts: ['Slash, Reptile Rampager', 'Leatherhead, Swamp Stalker'],
-        payoffs: ['Slash, Reptile Rampager', 'Leatherhead, Swamp Stalker', 'Squirrelanoids', 'Ragamuffin Raptor'],
-        enablers: ['Frog Butler', 'Courier of Comestibles', 'Ice Cream Kitty', 'Tenderize'],
-        removal: ['Stomped by the Foot', 'Anchovy & Banana Pizza', 'Tenderize', 'Tainted Treats'],
-        role_players: ['Primordial Pachyderm', 'Michelangelo, Game Master', 'Zoo Escapees'],
-        key_synergies: [
-            ['Frog Butler', 'Sacrifice outlets', 'Recursive value engine from graveyard'],
-            ['Courier of Comestibles', 'Disappear cards', 'Food tokens + Disappear synergy'],
-            ['Slash, Reptile Rampager', 'Self-mill', 'Grows huge from Disappear count'],
-        ],
-    },
-    {
-        id: 'rw_alliance', name: 'RW Alliance', colors: ['R', 'W'],
-        color_hex: '#e74c3c', icon: '⚔️',
-        short: 'Go-wide aggro. Alliance triggers when creatures ETB. Tokens + anthems.',
-        strategy: 'Play creatures that trigger Alliance on ETB. Token generators are great. Mechanized Ninja Cavalry is a key common. Curve out aggressively.',
-        signposts: ['Groundchuck & Dirtbag', 'Mechanized Ninja Cavalry'],
-        payoffs: ['Groundchuck & Dirtbag', 'Mechanized Ninja Cavalry', "April O'Neil, Kunoichi Trainee", 'Action News Crew'],
-        enablers: ['Go Ninja Go', 'Mouser Foundry', 'Rock Soldiers', 'Manhole Missile'],
-        removal: ['Manhole Missile', 'Bot Bashing Time', 'Dimensional Exile', 'Grounded for Life'],
-        role_players: ['Mighty Mutanimals', 'Leonardo, Big Brother', 'Raph & Mikey, Troublemakers'],
-        key_synergies: [
-            ['Mechanized Ninja Cavalry', 'Token makers', 'Multiple Alliance triggers per turn'],
-            ['Groundchuck & Dirtbag', 'Go-wide board', 'Signpost gives team buffs on Alliance'],
-            ['Go Ninja Go', 'Any creatures', 'Pump + Alliance synergy'],
-        ],
-    },
-    {
-        id: 'gu_mutagen', name: 'GU Mutagen', colors: ['G', 'U'],
-        color_hex: '#2ecc71', icon: '🧬',
-        short: '+1/+1 counters & mutation. Mutagen creatures grow and gain abilities.',
-        strategy: 'Draft creatures that use +1/+1 counters and Mutagen. Build big threats over time. Tempo + size advantage. Mikey & Don, Party Planners is the top signpost.',
-        signposts: ['Mikey & Don, Party Planners', 'Slithering Cryptid'],
-        payoffs: ['Mikey & Don, Party Planners', 'Donatello, Turtle Techie', 'Slithering Cryptid'],
-        enablers: ['Return to the Sewers', 'Buzz Bots', 'Retro-Mutation', 'Frog Butler'],
-        removal: ['Return to the Sewers', 'Mind Transfer Protocol', 'Tenderize'],
-        role_players: ['Primordial Pachyderm', 'Michelangelo, Game Master', 'Courier of Comestibles'],
-        key_synergies: [
-            ['Mikey & Don, Party Planners', '+1/+1 counter cards', 'Signpost grows entire team'],
-            ['Donatello, Turtle Techie', 'Artifacts', 'Draws cards + grows with counters'],
-            ['Return to the Sewers', 'Any creature', 'Bounce + Mutagen counter'],
-        ],
-    },
-];
-
-const GRADE_COLORS = {
-    'A+': '#ff4757', 'A': '#ee5a24', 'A-': '#f39c12',
-    'B+': '#f1c40f', 'B': '#2ecc71', 'B-': '#1abc9c',
-    'C+': '#3498db', 'C': '#95a5a6', 'C-': '#7f8c8d',
-    'D+': '#636e72', 'D': '#4a4a4a', 'D-': '#3d3d3d', 'F': '#2d3436',
-};
-
-const TIER_RANK = {'A+':0,'A':1,'A-':2,'B+':3,'B':4,'B-':5,'C+':6,'C':7,'C-':8,'D+':9,'D':10,'D-':11,'F':12};
-
-// ── State ──
-let DEFAULT_CONFIG = null; // merged card_data + card_config
-let CARD_DATA = null;       // raw 17lands/scryfall data
-let CARD_CONFIG = null;     // raw user-editable config
-let DB = null;              // active working copy
+let currentSearchIdx = 0;
 let editMode = false;
 let editingCard = null;
-const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
-// ── Tips Data ──
-const DEFAULT_TIPS = [
-    { title: 'Mana Curve', body: '1-drops: 1-2 · 2-drops: 4-5 · 3-drops: 4-5 · 4-drops: 3-4 · 5+: 2-3\nTotal: 16-17 creatures, 6-8 spells, 16-17 lands' },
-    { title: 'Key Mechanics', body: '<b>Artifacts</b> — count for both artifact + creature synergies\n<b>Disappear</b> — exile from graveyard for effects (self-mill fills yard)\n<b>Sneak</b> — bonus on combat damage (needs evasion/removal)\n<b>Alliance</b> — triggers on creature ETB (tokens = multiple triggers)\n<b>Mutagen</b> — +1/+1 counters matter; creatures grow over time' },
-    { title: 'Format Speed', body: 'Medium speed. RW Alliance and UR Artifacts close by turn 6-7.\nBG Disappear grinds longest. Don\'t be too greedy with your curve.' },
-    { title: 'Draft Priorities', body: '<b>P1P1:</b> Bombs > Premium removal > Best uncommon signpost\n<b>Pack 1:</b> Stay open, grab the best card regardless of color\n<b>Pack 2:</b> Commit to an archetype, prioritize synergy pieces\n<b>Pack 3:</b> Fill curve gaps, grab fixing, snag last removal' }
-];
-let TIPS = null;
+// ── Tier and Grade helpers ──
+function buildTierRank(tiers) {
+    TIER_RANK = {};
+    tiers.forEach((t, i) => TIER_RANK[t] = i);
+}
 
-// ── Persistence ──
-const STORAGE_KEY = 'tmt_draft_config_v2';
-const TIPS_STORAGE_KEY = 'tmt_tips_v1';
+function buildGradeColors(tiers) {
+    const palette = ['#ff4757','#ee5a24','#f39c12','#f1c40f','#2ecc71','#1abc9c','#3498db','#95a5a6','#7f8c8d','#636e72','#4a4a4a','#3d3d3d','#2d3436'];
+    GRADE_COLORS = {};
+    tiers.forEach((t, i) => {
+        GRADE_COLORS[t] = palette[Math.min(i, palette.length - 1)] || '#2d3436';
+    });
+}
 
-// ── Data Loading ──
-async function loadData() {
+// ── Load Data ──
+async function loadData(setCode) {
+    if (!setCode) setCode = 'TMT';
+    CURRENT_SET = setCode.toUpperCase();
+    
+    document.getElementById('loading-overlay').style.display = 'flex';
+    document.getElementById('loading-overlay').innerHTML = '<div class="spinner"></div><div style="color:#8b949e">Loading ' + CURRENT_SET + '...</div>';
+    
+    const dmSetCode = document.getElementById('dm-set-code');
+    if (dmSetCode) dmSetCode.value = CURRENT_SET;
+    
     try {
         const [dataResp, configResp] = await Promise.all([
-            fetch('card_data.json'),
-            fetch('card_config.json')
+            fetch(`card_data_${CURRENT_SET}.json`),
+            fetch(`card_config_${CURRENT_SET}.json`)
         ]);
-        if (!dataResp.ok) throw new Error('Failed to load card_data.json: ' + dataResp.status);
-        if (!configResp.ok) throw new Error('Failed to load card_config.json: ' + configResp.status);
-
+        
+        if (!dataResp.ok || !configResp.ok) {
+            throw new Error(`Could not load ${CURRENT_SET} data files. Make sure card_data_${CURRENT_SET}.json and card_config_${CURRENT_SET}.json exist.`);
+        }
+        
         CARD_DATA = await dataResp.json();
         CARD_CONFIG = await configResp.json();
-
-        // Merge: for each card, combine data fields + config fields
+        
+        const configArchetypes = CARD_CONFIG._archetypes || [];
+        const configTiers = CARD_CONFIG._tiers || ['A+','A','A-','B+','B','B-','C+','C','C-','D+','D','D-','F'];
+        
+        ARCHETYPES = configArchetypes;
+        buildTierRank(configTiers);
+        buildGradeColors(configTiers);
+        
+        DEFAULT_ARCHETYPES = JSON.parse(JSON.stringify(configArchetypes));
+        DEFAULT_TIERS = [...configTiers];
+        
         DEFAULT_CONFIG = {};
-        for (const name of Object.keys(CARD_DATA)) {
+        for (const name of new Set([...Object.keys(CARD_DATA), ...Object.keys(CARD_CONFIG)])) {
+            if (name.startsWith('_')) continue;
             const data = CARD_DATA[name] || {};
-            const config = CARD_CONFIG[name] || {
-                tier: null, sections: [], archetypes: {},
-                tags: { roles: ['filler'], types: [], speed: ['midrange'] },
-                removal_type: null, comment: ''
-            };
+            const config = CARD_CONFIG[name] || { tier: null, sections: [], archetypes: {}, tags: { roles: [], types: [], speed: [] }, removal_type: null, comment: '' };
             DEFAULT_CONFIG[name] = { ...data, ...config };
         }
-        // Also include any cards in config that aren't in data
-        for (const name of Object.keys(CARD_CONFIG)) {
-            if (!DEFAULT_CONFIG[name]) {
-                DEFAULT_CONFIG[name] = { ...CARD_CONFIG[name] };
-            }
+        
+        let knownSets = JSON.parse(localStorage.getItem('draft_known_sets') || '[]');
+        if (!knownSets.includes(CURRENT_SET)) {
+            knownSets.push(CURRENT_SET);
+            localStorage.setItem('draft_known_sets', JSON.stringify(knownSets));
         }
-
+        
+        localStorage.setItem('draft_last_set', CURRENT_SET);
+        updateSetSelector();
+        
         loadConfig();
         updateStatsBar();
         renderAll();
         document.getElementById('loading-overlay').style.display = 'none';
-        console.log('Loaded ' + Object.keys(DEFAULT_CONFIG).length + ' cards from external JSONs');
     } catch (err) {
         document.getElementById('loading-overlay').innerHTML =
-            '<div style="color:#e74c3c;font-size:16px;">Error loading data</div>' +
-            '<div style="color:#8b949e;font-size:13px;">' + err.message + '</div>' +
-            '<div style="color:#8b949e;font-size:12px;margin-top:8px;">Make sure card_data.json and card_config.json are in the same folder.</div>';
-        console.error('Data load error:', err);
+            `<div style="color:#f85149;font-size:16px;text-align:center;padding:20px;">
+            ⚠️ ${err.message}<br><br>
+            <button onclick="loadData('TMT')" style="padding:8px 16px;background:#21262d;color:#58a6ff;border:1px solid #30363d;border-radius:6px;cursor:pointer;">Try loading TMT</button>
+            </div>`;
     }
 }
 
-function updateStatsBar() {
-    const total = Object.keys(DB).length;
-    const tracked = Object.values(DB).filter(c => (c.games || 0) > 50).length;
-    document.getElementById('stats-bar').innerHTML =
-        `<span>Cards: <b>${total}</b></span>` +
-        `<span>17L tracked: <b>${tracked}</b></span>`;
+// ── Set switching ──
+function switchSet(setCode) {
+    if (setCode === '__add__') {
+        const code = prompt('Enter set code (e.g. DSK, BLB, TMT):');
+        if (!code) { updateSetSelector(); return; }
+        loadData(code.trim().toUpperCase());
+        return;
+    }
+    loadData(setCode);
+}
+
+function updateSetSelector() {
+    const sel = document.getElementById('set-selector');
+    if (!sel) return;
+    const knownSets = JSON.parse(localStorage.getItem('draft_known_sets') || '["TMT"]');
+    sel.innerHTML = knownSets.map(s => 
+        `<option value="${s}" ${s === CURRENT_SET ? 'selected' : ''}>${s}</option>`
+    ).join('') + '<option value="__add__">+ Add Set...</option>';
+}
+
+// ── Config persistence ──
+function saveConfig() {
+    const toSave = { _archetypes: ARCHETYPES, _tiers: Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]) };
+    for (const [name, c] of Object.entries(DB)) {
+        toSave[name] = { tier: c.tier, sections: c.sections, archetypes: c.archetypes, tags: c.tags, removal_type: c.removal_type, comment: c.comment };
+    }
+    localStorage.setItem(`draft_config_${CURRENT_SET}_v2`, JSON.stringify(toSave));
 }
 
 function loadConfig() {
-    const saved = localStorage.getItem(STORAGE_KEY);
+    const saved = JSON.parse(localStorage.getItem(`draft_config_${CURRENT_SET}_v2`) || 'null');
     if (saved) {
-        try {
-            DB = JSON.parse(saved);
-            // Merge any new cards from DEFAULT_CONFIG that aren't in saved
-            for (const name of Object.keys(DEFAULT_CONFIG)) {
-                if (!DB[name]) DB[name] = JSON.parse(JSON.stringify(DEFAULT_CONFIG[name]));
+        if (saved._archetypes) {
+            ARCHETYPES = saved._archetypes;
+        }
+        if (saved._tiers) {
+            buildTierRank(saved._tiers);
+            buildGradeColors(saved._tiers);
+        }
+    }
+    
+    DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+    if (saved) {
+        for (const [name, sc] of Object.entries(saved)) {
+            if (name.startsWith('_')) continue;
+            if (DB[name]) Object.assign(DB[name], sc);
+        }
+        for (const name of Object.keys(DEFAULT_CONFIG)) {
+            if (!saved[name]) {
+                DB[name] = JSON.parse(JSON.stringify(DEFAULT_CONFIG[name]));
             }
-            console.log('Loaded card config from localStorage');
-        } catch(e) { console.warn('Bad localStorage, using defaults'); DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG)); }
-    } else {
-        DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
-    }
-    const savedTips = localStorage.getItem(TIPS_STORAGE_KEY);
-    if (savedTips) {
-        try {
-            TIPS = JSON.parse(savedTips);
-            console.log('Loaded tips from localStorage');
-        } catch(e) { TIPS = JSON.parse(JSON.stringify(DEFAULT_TIPS)); }
-    } else {
-        TIPS = JSON.parse(JSON.stringify(DEFAULT_TIPS));
+        }
     }
 }
 
-function saveConfig() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(DB));
-}
-
-function saveTips() {
-    localStorage.setItem(TIPS_STORAGE_KEY, JSON.stringify(TIPS));
-}
-
+// ── Export/Import ──
 function exportConfig() {
-    const exportData = { cards: DB, tips: TIPS };
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], {type: 'application/json'});
+    const data = { _set: CURRENT_SET, _archetypes: ARCHETYPES, _tiers: Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]) };
+    for (const [name, c] of Object.entries(DB)) {
+        data[name] = { tier: c.tier, sections: c.sections, archetypes: c.archetypes, tags: c.tags, removal_type: c.removal_type, comment: c.comment };
+    }
+    const json = JSON.stringify(data, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = 'tmt_draft_config.json';
+    a.download = `draft-guide-${CURRENT_SET.toLowerCase()}.json`;
     a.click();
 }
 
@@ -662,22 +568,21 @@ function importConfig(e) {
     const file = e.target.files[0];
     if (!file) return;
     const reader = new FileReader();
-    reader.onload = () => {
+    reader.onload = function(event) {
         try {
-            const data = JSON.parse(reader.result);
-            // Support both old format (flat card object) and new format ({cards, tips})
-            if (data.cards && typeof data.cards === 'object') {
-                DB = data.cards;
-                if (data.tips && Array.isArray(data.tips)) TIPS = data.tips;
-            } else {
-                DB = data; // old format — just cards
+            const imported = JSON.parse(event.target.result);
+            if (imported._archetypes) { ARCHETYPES = imported._archetypes; }
+            if (imported._tiers) { buildTierRank(imported._tiers); buildGradeColors(imported._tiers); }
+            DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+            for (const [name, sc] of Object.entries(imported)) {
+                if (name.startsWith('_')) continue;
+                if (DB[name]) Object.assign(DB[name], sc);
             }
             saveConfig();
-            saveTips();
             renderAll();
-            alert('Config imported successfully!');
-        } catch(err) {
-            alert('Invalid JSON file');
+            alert('Imported successfully!');
+        } catch (err) {
+            alert('Import error: ' + err.message);
         }
     };
     reader.readAsText(file);
@@ -685,168 +590,32 @@ function importConfig(e) {
 }
 
 function resetConfig() {
-    if (!confirm('Reset all edits to defaults? (Cards + Tips)')) return;
-    localStorage.removeItem(STORAGE_KEY);
-    localStorage.removeItem(TIPS_STORAGE_KEY);
+    if (!confirm('Reset all changes to defaults?')) return;
+    ARCHETYPES = JSON.parse(JSON.stringify(DEFAULT_ARCHETYPES));
+    buildTierRank([...DEFAULT_TIERS]);
+    buildGradeColors([...DEFAULT_TIERS]);
+    localStorage.removeItem(`draft_config_${CURRENT_SET}_v2`);
     DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
-    TIPS = JSON.parse(JSON.stringify(DEFAULT_TIPS));
     renderAll();
+    updateStatsBar();
 }
 
-// ── Data Refresh (in-app) ──
-function toggleDataMenu(e) {
-    e.stopPropagation();
-    document.getElementById('data-menu').classList.toggle('show');
-}
-document.addEventListener('click', () => { document.getElementById('data-menu')?.classList.remove('show'); });
-
-function setStatus(msg) {
-    const el = document.getElementById('dm-status');
-    if (el) el.textContent = msg;
+// ── Tips persistence ──
+function saveTip(id, title, content) {
+    let tips = JSON.parse(localStorage.getItem(`draft_tips_${CURRENT_SET}_v1`) || '{}');
+    tips[id] = { title, content };
+    localStorage.setItem(`draft_tips_${CURRENT_SET}_v1`, JSON.stringify(tips));
 }
 
-async function refresh17lands() {
-    const set = document.getElementById('dm-set-code').value.trim().toUpperCase();
-    if (!set) { alert('Enter a set code'); return; }
-    setStatus('Fetching 17Lands ratings for ' + set + '...');
-    try {
-        const url = `https://www.17lands.com/card_ratings/data?expansion=${set}&format=PremierDraft`;
-        const resp = await fetch(url);
-        if (!resp.ok) throw new Error('HTTP ' + resp.status);
-        const data = await resp.json();
-        if (!Array.isArray(data) || data.length === 0) throw new Error('No data returned');
-
-        let updated = 0;
-        for (const card of data) {
-            const name = card.name;
-            if (!DB[name]) continue;
-            const drawn = card.ever_drawn_win_rate;
-            const notDrawn = card.never_drawn_win_rate;
-            DB[name].gih_wr = drawn != null ? Math.round(drawn * 10000) / 10000 : null;
-            DB[name].alsa = card.avg_seen != null ? Math.round(card.avg_seen * 100) / 100 : null;
-            DB[name].diwr = (drawn != null && notDrawn != null) ? Math.round((drawn - notDrawn) * 10000) / 10000 : null;
-            DB[name].games = card.game_count || 0;
-            updated++;
-        }
-        // Also update DEFAULT_CONFIG so reset doesn't lose new data
-        for (const card of data) {
-            const name = card.name;
-            if (!DEFAULT_CONFIG[name]) continue;
-            const drawn = card.ever_drawn_win_rate;
-            const notDrawn = card.never_drawn_win_rate;
-            DEFAULT_CONFIG[name].gih_wr = drawn != null ? Math.round(drawn * 10000) / 10000 : null;
-            DEFAULT_CONFIG[name].alsa = card.avg_seen != null ? Math.round(card.avg_seen * 100) / 100 : null;
-            DEFAULT_CONFIG[name].diwr = (drawn != null && notDrawn != null) ? Math.round((drawn - notDrawn) * 10000) / 10000 : null;
-            DEFAULT_CONFIG[name].games = card.game_count || 0;
-        }
-
-        saveConfig();
-        updateStatsBar();
-        renderAll();
-        setStatus(`✓ Updated ${updated} cards from 17Lands (${data.length} total)`);
-    } catch (err) {
-        setStatus('✗ Error: ' + err.message);
-        console.error('17Lands refresh error:', err);
-    }
-}
-
-async function refreshScryfall() {
-    const set = document.getElementById('dm-set-code').value.trim().toLowerCase();
-    if (!set) { alert('Enter a set code'); return; }
-    setStatus('Fetching Scryfall images for ' + set.toUpperCase() + '...');
-    try {
-        let url = `https://api.scryfall.com/cards/search?q=set:${set}+-is:token+-is:extra&unique=cards&order=collector`;
-        let allCards = {};
-        let page = 1;
-
-        while (url) {
-            setStatus(`Fetching Scryfall page ${page}...`);
-            const resp = await fetch(url);
-            if (!resp.ok) throw new Error('HTTP ' + resp.status);
-            const data = await resp.json();
-
-            for (const card of (data.data || [])) {
-                const name = card.name || '';
-                if (card.layout === 'token') continue;
-                let imageUris = card.image_uris || {};
-                if (!imageUris.normal && card.card_faces) {
-                    imageUris = card.card_faces[0]?.image_uris || {};
-                }
-                // Prefer lowest collector number
-                if (allCards[name]) {
-                    const existCn = parseInt(allCards[name].collector_number || '999');
-                    const newCn = parseInt(card.collector_number || '999');
-                    if (newCn >= existCn) continue;
-                }
-                allCards[name] = {
-                    img: imageUris.normal || '',
-                    mana_cost: card.mana_cost || '',
-                    cmc: card.cmc || 0,
-                    type_line: card.type_line || '',
-                    oracle_text: card.oracle_text || '',
-                    colors: card.colors || [],
-                    rarity: card.rarity || '',
-                    power: card.power || '',
-                    toughness: card.toughness || '',
-                    collector_number: card.collector_number || '',
-                };
-            }
-
-            if (data.has_more) {
-                url = data.next_page;
-                page++;
-                await new Promise(r => setTimeout(r, 100)); // rate limit
-            } else {
-                url = null;
-            }
-        }
-
-        let updated = 0;
-        for (const [name, sdata] of Object.entries(allCards)) {
-            if (DB[name]) {
-                DB[name].img = sdata.img;
-                DB[name].mana_cost = sdata.mana_cost;
-                DB[name].type_line = sdata.type_line;
-                DB[name].colors = sdata.colors;
-                DB[name].rarity = sdata.rarity;
-                DB[name].cmc = sdata.cmc;
-                DB[name].power = sdata.power;
-                DB[name].toughness = sdata.toughness;
-                DB[name].oracle_text = sdata.oracle_text;
-                updated++;
-            }
-            if (DEFAULT_CONFIG[name]) {
-                DEFAULT_CONFIG[name].img = sdata.img;
-                DEFAULT_CONFIG[name].mana_cost = sdata.mana_cost;
-                DEFAULT_CONFIG[name].type_line = sdata.type_line;
-                DEFAULT_CONFIG[name].colors = sdata.colors;
-                DEFAULT_CONFIG[name].rarity = sdata.rarity;
-                DEFAULT_CONFIG[name].cmc = sdata.cmc;
-                DEFAULT_CONFIG[name].power = sdata.power;
-                DEFAULT_CONFIG[name].toughness = sdata.toughness;
-                DEFAULT_CONFIG[name].oracle_text = sdata.oracle_text;
-            }
-        }
-
-        saveConfig();
-        renderAll();
-        setStatus(`✓ Updated ${updated} cards from Scryfall (${Object.keys(allCards).length} fetched)`);
-    } catch (err) {
-        setStatus('✗ Error: ' + err.message);
-        console.error('Scryfall refresh error:', err);
-    }
-}
-
-async function refreshAll() {
-    await refresh17lands();
-    await refreshScryfall();
+function loadTips() {
+    return JSON.parse(localStorage.getItem(`draft_tips_${CURRENT_SET}_v1`) || '{}');
 }
 
 // ── Tab switching ──
 function switchTab(tab) {
     document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.getElementById('tab-' + tab).classList.add('active');
+    document.getElementById(tab + '-tab').classList.add('active');
     event.target.classList.add('active');
     if (tab === 'browser') renderBrowser();
 }
@@ -855,395 +624,45 @@ function switchTab(tab) {
 function toggleEditMode() {
     editMode = !editMode;
     const btn = document.getElementById('edit-mode-btn');
-    btn.classList.toggle('active', editMode);
-    btn.textContent = editMode ? 'Edit Mode ON' : 'Edit Mode';
-    if (!editMode) { closeEditPanel(); editingTipIdx = null; }
-    renderTips();
-}
-
-// ── Card tile HTML ──
-function cardTile(name) {
-    const c = DB[name];
-    if (!c || !c.img) return '';
-    const gc = GRADE_COLORS[c.tier] || '#95a5a6';
-    const gih = c.gih_wr != null ? (c.gih_wr * 100).toFixed(0) + '%' : '—';
-    const alsa = c.alsa != null ? c.alsa.toFixed(1) : '—';
-    const gradeBadge = c.tier ? `<span class="grade" style="background:${gc}">${c.tier}</span>` : '';
-    const commentHtml = c.comment ? `<div class="card-comment" title="${esc(c.comment)}">${esc(c.comment)}</div>` : '';
-    return `<div class="card-tile" data-name="${esc(name)}">
-        ${gradeBadge}
-        <img src="${c.img}" alt="${esc(name)}" loading="lazy">
-        ${commentHtml}
-        <div class="card-stats">GIH:${gih} ALSA:${alsa}</div>
-    </div>`;
-}
-
-function esc(s) { return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-
-// ── Render Draft Guide ──
-function renderGuide() {
-    // Bombs & Build-arounds — separated with labels
-    const bombs = Object.entries(DB)
-        .filter(([n,c]) => c.sections.includes('bombs'))
-        .sort((a,b) => (TIER_RANK[a[1].tier]??99) - (TIER_RANK[b[1].tier]??99));
-    const buildArounds = Object.entries(DB)
-        .filter(([n,c]) => c.sections.includes('build_arounds') && !c.sections.includes('bombs'))
-        .sort((a,b) => (TIER_RANK[a[1].tier]??99) - (TIER_RANK[b[1].tier]??99));
-    let mustPickHtml = '';
-    if (bombs.length) {
-        mustPickHtml += `<div class="sub-label" style="color:#ff4757;">Bombs</div><div class="card-row">${bombs.map(([n]) => cardTile(n)).join('')}</div>`;
+    const mgmtBtns = document.getElementById('mgmt-btns');
+    if (editMode) {
+        btn.classList.add('active');
+        if (mgmtBtns) mgmtBtns.style.display = 'flex';
+    } else {
+        btn.classList.remove('active');
+        if (mgmtBtns) mgmtBtns.style.display = 'none';
+        closeEditPanel();
     }
-    if (buildArounds.length) {
-        mustPickHtml += `<div class="sub-label" style="color:#f39c12;">Build-Arounds</div><div class="card-row">${buildArounds.map(([n]) => cardTile(n)).join('')}</div>`;
-    }
-    document.getElementById('must-pick-cards').innerHTML = mustPickHtml;
-
-    // Archetype signals
-    const signals = Object.entries(DB)
-        .filter(([n,c]) => c.sections.includes('signals'))
-        .sort((a,b) => (TIER_RANK[a[1].tier]??99) - (TIER_RANK[b[1].tier]??99));
-    document.getElementById('signal-cards').innerHTML = signals.map(([n]) => cardTile(n)).join('');
-
-    // Underdrafted (late picks)
-    const latePicks = Object.entries(DB)
-        .filter(([n,c]) => c.sections.includes('late_pick'))
-        .sort((a,b) => (b[1].alsa??0) - (a[1].alsa??0));
-    document.getElementById('late-pick-cards').innerHTML = latePicks.map(([n]) => cardTile(n)).join('');
-
-    // Overdrafted (contested)
-    const contested = Object.entries(DB)
-        .filter(([n,c]) => c.sections.includes('contested'))
-        .sort((a,b) => (a[1].alsa??99) - (b[1].alsa??99));
-    document.getElementById('contested-cards').innerHTML = contested.map(([n]) => cardTile(n)).join('');
-
-    // Top commons
-    const topCommons = Object.entries(DB)
-        .filter(([n,c]) => c.sections.includes('top_commons'))
-        .sort((a,b) => (b[1].gih_wr??0) - (a[1].gih_wr??0));
-    document.getElementById('top-commons-cards').innerHTML = topCommons.map(([n]) => cardTile(n)).join('');
-
-    // Archetypes
-    renderArchetypes();
-
-    // Removal
-    const removalCards = Object.entries(DB)
-        .filter(([n,c]) => c.removal_type != null)
-        .sort((a,b) => {
-            const colorOrder = 'WUBRG';
-            const ca = (a[1].colors[0] || 'Z'), cb = (b[1].colors[0] || 'Z');
-            return colorOrder.indexOf(ca) - colorOrder.indexOf(cb);
-        });
-    document.getElementById('removal-container').innerHTML = removalCards.map(([n]) => cardTile(n)).join('');
+    renderAll();
 }
 
-function renderArchetypes() {
-    const container = document.getElementById('archetypes-container');
-    let html = '';
-    for (const arch of ARCHETYPES) {
-        const colorIcons = {'W':'⚪','U':'🔵','B':'⚫','R':'🔴','G':'🟢'};
-        const ci = arch.colors.map(c => colorIcons[c]||'').join('');
-
-        html += `<div class="arch-box" style="border-top:3px solid ${arch.color_hex}">`;
-        html += `<div class="arch-title">${arch.icon} ${arch.name} ${ci}</div>`;
-        html += `<div class="arch-desc">${arch.short}</div>`;
-        html += `<div class="arch-strat">${arch.strategy}</div>`;
-
-        const categories = [
-            ['signpost', 'Signposts', 'signposts'],
-            ['payoff', 'Payoffs', 'payoffs'],
-            ['enabler', 'Enablers', 'enablers'],
-            ['removal', 'Removal', 'removal'],
-            ['role_player', 'Role Players', 'role_players'],
-        ];
-        for (const [catId, catLabel, catKey] of categories) {
-            const catCards = Object.entries(DB)
-                .filter(([n,c]) => c.archetypes[arch.id] && c.archetypes[arch.id].includes(catId))
-                .sort((a,b) => (TIER_RANK[a[1].tier]??99) - (TIER_RANK[b[1].tier]??99));
-            if (catCards.length === 0) continue;
-            html += `<div class="arch-cat-label">${catLabel} (${catCards.length})</div>`;
-            html += `<div class="card-row">${catCards.map(([n]) => cardTile(n)).join('')}</div>`;
-        }
-
-        if (arch.key_synergies && arch.key_synergies.length) {
-            html += '<div class="arch-cat-label">Key Synergies</div>';
-            for (const [card, partner, desc] of arch.key_synergies) {
-                html += `<div class="synergy-row">`;
-                html += cardTile(card);
-                html += `<span style="font-size:11px;color:#8b949e;padding:0 4px;">+ ${esc(partner)}: <em>${esc(desc)}</em></span>`;
-                html += '</div>';
-            }
-        }
-        html += '</div>';
-    }
-    container.innerHTML = html;
-}
-
-// ── View Toggle ──
-let currentView = 'grid';
-let tableSortCol = null;
-let tableSortAsc = true;
-
-function setView(mode) {
-    currentView = mode;
-    document.querySelectorAll('[data-view]').forEach(p => p.classList.toggle('active', p.dataset.view === mode));
-    document.getElementById('browser-grid').style.display = mode === 'grid' ? '' : 'none';
-    document.getElementById('browser-table-wrap').style.display = mode === 'table' ? '' : 'none';
-    renderBrowser();
-}
-
-function sortTable(col) {
-    if (tableSortCol === col) { tableSortAsc = !tableSortAsc; }
-    else { tableSortCol = col; tableSortAsc = true; }
-    renderBrowser();
-}
-
-// ── Render Card Browser ──
-function renderBrowser() {
-    const grid = document.getElementById('browser-grid');
-    const tableEl = document.getElementById('browser-table');
-    const countEl = document.getElementById('browser-count');
-
-    const activeFilters = {};
-    document.querySelectorAll('#tab-browser .pill.active').forEach(p => {
-        const f = p.dataset.filter;
-        const v = p.dataset.val;
-        if (f === undefined || v === undefined) return;
-        if (v === 'all') return;
-        if (!activeFilters[f]) activeFilters[f] = [];
-        activeFilters[f].push(v);
-    });
-
-    const sortBy = document.getElementById('browser-sort').value;
-
-    let cards = Object.entries(DB).filter(([name, c]) => {
-        if (activeFilters.color) {
-            const fc = activeFilters.color;
-            const wantMulti = fc.includes('M');
-            const wantColorless = fc.includes('C');
-            const wantColors = fc.filter(f => f !== 'M' && f !== 'C');
-            const isMulti = c.colors.length >= 2;
-            const isColorless = c.colors.length === 0 || c.type_line.includes('Land');
-            let match = false;
-            if (isColorless) { match = wantColorless; }
-            else if (isMulti) {
-                if (wantMulti && wantColors.length > 0) { match = wantColors.some(f => c.colors.includes(f)); }
-                else if (wantMulti) { match = true; }
-                else { match = false; }
-            } else {
-                match = wantColors.includes(c.colors[0]);
-            }
-            if (!match) return false;
-        }
-        if (activeFilters.rarity && !activeFilters.rarity.includes(c.rarity)) return false;
-        if (activeFilters.role && !activeFilters.role.some(r => c.tags.roles.includes(r))) return false;
-        if (activeFilters.type) {
-            const hasType = activeFilters.type.some(t => {
-                if (t === 'unconditional-removal') return c.removal_type != null;
-                return c.tags.types.includes(t);
-            });
-            if (!hasType) return false;
-        }
-        return true;
-    });
-
-    cards.sort((a, b) => {
-        const [an, ac] = a, [bn, bc] = b;
-        if (sortBy === 'tier') return (TIER_RANK[ac.tier]??99) - (TIER_RANK[bc.tier]??99);
-        if (sortBy === 'gih') return (bc.gih_wr??0) - (ac.gih_wr??0);
-        if (sortBy === 'alsa') return (ac.alsa??99) - (bc.alsa??99);
-        if (sortBy === 'name') return an.localeCompare(bn);
-        if (sortBy === 'cmc') return (ac.cmc??0) - (bc.cmc??0);
-        return 0;
-    });
-
-    countEl.textContent = `Showing ${cards.length} of ${Object.keys(DB).length} cards`;
-
-    if (currentView === 'grid') {
-        grid.innerHTML = cards.map(([n]) => cardTile(n)).join('');
-    }
-
-    if (currentView === 'table') {
-        if (tableSortCol) {
-            cards.sort((a, b) => {
-                const [an, ac] = a, [bn, bc] = b;
-                let va, vb;
-                switch (tableSortCol) {
-                    case 'name': va = an; vb = bn; return tableSortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
-                    case 'tier': va = TIER_RANK[ac.tier]??99; vb = TIER_RANK[bc.tier]??99; break;
-                    case 'gih': va = ac.gih_wr??0; vb = bc.gih_wr??0; break;
-                    case 'alsa': va = ac.alsa??99; vb = bc.alsa??99; break;
-                    case 'diwr': va = ac.diwr??0; vb = bc.diwr??0; break;
-                    case 'games': va = ac.games??0; vb = bc.games??0; break;
-                    case 'cmc': va = ac.cmc??0; vb = bc.cmc??0; break;
-                    case 'rarity': { const ro = {mythic:0,rare:1,uncommon:2,common:3}; va = ro[ac.rarity]??4; vb = ro[bc.rarity]??4; break; }
-                    default: return 0;
-                }
-                return tableSortAsc ? va - vb : vb - va;
-            });
-        }
-
-        const arrow = (col) => tableSortCol === col ? (tableSortAsc ? ' ▲' : ' ▼') : '';
-        let thtml = '<thead><tr>';
-        thtml += `<th onclick="sortTable('name')" style="min-width:140px;">Card${arrow('name')}</th>`;
-        thtml += `<th onclick="sortTable('tier')">Tier${arrow('tier')}</th>`;
-        thtml += `<th onclick="sortTable('gih')">GIH WR${arrow('gih')}</th>`;
-        thtml += `<th onclick="sortTable('alsa')">ALSA${arrow('alsa')}</th>`;
-        thtml += `<th onclick="sortTable('diwr')">DIWR${arrow('diwr')}</th>`;
-        thtml += `<th onclick="sortTable('games')">Games${arrow('games')}</th>`;
-        thtml += `<th onclick="sortTable('rarity')">Rarity${arrow('rarity')}</th>`;
-        thtml += `<th onclick="sortTable('cmc')">CMC${arrow('cmc')}</th>`;
-        thtml += '<th>Colors</th>';
-        thtml += '<th>Mana</th>';
-        thtml += '<th>Type</th>';
-        thtml += '<th>Roles</th>';
-        thtml += '<th>Tags</th>';
-        thtml += '<th>Speed</th>';
-        thtml += '<th>Sections</th>';
-        thtml += '</tr></thead><tbody>';
-
-        for (const [name, c] of cards) {
-            const gih = c.gih_wr != null ? (c.gih_wr * 100).toFixed(1) + '%' : '—';
-            const alsa = c.alsa != null ? c.alsa.toFixed(1) : '—';
-            const diwr = c.diwr != null ? (c.diwr > 0 ? '+' : '') + (c.diwr * 100).toFixed(1) + '%' : '—';
-            const games = c.games != null ? c.games.toLocaleString() : '—';
-            const gradeColor = GRADE_COLORS[c.tier] || '#555';
-            const rarChar = {mythic:'M',rare:'R',uncommon:'U',common:'C'}[c.rarity] || '?';
-            const rarColor = {mythic:'#f0883e',rare:'#f1e05a',uncommon:'#7ee8fa',common:'#8b949e'}[c.rarity] || '#999';
-            const colorPips = c.colors.length ? c.colors.join('') : (c.type_line.includes('Land') ? 'Land' : 'C');
-            const roles = (c.tags.roles || []).map(r => `<span class="tbl-tag">${esc(r)}</span>`).join('');
-            const types = (c.tags.types || []).map(t => `<span class="tbl-tag">${esc(t)}</span>`).join('');
-            const speeds = (c.tags.speed || []).map(s => `<span class="tbl-tag">${esc(s)}</span>`).join('');
-            const sections = (c.sections || []).map(s => `<span class="tbl-tag" style="background:#1a3a2a;color:#2ecc71;">${esc(s)}</span>`).join('');
-            const clickAttr = editMode ? `onclick="openEditPanel('${esc(name)}')" style="cursor:pointer;"` : '';
-
-            thtml += `<tr ${clickAttr}>`;
-            thtml += `<td><span class="tbl-name" ${clickAttr}>${esc(name)}</span></td>`;
-            thtml += `<td><span class="tbl-grade" style="background:${gradeColor};color:#000;">${c.tier || '—'}</span></td>`;
-            thtml += `<td style="color:#f0883e;font-weight:600;">${gih}</td>`;
-            thtml += `<td>${alsa}</td>`;
-            thtml += `<td style="color:${(c.diwr??0) > 0 ? '#2ecc71' : (c.diwr??0) < 0 ? '#e74c3c' : '#8b949e'};">${diwr}</td>`;
-            thtml += `<td style="color:#8b949e;">${games}</td>`;
-            thtml += `<td><span style="color:${rarColor};font-weight:600;">${rarChar}</span></td>`;
-            thtml += `<td>${c.cmc ?? '—'}</td>`;
-            thtml += `<td style="font-weight:600;">${colorPips}</td>`;
-            thtml += `<td style="font-size:11px;color:#8b949e;">${esc(c.mana_cost || '')}</td>`;
-            thtml += `<td style="font-size:11px;color:#8b949e;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(c.type_line || '')}</td>`;
-            thtml += `<td>${roles}</td>`;
-            thtml += `<td>${types}</td>`;
-            thtml += `<td>${speeds}</td>`;
-            thtml += `<td>${sections}</td>`;
-            thtml += '</tr>';
-        }
-        thtml += '</tbody>';
-        tableEl.innerHTML = thtml;
-    }
-}
-
-// ── Filter pill clicks ──
-document.querySelectorAll('#tab-browser .pill[data-filter]').forEach(pill => {
-    pill.addEventListener('click', () => {
-        const group = pill.dataset.filter;
-        const val = pill.dataset.val;
-
-        if (val === 'all') {
-            document.querySelectorAll(`#tab-browser .pill[data-filter="${group}"]`).forEach(p => p.classList.remove('active'));
-            pill.classList.add('active');
-        } else {
-            const allPill = document.querySelector(`#tab-browser .pill[data-filter="${group}"][data-val="all"]`);
-            if (allPill) allPill.classList.remove('active');
-            pill.classList.toggle('active');
-            const anyActive = document.querySelector(`#tab-browser .pill[data-filter="${group}"].active`);
-            if (!anyActive && allPill) allPill.classList.add('active');
-        }
-        renderBrowser();
-    });
-});
-
-// ── Edit Panel ──
-function openEditPanel(name) {
-    if (!editMode) return;
-    editingCard = name;
-    const c = DB[name];
+// ── Edit panel functions ──
+function openEditPanel(cardName) {
+    const c = DB[cardName];
     if (!c) return;
-
-    const panel = document.getElementById('edit-panel');
-    const body = document.getElementById('ep-body');
-    document.getElementById('ep-title').textContent = name;
-
-    let html = '';
-    if (c.img) html += `<img class="ep-card-img" src="${c.img}" alt="${esc(name)}">`;
-
-    const gih = c.gih_wr != null ? (c.gih_wr*100).toFixed(1)+'%' : '—';
-    const alsa = c.alsa != null ? c.alsa.toFixed(1) : '—';
-    const diwr = c.diwr != null ? (c.diwr > 0 ? '+' : '') + (c.diwr*100).toFixed(1)+'%' : '—';
-    html += `<div style="text-align:center;font-size:11px;color:#8b949e;margin-bottom:8px;">
-        Tier: <b style="color:${GRADE_COLORS[c.tier]||'#999'}">${c.tier||'—'}</b> ·
-        GIH: <b style="color:#f0883e">${gih}</b> ·
-        ALSA: <b>${alsa}</b> ·
-        DIWR: <b>${diwr}</b> ·
-        ${c.rarity} · ${c.games?.toLocaleString()||0} games
-    </div>`;
-
-    // Sections
-    html += '<div class="ep-section"><div class="ep-section-title">Sections</div><div class="tag-chips">';
-    const allSections = ['bombs','build_arounds','signals','top_commons','late_pick','contested'];
-    for (const s of allSections) {
-        const on = c.sections.includes(s);
-        const label = s.replace(/_/g,' ');
-        html += `<span class="tag-chip section ${on?'on':'off'}" data-group="section" data-val="${s}" onclick="toggleTag(this)">${label}</span>`;
-    }
-    html += '</div></div>';
-
-    // Archetype Roles
-    html += '<div class="ep-section"><div class="ep-section-title">Archetype Roles</div>';
-    const archCategories = ['signpost','payoff','enabler','removal','role_player','key_synergy'];
-    for (const arch of ARCHETYPES) {
-        const myRoles = c.archetypes[arch.id] || [];
-        html += `<div style="margin-bottom:4px;"><span style="font-size:11px;color:#79c0ff;">${arch.icon} ${arch.name}</span><div class="tag-chips" style="margin-top:2px;">`;
-        for (const cat of archCategories) {
-            const on = myRoles.includes(cat);
-            html += `<span class="tag-chip arch ${on?'on':'off'}" data-group="arch" data-arch="${arch.id}" data-val="${cat}" onclick="toggleArchTag(this)">${cat.replace(/_/g,' ')}</span>`;
-        }
-        html += '</div></div>';
-    }
-    html += '</div>';
-
-    // Role tags
-    html += '<div class="ep-section"><div class="ep-section-title">Role Tags</div><div class="tag-chips">';
-    const roleTags = ['bomb','build-around','payoff','enabler','role-player','filler'];
-    for (const t of roleTags) {
-        const on = c.tags.roles.includes(t);
-        html += `<span class="tag-chip role ${on?'on':'off'}" data-group="roles" data-val="${t}" onclick="toggleTag(this)">${t}</span>`;
-    }
-    html += '</div></div>';
-
-    // Type tags
-    html += '<div class="ep-section"><div class="ep-section-title">Type Tags</div><div class="tag-chips">';
-    const typeTags = ['unconditional-removal','conditional-removal','combat-trick','bounce','evasion',
-        'card-advantage','ramp-fixing','token-maker','sweeper','self-mill','counter-magic'];
-    for (const t of typeTags) {
-        const on = c.tags.types.includes(t);
-        html += `<span class="tag-chip type ${on?'on':'off'}" data-group="types" data-val="${t}" onclick="toggleTag(this)">${t}</span>`;
-    }
-    html += '</div></div>';
-
-    // Speed tags
-    html += '<div class="ep-section"><div class="ep-section-title">Speed</div><div class="tag-chips">';
-    const speedTags = ['aggro','midrange','control'];
-    for (const t of speedTags) {
-        const on = c.tags.speed.includes(t);
-        html += `<span class="tag-chip speed ${on?'on':'off'}" data-group="speed" data-val="${t}" onclick="toggleTag(this)">${t}</span>`;
-    }
-    html += '</div></div>';
-
-    // Comment
-    html += `<div class="ep-section"><div class="ep-section-title">Comment</div>
-        <textarea id="ep-comment">${esc(c.comment||'')}</textarea></div>`;
-
-    html += '<button class="ep-save" onclick="saveEdit()">Save Changes</button>';
-
-    body.innerHTML = html;
-    panel.classList.add('open');
+    editingCard = cardName;
+    
+    document.getElementById('edit-name').value = cardName;
+    document.getElementById('edit-comment').value = c.comment || '';
+    document.getElementById('edit-removal-type').value = c.removal_type || '';
+    
+    const tierSelect = document.getElementById('edit-tier');
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    tierSelect.innerHTML = '<option value="">None</option>' + tiers.map(t => `<option value="${t}" ${c.tier===t?'selected':''}>${t}</option>`).join('');
+    
+    const rolesStr = (c.tags?.roles || []).join(', ');
+    const typesStr = (c.tags?.types || []).join(', ');
+    const speedStr = (c.tags?.speed || []).join(', ');
+    document.getElementById('edit-roles').value = rolesStr;
+    document.getElementById('edit-types').value = typesStr;
+    document.getElementById('edit-speed').value = speedStr;
+    
+    const archContainer = document.getElementById('edit-archs');
+    archContainer.innerHTML = ARCHETYPES.map(a => `
+        <label><input type="checkbox" value="${a.id}" ${c.archetypes?.[a.id]?'checked':''}> ${a.name}</label>
+    `).join('');
+    
+    document.getElementById('edit-panel').classList.add('open');
 }
 
 function closeEditPanel() {
@@ -1251,342 +670,359 @@ function closeEditPanel() {
     editingCard = null;
 }
 
-function toggleTag(el) {
-    el.classList.toggle('on');
-    el.classList.toggle('off');
-}
-
-function toggleArchTag(el) {
-    el.classList.toggle('on');
-    el.classList.toggle('off');
-}
-
 function saveEdit() {
-    if (!editingCard || !DB[editingCard]) return;
+    if (!editingCard) return;
     const c = DB[editingCard];
-
-    c.sections = [];
-    document.querySelectorAll('#ep-body .tag-chip[data-group="section"].on').forEach(el => {
-        c.sections.push(el.dataset.val);
-    });
-
+    c.tier = document.getElementById('edit-tier').value || null;
+    c.comment = document.getElementById('edit-comment').value;
+    c.removal_type = document.getElementById('edit-removal-type').value || null;
+    
+    c.tags = c.tags || { roles: [], types: [], speed: [] };
+    c.tags.roles = document.getElementById('edit-roles').value.split(',').map(s => s.trim()).filter(Boolean);
+    c.tags.types = document.getElementById('edit-types').value.split(',').map(s => s.trim()).filter(Boolean);
+    c.tags.speed = document.getElementById('edit-speed').value.split(',').map(s => s.trim()).filter(Boolean);
+    
     c.archetypes = {};
-    for (const arch of ARCHETYPES) {
-        const roles = [];
-        document.querySelectorAll(`#ep-body .tag-chip[data-arch="${arch.id}"].on`).forEach(el => {
-            roles.push(el.dataset.val);
-        });
-        if (roles.length) c.archetypes[arch.id] = roles;
-        if (roles.length) c.sections.push(`${arch.id}_${roles[0]}`);
-    }
-
-    c.tags.roles = [];
-    document.querySelectorAll('#ep-body .tag-chip[data-group="roles"].on').forEach(el => {
-        c.tags.roles.push(el.dataset.val);
+    document.querySelectorAll('#edit-archs input').forEach(cb => {
+        c.archetypes[cb.value] = cb.checked;
     });
-    c.tags.types = [];
-    document.querySelectorAll('#ep-body .tag-chip[data-group="types"].on').forEach(el => {
-        c.tags.types.push(el.dataset.val);
-    });
-    c.tags.speed = [];
-    document.querySelectorAll('#ep-body .tag-chip[data-group="speed"].on').forEach(el => {
-        c.tags.speed.push(el.dataset.val);
-    });
-
-    c.comment = document.getElementById('ep-comment').value;
-    c.user_modified = true;
-
+    
     saveConfig();
-    renderAll();
     closeEditPanel();
+    renderAll();
 }
 
-// ── Hover Preview (Desktop) ──
-const preview = document.getElementById('preview');
-const prevImg = preview.querySelector('img');
-const prevName = preview.querySelector('.hover-name');
-const prevType = preview.querySelector('.hover-type');
-const prevStats = preview.querySelector('.hover-stats');
-const prevTags = preview.querySelector('.hover-tags');
-
-function populatePreview(tile) {
-    const name = tile.dataset.name;
-    const c = DB[name];
+// ── Mobile detail panel ──
+function showMobileDetail(cardName) {
+    const c = DB[cardName];
     if (!c) return;
-    prevImg.src = c.img;
-    prevName.textContent = name;
-    prevType.textContent = [c.mana_cost, c.type_line, c.power ? c.power+'/'+c.toughness : ''].filter(Boolean).join(' · ');
-    const gih = c.gih_wr != null ? (c.gih_wr*100).toFixed(0)+'%' : '—';
-    const alsa = c.alsa != null ? c.alsa.toFixed(1) : '—';
-    const diwr = c.diwr != null ? (c.diwr > 0 ? '+' : '') + (c.diwr*100).toFixed(1)+'%' : '—';
-    prevStats.innerHTML = `
-        <span class="hs-label">GIH WR</span><span class="hs-val">${gih}</span>
-        <span class="hs-label">ALSA</span><span class="hs-val">${alsa}</span>
-        <span class="hs-label">DIWR</span><span class="hs-val">${diwr}</span>
-        <span class="hs-label">Games</span><span class="hs-val">${c.games?.toLocaleString()||'—'}</span>
-        <span class="hs-label">Rarity</span><span class="hs-val">${c.rarity}</span>
-        <span class="hs-label">Tier</span><span class="hs-val">${c.tier||'—'}</span>
+    const panel = document.getElementById('mobile-detail');
+    const header = panel.querySelector('.md-header');
+    header.innerHTML = `
+        <img src="${c.image_uris?.normal || ''}" alt="">
+        <div class="md-info">
+            <div class="md-name">${cardName}</div>
+            <div class="md-type">${c.type_line || ''}</div>
+            <div class="md-stats">
+                <div><span class="ms-label">P/T</span><span class="ms-val">${c.power}/${c.toughness}</span></div>
+                <div><span class="ms-label">Rarity</span><span class="ms-val">${c.rarity?.toUpperCase() || '-'}</span></div>
+                <div><span class="ms-label">Tier</span><span class="ms-val">${c.tier || '-'}</span></div>
+            </div>
+        </div>
     `;
-    const roleBadges = (c.tags.roles||[]).map(r => `<span style="background:#1a3a2a;border-color:#2ea043;">${r}</span>`);
-    const typeBadges = (c.tags.types||[]).map(t => `<span>${t}</span>`);
-    prevTags.innerHTML = roleBadges.concat(typeBadges).join('');
-}
-
-function hidePreview() {
-    preview.style.display = 'none';
-}
-
-if (!isMobile) {
-    document.addEventListener('mouseover', e => {
-        const tile = e.target.closest('.card-tile');
-        if (tile && tile.dataset.name && DB && DB[tile.dataset.name]) {
-            populatePreview(tile);
-            preview.style.display = 'block';
-        }
-    });
-    document.addEventListener('mouseout', e => {
-        if (e.target.closest('.card-tile')) hidePreview();
-    });
-    document.addEventListener('mousemove', e => {
-        if (preview.style.display !== 'block') return;
-        let x = e.clientX + 15, y = e.clientY - 200;
-        if (x + 320 > window.innerWidth) x = e.clientX - 320;
-        if (y < 5) y = 5;
-        if (y + 480 > window.innerHeight) y = window.innerHeight - 490;
-        preview.style.left = x + 'px';
-        preview.style.top = y + 'px';
-    });
-}
-
-// ── Mobile Detail ──
-const mobileDetail = document.getElementById('mobile-detail');
-const mdContent = document.getElementById('md-content');
-
-function openMobileDetail(name) {
-    const c = DB[name];
-    if (!c) return;
-    const gih = c.gih_wr != null ? (c.gih_wr*100).toFixed(1)+'%' : '—';
-    const alsa = c.alsa != null ? c.alsa.toFixed(1) : '—';
-    const diwr = c.diwr != null ? (c.diwr > 0 ? '+' : '') + (c.diwr*100).toFixed(1)+'%' : '—';
-
-    let html = '<div class="md-header">';
-    if (c.img) html += `<img src="${c.img}" alt="${esc(name)}">`;
-    html += '<div class="md-info">';
-    html += `<div class="md-name">${esc(name)}</div>`;
-    html += `<div class="md-type">${[c.mana_cost, c.type_line].filter(Boolean).join(' · ')}</div>`;
-    html += `<div class="md-stats">
-        <div><div class="ms-label">GIH WR</div><div class="ms-val">${gih}</div></div>
-        <div><div class="ms-label">ALSA</div><div class="ms-val">${alsa}</div></div>
-        <div><div class="ms-label">DIWR</div><div class="ms-val">${diwr}</div></div>
-        <div><div class="ms-label">Games</div><div class="ms-val">${c.games?.toLocaleString()||'—'}</div></div>
-        <div><div class="ms-label">Rarity</div><div class="ms-val">${c.rarity}</div></div>
-        <div><div class="ms-label">Tier</div><div class="ms-val">${c.tier||'—'}</div></div>
-    </div>`;
-    html += '</div></div>';
-
+    const content = panel.querySelector('[style*="padding:12px"]');
+    let html = '';
+    if (c.oracle_text) {
+        html += `<div style="padding:8px 12px;font-size:12px;color:#c9d1d9;">${c.oracle_text.replace(/\n/g, '<br>')}</div>`;
+    }
+    if ((c.tags?.roles || []).length) {
+        html += `<div class="md-tags"><strong>Roles:</strong> ${c.tags.roles.map(r => `<span>${r}</span>`).join('')}</div>`;
+    }
     if (c.comment) {
-        html += `<div class="md-comment">${esc(c.comment)}</div>`;
+        html += `<div class="md-comment">${c.comment}</div>`;
     }
-
-    const allTags = [...(c.tags.roles||[]), ...(c.tags.types||[]), ...(c.tags.speed||[])];
-    if (allTags.length) {
-        html += '<div class="md-tags">';
-        for (const t of allTags) html += `<span>${t}</span>`;
-        html += '</div>';
-    }
-
-    const archNames = Object.keys(c.archetypes||{});
-    if (archNames.length) {
-        html += '<div class="md-tags">';
-        for (const aId of archNames) {
-            const arch = ARCHETYPES.find(a => a.id === aId);
-            if (arch) html += `<span style="background:#1a3a2a;border-color:#2ea043;">${arch.icon} ${arch.name}: ${(c.archetypes[aId]||[]).join(', ')}</span>`;
-        }
-        html += '</div>';
-    }
-
-    mdContent.innerHTML = html;
-    mobileDetail.classList.add('active');
-    mobileDetail.scrollTop = 0;
-    document.body.style.overflow = 'hidden';
+    content.innerHTML = html;
+    panel.classList.add('show');
 }
 
 function closeMobileDetail() {
-    mobileDetail.classList.remove('active');
-    document.body.style.overflow = '';
+    document.getElementById('mobile-detail').classList.remove('show');
 }
 
-// ── Click handler ──
-document.addEventListener('click', e => {
-    const editPanel = document.getElementById('edit-panel');
-    if (editPanel.classList.contains('open') && !e.target.closest('#edit-panel') && !e.target.closest('.card-tile')) {
-        closeEditPanel();
-    }
-
-    const tile = e.target.closest('.card-tile');
-    if (!tile || !tile.dataset.name) return;
-
-    if (e.target.closest('#mobile-detail')) {
-        e.preventDefault();
-        openMobileDetail(tile.dataset.name);
-        return;
-    }
-    if (e.target.closest('#edit-panel')) return;
-
-    if (isMobile) {
-        e.preventDefault();
-        if (editMode) {
-            openEditPanel(tile.dataset.name);
-        } else {
-            openMobileDetail(tile.dataset.name);
-        }
+// ── Card rendering helpers ──
+function renderCardTile(cardName) {
+    const c = DB[cardName];
+    const img = c.image_uris?.normal || '';
+    const gradeColor = c.tier && GRADE_COLORS[c.tier] ? GRADE_COLORS[c.tier] : '#95a5a6';
+    const gradeText = c.tier || '';
+    const rarity = c.rarity ? c.rarity.charAt(0).toUpperCase() : '';
+    const rarityClass = `rar-${c.rarity?.charAt(0).toLowerCase() || 'c'}`;
+    
+    let html = `<div class="card-tile ${editMode ? 'editing' : ''}" onclick="${editMode ? `openEditPanel('${cardName.replace(/'/g, "\\'")}')` : `showMobileDetail('${cardName.replace(/'/g, "\\'")}')` }">`;
+    
+    if (img) {
+        html += `<img src="${img}" alt="${cardName}" loading="lazy">`;
     } else {
-        if (editMode) {
-            openEditPanel(tile.dataset.name);
-        }
+        html += `<div class="card-noimg">${cardName}</div>`;
     }
-});
+    
+    if (gradeText) {
+        html += `<div class="grade" style="background-color:${gradeColor};">${gradeText}</div>`;
+    }
+    
+    html += `<div class="card-stats"><span class="${rarityClass}">${rarity}</span></div>`;
+    
+    if (c.comment) {
+        html += `<div class="card-comment">${c.comment}</div>`;
+    }
+    
+    html += `</div>`;
+    return html;
+}
 
-// Escape key
-document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') {
-        closeEditPanel();
-        closeMobileDetail();
-        hidePreview();
+// ── Stats bar ──
+function updateStatsBar() {
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    const stats = {};
+    for (const t of tiers) stats[t] = 0;
+    
+    for (const c of Object.values(DB)) {
+        if (c.tier && tiers.includes(c.tier)) stats[c.tier]++;
     }
-});
+    
+    const bar = document.getElementById('stats-bar');
+    let html = '';
+    for (const t of tiers) {
+        if (stats[t] === 0) continue;
+        const color = GRADE_COLORS[t] || '#999';
+        html += `<span style="background-color:${color};color:#fff;"><strong>${t}</strong> ${stats[t]}</span>`;
+    }
+    
+    bar.innerHTML = html;
+}
 
 // ── Search ──
-let searchMatches = [];
-let searchIdx = -1;
-const searchInput = document.getElementById('card-search');
-const searchCount = document.getElementById('search-count');
-
-function clearHighlights() {
-    document.querySelectorAll('.search-highlight').forEach(el => {
-        el.style.outline = '';
-        el.style.outlineOffset = '';
-        el.classList.remove('search-highlight');
-    });
-}
-
-function doSearch() {
-    clearHighlights();
-    const q = searchInput.value.trim().toLowerCase();
-    searchMatches = [];
-    searchIdx = -1;
-    if (!q) { searchCount.textContent = ''; return; }
-    document.querySelectorAll('.card-tile[data-name]').forEach(tile => {
-        if (tile.dataset.name.toLowerCase().includes(q)) {
-            searchMatches.push(tile);
-            tile.style.outline = '2px solid #58a6ff';
-            tile.style.outlineOffset = '1px';
-            tile.classList.add('search-highlight');
-        }
-    });
-    searchCount.textContent = searchMatches.length ? searchMatches.length + ' found' : 'none';
-}
-
 function searchNext() {
-    if (!searchMatches.length) { doSearch(); if (!searchMatches.length) return; }
-    searchIdx = (searchIdx + 1) % searchMatches.length;
-    const tile = searchMatches[searchIdx];
-    tile.scrollIntoView({behavior:'smooth', block:'center'});
-    tile.style.outline = '3px solid #f0883e';
-    setTimeout(() => { tile.style.outline = '2px solid #58a6ff'; }, 800);
-    searchCount.textContent = (searchIdx+1) + '/' + searchMatches.length;
+    const query = document.getElementById('card-search').value.toLowerCase();
+    if (!query) return;
+    
+    const tiles = Array.from(document.querySelectorAll('.card-tile'));
+    let nextIdx = currentSearchIdx;
+    
+    for (let i = 0; i < tiles.length; i++) {
+        const idx = (currentSearchIdx + 1 + i) % tiles.length;
+        const cardName = tiles[idx].getAttribute('onclick')?.match(/'([^']+)'/)?.[1];
+        if (cardName && cardName.toLowerCase().includes(query)) {
+            tiles[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            tiles[idx].style.outline = '3px solid #f0883e';
+            setTimeout(() => tiles[idx].style.outline = '', 2000);
+            currentSearchIdx = idx;
+            document.getElementById('search-count').textContent = `${idx + 1}/${tiles.length}`;
+            return;
+        }
+    }
+    
+    document.getElementById('search-count').textContent = '0/' + tiles.length;
 }
 
-searchInput.addEventListener('input', doSearch);
-searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); searchNext(); } });
+// ── Data refresh menu ──
+function toggleDataMenu(e) {
+    const menu = document.getElementById('data-menu');
+    menu.classList.toggle('show');
+    e.stopPropagation();
+}
 
-// ── Tips Rendering & Editing ──
-let editingTipIdx = null;
-
-function renderTips() {
-    const container = document.getElementById('tips-container');
-    if (!container) return;
-    let html = '';
-    TIPS.forEach((tip, i) => {
-        const editableClass = editMode ? ' editable' : '';
-        const clickAttr = editMode ? ` onclick="startEditTip(${i})"` : '';
-        html += `<div class="info-box${editableClass}" id="tip-box-${i}"${clickAttr}>`;
-        if (editMode) {
-            html += `<span class="tip-edit-icon">✏️</span>`;
-            html += `<button class="tip-del-btn" onclick="event.stopPropagation();deleteTip(${i})" title="Delete tip">✕</button>`;
-        }
-        html += `<div class="info-title">${tip.title}</div>`;
-        html += tip.body.replace(/\n/g, '<br>');
-        html += '</div>';
-    });
-    if (editMode) {
-        html += `<div class="tip-add-btn" style="display:block;" onclick="addTip()">+ Add Tip</div>`;
+async function refresh17lands() {
+    const setCode = document.getElementById('dm-set-code').value.toUpperCase();
+    if (!setCode) return;
+    
+    const btn = event.target;
+    btn.disabled = true;
+    btn.textContent = '⟳ Loading...';
+    
+    try {
+        const resp = await fetch(`https://www.17lands.com/api/set_names`);
+        const sets = await resp.json();
+        alert('Refresh complete (mock)');
+    } catch (err) {
+        alert('Error: ' + err.message);
+    } finally {
+        btn.disabled = false;
+        btn.textContent = '📊 Refresh 17Lands Ratings';
     }
+}
+
+// ── Archetype Manager ──
+function openArchManager() {
+    const container = document.getElementById('arch-list');
+    container.innerHTML = ARCHETYPES.map((a, i) => `
+        <div class="mgmt-item" data-arch-idx="${i}">
+            <div class="mi-header">
+                <span class="mi-name">${a.icon || ''} ${a.name}</span>
+                <span class="mi-actions">
+                    <button onclick="this.closest('.mgmt-item').querySelector('.mi-details').style.display=this.closest('.mgmt-item').querySelector('.mi-details').style.display==='none'?'block':'none'">Edit</button>
+                    <button class="mi-delete" onclick="removeArchetype(${i})">Delete</button>
+                </span>
+            </div>
+            <div class="mi-details" style="display:none;">
+                <div class="mgmt-field"><label>ID</label><input value="${a.id}" data-field="id"></div>
+                <div class="mgmt-field"><label>Name</label><input value="${a.name}" data-field="name"></div>
+                <div class="mgmt-field"><label>Colors (comma-sep)</label><input value="${(a.colors||[]).join(',')}" data-field="colors"></div>
+                <div class="mgmt-field"><label>Color Hex</label><input value="${a.color_hex||''}" data-field="color_hex"></div>
+                <div class="mgmt-field"><label>Icon</label><input value="${a.icon||''}" data-field="icon"></div>
+                <div class="mgmt-field"><label>Short Description</label><textarea data-field="short">${a.short||''}</textarea></div>
+                <div class="mgmt-field"><label>Strategy</label><textarea data-field="strategy">${a.strategy||''}</textarea></div>
+                <div class="mgmt-field"><label>Signposts (comma-sep)</label><input value="${(a.signposts||[]).join(', ')}" data-field="signposts"></div>
+                <div class="mgmt-field"><label>Payoffs (comma-sep)</label><input value="${(a.payoffs||[]).join(', ')}" data-field="payoffs"></div>
+                <div class="mgmt-field"><label>Enablers (comma-sep)</label><input value="${(a.enablers||[]).join(', ')}" data-field="enablers"></div>
+                <div class="mgmt-field"><label>Removal (comma-sep)</label><input value="${(a.removal||[]).join(', ')}" data-field="removal"></div>
+                <div class="mgmt-field"><label>Role Players (comma-sep)</label><input value="${(a.role_players||[]).join(', ')}" data-field="role_players"></div>
+            </div>
+        </div>
+    `).join('');
+    document.getElementById('arch-manager').classList.add('show');
+}
+
+function closeArchManager() { 
+    document.getElementById('arch-manager').classList.remove('show'); 
+}
+
+function addNewArchetype() {
+    const id = prompt('Archetype ID (e.g. ub_control):');
+    if (!id) return;
+    ARCHETYPES.push({
+        id: id.toLowerCase().replace(/\s+/g,'_'), name: id.toUpperCase(), colors: [], color_hex: '#95a5a6', icon: '🎴',
+        short: '', strategy: '', signposts: [], payoffs: [], enablers: [], removal: [], role_players: [], key_synergies: []
+    });
+    openArchManager();
+}
+
+function removeArchetype(idx) {
+    if (!confirm(`Delete archetype "${ARCHETYPES[idx]?.name}"?`)) return;
+    ARCHETYPES.splice(idx, 1);
+    openArchManager();
+}
+
+function saveArchetypes() {
+    document.querySelectorAll('#arch-list .mgmt-item').forEach((item, i) => {
+        if (!ARCHETYPES[i]) return;
+        item.querySelectorAll('[data-field]').forEach(el => {
+            const field = el.dataset.field;
+            let val = el.value;
+            if (['colors','signposts','payoffs','enablers','removal','role_players'].includes(field)) {
+                val = val.split(',').map(s => s.trim()).filter(Boolean);
+            }
+            ARCHETYPES[i][field] = val;
+        });
+    });
+    saveConfig();
+    renderAll();
+    closeArchManager();
+}
+
+// ── Tier Manager ──
+function openTierManager() {
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    const container = document.getElementById('tier-list');
+    container.innerHTML = tiers.map((t, i) => `
+        <div class="mgmt-item" style="display:flex;align-items:center;gap:8px;padding:6px 10px;">
+            <span style="color:${GRADE_COLORS[t]||'#999'};font-weight:bold;min-width:30px;">${t}</span>
+            <button onclick="moveTier(${i},-1)" style="padding:2px 6px;background:#21262d;color:#8b949e;border:1px solid #30363d;border-radius:3px;cursor:pointer;" ${i===0?'disabled':''}>↑</button>
+            <button onclick="moveTier(${i},1)" style="padding:2px 6px;background:#21262d;color:#8b949e;border:1px solid #30363d;border-radius:3px;cursor:pointer;" ${i===tiers.length-1?'disabled':''}>↓</button>
+            <button onclick="removeTier('${t}')" style="padding:2px 6px;background:#21262d;color:#f85149;border:1px solid #f85149;border-radius:3px;cursor:pointer;margin-left:auto;">✕</button>
+        </div>
+    `).join('');
+    document.getElementById('tier-manager').classList.add('show');
+}
+
+function closeTierManager() { 
+    document.getElementById('tier-manager').classList.remove('show'); 
+}
+
+function moveTier(idx, dir) {
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    const newIdx = idx + dir;
+    if (newIdx < 0 || newIdx >= tiers.length) return;
+    [tiers[idx], tiers[newIdx]] = [tiers[newIdx], tiers[idx]];
+    buildTierRank(tiers);
+    buildGradeColors(tiers);
+    openTierManager();
+}
+
+function addNewTier() {
+    const input = document.getElementById('new-tier-input');
+    const tier = input.value.trim();
+    if (!tier) return;
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    if (tiers.includes(tier)) { alert('Tier already exists'); return; }
+    tiers.push(tier);
+    buildTierRank(tiers);
+    buildGradeColors(tiers);
+    input.value = '';
+    openTierManager();
+}
+
+function removeTier(tier) {
+    const cardsUsing = Object.values(DB).filter(c => c.tier === tier).length;
+    if (cardsUsing > 0 && !confirm(`${cardsUsing} cards use tier "${tier}". Remove anyway?`)) return;
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]).filter(t => t !== tier);
+    buildTierRank(tiers);
+    buildGradeColors(tiers);
+    openTierManager();
+}
+
+function saveTiers() {
+    saveConfig();
+    renderAll();
+    closeTierManager();
+}
+
+// ── Browser ──
+function renderBrowser() {
+    const archContainer = document.getElementById('arch-list-browser');
+    archContainer.innerHTML = ARCHETYPES.map(a => `
+        <div class="arch-card" onclick="filterByArch('${a.id}')">
+            <div class="arch-title">${a.icon || ''} ${a.name}</div>
+            <div class="arch-colors">
+                ${(a.colors || []).slice(0, 5).map(color => {
+                    const colorMap = { W: '#f0e68c', U: '#add8e6', B: '#2f4f4f', R: '#ff6347', G: '#228b22' };
+                    return `<div class="arch-color" style="background-color: ${colorMap[color] || '#999'};"></div>`;
+                }).join('')}
+            </div>
+            <div class="arch-desc">${a.short || ''}</div>
+        </div>
+    `).join('');
+    
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    const sortBtns = document.getElementById('sort-btns');
+    sortBtns.innerHTML = tiers.map(t => `<button class="active" onclick="filterByTier('${t}')">${t}</button>`).join('');
+    
+    const cardGrid = document.getElementById('card-grid-browser');
+    const cards = Object.keys(DB);
+    cardGrid.innerHTML = cards.map(name => renderCardTile(name)).join('');
+}
+
+function filterByArch(archId) {
+    const cardGrid = document.getElementById('card-grid-browser');
+    const cards = Object.entries(DB).filter(([_, c]) => c.archetypes?.[archId]).map(([name]) => name);
+    cardGrid.innerHTML = cards.length ? cards.map(name => renderCardTile(name)).join('') : '<div style="padding:12px;color:#8b949e;">No cards in this archetype.</div>';
+}
+
+function filterByTier(tier) {
+    const cardGrid = document.getElementById('card-grid-browser');
+    const cards = Object.entries(DB).filter(([_, c]) => c.tier === tier).map(([name]) => name);
+    cardGrid.innerHTML = cards.length ? cards.map(name => renderCardTile(name)).join('') : '<div style="padding:12px;color:#8b949e;">No cards in this tier.</div>';
+}
+
+// ── Main render functions (placeholder) ──
+function renderGuide() {
+    // Render the draft guide using sections from DB
+    // This is simplified - you'd expand this based on CARD_CONFIG._sections
+    const container = document.getElementById('guide-tab');
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    
+    let html = '';
+    for (const tier of tiers) {
+        const cards = Object.entries(DB).filter(([_, c]) => c.tier === tier).map(([name]) => name);
+        if (cards.length === 0) continue;
+        
+        const tierColor = GRADE_COLORS[tier] || '#999';
+        html += `<h2 style="border-color:${tierColor}">Tier ${tier} (${cards.length} cards)</h2>`;
+        html += '<div class="card-row">' + cards.map(name => renderCardTile(name)).join('') + '</div>';
+    }
+    
     container.innerHTML = html;
 }
 
-function startEditTip(idx) {
-    if (!editMode) return;
-    editingTipIdx = idx;
-    const tip = TIPS[idx];
-    const box = document.getElementById('tip-box-' + idx);
-    if (!box) return;
-    const bodyText = tip.body.replace(/\n/g, '\n');
-    box.classList.remove('editable');
-    box.onclick = null;
-    box.innerHTML = `
-        <input class="tip-edit-input title-input" id="tip-edit-title" value="${esc(tip.title)}" placeholder="Title">
-        <textarea class="tip-edit-textarea" id="tip-edit-body" placeholder="Tip text (supports &lt;b&gt; for bold, use Enter for line breaks)">${bodyText}</textarea>
-        <div class="tip-edit-actions">
-            <button class="tip-cancel" onclick="event.stopPropagation();cancelEditTip()">Cancel</button>
-            <button class="tip-save" onclick="event.stopPropagation();saveEditTip()">Save</button>
-        </div>
-    `;
-    document.getElementById('tip-edit-title').focus();
-}
-
-function saveEditTip() {
-    if (editingTipIdx == null) return;
-    const title = document.getElementById('tip-edit-title').value.trim();
-    const body = document.getElementById('tip-edit-body').value.replace(/\r\n/g, '\n');
-    if (!title) { alert('Title is required'); return; }
-    TIPS[editingTipIdx] = { title, body };
-    editingTipIdx = null;
-    saveTips();
-    renderTips();
-}
-
-function cancelEditTip() {
-    editingTipIdx = null;
-    renderTips();
-}
-
-function addTip() {
-    TIPS.push({ title: 'New Tip', body: 'Click to edit this tip.' });
-    saveTips();
-    renderTips();
-    startEditTip(TIPS.length - 1);
-}
-
-function deleteTip(idx) {
-    if (!confirm('Delete this tip?')) return;
-    TIPS.splice(idx, 1);
-    saveTips();
-    renderTips();
-}
-
-// ── Render All ──
 function renderAll() {
     renderGuide();
-    renderTips();
-    if (document.getElementById('tab-browser').classList.contains('active')) {
-        renderBrowser();
-    }
+    updateStatsBar();
 }
 
-// ── Initialize ──
-loadData();
-
+// ── Initialization ──
+const urlSet = new URLSearchParams(window.location.search).get('set');
+const lastSet = localStorage.getItem('draft_last_set');
+loadData(urlSet || lastSet || 'TMT');
 </script>
 </body>
 </html>
