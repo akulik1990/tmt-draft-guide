@@ -865,7 +865,8 @@ function resetConfig() {
     buildTierRank([...DEFAULT_TIERS]);
     buildGradeColors([...DEFAULT_TIERS]);
     DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
-    TIPS = JSON.parse(JSON.stringify(DEFAULT_TIPS));
+    const isNew = localStorage.getItem('draft_newset_' + CURRENT_SET);
+    TIPS = isNew ? [] : JSON.parse(JSON.stringify(DEFAULT_TIPS));
     renderAll();
 }
 
