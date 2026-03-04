@@ -140,9 +140,9 @@
     "oracle_text": "Enchant basic land you control\nWhen this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield.",
     "img": "https://cards.scryfall.io/normal/front/b/e/be8d96fb-a1be-4fff-b844-e38d185884e1.jpg?1771342164",
     "sections": [
+      "wb_sneak_enabler",
       "top_commons",
       "rw_alliance_removal",
-      "wb_sneak_enabler",
       "contested"
     ],
     "archetypes": {
@@ -261,8 +261,8 @@
     "oracle_text": "This spell costs {3} less to cast if it targets a tapped creature.\nDestroy target creature.",
     "img": "https://cards.scryfall.io/normal/front/7/2/72388199-85fa-4eba-9a9c-c2904e6da9ed.jpg?1771502482",
     "sections": [
-      "rw_alliance_removal",
-      "wb_sneak_enabler"
+      "wb_sneak_enabler",
+      "rw_alliance_removal"
     ],
     "archetypes": {
       "wb_sneak": [
@@ -1171,8 +1171,8 @@
     "oracle_text": "Flying, vigilance\nWhen this creature dies, draw a card.",
     "img": "https://cards.scryfall.io/normal/front/7/c/7c375190-f81b-4ab1-a1b6-fe432796821f.jpg?1771502556",
     "sections": [
-      "ur_artifacts_enabler",
-      "gu_mutagen_enabler"
+      "gu_mutagen_enabler",
+      "ur_artifacts_enabler"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -1252,8 +1252,8 @@
     "oracle_text": "(Gain the next level as a sorcery to add its ability.)\nWhen this Class enters, mill two cards, draw two cards, then discard two cards.\n{1}{U}: Level 2\nWhen this Class becomes level 2, return up to two target artifact cards from your graveyard to your hand.\n{4}{U}: Level 3\nAt the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.",
     "img": "https://cards.scryfall.io/normal/front/9/8/989da63a-2cbd-41a9-9bbb-99f4ad1c6a25.jpg?1769005611",
     "sections": [
-      "top_commons",
-      "ur_artifacts_payoff"
+      "ur_artifacts_payoff",
+      "top_commons"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -1362,8 +1362,8 @@
     "oracle_text": "When Donatello enters, if you control an artifact, draw a card.",
     "img": "https://cards.scryfall.io/normal/front/6/8/683cfef0-f164-4db8-b83f-79eb804e50ae.jpg?1771502569",
     "sections": [
-      "gu_mutagen_payoff",
-      "ur_artifacts_role_player"
+      "ur_artifacts_role_player",
+      "gu_mutagen_payoff"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -1661,8 +1661,8 @@
     "oracle_text": "Until end of turn, target artifact or creature becomes an artifact creature with base power and toughness 4/5.\nDraw a card.",
     "img": "https://cards.scryfall.io/normal/front/2/d/2ddfcc4d-dd5f-42f1-8f33-a8e8b5354534.jpg?1771502582",
     "sections": [
-      "ur_artifacts_removal",
       "gu_mutagen_removal",
+      "ur_artifacts_removal",
       "late_pick"
     ],
     "archetypes": {
@@ -2991,8 +2991,8 @@
     "img": "https://cards.scryfall.io/normal/front/3/f/3fdec16f-77f5-4792-9698-b9099a204028.jpg?1771586922",
     "sections": [
       "bg_disappear_removal",
-      "top_commons",
-      "wb_sneak_removal"
+      "wb_sneak_removal",
+      "top_commons"
     ],
     "archetypes": {
       "wb_sneak": [
@@ -3425,8 +3425,8 @@
     "img": "https://cards.scryfall.io/normal/front/2/4/243e392b-48b0-4e90-ae22-9a696f45e878.jpg?1771502635",
     "sections": [
       "ur_artifacts_enabler",
-      "top_commons",
-      "rw_alliance_enabler"
+      "rw_alliance_enabler",
+      "top_commons"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -4081,9 +4081,9 @@
     "oracle_text": "When this creature enters, you may search your library for a Food card, reveal it, put it into your hand, then shuffle. If you don't put a card into your hand this way, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")",
     "img": "https://cards.scryfall.io/normal/front/5/3/53f5f704-2265-42bb-bff5-fd9d85bc2bfb.jpg?1771342389",
     "sections": [
+      "gu_mutagen_role_player",
       "bg_disappear_enabler",
-      "top_commons",
-      "gu_mutagen_role_player"
+      "top_commons"
     ],
     "archetypes": {
       "bg_disappear": [
@@ -4163,9 +4163,9 @@
     "oracle_text": "Deathtouch\n{T}: Add one mana of any color.\n{2}: This creature gains reach until end of turn.",
     "img": "https://cards.scryfall.io/normal/front/d/1/d1a72d09-9cfc-463a-a9ec-3359003d54da.jpg?1771502693",
     "sections": [
+      "gu_mutagen_enabler",
       "bg_disappear_enabler",
-      "top_commons",
-      "gu_mutagen_enabler"
+      "top_commons"
     ],
     "archetypes": {
       "bg_disappear": [
@@ -4282,8 +4282,8 @@
     "oracle_text": "Trample\nLeatherhead enters with a hexproof counter on her.\nWhenever Leatherhead deals combat damage to a player, you may remove a counter from her. When you do, destroy target artifact or enchantment that player controls.",
     "img": "https://cards.scryfall.io/normal/front/b/1/b1f6b5b5-12ca-468d-bc53-dd0cde60e7b6.jpg?1769006176",
     "sections": [
-      "build_arounds",
-      "bg_disappear_signpost"
+      "bg_disappear_signpost",
+      "build_arounds"
     ],
     "archetypes": {
       "bg_disappear": [
@@ -4868,8 +4868,8 @@
     "oracle_text": "Target creature you control deals damage equal to its power to target creature an opponent controls.",
     "img": "https://cards.scryfall.io/normal/front/b/c/bc19807b-09e8-4923-abc3-d4bbe8cde5fc.jpg?1771502744",
     "sections": [
-      "bg_disappear_enabler",
-      "gu_mutagen_removal"
+      "gu_mutagen_removal",
+      "bg_disappear_enabler"
     ],
     "archetypes": {
       "bg_disappear": [
@@ -5545,8 +5545,8 @@
     "oracle_text": "Sneak {2}{W}{B} (You may cast this spell for {2}{W}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. She enters tapped and attacking.)\nWhenever Karai deals combat damage to a player, return target creature card from your graveyard to your hand. If her sneak cost was paid this turn, instead return that card to the battlefield.",
     "img": "https://cards.scryfall.io/normal/front/0/d/0dded2d4-1640-4431-809e-403b51b27db6.jpg?1771342417",
     "sections": [
-      "signals",
-      "wb_sneak_signpost"
+      "wb_sneak_signpost",
+      "signals"
     ],
     "archetypes": {
       "wb_sneak": [
@@ -5734,8 +5734,8 @@
     "oracle_text": "When this creature enters, create a 1/1 colorless Robot artifact creature token.",
     "img": "https://cards.scryfall.io/normal/front/2/c/2cb65388-dc6c-4e2a-93ac-49ea484849e9.jpg?1771502774",
     "sections": [
-      "top_commons",
-      "rw_alliance_signpost"
+      "rw_alliance_signpost",
+      "top_commons"
     ],
     "archetypes": {
       "rw_alliance": [
@@ -5780,8 +5780,8 @@
     "oracle_text": "Ward {2}\nYou may look at the top card of your library any time.\nYou may play lands and cast Mutant, Ninja, or Turtle spells from the top of your library. If you cast a creature spell this way, that creature enters with an additional +1/+1 counter on it.",
     "img": "https://cards.scryfall.io/normal/front/6/3/6353df1a-9a1b-41fd-985b-8c8acba36c23.jpg?1769006263",
     "sections": [
-      "build_arounds",
-      "gu_mutagen_signpost"
+      "gu_mutagen_signpost",
+      "build_arounds"
     ],
     "archetypes": {
       "gu_mutagen": [

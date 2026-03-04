@@ -4,7 +4,6 @@
 Data sources:
 - Scryfall card database (images, oracle text, stats)
 - 17Lands card_ratings API (GIH win rates, ALSA)
-- 17Lands community tier list "Alex + Marc TMT tierlist" (letter grades)
 - Multiple guide sources (archetype data, strategy tips)
 
 Output:
@@ -17,13 +16,13 @@ import unicodedata
 import re
 
 # ── Load data ──────────────────────────────────────────────────────────────
-with open('/home/morris/Projects/mtga-draft-helper/tmt_scryfall_cards.json') as f:
+with open('/home/morris/Projects/tmt-draft-guide/tmt_scryfall_cards.json') as f:
     scryfall = json.load(f)
 
-with open('/home/morris/Projects/mtga-draft-helper/tmt_17lands_ratings.json') as f:
+with open('/home/morris/Projects/tmt-draft-guide/tmt_17lands_ratings.json') as f:
     lands17 = json.load(f)
 
-with open('/home/morris/Projects/mtga-draft-helper/tmt_17lands_tierlist.json') as f:
+with open('/home/morris/Projects/tmt-draft-guide/tmt_17lands_tierlist.json') as f:
     tierlist_data = json.load(f)
 
 # Fix known 17lands name corruptions
@@ -722,7 +721,7 @@ h3 {{ font-size:15px; color:#79c0ff; margin:4px 0 3px; }}
 <body>
 <div class="page">
 <h1>TMT Draft Guide
-<small>17Lands Community Tier List (Alex + Marc) · 17Lands Win Rates · Editable Card Positions</small></h1>
+<small>17Lands Win Rates · Editable Card Positions</small></h1>
 
 <div class="top-nav">
     <button class="tab-btn active" onclick="switchTab('guide')">Draft Guide</button>
@@ -746,7 +745,6 @@ h3 {{ font-size:15px; color:#79c0ff; margin:4px 0 3px; }}
 
 <div class="stats-bar">
     <span>Cards: <b>{len(scryfall)}</b></span>
-    <span>Tier list: <b>{html_mod.escape(tierlist_data["name"])}</b></span>
     <span>17L tracked: <b>{len([c for c in lands17 if (c.get("game_count") or 0) > 50])}</b></span>
 </div>
 
@@ -1778,14 +1776,14 @@ renderAll();
 </html>'''
 
 # ── Write output ──────────────────────────────────────────────────────────
-output_path = '/home/morris/Projects/mtga-draft-helper/TMT_Draft_Guide.html'
+output_path = '/home/morris/Projects/tmt-draft-guide/TMT_Draft_Guide.html'
 with open(output_path, 'w') as f:
     f.write(html)
 
 print(f'\nWritten {len(html):,} bytes to {output_path}')
 print(f'Cards in DB: {len(card_config)}')
 # Also save config as standalone JSON
-config_path = '/home/morris/Projects/mtga-draft-helper/card_config.json'
+config_path = '/home/morris/Projects/tmt-draft-guide/card_config.json'
 with open(config_path, 'w') as f:
     json.dump(card_config, f, indent=2, ensure_ascii=False)
 print(f'Config saved to {config_path}')
