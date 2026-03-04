@@ -1320,8 +1320,17 @@ function openEditPanel(name) {
     const gih = c.gih_wr != null ? (c.gih_wr*100).toFixed(1)+'%' : '—';
     const alsa = c.alsa != null ? c.alsa.toFixed(1) : '—';
     const diwr = c.diwr != null ? (c.diwr > 0 ? '+' : '') + (c.diwr*100).toFixed(1)+'%' : '—';
+
+    // Tier selector
+    const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    let tierOpts = '<option value="">—</option>';
+    for (const t of tiers) {
+        tierOpts += `<option value="${t}" ${c.tier===t?'selected':''}>${t}</option>`;
+    }
+    html += `<div class="ep-section" style="margin-bottom:6px;"><div class="ep-section-title">Tier Grade</div>
+        <select id="ep-tier" style="background:#0d1117;color:#c9d1d9;border:1px solid #30363d;border-radius:4px;padding:4px 8px;font-size:13px;width:100%;">${tierOpts}</select></div>`;
+
     html += `<div style="text-align:center;font-size:11px;color:#8b949e;margin-bottom:8px;">
-        Tier: <b style="color:${GRADE_COLORS[c.tier]||'#999'}">${c.tier||'—'}</b> ·
         GIH: <b style="color:#f0883e">${gih}</b> ·
         ALSA: <b>${alsa}</b> ·
         DIWR: <b>${diwr}</b> ·
@@ -1408,6 +1417,10 @@ function toggleArchTag(el) {
 function saveEdit() {
     if (!editingCard || !DB[editingCard]) return;
     const c = DB[editingCard];
+
+    // Tier
+    const tierSel = document.getElementById('ep-tier');
+    if (tierSel) c.tier = tierSel.value || '';
 
     c.sections = [];
     document.querySelectorAll('#ep-body .tag-chip[data-group="section"].on').forEach(el => {
