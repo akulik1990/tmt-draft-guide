@@ -874,6 +874,7 @@ function toggleDataMenu(e) {
     e.stopPropagation();
     document.getElementById('data-menu').classList.toggle('show');
 }
+document.getElementById('data-menu').addEventListener('click', e => e.stopPropagation());
 document.addEventListener('click', () => { document.getElementById('data-menu')?.classList.remove('show'); });
 
 function setStatus(msg) {
