@@ -864,8 +864,17 @@ function resetConfig() {
     ARCHETYPES = JSON.parse(JSON.stringify(DEFAULT_ARCHETYPES));
     buildTierRank([...DEFAULT_TIERS]);
     buildGradeColors([...DEFAULT_TIERS]);
-    DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
     const isNew = localStorage.getItem('draft_newset_' + CURRENT_SET);
+    if (isNew && Object.keys(DEFAULT_CONFIG).length === 0) {
+        // New set: keep fetched card data, only reset user-editable fields
+        for (const c of Object.values(DB)) {
+            c.tier = null; c.sections = []; c.archetypes = {};
+            c.tags = { roles: ['filler'], types: [], speed: ['midrange'] };
+            c.removal_type = null; c.comment = '';
+        }
+    } else {
+        DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+    }
     TIPS = isNew ? [] : JSON.parse(JSON.stringify(DEFAULT_TIPS));
     renderAll();
 }
