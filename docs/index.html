@@ -651,11 +651,20 @@ async function loadData(setCode) {
             fetch(`card_data_${CURRENT_SET}.json`),
             fetch(`card_config_${CURRENT_SET}.json`)
         ]);
-        if (!dataResp.ok) throw new Error(`Failed to load card_data_${CURRENT_SET}.json: ${dataResp.status}`);
-        if (!configResp.ok) throw new Error(`Failed to load card_config_${CURRENT_SET}.json: ${configResp.status}`);
 
-        CARD_DATA = await dataResp.json();
-        CARD_CONFIG = await configResp.json();
+        const dataOk = dataResp.ok;
+        const configOk = configResp.ok;
+        const isNewSet = !dataOk && !configOk;
+
+        if (isNewSet) {
+            // New set with no files yet — start empty
+            CARD_DATA = {};
+            CARD_CONFIG = {};
+            console.log('No files found for ' + CURRENT_SET + ' — starting as new set');
+        } else {
+            CARD_DATA = dataOk ? await dataResp.json() : {};
+            CARD_CONFIG = configOk ? await configResp.json() : {};
+        }
 
         // Extract archetypes and tiers from config JSON (if present)
         const configArchetypes = CARD_CONFIG._archetypes || FALLBACK_ARCHETYPES;
@@ -699,13 +708,21 @@ async function loadData(setCode) {
         updateStatsBar();
         renderAll();
         document.getElementById('loading-overlay').style.display = 'none';
+
+        if (isNewSet) {
+            // Show the data menu and prompt user to fetch
+            const dm = document.getElementById('data-menu');
+            if (dm) dm.style.display = 'block';
+            alert(`New set "${CURRENT_SET}" created. Use the Data Menu to fetch cards from Scryfall and 17Lands.`);
+        }
+
         console.log('Loaded ' + Object.keys(DEFAULT_CONFIG).length + ' cards for set ' + CURRENT_SET);
     } catch (err) {
         document.getElementById('loading-overlay').innerHTML =
             `<div style="color:#e74c3c;font-size:16px;">Error loading data</div>
             <div style="color:#8b949e;font-size:13px;">${err.message}</div>
-            <div style="color:#8b949e;font-size:12px;margin-top:8px;">Make sure card_data_${CURRENT_SET}.json and card_config_${CURRENT_SET}.json exist.</div>
-            <div style="margin-top:12px;"><button onclick="loadData('TMT')" style="padding:8px 16px;background:#21262d;color:#58a6ff;border:1px solid #30363d;border-radius:6px;cursor:pointer;">Try loading TMT</button></div>`;
+            <div style="color:#8b949e;font-size:12px;margin-top:8px;">Try using the Data Menu to fetch cards from Scryfall and 17Lands.</div>
+            <div style="margin-top:12px;"><button onclick="loadData('TMT')" style="padding:8px 16px;background:#21262d;color:#58a6ff;border:1px solid #30363d;border-radius:6px;cursor:pointer;">Back to TMT</button></div>`;
         console.error('Data load error:', err);
     }
 }
@@ -858,34 +875,42 @@ async function refresh17lands() {
         const data = await resp.json();
         if (!Array.isArray(data) || data.length === 0) throw new Error('No data returned');
 
-        let updated = 0;
+        let updated = 0, created = 0;
         for (const card of data) {
             const name = card.name;
-            if (!DB[name]) continue;
             const drawn = card.ever_drawn_win_rate;
             const notDrawn = card.never_drawn_win_rate;
-            DB[name].gih_wr = drawn != null ? Math.round(drawn * 10000) / 10000 : null;
-            DB[name].alsa = card.avg_seen != null ? Math.round(card.avg_seen * 100) / 100 : null;
-            DB[name].diwr = (drawn != null && notDrawn != null) ? Math.round((drawn - notDrawn) * 10000) / 10000 : null;
-            DB[name].games = card.game_count || 0;
-            updated++;
-        }
-        // Also update DEFAULT_CONFIG so reset doesn't lose new data
-        for (const card of data) {
-            const name = card.name;
-            if (!DEFAULT_CONFIG[name]) continue;
-            const drawn = card.ever_drawn_win_rate;
-            const notDrawn = card.never_drawn_win_rate;
-            DEFAULT_CONFIG[name].gih_wr = drawn != null ? Math.round(drawn * 10000) / 10000 : null;
-            DEFAULT_CONFIG[name].alsa = card.avg_seen != null ? Math.round(card.avg_seen * 100) / 100 : null;
-            DEFAULT_CONFIG[name].diwr = (drawn != null && notDrawn != null) ? Math.round((drawn - notDrawn) * 10000) / 10000 : null;
-            DEFAULT_CONFIG[name].games = card.game_count || 0;
+            const stats = {
+                gih_wr: drawn != null ? Math.round(drawn * 10000) / 10000 : null,
+                alsa: card.avg_seen != null ? Math.round(card.avg_seen * 100) / 100 : null,
+                diwr: (drawn != null && notDrawn != null) ? Math.round((drawn - notDrawn) * 10000) / 10000 : null,
+                games: card.game_count || 0
+            };
+            if (DB[name]) {
+                Object.assign(DB[name], stats);
+                updated++;
+            } else {
+                // New card from 17lands — create with stats
+                DB[name] = {
+                    ...stats, img: '', mana_cost: '', cmc: 0, type_line: '', oracle_text: '',
+                    colors: [], rarity: '', power: '', toughness: '', collector_number: '',
+                    tier: null, sections: [], archetypes: {},
+                    tags: { roles: ['filler'], types: [], speed: ['midrange'] },
+                    removal_type: null, comment: ''
+                };
+                created++;
+            }
+            if (DEFAULT_CONFIG[name]) {
+                Object.assign(DEFAULT_CONFIG[name], stats);
+            } else {
+                DEFAULT_CONFIG[name] = { ...DB[name] };
+            }
         }
 
         saveConfig();
         updateStatsBar();
         renderAll();
-        setStatus(`✓ Updated ${updated} cards from 17Lands (${data.length} total)`);
+        setStatus(`✓ 17Lands: ${updated} updated, ${created} new cards (${data.length} total)`);
     } catch (err) {
         setStatus('✗ Error: ' + err.message);
         console.error('17Lands refresh error:', err);
@@ -943,36 +968,32 @@ async function refreshScryfall() {
             }
         }
 
-        let updated = 0;
+        let updated = 0, created = 0;
         for (const [name, sdata] of Object.entries(allCards)) {
             if (DB[name]) {
-                DB[name].img = sdata.img;
-                DB[name].mana_cost = sdata.mana_cost;
-                DB[name].type_line = sdata.type_line;
-                DB[name].colors = sdata.colors;
-                DB[name].rarity = sdata.rarity;
-                DB[name].cmc = sdata.cmc;
-                DB[name].power = sdata.power;
-                DB[name].toughness = sdata.toughness;
-                DB[name].oracle_text = sdata.oracle_text;
+                Object.assign(DB[name], sdata);
                 updated++;
+            } else {
+                // New card — create entry
+                DB[name] = {
+                    ...sdata,
+                    tier: null, sections: [], archetypes: {},
+                    tags: { roles: ['filler'], types: [], speed: ['midrange'] },
+                    removal_type: null, comment: '',
+                    gih_wr: null, alsa: null, diwr: null, games: 0
+                };
+                created++;
             }
             if (DEFAULT_CONFIG[name]) {
-                DEFAULT_CONFIG[name].img = sdata.img;
-                DEFAULT_CONFIG[name].mana_cost = sdata.mana_cost;
-                DEFAULT_CONFIG[name].type_line = sdata.type_line;
-                DEFAULT_CONFIG[name].colors = sdata.colors;
-                DEFAULT_CONFIG[name].rarity = sdata.rarity;
-                DEFAULT_CONFIG[name].cmc = sdata.cmc;
-                DEFAULT_CONFIG[name].power = sdata.power;
-                DEFAULT_CONFIG[name].toughness = sdata.toughness;
-                DEFAULT_CONFIG[name].oracle_text = sdata.oracle_text;
+                Object.assign(DEFAULT_CONFIG[name], sdata);
+            } else {
+                DEFAULT_CONFIG[name] = { ...DB[name] };
             }
         }
 
         saveConfig();
         renderAll();
-        setStatus(`✓ Updated ${updated} cards from Scryfall (${Object.keys(allCards).length} fetched)`);
+        setStatus(`✓ Scryfall: ${updated} updated, ${created} new cards (${Object.keys(allCards).length} total)`);
     } catch (err) {
         setStatus('✗ Error: ' + err.message);
         console.error('Scryfall refresh error:', err);
