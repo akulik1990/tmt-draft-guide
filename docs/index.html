@@ -786,13 +786,15 @@ function loadConfig() {
         DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
     }
     const savedTips = localStorage.getItem(TIPS_STORAGE_KEY());
+    const isNew = localStorage.getItem('draft_newset_' + CURRENT_SET);
     if (savedTips) {
         try {
             TIPS = JSON.parse(savedTips);
             console.log('Loaded tips from localStorage');
-        } catch(e) { TIPS = JSON.parse(JSON.stringify(DEFAULT_TIPS)); }
+        } catch(e) { TIPS = isNew ? [] : JSON.parse(JSON.stringify(DEFAULT_TIPS)); }
     } else {
-        TIPS = JSON.parse(JSON.stringify(DEFAULT_TIPS));
+        // New sets start with no tips; sets with server files get defaults
+        TIPS = isNew ? [] : JSON.parse(JSON.stringify(DEFAULT_TIPS));
     }
 }
 
