@@ -755,7 +755,7 @@ async function refreshScryfall() {
     if (!set) { alert('Enter a set code'); return; }
     setStatus('Fetching Scryfall images for ' + set.toUpperCase() + '...');
     try {
-        let url = `https://api.scryfall.com/cards/search?q=set:${set}+is:booster&unique=cards&order=collector`;
+        let url = `https://api.scryfall.com/cards/search?q=set:${set}+-is:token+-is:extra&unique=cards&order=collector`;
         let allCards = {};
         let page = 1;
 
