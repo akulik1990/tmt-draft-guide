@@ -1,0 +1,5257 @@
+{
+  "name": "Alex + Marc TMT tierlist",
+  "last_updated": "2026-02-26 17:03:43",
+  "tmt_cards": [
+    {
+      "card_id": 30771,
+      "name": "Action News Crew",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/c/bc0f5ca8-47bd-4451-8fd1-a312ff7d31ec.jpg?1771342158",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "human",
+        "citizen"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "1"
+    },
+    {
+      "card_id": 30777,
+      "name": "Jennika, Bad Apple Big Sister",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/5/a5b83101-e3ef-4ffe-a886-4fc2b57a0947.jpg?1771502505",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "10"
+    },
+    {
+      "card_id": 30734,
+      "name": "Purple Dragon Punks",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/b/bbe1d7e5-68e2-4458-aa3f-5e97fa8e7cae.jpg?1771586948",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "D+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "rogue",
+        "human"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "100"
+    },
+    {
+      "card_id": 30886,
+      "name": "Raphael, Most Attitude",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/8/88385a87-f931-409f-8a21-250f0866d63d.jpg?1771502673",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "C-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "101"
+    },
+    {
+      "card_id": 30880,
+      "name": "Raphael, Ninja Destroyer",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/e/eeffadda-cb71-4434-89bf-36db1a36da0b.jpg?1769006156",
+      "url_back": "",
+      "rarity": "M",
+      "color": "R",
+      "tier": "C-",
+      "sort_key": 5,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "102"
+    },
+    {
+      "card_id": 30823,
+      "name": "Raphael, the Nightwatcher",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/a/6af50b50-3776-4383-b493-7c5dd732c965.jpg?1769006162",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "B",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "103"
+    },
+    {
+      "card_id": 30842,
+      "name": "Raphael, Tough Turtle",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/2/f24c90c8-ed04-4b4e-8b19-c7d07a90c6b8.jpg?1771342404",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "C",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "104"
+    },
+    {
+      "card_id": 30900,
+      "name": "Raphael's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/c/7ce8b00f-5a4f-4206-8eb3-e79308e91f47.jpg?1760102758",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "D-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "105"
+    },
+    {
+      "card_id": 30860,
+      "name": "Ravenous Robots",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/b/3b303ea3-9f4d-4c28-9446-285a23f841a0.jpg?1769006169",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "B",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "robot",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "106"
+    },
+    {
+      "card_id": 30798,
+      "name": "Rock Soldiers",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/f/0fada65d-fd8d-4be9-b2bb-ea5cac78fdd7.jpg?1771586954",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "D",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "elemental",
+        "artifact",
+        "soldier"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "107"
+    },
+    {
+      "card_id": 30803,
+      "name": "Slash, Reptile Rampager",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/2/025aafbc-5b24-4f5b-9b4a-81f6b9cb5ef3.jpg?1769006188",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "B-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "berserker",
+        "turtle",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "108"
+    },
+    {
+      "card_id": 30813,
+      "name": "Spicy Oatmeal Pizza",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/c/4/c4aeb45b-13ed-43ad-a366-7be10dec6222.jpg?1771342407",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "C-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "artifact",
+        "food"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "109"
+    },
+    {
+      "card_id": 30884,
+      "name": "Koya, Death from Above",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/a/7a4f1ccc-2225-4cd0-abef-0eb7a8eae9cf.jpg?1771586885",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "B",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "bird",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "11"
+    },
+    {
+      "card_id": 30824,
+      "name": "Wingnut, Bat on the Belfry",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/0/40b9b1d0-b7d1-473e-b6a9-a29d527c2f35.jpg?1771502679",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "C-",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "mutant",
+        "bat",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "110"
+    },
+    {
+      "card_id": 30816,
+      "name": "Zog, Triceraton Castaway",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/8/a83a70ba-448e-45f3-b23b-6f38af54811f.jpg?1771502686",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "D+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "dinosaur",
+        "soldier",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "111"
+    },
+    {
+      "card_id": 30793,
+      "name": "Courier of Comestibles",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/3/53f5f704-2265-42bb-bff5-fd9d85bc2bfb.jpg?1771342389",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "B",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "human",
+        "citizen"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "112"
+    },
+    {
+      "card_id": 30773,
+      "name": "Cowabunga!",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/f/0ffce972-bed9-445a-a9a0-4816f156d88d.jpg?1771342415",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "C",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "113"
+    },
+    {
+      "card_id": 30864,
+      "name": "Frog Butler",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/1/d1a72d09-9cfc-463a-a9ec-3359003d54da.jpg?1771502693",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "B-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "frog",
+        "spirit"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "114"
+    },
+    {
+      "card_id": 30908,
+      "name": "Groundchuck & Dirtbag",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/5/1563592e-0f21-4488-a3ec-ca766386e423.jpg?1769006182",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "ox",
+        "mole",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "115"
+    },
+    {
+      "card_id": 30769,
+      "name": "Guac & Marshmallow Pizza",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/5/a5405de0-16c9-4e5a-8ceb-00508e212f12.jpg?1771502701",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "C",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "artifact",
+        "food"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "116"
+    },
+    {
+      "card_id": 30832,
+      "name": "Leatherhead, Swamp Stalker",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/1/b1f6b5b5-12ca-468d-bc53-dd0cde60e7b6.jpg?1769006176",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "A-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "crocodile",
+        "mutant",
+        "rogue",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "117"
+    },
+    {
+      "card_id": 30768,
+      "name": "Michelangelo, Game Master",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/e/2e914c3d-2eed-48bf-af9a-a8998fd5111d.jpg?1771502708",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "D+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "118"
+    },
+    {
+      "card_id": 30762,
+      "name": "Michelangelo, Improviser",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/5/955848c0-5092-4e13-97c9-5978d44d5586.jpg?1769006201",
+      "url_back": "",
+      "rarity": "M",
+      "color": "G",
+      "tier": "C",
+      "sort_key": 6,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "119"
+    },
+    {
+      "card_id": 30806,
+      "name": "The Last Ronin's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/f/dfb18239-d373-4795-8598-c82abae2cb62.jpg?1771342217",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "C+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "12"
+    },
+    {
+      "card_id": 30922,
+      "name": "Michelangelo, Mutant BFF",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/2/02f7281f-b50c-4a1c-a2fc-3caeb6ab7d41.jpg?1771502715",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "B",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "120"
+    },
+    {
+      "card_id": 30778,
+      "name": "Michelangelo, Weirdness to 11",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/8/18477047-218d-4b2a-a086-37431b6a3025.jpg?1769006195",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "B-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "121"
+    },
+    {
+      "card_id": 30899,
+      "name": "Michelangelo's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/a/3a63c06a-7c59-4b72-b916-e5b6ad78c684.jpg?1769006772",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "C-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "122"
+    },
+    {
+      "card_id": 30767,
+      "name": "Mona Lisa, Science Geek",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/c/2/c2164204-120c-4dff-86ac-46ca9012ccd9.jpg?1771424712",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "C-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "mutant",
+        "lizard",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "123"
+    },
+    {
+      "card_id": 30829,
+      "name": "Mutagen Man, Living Ooze",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/f/9f9085f0-3702-462c-8c81-b4576236792d.jpg?1769006218",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "B+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "mutant",
+        "ooze",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "124"
+    },
+    {
+      "card_id": 30811,
+      "name": "Mutant Chain Reaction",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/7/8763e0ee-a48e-424f-8bce-132582d5944b.jpg?1771342410",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "SB",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "125"
+    },
+    {
+      "card_id": 30731,
+      "name": "New Generation's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/1/f1616a07-e4a1-4574-b341-d6b31d76b3c5.jpg?1771586961",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "D-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "126"
+    },
+    {
+      "card_id": 30894,
+      "name": "Novel Nunchaku",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/3/f37ef012-c566-4d16-acf8-6079244907be.jpg?1771502723",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "B",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "127"
+    },
+    {
+      "card_id": 30815,
+      "name": "Party Dude",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/2/d27b6f2a-84df-4097-a66a-8e463db47f58.jpg?1769006231",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "SB",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "class",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "128"
+    },
+    {
+      "card_id": 30857,
+      "name": "Primordial Pachyderm",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/1/e1a866e6-4108-4290-9680-8f1652fbcf77.jpg?1771502730",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "C",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "avatar",
+        "elephant"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "129"
+    },
+    {
+      "card_id": 30876,
+      "name": "Leader's Talent",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/c/4cbcb622-1aff-460f-b8fa-4502d991e0ad.jpg?1769005523",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "A-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "class",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "13"
+    },
+    {
+      "card_id": 30818,
+      "name": "Ragamuffin Raptor",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/e/2edc1d40-3154-4ec0-88c7-faf35fd5e560.jpg?1771502737",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "dinosaur"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "130"
+    },
+    {
+      "card_id": 30751,
+      "name": "Rocksteady, Crash Courser",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/b/ebbb5756-80fa-406f-8daa-be1f5a6c3c80.jpg?1771586968",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "D+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "mutant",
+        "rhino",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "131"
+    },
+    {
+      "card_id": 30831,
+      "name": "Saved by the Shell",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/6/f6314c7f-41dc-4bbd-99db-3a8a1d2977b2.jpg?1771586974",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "C",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "132"
+    },
+    {
+      "card_id": 30904,
+      "name": "Tenderize",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/c/bc19807b-09e8-4923-abc3-d4bbe8cde5fc.jpg?1771502744",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "C",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "133"
+    },
+    {
+      "card_id": 30879,
+      "name": "Transdimensional Bovine",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/e/de124563-205c-4f40-8c13-4ae203599912.jpg?1769006238",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "C",
+      "sort_key": 5,
+      "comment": "",
+      "types": [
+        "creature",
+        "avatar",
+        "ox"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "134"
+    },
+    {
+      "card_id": 30744,
+      "name": "Turtle Power!",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/0/4079ca90-dcc3-4184-9dfc-a626e0776332.jpg?1769006224",
+      "url_back": "",
+      "rarity": "R",
+      "color": "G",
+      "tier": "C-",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": true,
+        "buildaround": false
+      },
+      "collector_number": "135"
+    },
+    {
+      "card_id": 30890,
+      "name": "Venus, Torn Between Worlds",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/c/fcb59b16-3d76-478e-9306-969dd2cb1b5a.jpg?1771586980",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "D+",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "frog",
+        "turtle",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "136"
+    },
+    {
+      "card_id": 30885,
+      "name": "West Wind Avatar",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/4/f4b8f7e6-9bff-430b-b2f5-4308d57d1194.jpg?1771586987",
+      "url_back": "",
+      "rarity": "U",
+      "color": "G",
+      "tier": "B",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "avatar",
+        "cat",
+        "spirit"
+      ],
+      "layout": "standard",
+      "cmc": 7.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "137"
+    },
+    {
+      "card_id": 30808,
+      "name": "Zoo Escapees",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/5/f57ba8ff-2f8c-4ca1-9b13-42a7cc213e99.jpg?1771502750",
+      "url_back": "",
+      "rarity": "C",
+      "color": "G",
+      "tier": "D+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "boar",
+        "rhino"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "138"
+    },
+    {
+      "card_id": 30827,
+      "name": "Baxter Stockman",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/1/117b1341-2cf0-466e-b3a8-7e1afa42cd4c.jpg?1771586994",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "B-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "human",
+        "scientist",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "139"
+    },
+    {
+      "card_id": 30790,
+      "name": "Leonardo, Big Brother",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/8/e802838f-cc8c-4313-8c3b-32a6a7248e64.jpg?1771502512",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "14"
+    },
+    {
+      "card_id": 30821,
+      "name": "Bebop & Rocksteady",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/3/535461bd-f763-408b-816f-64b7bfb9210d.jpg?1760102796",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "C+",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "creature",
+        "rhino",
+        "boar",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "140"
+    },
+    {
+      "card_id": 30748,
+      "name": "Brilliance Unleashed",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/7/b7ab2110-5aad-46c9-8dc4-1eac24b6f46b.jpg?1771587000",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "B",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "141"
+    },
+    {
+      "card_id": 30742,
+      "name": "Dark Leo & Shredder",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/a/bab93474-2f98-49a1-874f-b794bf81bd0c.jpg?1769006250",
+      "url_back": "",
+      "rarity": "M",
+      "color": "M",
+      "tier": "B+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "human",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "142"
+    },
+    {
+      "card_id": 30759,
+      "name": "Don & Leo, Problem Solvers",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/2/d239beaf-4f5b-494e-be5c-ffa8b6e28bde.jpg?1769006269",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "B",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "143"
+    },
+    {
+      "card_id": 30838,
+      "name": "Don & Raph, Hard Science",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/f/4f38126c-26a9-4447-801f-4f19e84c4aa5.jpg?1769006276",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "C",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "144"
+    },
+    {
+      "card_id": 30756,
+      "name": "EPF Point Squad",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/a/faab52c0-ce79-40af-a156-b193a62d439e.jpg?1771502756",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "D+",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "human",
+        "soldier"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "145"
+    },
+    {
+      "card_id": 30893,
+      "name": "Foot Elite",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/4/24bd571e-652a-4e7c-afc6-a45f0ccf62f6.jpg?1771342404",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "D+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "human"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "146"
+    },
+    {
+      "card_id": 30750,
+      "name": "Foot Ninjas",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/b/abb1ab9c-b067-4b75-8e5b-a893b7948df1.jpg?1771503783",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "C-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "human"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "147"
+    },
+    {
+      "card_id": 30801,
+      "name": "Genghis Frog",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/d/7df26085-eedb-4bdd-a60a-aabfbe9c3157.jpg?1771342425",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "B-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "frog",
+        "mutant",
+        "rogue",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "148"
+    },
+    {
+      "card_id": 30785,
+      "name": "Go Ninja Go",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/0/90e68cd8-ea76-4bd1-9199-474da9c3e8bf.jpg?1771587007",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "C-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "149"
+    },
+    {
+      "card_id": 30819,
+      "name": "Leonardo, Cutting Edge",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/4/74c11ee3-19d1-4ad5-a727-1d74c565d6a5.jpg?1769005535",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 6,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "15"
+    },
+    {
+      "card_id": 30735,
+      "name": "Ice Cream Kitty",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/6/66081fd3-2457-4602-96c4-3075ddfec1c2.jpg?1771587014",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "food",
+        "artifact",
+        "mutant",
+        "cat"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "150"
+    },
+    {
+      "card_id": 30913,
+      "name": "Karai, Future of the Foot",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/d/0dded2d4-1640-4431-809e-403b51b27db6.jpg?1771342417",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "C+",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "151"
+    },
+    {
+      "card_id": 30772,
+      "name": "Karai's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/3/037fe188-3355-4724-b2eb-e2448fc55607.jpg?1771587021",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "B",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "152"
+    },
+    {
+      "card_id": 30732,
+      "name": "Krang & Shredder",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/b/9b5437e2-e3f4-4c19-a2aa-a75f65a001bb.jpg?1769006256",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "A",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "utrom",
+        "human",
+        "ninja",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "153"
+    },
+    {
+      "card_id": 30868,
+      "name": "The Last Ronin",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/2/72ab3ccf-3ddb-4dd1-9cfb-98802a18d954.jpg?1771603465",
+      "url_back": "",
+      "rarity": "M",
+      "color": "M",
+      "tier": "A+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "saga",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "154"
+    },
+    {
+      "card_id": 30781,
+      "name": "Lessons from Life",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/f/0f886117-aff3-4db7-9cf5-7cbe94c8cd02.jpg?1771424719",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "B",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "155"
+    },
+    {
+      "card_id": 30740,
+      "name": "Mechanized Ninja Cavalry",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/c/2cb65388-dc6c-4e2a-93ac-49ea484849e9.jpg?1771502774",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "robot",
+        "artifact",
+        "ninja"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "156"
+    },
+    {
+      "card_id": 30800,
+      "name": "Mikey & Don, Party Planners",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/3/6353df1a-9a1b-41fd-985b-8c8acba36c23.jpg?1769006263",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "A-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "157"
+    },
+    {
+      "card_id": 30775,
+      "name": "Mikey & Leo, Chaos & Order",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/c/9cfeb2b4-937c-4bcc-bb03-467cc0effba2.jpg?1769006353",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "C",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "158"
+    },
+    {
+      "card_id": 30765,
+      "name": "Mouser Mark III",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/0/608a13b4-0b94-4be5-ac4b-e939901e8419.jpg?1771502784",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "D+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "robot",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "159"
+    },
+    {
+      "card_id": 30881,
+      "name": "Leonardo, Leader in Blue",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/6/d6eaae35-d513-43d8-be2d-b97c15e25937.jpg?1771502519",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "B",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "16"
+    },
+    {
+      "card_id": 30783,
+      "name": "The Neutrinos",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/3/1308dadc-08a9-40bd-98a4-fb66d792e27d.jpg?1771587028",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "C-",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "rebel",
+        "elf",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "160"
+    },
+    {
+      "card_id": 30859,
+      "name": "Nobody",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/9/0966b8ff-61d3-4394-a357-97c35f042a29.jpg?1771587036",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "C+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "hero",
+        "artifact",
+        "human"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "161"
+    },
+    {
+      "card_id": 30854,
+      "name": "North Wind Avatar",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/1/41439cfe-bb3e-42f3-9d81-de9db537ce68.jpg?1769006359",
+      "url_back": "",
+      "rarity": "M",
+      "color": "M",
+      "tier": "A",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "dragon",
+        "avatar",
+        "spirit"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "162"
+    },
+    {
+      "card_id": 30729,
+      "name": "Pizza Face, Gastromancer",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/0/b03cf0bb-3207-4e8e-bb3f-e3e4367aa86e.jpg?1771599896",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "C+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "food",
+        "artifact",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "163"
+    },
+    {
+      "card_id": 30855,
+      "name": "Punk Frogs",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/7/375c91a3-53c4-4f2d-bf7b-2c79a219d3ae.jpg?1771587049",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "D+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "frog",
+        "rebel",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "164"
+    },
+    {
+      "card_id": 30784,
+      "name": "Putrid Pals",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/2/42cdb88d-675a-43bb-b85c-51c4cc526315.jpg?1771587057",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "D",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "ooze",
+        "human",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "165"
+    },
+    {
+      "card_id": 30745,
+      "name": "Raph & Leo, Sibling Rivals",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/9/49293f77-5d7b-4106-b485-db6ce0ed37e6.jpg?1769006383",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "C",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "166"
+    },
+    {
+      "card_id": 30743,
+      "name": "Raph & Mikey, Troublemakers",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/7/8795fba4-0ff3-4c04-a81c-60408608a00c.jpg?1769006366",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "B+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 7.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "167"
+    },
+    {
+      "card_id": 30878,
+      "name": "Slithering Cryptid",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/d/6d35cb39-8832-4cf1-be73-8de49fbea529.jpg?1771502794",
+      "url_back": "",
+      "rarity": "C",
+      "color": "M",
+      "tier": "C",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "fish",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "168"
+    },
+    {
+      "card_id": 30737,
+      "name": "Splinter, Radical Rat",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/0/f0797466-c527-4d35-86bc-e0e90fd04073.jpg?1769024412",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "C",
+      "sort_key": 5,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "mutant",
+        "rat",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "169"
+    },
+    {
+      "card_id": 30866,
+      "name": "Leonardo, Sewer Samurai",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/e/0e3a0a26-c163-4f31-bed8-1be52a35feea.jpg?1764512256",
+      "url_back": "",
+      "rarity": "M",
+      "color": "W",
+      "tier": "B-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "samurai",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "17"
+    },
+    {
+      "card_id": 30738,
+      "name": "Tainted Treats",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/a/fa684608-ecd3-43e2-99a1-71318f133e29.jpg?1771587064",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "B-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "170"
+    },
+    {
+      "card_id": 30754,
+      "name": "Tokka & Rahzar, Terrible Twos",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/8/284f9012-a58d-41da-be7c-962dca052711.jpg?1769006390",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "C",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "wolf",
+        "turtle",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "171"
+    },
+    {
+      "card_id": 30882,
+      "name": "Chrome Dome",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/9/994a01eb-2689-49e7-be23-0713da9da9a8.jpg?1769006406",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "B",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "robot",
+        "artifact",
+        "ninja"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "172"
+    },
+    {
+      "card_id": 30888,
+      "name": "Everything Pizza",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/f/df2cdaa5-9ea0-4aa5-89d3-9edf40fa2a39.jpg?1771476702",
+      "url_back": "",
+      "rarity": "U",
+      "color": "C",
+      "tier": "B",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact",
+        "food"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": true
+      },
+      "collector_number": "173"
+    },
+    {
+      "card_id": 30852,
+      "name": "Henchbots",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/7/d77aa46e-fa57-4427-b0a3-0a957dc994dc.jpg?1771502803",
+      "url_back": "",
+      "rarity": "U",
+      "color": "C",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "robot",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "174"
+    },
+    {
+      "card_id": 30887,
+      "name": "Krang, Utrom Warlord",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/8/88d36c32-d6f9-46e4-9cc8-08e6c0ff05d2.jpg?1769006413",
+      "url_back": "",
+      "rarity": "M",
+      "color": "C",
+      "tier": "F",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "utrom",
+        "artifact",
+        "robot",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 9.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "175"
+    },
+    {
+      "card_id": 30814,
+      "name": "Omni-Cheese Pizza",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/2/f2c8397c-2014-4a43-9ed7-41795880011f.jpg?1771587071",
+      "url_back": "",
+      "rarity": "C",
+      "color": "C",
+      "tier": "D+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact",
+        "food"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "176"
+    },
+    {
+      "card_id": 30746,
+      "name": "The Ooze",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/f/1f9bd4da-4626-40ba-95f4-14e3de36f989.jpg?1769006428",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "C+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "artifact",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "177"
+    },
+    {
+      "card_id": 30809,
+      "name": "Skateboard",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/e/deadb6d8-3eea-4261-a07c-8536df89e85c.jpg?1771502813",
+      "url_back": "",
+      "rarity": "U",
+      "color": "C",
+      "tier": "D",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "178"
+    },
+    {
+      "card_id": 30844,
+      "name": "Technodrome",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/8/287f5ab0-b15b-4507-8a24-585f9a9841ad.jpg?1769006421",
+      "url_back": "",
+      "rarity": "M",
+      "color": "C",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "construct",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "179"
+    },
+    {
+      "card_id": 30749,
+      "name": "Leonardo's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/0/405e4057-e26c-4882-89a9-706868548c37.jpg?1769005546",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "D+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "18"
+    },
+    {
+      "card_id": 30747,
+      "name": "Turtle Blimp",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/e/6e118fc5-b0ae-4592-8292-d611856ae203.jpg?1771587078",
+      "url_back": "",
+      "rarity": "U",
+      "color": "C",
+      "tier": "C+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "vehicle",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "180"
+    },
+    {
+      "card_id": 30921,
+      "name": "Turtle Van",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/c/fce6a8b6-b43c-4045-9378-97b2463f9b4d.jpg?1769006474",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "B",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "vehicle",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "181"
+    },
+    {
+      "card_id": 30895,
+      "name": "Weather Maker",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/a/aaba62c1-760b-491b-8047-869bb1d3f67e.jpg?1769006491",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "C",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "182"
+    },
+    {
+      "card_id": 30923,
+      "name": "Dimension X",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/c/1c244fc2-70f0-4149-b0d2-d49fc6bac2b0.jpg?1771587085",
+      "url_back": "",
+      "rarity": "C",
+      "color": "L",
+      "tier": "C+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "183"
+    },
+    {
+      "card_id": 30851,
+      "name": "Escape Tunnel",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/d/5df90940-15ea-418c-8547-6c75d69ec6d3.jpg?1771424732",
+      "url_back": "",
+      "rarity": "C",
+      "color": "L",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "184"
+    },
+    {
+      "card_id": 30861,
+      "name": "Foot Headquarters",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/5/45e68113-3f05-4547-947d-4cb9ebfa73c7.jpg?1771587092",
+      "url_back": "",
+      "rarity": "C",
+      "color": "L",
+      "tier": "C+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "185"
+    },
+    {
+      "card_id": 30846,
+      "name": "Illegitimate Business",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/1/71597acf-1ce6-46a8-b6c0-88755c8a377c.jpg?1771587098",
+      "url_back": "",
+      "rarity": "C",
+      "color": "L",
+      "tier": "C+",
+      "sort_key": 5,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "186"
+    },
+    {
+      "card_id": 30736,
+      "name": "Mutant Town",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/c/6/c6eac43d-08b6-45a4-803b-10a321a241d7.jpg?1771587105",
+      "url_back": "",
+      "rarity": "C",
+      "color": "L",
+      "tier": "C+",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "187"
+    },
+    {
+      "card_id": 30835,
+      "name": "Northampton Farm",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/b/dbca168e-095f-4fbc-88f8-3048d83caf94.jpg?1769006600",
+      "url_back": "",
+      "rarity": "R",
+      "color": "L",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "188"
+    },
+    {
+      "card_id": 30826,
+      "name": "TCRI Building",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/8/8817a1d6-ef39-4e7c-8277-74aea012803b.jpg?1771587112",
+      "url_back": "",
+      "rarity": "C",
+      "color": "L",
+      "tier": "C+",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "189"
+    },
+    {
+      "card_id": 30905,
+      "name": "Lita, Little Orphan Amphibian",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/f/9fbaabb5-e981-4cbf-888c-46449412711f.jpg?1771424706",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "B",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "19"
+    },
+    {
+      "card_id": 30898,
+      "name": "Turtle Lair",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/c/5/c50c4580-979b-4863-86b9-16e258198972.jpg?1771424738",
+      "url_back": "",
+      "rarity": "U",
+      "color": "L",
+      "tier": "C",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "land"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "190"
+    },
+    {
+      "card_id": 30897,
+      "name": "Agent Bishop, Man in Black",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/c/9c769202-178c-442a-a9e2-aa08b5ae5c9a.jpg?1769005601",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "A+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "human",
+        "soldier",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "2"
+    },
+    {
+      "card_id": 30872,
+      "name": "Make Your Move",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/d/ed8bdd98-6377-40cf-b381-cee38b1bda2a.jpg?1771502526",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "D",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "20"
+    },
+    {
+      "card_id": 30853,
+      "name": "Mighty Mutanimals",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/d/5dd5369c-174c-450b-b776-553866787f8f.jpg?1771502533",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "A-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "rebel",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "21"
+    },
+    {
+      "card_id": 30874,
+      "name": "Prehistoric Pet",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/4/148e6acd-a96a-4bea-8cfe-a129cd8d1003.jpg?1769005558",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "B-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "dinosaur"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "22"
+    },
+    {
+      "card_id": 30776,
+      "name": "Quintessential Katana",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/f/ef9e227e-c581-479c-a962-2f191352b07f.jpg?1771502541",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 5,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": true,
+        "buildaround": false
+      },
+      "collector_number": "23"
+    },
+    {
+      "card_id": 30847,
+      "name": "Sally Pride, Lioness Leader",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/c/bcd8ee6b-7142-4548-8b7a-691a36411851.jpg?1769005568",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "A+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "rebel",
+        "mutant",
+        "cat",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "24"
+    },
+    {
+      "card_id": 30753,
+      "name": "Triceraton Commander",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/4/6445b690-71ce-4371-ae9c-bac0e70dda81.jpg?1769005579",
+      "url_back": "",
+      "rarity": "M",
+      "color": "W",
+      "tier": "A-",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "soldier",
+        "dinosaur"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "25"
+    },
+    {
+      "card_id": 30896,
+      "name": "Turncoat Kunoichi",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/a/3ae61336-a4ee-40cd-9a18-392d96b873a4.jpg?1769685362",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "A-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "fox",
+        "ninja",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "26"
+    },
+    {
+      "card_id": 30794,
+      "name": "Turtles Forever",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/0/f0db974a-3289-4727-9aaf-e9cca9113c87.jpg?1760102536",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "D-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "27"
+    },
+    {
+      "card_id": 30911,
+      "name": "Uneasy Alliance",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/d/5d9a4f9a-1e3a-4de8-a7c0-7158c6703b4e.jpg?1771586776",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "aura",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "28"
+    },
+    {
+      "card_id": 30807,
+      "name": "April O'Neil, Hacktivist",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/0/f0147f6d-b797-4d5e-aca2-a9d309896eca.jpg?1760102651",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "A-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "human",
+        "scientist",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "29"
+    },
+    {
+      "card_id": 30739,
+      "name": "April O'Neil, Kunoichi Trainee",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/b/8b1982ea-686b-4acd-b677-47571430efb0.jpg?1771586740",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "C+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "3"
+    },
+    {
+      "card_id": 30862,
+      "name": "April, Reporter of the Weird",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/1/31aa943f-c9db-43dc-8a72-7ef56f9f5c8b.jpg?1771502549",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "D+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "detective",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "30"
+    },
+    {
+      "card_id": 30871,
+      "name": "Bespoke B?",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/c/6c517308-831b-4e41-a82c-02ddf6383a0c.jpg?1771586788",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "C-",
+      "sort_key": 5,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "31"
+    },
+    {
+      "card_id": 30856,
+      "name": "Buzz Bots",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/c/7c375190-f81b-4ab1-a1b6-fe432796821f.jpg?1771502556",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "robot",
+        "artifact",
+        "insect"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "32"
+    },
+    {
+      "card_id": 30920,
+      "name": "Crustacean Commando",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/5/9528cc07-df4b-417f-ad65-c2fae6fc2d49.jpg?1771502563",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "D+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "crab",
+        "soldier",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "33"
+    },
+    {
+      "card_id": 30839,
+      "name": "Does Machines",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/8/989da63a-2cbd-41a9-9bbb-99f4ad1c6a25.jpg?1769005611",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "B-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "class",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "34"
+    },
+    {
+      "card_id": 30901,
+      "name": "Donatello, Gadget Master",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/b/8b5dd830-dab8-4628-845f-3d17973f9ffa.jpg?1769005622",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "C+",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "35"
+    },
+    {
+      "card_id": 30825,
+      "name": "Donatello, Mutant Mechanic",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/2/3271b821-8efc-49e2-96fd-c48e2b2585c6.jpg?1769005688",
+      "url_back": "",
+      "rarity": "M",
+      "color": "U",
+      "tier": "B",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "36"
+    },
+    {
+      "card_id": 30912,
+      "name": "Donatello, Turtle Techie",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/8/683cfef0-f164-4db8-b83f-79eb804e50ae.jpg?1771502569",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "37"
+    },
+    {
+      "card_id": 30812,
+      "name": "Donatello, Way with Machines",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/3/a3a5b63a-3263-4f06-a643-808c38f64c77.jpg?1771502576",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "C+",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": true,
+        "buildaround": false
+      },
+      "collector_number": "38"
+    },
+    {
+      "card_id": 30892,
+      "name": "Donatello's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/5/e570082f-8129-44d2-b471-ec7f46a98dbd.jpg?1771586794",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "C-",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "39"
+    },
+    {
+      "card_id": 30757,
+      "name": "Dimensional Exile",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/e/be8d96fb-a1be-4fff-b844-e38d185884e1.jpg?1771342164",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "B",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "aura",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "4"
+    },
+    {
+      "card_id": 30805,
+      "name": "Fugitive Droid",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/0/50c4e65f-00dc-4fc5-bd5c-8482c2848f4c.jpg?1771586801",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "C-",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "creature",
+        "robot",
+        "artifact",
+        "scientist"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "40"
+    },
+    {
+      "card_id": 30849,
+      "name": "Kitsune, Dragon's Daughter",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/8/a87a9257-4535-4286-8b59-a842ac45d05e.jpg?1769005699",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "B+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "warlock",
+        "avatar",
+        "fox",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "41"
+    },
+    {
+      "card_id": 30907,
+      "name": "Kitsune's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/c/9ca5327e-df90-483c-875f-73a23781f56d.jpg?1769005745",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "F",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "42"
+    },
+    {
+      "card_id": 30770,
+      "name": "Krang, Master Mind",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/2/d27fa497-e842-4812-80fe-28517544e1c5.jpg?1760102684",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "A-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "warrior",
+        "utrom",
+        "artifact",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 8.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": true
+      },
+      "collector_number": "43"
+    },
+    {
+      "card_id": 30889,
+      "name": "Metalhead",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/c/3c2d8b09-8694-45ab-be01-f8dc17378cf0.jpg?1771586807",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "A-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "turtle",
+        "artifact",
+        "robot",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "44"
+    },
+    {
+      "card_id": 30810,
+      "name": "Mind Transfer Protocol",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/d/2ddfcc4d-dd5f-42f1-8f33-a8e8b5354534.jpg?1771502582",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "45"
+    },
+    {
+      "card_id": 30906,
+      "name": "Mondo Gecko",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/6/665e44f9-bc0d-40aa-83a4-f7fe64f2506d.jpg?1769005708",
+      "url_back": "",
+      "rarity": "M",
+      "color": "U",
+      "tier": "C+",
+      "sort_key": 5,
+      "comment": "",
+      "types": [
+        "creature",
+        "mutant",
+        "lizard",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "46"
+    },
+    {
+      "card_id": 30782,
+      "name": "Negate",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1771342360",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "SB",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "47"
+    },
+    {
+      "card_id": 30822,
+      "name": "Ooze Spill",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/e/beef76b7-856e-48ab-bc73-e4f456c3a100.jpg?1771586813",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "B-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "48"
+    },
+    {
+      "card_id": 30877,
+      "name": "Ray Fillet, Man Ray",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/4/14e0892c-a556-43c3-974f-6be44188da2e.jpg?1771502589",
+      "url_back": "",
+      "rarity": "U",
+      "color": "U",
+      "tier": "C+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "mutant",
+        "fish",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "49"
+    },
+    {
+      "card_id": 30863,
+      "name": "East Wind Avatar",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/c/9/c9d5b56c-ad2a-4958-8783-4eceb8733610.jpg?1771502461",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "D+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "avatar",
+        "bird",
+        "spirit"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "5"
+    },
+    {
+      "card_id": 30802,
+      "name": "Renet, Temporal Apprentice",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/a/2ae30766-c858-4f4e-a042-14af55698cb2.jpg?1769005718",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "B-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "wizard",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "50"
+    },
+    {
+      "card_id": 30797,
+      "name": "Retro-Mutation",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/a/4af284ba-fa54-43c5-8c76-3e1128957452.jpg?1771586820",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "aura",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "51"
+    },
+    {
+      "card_id": 30914,
+      "name": "Return to the Sewers",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/2/52e99505-17dc-4051-99f6-e23559fc6c95.jpg?1771586826",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "52"
+    },
+    {
+      "card_id": 30733,
+      "name": "Sewer-veillance Cam",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/b/ab47a37b-b66d-4f70-9bf0-4d5ed6b518f3.jpg?1771502595",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "53"
+    },
+    {
+      "card_id": 30780,
+      "name": "Stockman, Mad Fly-entist",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/1/01ca65e2-898e-4150-a6bf-e61b183fd98a.jpg?1771502603",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "insect",
+        "scientist",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "54"
+    },
+    {
+      "card_id": 30875,
+      "name": "Turtles in Time",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/d/bdb3efe7-7b12-4503-83e9-7977eb099db5.jpg?1769005754",
+      "url_back": "",
+      "rarity": "M",
+      "color": "U",
+      "tier": "D",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 7.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "55"
+    },
+    {
+      "card_id": 30787,
+      "name": "Utrom Scientists",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/d/6da89625-5278-49d4-813b-a1a631f114f5.jpg?1771502610",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "D+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "scientist",
+        "utrom",
+        "artifact",
+        "robot"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "56"
+    },
+    {
+      "card_id": 30761,
+      "name": "Anchovy & Banana Pizza",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/4/44443ad2-ef8c-4106-ba1b-ee3fb6fd8b17.jpg?1771586832",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact",
+        "food"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "57"
+    },
+    {
+      "card_id": 30760,
+      "name": "Armaggon, Future Shark",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/9/5989378b-0eac-43cf-bc83-8f7765536789.jpg?1769005763",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "B",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "shark",
+        "horror",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 8.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "58"
+    },
+    {
+      "card_id": 30918,
+      "name": "Bebop, Warthog Warrior",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/7/371ba16d-73f7-450c-8b1f-c05012a4ca93.jpg?1771586838",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "D-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "warrior",
+        "boar",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "59"
+    },
+    {
+      "card_id": 30915,
+      "name": "Featherbrained Filcher",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/8/78c55706-4d00-4b97-965c-0b2d0963e59d.jpg?1771513766",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "C+",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "bird",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": true,
+        "buildaround": false
+      },
+      "collector_number": "6"
+    },
+    {
+      "card_id": 30903,
+      "name": "The Cloning of Shredder",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/4/94449d88-2df4-4850-8ffa-d6d193835dda.jpg?1771603451",
+      "url_back": "",
+      "rarity": "M",
+      "color": "B",
+      "tier": "B+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "saga",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 6.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "60"
+    },
+    {
+      "card_id": 30766,
+      "name": "Death in the Family",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/e/2e4f2148-d398-4f3d-9c59-81c87b6a4588.jpg?1771586845",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "B-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "61"
+    },
+    {
+      "card_id": 30741,
+      "name": "Dream Beavers",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/0/600e3bc1-9777-4057-a11e-4f61582636c6.jpg?1771586853",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "B",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "nightmare",
+        "beaver"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": true,
+        "buildaround": false
+      },
+      "collector_number": "62"
+    },
+    {
+      "card_id": 30755,
+      "name": "Foot Mystic",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/1/61e40a18-6cc8-436d-826b-1cf8cd037df3.jpg?1771586860",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "C-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "warlock",
+        "ninja",
+        "human"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "63"
+    },
+    {
+      "card_id": 30869,
+      "name": "Insectoid Exterminator",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/f/ff26f7ff-7f70-4204-9b48-de9e21dc89ec.jpg?1771586866",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "D+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "insect",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "64"
+    },
+    {
+      "card_id": 30820,
+      "name": "Lord Dregg, Insect Invader",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/d/8d1a9c8a-d0b6-4d83-a168-8078de4b14c7.jpg?1771586872",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "C",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "warrior",
+        "insect",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "65"
+    },
+    {
+      "card_id": 30796,
+      "name": "Madame Null, Power Broker",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/4/e/4e712d5c-d6fe-40bb-b8e5-5f50c6ea8d4f.jpg?1769005736",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "B-",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "demon",
+        "advisor",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "66"
+    },
+    {
+      "card_id": 30817,
+      "name": "Ninja Teen",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/8/0825a28f-f60b-4f80-83e3-cad6f9b266ce.jpg?1769005903",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "C-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "class",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "67"
+    },
+    {
+      "card_id": 30792,
+      "name": "Oroku Saki, Shredder Rising",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/6/e65ff1f4-a061-4c31-a78e-92af6e7bc56f.jpg?1771586878",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "C",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "68"
+    },
+    {
+      "card_id": 30848,
+      "name": "Pain 101",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/1/a1c70bf2-b2bd-4585-ba50-304f4dad8e62.jpg?1771586891",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "D+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "69"
+    },
+    {
+      "card_id": 30840,
+      "name": "Grounded for Life",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/2/72388199-85fa-4eba-9a9c-c2904e6da9ed.jpg?1771502482",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "7"
+    },
+    {
+      "card_id": 30865,
+      "name": "Paramecia Coloniex",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/6/5/654e2646-78ac-4b08-bed1-3c71355d55fc.jpg?1771586897",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "D+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "zombie",
+        "worm"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "70"
+    },
+    {
+      "card_id": 30843,
+      "name": "Rat King, Verminister",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/e/be464d88-8933-46e8-97b0-3be05f1976a3.jpg?1769005882",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "B",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "rat",
+        "avatar",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "71"
+    },
+    {
+      "card_id": 30891,
+      "name": "Savanti Romero, Time's Exile",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/1/01cb8ded-7f77-4b75-b799-23e9f5efb513.jpg?1769005872",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "B+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "demon",
+        "wizard",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "72"
+    },
+    {
+      "card_id": 30917,
+      "name": "Shark Shredder, Killer Clone",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/f/8f946b3d-7d2a-4210-a909-d16078757e3b.jpg?1769006593",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "B",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "shark",
+        "ninja",
+        "octopus",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "73"
+    },
+    {
+      "card_id": 30873,
+      "name": "Shredder, Unrelenting",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/8/88a48867-5c65-483c-92b0-f70c53ea2a9e.jpg?1771502616",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "B-",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "74"
+    },
+    {
+      "card_id": 30789,
+      "name": "Shredder's Armor",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/2/d2cbe512-725f-4884-ac49-a98a78e7d14e.jpg?1771586903",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "D",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "75"
+    },
+    {
+      "card_id": 30788,
+      "name": "Shredder's Revenge",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/2/72fadf47-2e0b-4b24-b1bc-7c86780716b6.jpg?1771342364",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "D",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "76"
+    },
+    {
+      "card_id": 30909,
+      "name": "Shredder's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/9/99a24349-7d11-421b-a161-c1edbb8f53b1.jpg?1771342367",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "C",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "77"
+    },
+    {
+      "card_id": 30764,
+      "name": "South Wind Avatar",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/c/1/c17bc07c-7147-4c84-aa0b-8a0865fba94e.jpg?1769005861",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "C+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "avatar",
+        "snake",
+        "spirit"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "78"
+    },
+    {
+      "card_id": 30833,
+      "name": "Splinter, Hamato Yoshi",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/9/e/9ea9d072-aa98-405e-a475-26f93cc37e53.jpg?1771586909",
+      "url_back": "",
+      "rarity": "U",
+      "color": "B",
+      "tier": "B-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "ninja",
+        "mutant",
+        "rat",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "79"
+    },
+    {
+      "card_id": 30804,
+      "name": "Hamato Guardian Stance",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/3/735b540b-b472-46fa-a232-d444cabf6c4c.jpg?1771502490",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "8"
+    },
+    {
+      "card_id": 30799,
+      "name": "Splinter's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/f/d/fd3a5465-074a-4688-b79b-68e232076581.jpg?1769006137",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "F",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "80"
+    },
+    {
+      "card_id": 30830,
+      "name": "Squirrelanoids",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/b/e/be08d2b0-375b-434f-9e6d-060809e0ed34.jpg?1771586916",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "mutant",
+        "squirrel"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "81"
+    },
+    {
+      "card_id": 30730,
+      "name": "Stomped by the Foot",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/f/3fdec16f-77f5-4792-9698-b9099a204028.jpg?1771586922",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "C+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "82"
+    },
+    {
+      "card_id": 30919,
+      "name": "Super Shredder",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/3/7/37a497b8-e908-4ddc-996e-a8470df72afb.jpg?1760102707",
+      "url_back": "",
+      "rarity": "M",
+      "color": "B",
+      "tier": "B+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "human",
+        "ninja",
+        "mutant",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "83"
+    },
+    {
+      "card_id": 30828,
+      "name": "Tunnel Rats",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/7/0/70faf7d8-008a-454a-a21b-702aa661b8f9.jpg?1771586928",
+      "url_back": "",
+      "rarity": "C",
+      "color": "B",
+      "tier": "D",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "rat"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "84"
+    },
+    {
+      "card_id": 30779,
+      "name": "Bot Bashing Time",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/8/08b3af61-d516-45ca-aede-2f50ba23cb07.jpg?1771586935",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "C",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "85"
+    },
+    {
+      "card_id": 30850,
+      "name": "Broadcast Takeover",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/6/e640e930-0907-40f2-9015-88f8c1e8ee5c.jpg?1769005852",
+      "url_back": "",
+      "rarity": "M",
+      "color": "R",
+      "tier": "SB",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "86"
+    },
+    {
+      "card_id": 30837,
+      "name": "Casey Jones, Jury-Rig Justiciar",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/0/808a5bc0-0999-47cf-854c-30db6277efe5.jpg?1760114588",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "B",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "berserker",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": true,
+        "buildaround": false
+      },
+      "collector_number": "87"
+    },
+    {
+      "card_id": 30834,
+      "name": "Casey Jones, Vigilante",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/6/a6a3258d-2e9b-4862-b2e3-bbfae9bd4d33.jpg?1769005927",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "C-",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "creature",
+        "berserker",
+        "human",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "88"
+    },
+    {
+      "card_id": 30763,
+      "name": "Cool but Rude",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/a/5/a566ab2d-6ec8-4833-8ad6-210378b1a20e.jpg?1769005892",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "D",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "class",
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "89"
+    },
+    {
+      "card_id": 30916,
+      "name": "High-Flying Ace",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/9/e927eb0b-1c69-421a-8acd-01e92f729ffb.jpg?1771502498",
+      "url_back": "",
+      "rarity": "C",
+      "color": "W",
+      "tier": "D+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "bird",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "9"
+    },
+    {
+      "card_id": 30867,
+      "name": "General Traag, Heart of Stone",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/0/e02e971f-6008-4c82-acd2-2aed13009ccb.jpg?1771502622",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "C+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "elemental",
+        "soldier",
+        "artifact",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "90"
+    },
+    {
+      "card_id": 30883,
+      "name": "Hard-Won Jitte",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/5/d/5d3dc219-f024-49de-b88d-dc1e9e84184c.jpg?1771342392",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "D",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "91"
+    },
+    {
+      "card_id": 30910,
+      "name": "Improvised Arsenal",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/0/003265d9-b2fc-4916-afc8-53ed2d6aa053.jpg?1769006146",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "C+",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "92"
+    },
+    {
+      "card_id": 30870,
+      "name": "Jennika's Technique",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/d/f/df559199-c8b9-455b-aa07-0a042348de96.jpg?1771502629",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "SB",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "93"
+    },
+    {
+      "card_id": 30791,
+      "name": "Manhole Missile",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/4/243e392b-48b0-4e90-ae22-9a696f45e878.jpg?1771502635",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "B-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "94"
+    },
+    {
+      "card_id": 30841,
+      "name": "Mouser Attack!",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/0/5/058490f4-0ada-45e6-b4f0-e433537f52d6.jpg?1771502642",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "D",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "95"
+    },
+    {
+      "card_id": 30845,
+      "name": "Mouser Foundry",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/8/a/8aae3bd6-a935-44a5-aa4d-a525b00cbf50.jpg?1771502649",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "C+",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "96"
+    },
+    {
+      "card_id": 30795,
+      "name": "Mutant Town Musicians",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/2/d/2dbe9207-06e8-4837-8227-0f960490771b.jpg?1771766034",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "D+",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "performer",
+        "bard",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "97"
+    },
+    {
+      "card_id": 30786,
+      "name": "Null Group Biological Assets",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/e/b/eb44c134-fcd8-4ad8-841c-f1723ba93216.jpg?1771502666",
+      "url_back": "",
+      "rarity": "C",
+      "color": "R",
+      "tier": "C-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "creature",
+        "mercenary",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "98"
+    },
+    {
+      "card_id": 30774,
+      "name": "Old Hob, Alleycat Blues",
+      "expansion": "TMT",
+      "inclusion_type": "Main Set",
+      "url": "https://cards.scryfall.io/large/front/1/5/1515eed9-3b21-42f0-ab57-de5df19317af.jpg?1771586941",
+      "url_back": "",
+      "rarity": "U",
+      "color": "R",
+      "tier": "C",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "creature",
+        "rebel",
+        "mutant",
+        "cat",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "99"
+    }
+  ],
+  "source_material": [
+    {
+      "card_id": 30927,
+      "name": "Path to Exile",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/a/e/ae0397e7-796b-412b-afec-d22759b610db.jpg?1771346921",
+      "url_back": "",
+      "rarity": "U",
+      "color": "W",
+      "tier": "C+",
+      "sort_key": 4,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "1"
+    },
+    {
+      "card_id": 30930,
+      "name": "Underworld Breach",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/4/9/49c8b2ed-95bf-4a85-a0d7-6d7c01fc086d.jpg?1771346843",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "F",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "10"
+    },
+    {
+      "card_id": 30937,
+      "name": "Doubling Season",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/8/c/8c2d6fde-5c3b-48c3-828c-832f00570824.jpg?1764918820",
+      "url_back": "",
+      "rarity": "M",
+      "color": "G",
+      "tier": "F",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "11"
+    },
+    {
+      "card_id": 30936,
+      "name": "Rhythm of the Wild",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/e/7/e7843a8a-a8d8-4236-a05d-287fad0a74b1.jpg?1771346778",
+      "url_back": "",
+      "rarity": "U",
+      "color": "M",
+      "tier": "D",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "12"
+    },
+    {
+      "card_id": 30929,
+      "name": "Waves of Aggression",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/8/3/83a8bff9-cf74-40d6-87c5-0c2a33cdaed0.jpg?1771346676",
+      "url_back": "",
+      "rarity": "R",
+      "color": "M",
+      "tier": "D-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "13"
+    },
+    {
+      "card_id": 30940,
+      "name": "Arcbound Ravager",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/1/0/108033ab-e9d0-4510-9075-f28c3044629c.jpg?1771346644",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "C",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "beast",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "14"
+    },
+    {
+      "card_id": 30925,
+      "name": "Conqueror's Flail",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/2/4/24db0362-fb1a-4ab4-9922-c4db4b0ca6e1.jpg?1771346627",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "B-",
+      "sort_key": 0,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "15"
+    },
+    {
+      "card_id": 30933,
+      "name": "Metallic Mimic",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/4/4/443b0960-a490-4287-80d9-2bfa0bdbea51.jpg?1771346556",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "B-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "shapeshifter",
+        "artifact"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "16"
+    },
+    {
+      "card_id": 30942,
+      "name": "Shadowspear",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/9/0/90de17d0-1783-48f3-8aef-0b85df6da730.jpg?1771347022",
+      "url_back": "",
+      "rarity": "R",
+      "color": "C",
+      "tier": "B",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "17"
+    },
+    {
+      "card_id": 30924,
+      "name": "Sword of Sinew and Steel",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/a/f/af0d7cb4-aaac-4dbd-9daa-622342e33388.jpg?1771347044",
+      "url_back": "",
+      "rarity": "M",
+      "color": "C",
+      "tier": "C",
+      "sort_key": 2,
+      "comment": "",
+      "types": [
+        "artifact",
+        "equipment"
+      ],
+      "layout": "standard",
+      "cmc": 3.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "18"
+    },
+    {
+      "card_id": 30932,
+      "name": "Umezawa's Jitte",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/4/d/4ddaccfb-52e5-4448-8273-797cff31db2b.jpg?1771347053",
+      "url_back": "",
+      "rarity": "M",
+      "color": "C",
+      "tier": "A+",
+      "sort_key": 0,
+      "comment": "A+++++",
+      "types": [
+        "artifact",
+        "equipment",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 2.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "19"
+    },
+    {
+      "card_id": 30928,
+      "name": "Teleportation Circle",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/d/4/d4291f04-2f94-483f-93f6-db313ecffabf.jpg?1771345680",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "C-",
+      "sort_key": 7,
+      "comment": "",
+      "types": [
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": true
+      },
+      "collector_number": "2"
+    },
+    {
+      "card_id": 30926,
+      "name": "Undercity Sewers",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/1/9/19545db3-8be5-41e5-8d13-dec4f96fe624.jpg?1771346946",
+      "url_back": "",
+      "rarity": "R",
+      "color": "L",
+      "tier": "C+",
+      "sort_key": 6,
+      "comment": "",
+      "types": [
+        "swamp",
+        "land",
+        "island"
+      ],
+      "layout": "standard",
+      "cmc": 0.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "20"
+    },
+    {
+      "card_id": 30931,
+      "name": "Trouble in Pairs",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/3/f/3f631a24-4d71-400c-a58d-ae91e193db2e.jpg?1771346964",
+      "url_back": "",
+      "rarity": "R",
+      "color": "W",
+      "tier": "D-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "3"
+    },
+    {
+      "card_id": 30935,
+      "name": "Brainstorm",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/8/b/8bb0a0cf-5b04-4d68-bf7a-7131ae50d06b.jpg?1771345762",
+      "url_back": "",
+      "rarity": "C",
+      "color": "U",
+      "tier": "C-",
+      "sort_key": 6,
+      "comment": "",
+      "types": [
+        "instant"
+      ],
+      "layout": "standard",
+      "cmc": 1.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "4"
+    },
+    {
+      "card_id": 30941,
+      "name": "Cytoplast Manipulator",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/4/0/402e538f-c8f9-4fb7-9a9f-f9c75c9ca97f.jpg?1771345881",
+      "url_back": "",
+      "rarity": "R",
+      "color": "U",
+      "tier": "D+",
+      "sort_key": 3,
+      "comment": "",
+      "types": [
+        "creature",
+        "wizard",
+        "human",
+        "mutant"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "5"
+    },
+    {
+      "card_id": 30938,
+      "name": "Ashcoat of the Shadow Swarm",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/6/8/6873a1d1-b1bc-4ed6-a734-0e35fd8dbc8e.jpg?1771346979",
+      "url_back": "",
+      "rarity": "M",
+      "color": "B",
+      "tier": "D-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "rat",
+        "warlock",
+        "legendary"
+      ],
+      "layout": "standard",
+      "cmc": 4.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "6"
+    },
+    {
+      "card_id": 30943,
+      "name": "Plague of Vermin",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/6/c/6c6aca69-1624-420f-b83e-290a2c38291e.jpg?1771347011",
+      "url_back": "",
+      "rarity": "R",
+      "color": "B",
+      "tier": "F",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "sorcery"
+      ],
+      "layout": "standard",
+      "cmc": 7.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "7"
+    },
+    {
+      "card_id": 30934,
+      "name": "All Will Be One",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/7/d/7d9681a6-1c22-41ee-8437-22baafbf8e4b.jpg?1771346421",
+      "url_back": "",
+      "rarity": "M",
+      "color": "R",
+      "tier": "F",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "enchantment"
+      ],
+      "layout": "standard",
+      "cmc": 5.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "8"
+    },
+    {
+      "card_id": 30939,
+      "name": "Silverclad Ferocidons",
+      "expansion": "PZA",
+      "inclusion_type": "Source Material",
+      "url": "https://cards.scryfall.io/large/front/d/0/d042bcf5-476e-4994-bec5-831b6b84d74e.jpg?1771346058",
+      "url_back": "",
+      "rarity": "R",
+      "color": "R",
+      "tier": "D-",
+      "sort_key": 1,
+      "comment": "",
+      "types": [
+        "creature",
+        "dinosaur"
+      ],
+      "layout": "standard",
+      "cmc": 7.0,
+      "flags": {
+        "synergy": false,
+        "buildaround": false
+      },
+      "collector_number": "9"
+    }
+  ]
+}
