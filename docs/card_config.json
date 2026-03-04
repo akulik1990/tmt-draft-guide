@@ -1,0 +1,3842 @@
+{
+  "Action News Crew": {
+    "tier": "C-",
+    "sections": [
+      "rw_alliance_payoff"
+    ],
+    "archetypes": {
+      "rw_alliance": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Agent Bishop, Man in Black": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Premium threat + removal. Fits any deck with white/black."
+  },
+  "April O'Neil, Kunoichi Trainee": {
+    "tier": "C+",
+    "sections": [
+      "wb_sneak_payoff",
+      "rw_alliance_payoff"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "payoff"
+      ],
+      "rw_alliance": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "evasion",
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Dimensional Exile": {
+    "tier": "B",
+    "sections": [
+      "wb_sneak_enabler",
+      "top_commons",
+      "rw_alliance_removal",
+      "contested"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "enabler",
+        "removal",
+        "key_synergy"
+      ],
+      "rw_alliance": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": "Best white common. Oblivion Ring effect."
+  },
+  "East Wind Avatar": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "aggro",
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Featherbrained Filcher": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Grounded for Life": {
+    "tier": "C-",
+    "sections": [
+      "wb_sneak_enabler",
+      "rw_alliance_removal"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "enabler",
+        "removal"
+      ],
+      "rw_alliance": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": ""
+  },
+  "Hamato Guardian Stance": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion",
+        "card-advantage",
+        "combat-trick"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "High-Flying Ace": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Jennika, Bad Apple Big Sister": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Koya, Death from Above": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "The Last Ronin's Technique": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Leader's Talent": {
+    "tier": "A-",
+    "sections": [
+      "build_arounds"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Premium enchantment. Wins games over time."
+  },
+  "Leonardo, Big Brother": {
+    "tier": "C-",
+    "sections": [
+      "wb_sneak_enabler",
+      "rw_alliance_role_player"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "enabler"
+      ],
+      "rw_alliance": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Leonardo, Cutting Edge": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Leonardo, Leader in Blue": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Leonardo, Sewer Samurai": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Leonardo's Technique": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Lita, Little Orphan Amphibian": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "card-advantage"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Make Your Move": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mighty Mutanimals": {
+    "tier": "A-",
+    "sections": [
+      "wb_sneak_role_player",
+      "signals",
+      "rw_alliance_role_player",
+      "contested"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "role_player"
+      ],
+      "rw_alliance": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Goes in any green deck. Highest GIH win rate in the set."
+  },
+  "Prehistoric Pet": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Quintessential Katana": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Sally Pride, Lioness Leader": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Insane value engine. Build around her with tokens/go-wide."
+  },
+  "Triceraton Commander": {
+    "tier": "A-",
+    "sections": [
+      "build_arounds"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [
+        "token-maker",
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Enormous value. Worth splashing for."
+  },
+  "Turncoat Kunoichi": {
+    "tier": "A-",
+    "sections": [
+      "wb_sneak_payoff",
+      "build_arounds"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go WB Sneak. Repeated disruption machine."
+  },
+  "Turtles Forever": {
+    "tier": "D-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Uneasy Alliance": {
+    "tier": "C+",
+    "sections": [
+      "wb_sneak_role_player"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "April O'Neil, Hacktivist": {
+    "tier": "A-",
+    "sections": [
+      "signals"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Premium card advantage. Any deck wants her."
+  },
+  "April, Reporter of the Weird": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Bespoke Bō": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Buzz Bots": {
+    "tier": "C-",
+    "sections": [
+      "gu_mutagen_enabler",
+      "ur_artifacts_enabler"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "enabler"
+      ],
+      "gu_mutagen": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "evasion",
+        "card-advantage"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Crustacean Commando": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Does Machines": {
+    "tier": "B-",
+    "sections": [
+      "ur_artifacts_payoff",
+      "top_commons"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "self-mill"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Artifact synergy common. Good in UR."
+  },
+  "Donatello, Gadget Master": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Donatello, Mutant Mechanic": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Donatello, Turtle Techie": {
+    "tier": "C+",
+    "sections": [
+      "ur_artifacts_role_player",
+      "gu_mutagen_payoff"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "role_player"
+      ],
+      "gu_mutagen": [
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Donatello, Way with Machines": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Donatello's Technique": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Fugitive Droid": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion",
+        "counter-magic"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Kitsune, Dragon's Daughter": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Kitsune's Technique": {
+    "tier": "F",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "self-mill"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Krang, Master Mind": {
+    "tier": "A-",
+    "sections": [
+      "build_arounds"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Control finisher. Build a controlling deck around this."
+  },
+  "Metalhead": {
+    "tier": "A-",
+    "sections": [
+      "ur_artifacts_signpost",
+      "signals",
+      "contested"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff",
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "UR Artifacts payoff. Copies artifact creatures — insane value."
+  },
+  "Mind Transfer Protocol": {
+    "tier": "C",
+    "sections": [
+      "gu_mutagen_removal",
+      "ur_artifacts_removal",
+      "late_pick"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "removal"
+      ],
+      "gu_mutagen": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage",
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": ""
+  },
+  "Mondo Gecko": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Negate": {
+    "tier": "SB",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Ooze Spill": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "counter-magic"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Ray Fillet, Man Ray": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "evasion",
+        "card-advantage"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Renet, Temporal Apprentice": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Retro-Mutation": {
+    "tier": "C-",
+    "sections": [
+      "gu_mutagen_enabler"
+    ],
+    "archetypes": {
+      "gu_mutagen": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Return to the Sewers": {
+    "tier": "C+",
+    "sections": [
+      "gu_mutagen_enabler",
+      "ur_artifacts_removal",
+      "late_pick"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "removal"
+      ],
+      "gu_mutagen": [
+        "enabler",
+        "removal",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "token-maker",
+        "bounce"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "bounce",
+    "comment": ""
+  },
+  "Sewer-veillance Cam": {
+    "tier": "C",
+    "sections": [
+      "ur_artifacts_enabler",
+      "late_pick"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Stockman, Mad Fly-entist": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion",
+        "card-advantage"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Turtles in Time": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Utrom Scientists": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Anchovy & Banana Pizza": {
+    "tier": "C+",
+    "sections": [
+      "bg_disappear_removal",
+      "wb_sneak_removal",
+      "contested"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "removal"
+      ],
+      "bg_disappear": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": ""
+  },
+  "Armaggon, Future Shark": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Bebop, Warthog Warrior": {
+    "tier": "D-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "The Cloning of Shredder": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Death in the Family": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Dream Beavers": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion",
+        "card-advantage"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Foot Mystic": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Insectoid Exterminator": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion",
+        "card-advantage"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Lord Dregg, Insect Invader": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker",
+        "evasion",
+        "card-advantage"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Madame Null, Power Broker": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Ninja Teen": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Oroku Saki, Shredder Rising": {
+    "tier": "C",
+    "sections": [
+      "wb_sneak_payoff"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Pain 101": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Paramecia Coloniex": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "self-mill"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Rat King, Verminister": {
+    "tier": "B",
+    "sections": [
+      "signals"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "BG value engine. Graveyard shenanigans."
+  },
+  "Savanti Romero, Time's Exile": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Shark Shredder, Killer Clone": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Shredder, Unrelenting": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Shredder's Armor": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Shredder's Revenge": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Shredder's Technique": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "South Wind Avatar": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Splinter, Hamato Yoshi": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Splinter's Technique": {
+    "tier": "F",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Squirrelanoids": {
+    "tier": "C-",
+    "sections": [
+      "bg_disappear_payoff"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Stomped by the Foot": {
+    "tier": "C+",
+    "sections": [
+      "bg_disappear_removal",
+      "wb_sneak_removal",
+      "top_commons"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "removal"
+      ],
+      "bg_disappear": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "combat-trick",
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": "Cheap black removal. Always playable."
+  },
+  "Super Shredder": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Tunnel Rats": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Bot Bashing Time": {
+    "tier": "C",
+    "sections": [
+      "rw_alliance_removal",
+      "ur_artifacts_removal"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "removal"
+      ],
+      "rw_alliance": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": ""
+  },
+  "Broadcast Takeover": {
+    "tier": "SB",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro",
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Casey Jones, Jury-Rig Justiciar": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Casey Jones, Vigilante": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Cool but Rude": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage",
+        "sweeper"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "General Traag, Heart of Stone": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Hard-Won Jitte": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Improvised Arsenal": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Jennika's Technique": {
+    "tier": "SB",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "sweeper"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Manhole Missile": {
+    "tier": "B-",
+    "sections": [
+      "ur_artifacts_enabler",
+      "rw_alliance_enabler",
+      "top_commons"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "enabler",
+        "removal"
+      ],
+      "rw_alliance": [
+        "enabler",
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "card-advantage",
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": "3 damage + artifact token. Premium red common."
+  },
+  "Mouser Attack!": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker",
+        "combat-trick"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mouser Foundry": {
+    "tier": "C+",
+    "sections": [
+      "ur_artifacts_enabler",
+      "rw_alliance_enabler"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "enabler",
+        "key_synergy"
+      ],
+      "rw_alliance": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mutant Town Musicians": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Null Group Biological Assets": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Old Hob, Alleycat Blues": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Purple Dragon Punks": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Raphael, Most Attitude": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Raphael, Ninja Destroyer": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Raphael, the Nightwatcher": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Raphael, Tough Turtle": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Raphael's Technique": {
+    "tier": "D-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Ravenous Robots": {
+    "tier": "B",
+    "sections": [
+      "ur_artifacts_enabler",
+      "top_commons"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "UR Artifacts key creature. Strong in any red deck."
+  },
+  "Rock Soldiers": {
+    "tier": "D",
+    "sections": [
+      "rw_alliance_enabler"
+    ],
+    "archetypes": {
+      "rw_alliance": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Slash, Reptile Rampager": {
+    "tier": "B-",
+    "sections": [
+      "signals"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "sweeper"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "BG Disappear signpost. Grows massive from Disappear count."
+  },
+  "Spicy Oatmeal Pizza": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Wingnut, Bat on the Belfry": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "aggro",
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Zog, Triceraton Castaway": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Courier of Comestibles": {
+    "tier": "B",
+    "sections": [
+      "gu_mutagen_role_player",
+      "bg_disappear_enabler",
+      "top_commons"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "enabler",
+        "key_synergy"
+      ],
+      "gu_mutagen": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Best common. Food + Disappear synergy. Goes in any black/green deck."
+  },
+  "Cowabunga!": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Frog Butler": {
+    "tier": "B-",
+    "sections": [
+      "gu_mutagen_enabler",
+      "bg_disappear_enabler",
+      "top_commons"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "enabler",
+        "key_synergy"
+      ],
+      "gu_mutagen": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Recursive value from graveyard. Great in BG and GU."
+  },
+  "Groundchuck & Dirtbag": {
+    "tier": "C+",
+    "sections": [
+      "signals"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "RW Alliance signpost. If this wheels, RW is wide open."
+  },
+  "Guac & Marshmallow Pizza": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "combat-trick"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Leatherhead, Swamp Stalker": {
+    "tier": "A-",
+    "sections": [
+      "bg_disappear_signpost",
+      "build_arounds"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "signpost",
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go BG Disappear. Grows huge from graveyard exile."
+  },
+  "Michelangelo, Game Master": {
+    "tier": "D+",
+    "sections": [
+      "gu_mutagen_role_player",
+      "bg_disappear_role_player"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "role_player"
+      ],
+      "gu_mutagen": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Michelangelo, Improviser": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Michelangelo, Mutant BFF": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Michelangelo, Weirdness to 11": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Michelangelo's Technique": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mona Lisa, Science Geek": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mutagen Man, Living Ooze": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mutant Chain Reaction": {
+    "tier": "SB",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker",
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "New Generation's Technique": {
+    "tier": "D-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Novel Nunchaku": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Party Dude": {
+    "tier": "SB",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker",
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Primordial Pachyderm": {
+    "tier": "C",
+    "sections": [
+      "gu_mutagen_role_player",
+      "bg_disappear_role_player",
+      "late_pick"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "role_player"
+      ],
+      "gu_mutagen": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Ragamuffin Raptor": {
+    "tier": "C-",
+    "sections": [
+      "bg_disappear_payoff"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Rocksteady, Crash Courser": {
+    "tier": "D+",
+    "sections": [
+      "late_pick"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Saved by the Shell": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Tenderize": {
+    "tier": "C",
+    "sections": [
+      "gu_mutagen_removal",
+      "bg_disappear_enabler"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "enabler",
+        "removal"
+      ],
+      "gu_mutagen": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": ""
+  },
+  "Transdimensional Bovine": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion",
+        "ramp-fixing"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Turtle Power!": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Venus, Torn Between Worlds": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "West Wind Avatar": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Zoo Escapees": {
+    "tier": "D+",
+    "sections": [
+      "bg_disappear_role_player"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Baxter Stockman": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Bebop & Rocksteady": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Brilliance Unleashed": {
+    "tier": "B",
+    "sections": [
+      "ur_artifacts_signpost",
+      "build_arounds"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go UR Artifacts. Every artifact ETB pumps your whole team."
+  },
+  "Dark Leo & Shredder": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Don & Leo, Problem Solvers": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Don & Raph, Hard Science": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "EPF Point Squad": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Foot Elite": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Foot Ninjas": {
+    "tier": "C-",
+    "sections": [
+      "wb_sneak_signpost"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "signpost",
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler",
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Genghis Frog": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Go Ninja Go": {
+    "tier": "C-",
+    "sections": [
+      "rw_alliance_enabler"
+    ],
+    "archetypes": {
+      "rw_alliance": [
+        "enabler",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Ice Cream Kitty": {
+    "tier": "C-",
+    "sections": [
+      "bg_disappear_enabler"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Karai, Future of the Foot": {
+    "tier": "C+",
+    "sections": [
+      "wb_sneak_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "wb_sneak": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff",
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "WB Sneak signpost. Late = Sneak is open."
+  },
+  "Karai's Technique": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "combat-trick"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Krang & Shredder": {
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Two-card army. Game-ending bomb."
+  },
+  "The Last Ronin": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "self-mill",
+        "sweeper"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Best card in the set. Wins the game if unanswered."
+  },
+  "Lessons from Life": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mechanized Ninja Cavalry": {
+    "tier": "C+",
+    "sections": [
+      "rw_alliance_signpost",
+      "top_commons"
+    ],
+    "archetypes": {
+      "rw_alliance": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff",
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "RW Alliance key common. Multiple triggers per turn."
+  },
+  "Mikey & Don, Party Planners": {
+    "tier": "A-",
+    "sections": [
+      "gu_mutagen_signpost",
+      "build_arounds"
+    ],
+    "archetypes": {
+      "gu_mutagen": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go GU Mutagen. Grows your entire team with counters."
+  },
+  "Mikey & Leo, Chaos & Order": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mouser Mark III": {
+    "tier": "D+",
+    "sections": [
+      "ur_artifacts_payoff",
+      "late_pick"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "The Neutrinos": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "aggro",
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Nobody": {
+    "tier": "C+",
+    "sections": [
+      "ur_artifacts_enabler",
+      "late_pick"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "North Wind Avatar": {
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Evasive finisher with massive upside."
+  },
+  "Pizza Face, Gastromancer": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Punk Frogs": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Putrid Pals": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Raph & Leo, Sibling Rivals": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Raph & Mikey, Troublemakers": {
+    "tier": "B+",
+    "sections": [
+      "signals"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Strong gold uncommon for aggressive decks."
+  },
+  "Slithering Cryptid": {
+    "tier": "C",
+    "sections": [
+      "gu_mutagen_signpost"
+    ],
+    "archetypes": {
+      "gu_mutagen": [
+        "signpost",
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff",
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Splinter, Radical Rat": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Tainted Treats": {
+    "tier": "B-",
+    "sections": [
+      "bg_disappear_removal"
+    ],
+    "archetypes": {
+      "bg_disappear": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": ""
+  },
+  "Tokka & Rahzar, Terrible Twos": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Chrome Dome": {
+    "tier": "B",
+    "sections": [
+      "ur_artifacts_payoff"
+    ],
+    "archetypes": {
+      "ur_artifacts": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Everything Pizza": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "card-advantage",
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Henchbots": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Krang, Utrom Warlord": {
+    "tier": "F",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "aggro",
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Omni-Cheese Pizza": {
+    "tier": "D+",
+    "sections": [
+      "late_pick"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage",
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "The Ooze": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Skateboard": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Technodrome": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Turtle Blimp": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "token-maker",
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Turtle Van": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Weather Maker": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Dimension X": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Escape Tunnel": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion",
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Foot Headquarters": {
+    "tier": "C+",
+    "sections": [
+      "late_pick"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Illegitimate Business": {
+    "tier": "C+",
+    "sections": [
+      "late_pick"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mutant Town": {
+    "tier": "C+",
+    "sections": [
+      "late_pick"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Northampton Farm": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "TCRI Building": {
+    "tier": "C+",
+    "sections": [
+      "late_pick"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Turtle Lair": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion",
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Plains": {
+    "tier": null,
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Island": {
+    "tier": null,
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Swamp": {
+    "tier": "A-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Mountain": {
+    "tier": null,
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Forest": {
+    "tier": null,
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  }
+}
