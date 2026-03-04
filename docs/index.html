@@ -660,14 +660,17 @@ async function loadData(setCode) {
             // New set with no files yet — start empty
             CARD_DATA = {};
             CARD_CONFIG = {};
+            localStorage.setItem('draft_newset_' + CURRENT_SET, '1');
             console.log('No files found for ' + CURRENT_SET + ' — starting as new set');
         } else {
+            localStorage.removeItem('draft_newset_' + CURRENT_SET);
             CARD_DATA = dataOk ? await dataResp.json() : {};
             CARD_CONFIG = configOk ? await configResp.json() : {};
         }
 
         // Extract archetypes and tiers from config JSON (if present)
-        const configArchetypes = CARD_CONFIG._archetypes || FALLBACK_ARCHETYPES;
+        // New sets (no files) start with empty archetypes and default tiers
+        const configArchetypes = isNewSet ? [] : (CARD_CONFIG._archetypes || FALLBACK_ARCHETYPES);
         const configTiers = CARD_CONFIG._tiers || FALLBACK_TIERS;
         ARCHETYPES = JSON.parse(JSON.stringify(configArchetypes));
         buildTierRank(configTiers);
@@ -766,13 +769,18 @@ function loadConfig() {
             DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
             for (const [name, sc] of Object.entries(parsed)) {
                 if (name.startsWith('_')) continue;
-                if (DB[name]) Object.assign(DB[name], sc);
+                if (DB[name]) {
+                    Object.assign(DB[name], sc);
+                } else {
+                    // Card exists in saved but not in DEFAULT_CONFIG (new set data)
+                    DB[name] = JSON.parse(JSON.stringify(sc));
+                }
             }
             // Merge any new cards from DEFAULT_CONFIG that aren't in saved
             for (const name of Object.keys(DEFAULT_CONFIG)) {
                 if (!parsed[name]) DB[name] = JSON.parse(JSON.stringify(DEFAULT_CONFIG[name]));
             }
-            console.log('Loaded card config from localStorage');
+            console.log('Loaded card config from localStorage (' + Object.keys(DB).length + ' cards)');
         } catch(e) { console.warn('Bad localStorage, using defaults'); DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG)); }
     } else {
         DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
@@ -790,9 +798,16 @@ function loadConfig() {
 
 function saveConfig() {
     const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
+    const hasServerFiles = Object.keys(DEFAULT_CONFIG).length > 0 && !localStorage.getItem('draft_newset_' + CURRENT_SET);
     const toSave = { _archetypes: ARCHETYPES, _tiers: tiers };
     for (const [name, c] of Object.entries(DB)) {
-        toSave[name] = { tier: c.tier, sections: c.sections, archetypes: c.archetypes, tags: c.tags, removal_type: c.removal_type, comment: c.comment };
+        if (hasServerFiles) {
+            // Only save config fields — data comes from JSON files on reload
+            toSave[name] = { tier: c.tier, sections: c.sections, archetypes: c.archetypes, tags: c.tags, removal_type: c.removal_type, comment: c.comment };
+        } else {
+            // No server files — save everything so it survives reload
+            toSave[name] = { ...c };
+        }
     }
     localStorage.setItem(STORAGE_KEY(), JSON.stringify(toSave));
 }
