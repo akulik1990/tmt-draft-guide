@@ -1443,7 +1443,8 @@ function populatePreview(tile) {
         return roles.map(r => `<span style="background:#1a3a2a;border-color:#2ea043;">${label} ${r}</span>`);
     });
     const typeBadges = (c.tags.types||[]).map(t => `<span>${t}</span>`);
-    prevTags.innerHTML = archBadges.concat(typeBadges).join('');
+    const speedBadges = (c.tags.speed||[]).map(s => `<span style="background:#1a2a3a;border-color:#3498db;">${s}</span>`);
+    prevTags.innerHTML = archBadges.concat(typeBadges, speedBadges).join('');
 }
 
 function hidePreview() {
