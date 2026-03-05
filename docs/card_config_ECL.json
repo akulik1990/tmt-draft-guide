@@ -590,7 +590,7 @@
   "_tips": [
     {
       "title": "Mana Curve",
-      "body": "1-drops: 1-2 \u00b7 2-drops: 4-5 \u00b7 3-drops: 3-5 \u00b7 4-drops: 3-4 \u00b7 5+: 2-3\nTotal: 15-17 creatures, 6-8 spells, 17 lands (or 16 with fixing)"
+      "body": "1-drops: 1-2\n2-drops: 4-5\n3-drops: 3-5\n4-drops: 3-4\n5+: 2-3\nTotal: 15-17 creatures, 6-8 spells, 17 lands (or 16 with fixing)"
     },
     {
       "title": "Key Mechanics",

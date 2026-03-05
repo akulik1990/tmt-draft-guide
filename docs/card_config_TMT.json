@@ -8,7 +8,7 @@
         "R"
       ],
       "color_hex": "#9b59b6",
-      "icon": "⚙️",
+      "icon": "\u2699\ufe0f",
       "short": "Artifacts-matter aggro/tempo. Play cheap artifact creatures, buff them, generate value.",
       "strategy": "Draft artifact creatures highly. Brilliance Unleashed is the payoff. Metalhead, Buzz Bots, Mouser Foundry are key. Manhole Missile is premium removal that also makes artifacts.",
       "signposts": [
@@ -66,8 +66,8 @@
         "B"
       ],
       "color_hex": "#95a5a6",
-      "icon": "🥷",
-      "short": "Evasion & disruption. Sneak creatures deal combat damage → trigger bonus effects.",
+      "icon": "\ud83e\udd77",
+      "short": "Evasion & disruption. Sneak creatures deal combat damage \u2192 trigger bonus effects.",
       "strategy": "Draft Sneak creatures that get value from dealing damage. Combine evasion (flying, unblockable) with Sneak payoffs. Removal-heavy to clear path.",
       "signposts": [
         "Karai, Future of the Foot",
@@ -122,7 +122,7 @@
         "G"
       ],
       "color_hex": "#27ae60",
-      "icon": "💀",
+      "icon": "\ud83d\udc80",
       "short": "Sacrifice & recursion. Cards Disappear (exile from grave) to fuel powerful effects.",
       "strategy": "Self-mill and sacrifice to fill graveyard, then Disappear cards for value. Strong midrange/grindy plan. Courier of Comestibles is a top common.",
       "signposts": [
@@ -178,7 +178,7 @@
         "W"
       ],
       "color_hex": "#e74c3c",
-      "icon": "⚔️",
+      "icon": "\u2694\ufe0f",
       "short": "Go-wide aggro. Alliance triggers when creatures ETB. Tokens + anthems.",
       "strategy": "Play creatures that trigger Alliance on ETB. Token generators are great. Mechanized Ninja Cavalry is a key common. Curve out aggressively.",
       "signposts": [
@@ -234,7 +234,7 @@
         "U"
       ],
       "color_hex": "#2ecc71",
-      "icon": "🧬",
+      "icon": "\ud83e\uddec",
       "short": "+1/+1 counters & mutation. Mutagen creatures grow and gain abilities.",
       "strategy": "Draft creatures that use +1/+1 counters and Mutagen. Build big threats over time. Tempo + size advantage. Mikey & Don, Party Planners is the top signpost.",
       "signposts": [
@@ -297,10 +297,22 @@
     "F"
   ],
   "_tips": [
-    { "title": "Mana Curve", "body": "1-drops: 1-2/n2-drops: 4-5/n3-drops: 4-5/n4-drops: 3-4/n5+: 2-3\nTotal: 16-17 creatures, 6-8 spells, 16-17 lands" },
-    { "title": "Key Mechanics", "body": "<b>Artifacts</b> — count for both artifact + creature synergies\n<b>Disappear</b> — exile from graveyard for effects (self-mill fills yard)\n<b>Sneak</b> — bonus on combat damage (needs evasion/removal)\n<b>Alliance</b> — triggers on creature ETB (tokens = multiple triggers)\n<b>Mutagen</b> — +1/+1 counters matter; creatures grow over time" },
-    { "title": "Format Speed", "body": "Medium speed. RW Alliance and UR Artifacts close by turn 6-7.\nBG Disappear grinds longest. Don't be too greedy with your curve." },
-    { "title": "Draft Priorities", "body": "<b>P1P1:</b> Bombs > Premium removal > Best uncommon signpost\n<b>Pack 1:</b> Stay open, grab the best card regardless of color\n<b>Pack 2:</b> Commit to an archetype, prioritize synergy pieces\n<b>Pack 3:</b> Fill curve gaps, grab fixing, snag last removal" }
+    {
+      "title": "Mana Curve",
+      "body": "1-drops: 1-2\n2-drops: 4-5\n3-drops: 4-5\n4-drops: 3-4\n5+: 2-3\nTotal: 16-17 creatures, 6-8 spells, 16-17 lands"
+    },
+    {
+      "title": "Key Mechanics",
+      "body": "<b>Artifacts</b> \u2014 count for both artifact + creature synergies\n<b>Disappear</b> \u2014 exile from graveyard for effects (self-mill fills yard)\n<b>Sneak</b> \u2014 bonus on combat damage (needs evasion/removal)\n<b>Alliance</b> \u2014 triggers on creature ETB (tokens = multiple triggers)\n<b>Mutagen</b> \u2014 +1/+1 counters matter; creatures grow over time"
+    },
+    {
+      "title": "Format Speed",
+      "body": "Medium speed. RW Alliance and UR Artifacts close by turn 6-7.\nBG Disappear grinds longest. Don't be too greedy with your curve."
+    },
+    {
+      "title": "Draft Priorities",
+      "body": "<b>P1P1:</b> Bombs > Premium removal > Best uncommon signpost\n<b>Pack 1:</b> Stay open, grab the best card regardless of color\n<b>Pack 2:</b> Commit to an archetype, prioritize synergy pieces\n<b>Pack 3:</b> Fill curve gaps, grab fixing, snag last removal"
+    }
   ],
   "Action News Crew": {
     "tier": "C-",
@@ -912,7 +924,7 @@
     "removal_type": null,
     "comment": ""
   },
-  "Bespoke Bō": {
+  "Bespoke B\u014d": {
     "tier": "C-",
     "sections": [],
     "archetypes": {},
@@ -1195,7 +1207,7 @@
       ]
     },
     "removal_type": null,
-    "comment": "UR Artifacts payoff. Copies artifact creatures — insane value."
+    "comment": "UR Artifacts payoff. Copies artifact creatures \u2014 insane value."
   },
   "Mind Transfer Protocol": {
     "tier": "C",
