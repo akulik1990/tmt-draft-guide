@@ -211,7 +211,8 @@
         "Twinflame Travelers",
         "Eclipsed Flamekin",
         "Ashling, Rekindled",
-        "Shinestriker"
+        "Shinestriker",
+        "Risen Reef"
       ],
       "enablers": [
         "Flamebraider",
@@ -339,7 +340,8 @@
       "payoffs": [
         "Voracious Tome-Skimmer",
         "Nightmare Sower",
-        "Unwelcome Sprite"
+        "Unwelcome Sprite",
+        "Bitterblossom"
       ],
       "enablers": [
         "Flock Impostor",
@@ -400,7 +402,8 @@
       "enablers": [
         "Changeling Wayfinder",
         "Flamebraider",
-        "Vivid lands"
+        "Vivid lands",
+        "Risen Reef"
       ],
       "removal": [
         "Rimekin Recluse",
@@ -606,12 +609,24 @@
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "A-",
-      "WU Merfolk": "B",
-      "BR Goblins": "B",
-      "BG Elves": "A",
-      "WB Blight": "B",
-      "RW Blight": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "key_synergy"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -644,9 +659,15 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B+",
-      "WU Merfolk": "B+",
-      "RW Blight": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     }
   },
   "Ajani, Outland Chaperone": {
@@ -663,9 +684,15 @@
     "removal_type": "conditional",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "A+",
-      "WU Merfolk": "A-",
-      "RW Blight": "A+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     }
   },
   "Appeal to Eirdu": {
@@ -687,8 +714,12 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "C",
-      "WU Merfolk": "C"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     }
   },
   "Aquitect's Defenses": {
@@ -707,19 +738,33 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "C+",
-      "UB Faeries": "C+"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     }
   },
   "Ashling's Command": {
     "tier": "A+",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "A",
-      "BR Goblins": "A-",
-      "UR Elementals": "A+",
-      "RG Vivid": "A+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -743,9 +788,15 @@
       "build_arounds"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "A",
-      "RG Vivid": "B"
+      "ur_elementals": [
+        "payoff"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -785,10 +836,18 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BG Elves": "A-",
-      "UG Vivid": "B-",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "removal"
+      ],
+      "bg_elves": [
+        "removal"
+      ],
+      "ug_vivid": [
+        "removal"
+      ],
+      "rg_vivid": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -808,10 +867,18 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "B",
-      "UB Faeries": "C",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "removal"
+      ],
+      "bg_elves": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "removal"
+      ],
+      "wb_blight": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -833,10 +900,22 @@
       "build_arounds"
     ],
     "archetypes": {
-      "GW Kithkin": "A-",
-      "UR Elementals": "A",
-      "BG Elves": "B+",
-      "RG Vivid": "A"
+      "ug_vivid": [
+        "signpost",
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -869,10 +948,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "B-",
-      "UB Faeries": "B-",
-      "WB Blight": "B"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "enabler"
+      ]
     }
   },
   "Bark of Doran": {
@@ -881,9 +968,9 @@
       "late_pick"
     ],
     "archetypes": {
-      "GW Kithkin": "C-",
-      "WU Merfolk": "C+",
-      "WB Blight": "C-"
+      "wu_merfolk": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -917,19 +1004,24 @@
     "removal_type": "soft",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "C",
-      "UB Faeries": "C-",
-      "WB Blight": "C"
+      "br_goblins": [
+        "role_player"
+      ]
     }
   },
   "Bitterbloom Bearer": {
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B+",
-      "BG Elves": "A-",
-      "UB Faeries": "B+"
+      "br_goblins": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -951,7 +1043,17 @@
   "Bitterblossom": {
     "tier": "A",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "ub_faeries": [
+        "payoff"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ]
+    },
     "tags": {
       "roles": [
         "payoff"
@@ -986,21 +1088,36 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B+",
-      "BG Elves": "B+",
-      "UB Faeries": "B-",
-      "WB Blight": "B-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Blighted Blackthorn": {
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C",
-      "BG Elves": "C",
-      "UB Faeries": "C-",
-      "WB Blight": "C+"
+      "bg_elves": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1030,9 +1147,15 @@
       ]
     },
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "C+",
-      "BG Elves": "B"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Bloodline Bidding": {
@@ -1041,8 +1164,12 @@
       "build_arounds"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "BG Elves": "A"
+      "bg_elves": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1072,19 +1199,33 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Blossombind": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "B",
-      "UB Faeries": "C",
-      "UG Vivid": "B-"
+      "wu_merfolk": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "removal"
+      ],
+      "ug_vivid": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -1119,10 +1260,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B",
-      "BG Elves": "B",
-      "UG Vivid": "C+",
-      "RG Vivid": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Boggart Cursecrafter": {
@@ -1132,7 +1281,10 @@
       "signals"
     ],
     "archetypes": {
-      "BR Goblins": "B+"
+      "br_goblins": [
+        "signpost",
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -1155,9 +1307,12 @@
       "br_goblins_enabler"
     ],
     "archetypes": {
-      "BR Goblins": "B+",
-      "BG Elves": "C-",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1178,9 +1333,12 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "C-",
-      "WB Blight": "C"
+      "br_goblins": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1203,11 +1361,22 @@
       "top_commons"
     ],
     "archetypes": {
-      "BR Goblins": "B",
-      "UR Elementals": "B",
-      "BG Elves": "B+",
-      "UB Faeries": "B-",
-      "WB Blight": "B-"
+      "br_goblins": [
+        "enabler",
+        "removal"
+      ],
+      "bg_elves": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "removal"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -1227,10 +1396,15 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C-",
-      "UR Elementals": "C+",
-      "RW Blight": "C+",
-      "RG Vivid": "B-"
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "payoff"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1261,7 +1435,9 @@
     },
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C"
+      "br_goblins": [
+        "role_player"
+      ]
     }
   },
   "Boulder Dash": {
@@ -1270,10 +1446,18 @@
       "top_commons"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B+",
-      "RW Blight": "B-",
-      "RG Vivid": "B-"
+      "br_goblins": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "rw_blight": [
+        "removal"
+      ],
+      "rg_vivid": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -1305,10 +1489,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "B-",
-      "RW Blight": "C+",
-      "RG Vivid": "B-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Bre of Clan Stoutarm": {
@@ -1327,20 +1519,36 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B+",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C+",
-      "UR Elementals": "B",
-      "RW Blight": "B+",
-      "RG Vivid": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Brigid's Command": {
     "tier": "A-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "A",
-      "BG Elves": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1360,9 +1568,15 @@
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "A",
-      "WU Merfolk": "A-",
-      "RW Blight": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -1413,9 +1627,15 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "GW Kithkin": "A",
-      "BG Elves": "A-",
-      "RG Vivid": "B+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Bristlebane Outrider": {
@@ -1433,10 +1653,18 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BG Elves": "B-",
-      "UG Vivid": "C+",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Burdened Stoneback": {
@@ -1456,10 +1684,18 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "C+",
-      "WB Blight": "C+",
-      "RW Blight": "C"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Burning Curiosity": {
@@ -1481,10 +1717,15 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "C+",
-      "RW Blight": "C",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Catharsis": {
@@ -1503,11 +1744,15 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "C",
-      "BR Goblins": "C-",
-      "UR Elementals": "B-",
-      "RW Blight": "B"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "key_synergy"
+      ]
     }
   },
   "Celestial Reunion": {
@@ -1528,8 +1773,12 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Champion of the Clachan": {
@@ -1538,8 +1787,9 @@
       "gw_kithkin_payoff"
     ],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "WU Merfolk": "C"
+      "gw_kithkin": [
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -1571,8 +1821,9 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "UR Elementals": "B",
-      "RG Vivid": "C"
+      "ur_elementals": [
+        "enabler"
+      ]
     }
   },
   "Champion of the Weird": {
@@ -1593,8 +1844,12 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "A",
-      "BG Elves": "B-"
+      "br_goblins": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Champions of the Perfect": {
@@ -1616,17 +1871,27 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "A-",
-      "BG Elves": "A",
-      "RG Vivid": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Champions of the Shoal": {
     "tier": "A-",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "A+",
-      "UR Elementals": "B+"
+      "wu_merfolk": [
+        "payoff"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -1649,16 +1914,36 @@
       "contested"
     ],
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C+",
-      "UR Elementals": "B",
-      "BG Elves": "B-",
-      "UB Faeries": "B-",
-      "UG Vivid": "B-",
-      "WB Blight": "B-",
-      "RW Blight": "C+",
-      "RG Vivid": "C-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1677,13 +1962,18 @@
   "Chaos Spewer": {
     "tier": "D",
     "archetypes": {
-      "BR Goblins": "C",
-      "UR Elementals": "C+",
-      "BG Elves": "C-",
-      "UB Faeries": "C",
-      "WB Blight": "C+",
-      "RW Blight": "C",
-      "RG Vivid": "C"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1714,13 +2004,21 @@
     },
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C",
-      "WU Merfolk": "C+",
-      "UR Elementals": "C+",
-      "BG Elves": "C+",
-      "UB Faeries": "C",
-      "UG Vivid": "C",
-      "RG Vivid": "C-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     }
   },
   "Chomping Changeling": {
@@ -1739,8 +2037,9 @@
     "removal_type": "hard",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C",
-      "BG Elves": "C"
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Chronicle of Victory": {
@@ -1759,11 +2058,21 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "A+",
-      "WU Merfolk": "A",
-      "BR Goblins": "A-",
-      "UR Elementals": "A+",
-      "BG Elves": "A+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Cinder Strike": {
@@ -1772,10 +2081,19 @@
       "top_commons"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B+",
-      "RW Blight": "B-",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "rw_blight": [
+        "enabler",
+        "removal"
+      ],
+      "rg_vivid": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -1795,10 +2113,18 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "WU Merfolk": "B",
-      "WB Blight": "B-",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1829,10 +2155,7 @@
       ]
     },
     "sections": [],
-    "archetypes": {
-      "BR Goblins": "C",
-      "UR Elementals": "C-"
-    },
+    "archetypes": {},
     "removal_type": "damage"
   },
   "Creakwood Safewright": {
@@ -1852,10 +2175,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "B+",
-      "UB Faeries": "B-",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Crib Swap": {
@@ -1877,19 +2208,30 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "C+",
-      "RW Blight": "C-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     }
   },
   "Crossroads Watcher": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "BG Elves": "C+",
-      "UG Vivid": "C",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1921,9 +2263,15 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "A+",
-      "WU Merfolk": "A+",
-      "RW Blight": "A+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     }
   },
   "Darkness Descends": {
@@ -1945,19 +2293,27 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C-",
-      "BG Elves": "C+",
-      "WB Blight": "C"
+      "bg_elves": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Dawn's Light Archer": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "BG Elves": "B",
-      "UG Vivid": "C-",
-      "RG Vivid": "C"
+      "bg_elves": [
+        "role_player"
+      ],
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -1990,21 +2346,39 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "C+",
-      "BR Goblins": "C+",
-      "UR Elementals": "B-",
-      "BG Elves": "B"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Dawnhand Dissident": {
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B+",
-      "BG Elves": "A-",
-      "UB Faeries": "B+",
-      "WB Blight": "B"
+      "bg_elves": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2037,21 +2411,39 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "B+",
-      "UB Faeries": "C+",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Deceit": {
     "tier": "A-",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B",
-      "BR Goblins": "B+",
-      "UR Elementals": "A-",
-      "BG Elves": "A-",
-      "UB Faeries": "A+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "key_synergy"
+      ]
     },
     "tags": {
       "roles": [
@@ -2075,7 +2467,10 @@
       "signals"
     ],
     "archetypes": {
-      "WU Merfolk": "A+"
+      "wu_merfolk": [
+        "signpost",
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -2096,7 +2491,9 @@
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B"
+      "wu_merfolk": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2132,10 +2529,18 @@
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "A",
-      "UR Elementals": "A",
-      "UB Faeries": "B-",
-      "UG Vivid": "B"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2190,8 +2595,15 @@
       "build_arounds"
     ],
     "archetypes": {
-      "GW Kithkin": "A-",
-      "BG Elves": "A-"
+      "wb_blight": [
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2227,10 +2639,9 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C-",
-      "BG Elves": "C+",
-      "UB Faeries": "C-",
-      "WB Blight": "C-"
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Dream Harvest": {
@@ -2252,11 +2663,12 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "WU Merfolk": "C",
-      "BR Goblins": "C",
-      "UR Elementals": "B-",
-      "BG Elves": "C+",
-      "UB Faeries": "C-"
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Dream Seizer": {
@@ -2275,20 +2687,33 @@
     "removal_type": "soft",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "C+",
-      "UB Faeries": "C-",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Dundoolin Weaver": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BG Elves": "B",
-      "UG Vivid": "B-",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2312,7 +2737,10 @@
       "signals"
     ],
     "archetypes": {
-      "BR Goblins": "A-"
+      "br_goblins": [
+        "signpost",
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -2335,8 +2763,13 @@
       "signals"
     ],
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "A+"
+      "bg_elves": [
+        "signpost",
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2358,11 +2791,22 @@
       "ur_elementals_signpost"
     ],
     "archetypes": {
-      "WU Merfolk": "B",
-      "BR Goblins": "B-",
-      "UR Elementals": "A",
-      "RW Blight": "B-",
-      "RG Vivid": "B"
+      "ur_elementals": [
+        "signpost",
+        "payoff"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2385,10 +2829,19 @@
       "signals"
     ],
     "archetypes": {
-      "GW Kithkin": "A+",
-      "WU Merfolk": "B-",
-      "BG Elves": "B",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "signpost",
+        "payoff"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2412,8 +2865,13 @@
       "signals"
     ],
     "archetypes": {
-      "WU Merfolk": "A",
-      "UR Elementals": "C+"
+      "wu_merfolk": [
+        "signpost",
+        "payoff"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2442,20 +2900,36 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C",
-      "UR Elementals": "B",
-      "BG Elves": "B"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Eirdu, Carrier of Dawn": {
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "A+",
-      "WU Merfolk": "A",
-      "WB Blight": "B+"
+      "gw_kithkin": [
+        "key_synergy"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2492,10 +2966,18 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "B-",
-      "RW Blight": "C",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2528,11 +3010,21 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "BR Goblins": "B-",
-      "BG Elves": "A-",
-      "WB Blight": "B+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "key_synergy"
+      ],
+      "wb_blight": [
+        "enabler"
+      ]
     }
   },
   "Encumbered Reejerey": {
@@ -2552,10 +3044,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B+",
-      "WB Blight": "B-",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "End-Blaze Epiphany": {
@@ -2577,11 +3077,21 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "A-",
-      "UR Elementals": "A",
-      "BG Elves": "A+",
-      "RW Blight": "B+",
-      "RG Vivid": "B+"
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "key_synergy"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Enraged Flamecaster": {
@@ -2599,20 +3109,24 @@
       ]
     },
     "archetypes": {
-      "BR Goblins": "C-",
-      "UR Elementals": "B-",
-      "RW Blight": "C-",
-      "RG Vivid": "C"
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Evershrike's Gift": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "C+",
-      "WB Blight": "C-",
-      "RW Blight": "C"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2641,16 +3155,36 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B",
-      "BR Goblins": "B-",
-      "UR Elementals": "B",
-      "BG Elves": "B",
-      "UB Faeries": "C+",
-      "UG Vivid": "C+",
-      "WB Blight": "C+",
-      "RW Blight": "B-",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Explosive Prodigy": {
@@ -2659,10 +3193,18 @@
       "top_commons"
     ],
     "archetypes": {
-      "BR Goblins": "B",
-      "UR Elementals": "A-",
-      "RW Blight": "B",
-      "RG Vivid": "B"
+      "ur_elementals": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2714,10 +3256,18 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B",
-      "RW Blight": "C+",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Feisty Spikeling": {
@@ -2736,24 +3286,36 @@
     },
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "C+",
-      "BR Goblins": "C-",
-      "UR Elementals": "C+",
-      "WB Blight": "C-",
-      "RW Blight": "C",
-      "RG Vivid": "C-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     }
   },
   "Figure of Fable": {
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "A+",
-      "WU Merfolk": "A",
-      "BG Elves": "A+",
-      "RW Blight": "A",
-      "RG Vivid": "A-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2786,24 +3348,27 @@
     },
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C",
-      "WU Merfolk": "C",
-      "BR Goblins": "C-",
-      "UR Elementals": "C+",
-      "BG Elves": "C+",
-      "UB Faeries": "C-",
-      "UG Vivid": "C+",
-      "RG Vivid": "C-"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Flame-Chain Mauler": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C",
-      "UR Elementals": "B-",
-      "RW Blight": "C",
-      "RG Vivid": "C"
+      "ur_elementals": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -2826,10 +3391,21 @@
       "ur_elementals_enabler"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "A-",
-      "RW Blight": "B-",
-      "RG Vivid": "B-"
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2850,10 +3426,18 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "B+",
-      "RW Blight": "B-",
-      "RG Vivid": "B-"
+      "ur_elementals": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2873,13 +3457,24 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "C+",
-      "BR Goblins": "C+",
-      "UR Elementals": "B",
-      "UB Faeries": "C+",
-      "UG Vivid": "C",
-      "RW Blight": "C+",
-      "RG Vivid": "C+"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2915,20 +3510,39 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "WU Merfolk": "A",
-      "UR Elementals": "A-",
-      "UB Faeries": "B+",
-      "UG Vivid": "B+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ]
     }
   },
   "Flock Impostor": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B",
-      "WB Blight": "C",
-      "RW Blight": "C+"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -2962,16 +3576,33 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C",
-      "UR Elementals": "B",
-      "BG Elves": "C+",
-      "UB Faeries": "C+",
-      "UG Vivid": "B-",
-      "WB Blight": "B",
-      "RW Blight": "C+",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Formidable Speaker": {
@@ -2990,19 +3621,27 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B",
-      "BG Elves": "A-",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Gallant Fowlknight": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "C+",
-      "WB Blight": "C",
-      "RW Blight": "C"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3033,13 +3672,27 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B",
-      "BR Goblins": "C+",
-      "UR Elementals": "B-",
-      "BG Elves": "B-",
-      "UG Vivid": "C+",
-      "RW Blight": "C+",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Gathering Stone": {
@@ -3057,21 +3710,39 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B+",
-      "BR Goblins": "B+",
-      "UR Elementals": "A-",
-      "BG Elves": "A-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Giantfall": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "B-",
-      "RW Blight": "C",
-      "RG Vivid": "B-"
+      "rg_vivid": [
+        "removal"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3103,9 +3774,15 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Glamer Gifter": {
@@ -3127,20 +3804,36 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "B+",
-      "UR Elementals": "B",
-      "UB Faeries": "B-",
-      "UG Vivid": "B-"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Glamermite": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "C+",
-      "UB Faeries": "C+",
-      "UG Vivid": "C+"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3177,10 +3870,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "WU Merfolk": "B+",
-      "UR Elementals": "B+",
-      "UB Faeries": "B",
-      "UG Vivid": "C+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Glen Elendra's Answer": {
@@ -3202,21 +3903,39 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "A-",
-      "UR Elementals": "A-",
-      "UB Faeries": "B"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ]
     }
   },
   "Glister Bairn": {
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "B",
-      "UR Elementals": "B-",
-      "BG Elves": "C+",
-      "UG Vivid": "C",
-      "RG Vivid": "C+"
+      "ug_vivid": [
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3236,8 +3955,12 @@
       "bg_elves_payoff"
     ],
     "archetypes": {
-      "BR Goblins": "A-",
-      "BG Elves": "A+"
+      "bg_elves": [
+        "payoff"
+      ],
+      "br_goblins": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -3257,10 +3980,18 @@
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B-",
-      "BG Elves": "B",
-      "UB Faeries": "C+",
-      "WB Blight": "B-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3295,14 +4026,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "BR Goblins": "C"
+      "br_goblins": [
+        "role_player"
+      ]
     }
   },
   "Goblin Chieftain": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B+"
+      "br_goblins": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -3320,7 +4055,9 @@
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "A"
+      "br_goblins": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -3338,10 +4075,18 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "WB Blight": "C",
-      "RW Blight": "C"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3374,20 +4119,33 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B+",
-      "RW Blight": "B-",
-      "RG Vivid": "B-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Gravelgill Scoundrel": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "C+",
-      "UB Faeries": "C",
-      "UG Vivid": "C"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3411,11 +4169,21 @@
       "contested"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B",
-      "BG Elves": "B",
-      "UB Faeries": "C+",
-      "WB Blight": "C+"
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -3435,10 +4203,18 @@
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "BG Elves": "B-",
-      "UG Vivid": "B",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3473,19 +4249,33 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B-",
-      "RW Blight": "B-",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Grub's Command": {
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "A+",
-      "UR Elementals": "B+",
-      "BG Elves": "B-"
+      "br_goblins": [
+        "payoff"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3505,8 +4295,12 @@
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B+",
-      "BG Elves": "B"
+      "br_goblins": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -3553,9 +4347,15 @@
     "removal_type": "soft",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "C",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Hallowed Fountain": {
@@ -3571,8 +4371,12 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ]
     }
   },
   "Harmonized Crescendo": {
@@ -3594,8 +4398,12 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "C+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     }
   },
   "Heat Shimmer": {
@@ -3629,11 +4437,7 @@
     },
     "removal_type": "soft",
     "sections": [],
-    "archetypes": {
-      "BR Goblins": "C",
-      "BG Elves": "C-",
-      "WB Blight": "C-"
-    }
+    "archetypes": {}
   },
   "Helix Pinnacle": {
     "tier": "F",
@@ -3667,16 +4471,24 @@
     },
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C",
-      "UR Elementals": "B-",
-      "RW Blight": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "High Perfect Morcant": {
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "BG Elves": "A"
+      "bg_elves": [
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -3696,13 +4508,27 @@
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C+",
-      "UR Elementals": "B-",
-      "WB Blight": "C",
-      "RW Blight": "C+",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3739,9 +4565,15 @@
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "C",
-      "UR Elementals": "C",
-      "UB Faeries": "C+"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3762,9 +4594,7 @@
   "Impolite Entrance": {
     "tier": "D-",
     "sections": [],
-    "archetypes": {
-      "UR Elementals": "C-"
-    },
+    "archetypes": {},
     "tags": {
       "roles": [
         "filler"
@@ -3783,10 +4613,18 @@
     "tier": "B-",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B-",
-      "BG Elves": "B+",
-      "UB Faeries": "B",
-      "WB Blight": "B"
+      "bg_elves": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -3822,20 +4660,33 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "B-",
-      "WB Blight": "C+",
-      "RW Blight": "C-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Kinbinding": {
     "tier": "A+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "A+",
-      "WU Merfolk": "A+",
-      "WB Blight": "A",
-      "RW Blight": "A"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -3855,8 +4706,12 @@
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "UR Elementals": "B",
-      "RG Vivid": "C+"
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3878,9 +4733,15 @@
       "gw_kithkin_payoff"
     ],
     "archetypes": {
-      "GW Kithkin": "A-",
-      "WU Merfolk": "C+",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "payoff"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -3931,10 +4792,18 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "A",
-      "WU Merfolk": "B+",
-      "WB Blight": "B",
-      "RW Blight": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     }
   },
   "Kirol, Attentive First-Year": {
@@ -3953,11 +4822,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C",
-      "UR Elementals": "B-",
-      "RW Blight": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Kithkeeper": {
@@ -3976,21 +4852,36 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "C+",
-      "UR Elementals": "B+",
-      "RW Blight": "C+",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "key_synergy"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Kulrath Mystic": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "C",
-      "UR Elementals": "B-",
-      "UB Faeries": "C-",
-      "UG Vivid": "C+"
+      "ur_elementals": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4010,10 +4901,18 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B+",
-      "RW Blight": "B",
-      "RG Vivid": "B"
+      "br_goblins": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -4043,9 +4942,7 @@
       ]
     },
     "sections": [],
-    "archetypes": {
-      "BR Goblins": "C-"
-    },
+    "archetypes": {},
     "removal_type": "damage"
   },
   "Lavaleaper": {
@@ -4062,15 +4959,15 @@
       ]
     },
     "sections": [],
-    "archetypes": {
-      "UR Elementals": "C-"
-    }
+    "archetypes": {}
   },
   "Leaf-Crowned Visionary": {
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "BG Elves": "A-"
+      "bg_elves": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -4090,12 +4987,24 @@
       "top_commons"
     ],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B",
-      "UR Elementals": "B+",
-      "BG Elves": "B-",
-      "WB Blight": "B",
-      "RW Blight": "B"
+      "gw_kithkin": [
+        "removal"
+      ],
+      "wu_merfolk": [
+        "removal"
+      ],
+      "wb_blight": [
+        "removal"
+      ],
+      "rw_blight": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4115,9 +5024,15 @@
     "tier": "A-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "BR Goblins": "C+",
-      "BG Elves": "A"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -4151,9 +5066,15 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "WU Merfolk": "A",
-      "UR Elementals": "A+",
-      "UB Faeries": "B+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ]
     }
   },
   "Lofty Dreams": {
@@ -4173,10 +5094,18 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "B-",
-      "UB Faeries": "C",
-      "UG Vivid": "C"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Luminollusk": {
@@ -4194,11 +5123,18 @@
     },
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C",
-      "UR Elementals": "B-",
-      "BG Elves": "C",
-      "UG Vivid": "C",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Lys Alana Dignitary": {
@@ -4217,8 +5153,12 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "C+",
-      "BG Elves": "B+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Lys Alana Informant": {
@@ -4237,10 +5177,18 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B",
-      "BG Elves": "B+",
-      "UG Vivid": "C+",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Manamorphose": {
@@ -4265,9 +5213,15 @@
       "bg_elves_role_player"
     ],
     "archetypes": {
-      "BG Elves": "A+",
-      "UB Faeries": "B",
-      "UG Vivid": "B+"
+      "bg_elves": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -4289,8 +5243,12 @@
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "B-"
+      "wu_merfolk": [
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4326,13 +5284,27 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B+",
-      "UR Elementals": "B",
-      "UB Faeries": "C+",
-      "UG Vivid": "B-",
-      "WB Blight": "C+",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4365,10 +5337,15 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B+",
-      "UG Vivid": "C",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Mirrorform": {
@@ -4377,8 +5354,12 @@
       "build_arounds"
     ],
     "archetypes": {
-      "WU Merfolk": "B+",
-      "UR Elementals": "B-"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4429,13 +5410,24 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "C+",
-      "BR Goblins": "C",
-      "UR Elementals": "B-",
-      "BG Elves": "B-",
-      "UB Faeries": "C+",
-      "UG Vivid": "C+",
-      "WB Blight": "C-"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Mistbind Clique": {
@@ -4460,10 +5452,18 @@
       "gw_kithkin_enabler"
     ],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BG Elves": "B-",
-      "UG Vivid": "B-",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4484,10 +5484,18 @@
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "BG Elves": "A-",
-      "UG Vivid": "B",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4520,10 +5528,9 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C-",
-      "BG Elves": "B-",
-      "UB Faeries": "C-",
-      "WB Blight": "C-"
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Moonlit Lamenter": {
@@ -4532,10 +5539,18 @@
       "wb_blight_payoff"
     ],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B",
-      "WB Blight": "B",
-      "RW Blight": "B"
+      "wb_blight": [
+        "payoff"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -4569,8 +5584,12 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "B-",
-      "BG Elves": "A-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Morcant's Eyes": {
@@ -4579,8 +5598,12 @@
       "bg_elves_payoff"
     ],
     "archetypes": {
-      "GW Kithkin": "C",
-      "BG Elves": "A"
+      "bg_elves": [
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4604,7 +5627,10 @@
       "signals"
     ],
     "archetypes": {
-      "BG Elves": "A"
+      "bg_elves": [
+        "signpost",
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -4639,8 +5665,12 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B+",
-      "WU Merfolk": "B-"
+      "gw_kithkin": [
+        "key_synergy"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     }
   },
   "Mornsong Aria": {
@@ -4667,9 +5697,12 @@
       "br_goblins_payoff"
     ],
     "archetypes": {
-      "BR Goblins": "B+",
-      "BG Elves": "C",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "payoff"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4701,10 +5734,18 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B",
-      "UG Vivid": "C+",
-      "RG Vivid": "C"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Nameless Inversion": {
@@ -4714,10 +5755,19 @@
       "contested"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "BG Elves": "A-",
-      "UB Faeries": "B-",
-      "WB Blight": "B-"
+      "br_goblins": [
+        "removal"
+      ],
+      "bg_elves": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "enabler",
+        "removal"
+      ],
+      "wb_blight": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -4739,10 +5789,15 @@
       "ub_faeries_payoff"
     ],
     "archetypes": {
-      "BR Goblins": "C-",
-      "BG Elves": "C+",
-      "UB Faeries": "B-",
-      "WB Blight": "C+"
+      "ub_faeries": [
+        "payoff"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -4773,13 +5828,27 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B",
-      "BR Goblins": "B-",
-      "UR Elementals": "B+",
-      "BG Elves": "B+",
-      "UG Vivid": "B",
-      "RW Blight": "B",
-      "RG Vivid": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Noggle the Mind": {
@@ -4797,20 +5866,36 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B",
-      "UB Faeries": "B-",
-      "UG Vivid": "B-"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Oko, Lorwyn Liege": {
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B+",
-      "BG Elves": "B",
-      "UG Vivid": "A"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "key_synergy"
+      ]
     },
     "tags": {
       "roles": [
@@ -4854,10 +5939,18 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "B",
-      "UB Faeries": "C+",
-      "UG Vivid": "B"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ]
     }
   },
   "Overgrown Tomb": {
@@ -4873,8 +5966,12 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "C",
-      "BG Elves": "B"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Painter's Servant": {
@@ -4911,10 +6008,7 @@
       ]
     },
     "removal_type": "hard",
-    "archetypes": {
-      "BR Goblins": "C-",
-      "BG Elves": "C-"
-    }
+    "archetypes": {}
   },
   "Personify": {
     "tier": "C+",
@@ -4935,10 +6029,15 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B",
-      "WB Blight": "C+",
-      "RW Blight": "C"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Pestered Wellguard": {
@@ -4956,10 +6055,15 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "B-",
-      "UB Faeries": "C-",
-      "UG Vivid": "C+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Pitiless Fists": {
@@ -4978,10 +6082,18 @@
     "removal_type": "conditional",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BG Elves": "A-",
-      "UG Vivid": "B",
-      "RG Vivid": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Prideful Feastling": {
@@ -4999,24 +6111,42 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C-",
-      "BG Elves": "B-",
-      "UB Faeries": "C",
-      "WB Blight": "C+",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Prismabasher": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "UR Elementals": "B",
-      "BG Elves": "B+",
-      "UG Vivid": "B",
-      "RG Vivid": "B-"
+      "ug_vivid": [
+        "payoff"
+      ],
+      "rg_vivid": [
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -5046,10 +6176,7 @@
       ]
     },
     "sections": [],
-    "archetypes": {
-      "GW Kithkin": "C-",
-      "BG Elves": "C-"
-    }
+    "archetypes": {}
   },
   "Protective Response": {
     "tier": "B-",
@@ -5070,10 +6197,18 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B+",
-      "WU Merfolk": "B+",
-      "WB Blight": "B-",
-      "RW Blight": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Puca's Eye": {
@@ -5092,20 +6227,36 @@
       ]
     },
     "archetypes": {
-      "UR Elementals": "B",
-      "BG Elves": "C",
-      "UG Vivid": "B",
-      "RG Vivid": "B-"
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Pummeler for Hire": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "BG Elves": "B",
-      "UG Vivid": "B",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -5140,11 +6291,21 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "A-",
-      "WU Merfolk": "B+",
-      "UR Elementals": "A-",
-      "WB Blight": "B+",
-      "RW Blight": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     }
   },
   "Raiding Schemes": {
@@ -5171,13 +6332,28 @@
       "build_arounds"
     ],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B",
-      "BR Goblins": "B+",
-      "BG Elves": "B+",
-      "UB Faeries": "B-",
-      "WB Blight": "A-",
-      "RW Blight": "B"
+      "wb_blight": [
+        "signpost",
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -5212,10 +6388,15 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "BR Goblins": "C",
-      "UR Elementals": "C",
-      "RW Blight": "B-",
-      "RG Vivid": "C"
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Regal Force": {
@@ -5250,10 +6431,12 @@
     "removal_type": "soft",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "C",
-      "WB Blight": "C-",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Requiting Hex": {
@@ -5275,10 +6458,18 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "C",
-      "BG Elves": "B",
-      "UB Faeries": "C+",
-      "WB Blight": "B-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Retched Wretch": {
@@ -5287,10 +6478,15 @@
       "br_goblins_enabler"
     ],
     "archetypes": {
-      "BR Goblins": "B-",
-      "BG Elves": "C-",
-      "UB Faeries": "C-",
-      "WB Blight": "C"
+      "br_goblins": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -5324,10 +6520,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "WB Blight": "C+",
-      "RW Blight": "C"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Rime Chill": {
@@ -5350,10 +6554,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "C+",
-      "UR Elementals": "B-",
-      "UB Faeries": "C",
-      "UG Vivid": "C+"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Rimefire Torque": {
@@ -5380,10 +6592,18 @@
       "contested"
     ],
     "archetypes": {
-      "WU Merfolk": "A",
-      "UR Elementals": "A",
-      "UB Faeries": "B",
-      "UG Vivid": "B+"
+      "wu_merfolk": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -5404,7 +6624,17 @@
     "sections": [
       "top_uncommons"
     ],
-    "archetypes": {},
+    "archetypes": {
+      "ur_elementals": [
+        "payoff"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
+    },
     "tags": {
       "roles": [
         "buildaround"
@@ -5436,8 +6666,12 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     }
   },
   "Rooftop Percher": {
@@ -5457,15 +6691,30 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C+",
-      "UR Elementals": "B",
-      "BG Elves": "B",
-      "UB Faeries": "B-",
-      "WB Blight": "C",
-      "RW Blight": "B-",
-      "RG Vivid": "C-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Run Away Together": {
@@ -5487,10 +6736,12 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "C+",
-      "UR Elementals": "C+",
-      "UB Faeries": "C-",
-      "UG Vivid": "C"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     }
   },
   "Safewright Cavalry": {
@@ -5509,10 +6760,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B+",
-      "UG Vivid": "B-",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Sanar, Innovative First-Year": {
@@ -5533,11 +6792,21 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "WU Merfolk": "A",
-      "BR Goblins": "A-",
-      "UR Elementals": "A",
-      "RW Blight": "A",
-      "RG Vivid": "B+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Sapling Nursery": {
@@ -5556,10 +6825,18 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B+",
-      "UG Vivid": "B+",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Scarblade Scout": {
@@ -5578,10 +6855,18 @@
       ]
     },
     "archetypes": {
-      "BR Goblins": "C",
-      "BG Elves": "B+",
-      "UB Faeries": "B-",
-      "WB Blight": "B-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Scarblade's Malice": {
@@ -5603,10 +6888,15 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "BR Goblins": "C+",
-      "BG Elves": "B",
-      "UB Faeries": "C",
-      "WB Blight": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Scuzzback Scrounger": {
@@ -5626,10 +6916,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B+",
-      "RW Blight": "B-",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Sear": {
@@ -5639,10 +6937,18 @@
       "contested"
     ],
     "archetypes": {
-      "BR Goblins": "B",
-      "UR Elementals": "B+",
-      "RW Blight": "B-",
-      "RG Vivid": "B-"
+      "br_goblins": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "rw_blight": [
+        "removal"
+      ],
+      "rg_vivid": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -5674,9 +6980,15 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B",
-      "BG Elves": "B+",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Shadow Urchin": {
@@ -5695,10 +7007,18 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B-",
-      "BG Elves": "B-",
-      "RW Blight": "C"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Shimmercreep": {
@@ -5717,12 +7037,21 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "B+",
-      "BG Elves": "B-",
-      "UB Faeries": "B-",
-      "WB Blight": "C",
-      "RG Vivid": "B"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "key_synergy"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Shimmerwilds Growth": {
@@ -5740,21 +7069,30 @@
     },
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C-",
-      "BG Elves": "C",
-      "UG Vivid": "C+",
-      "RG Vivid": "C"
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Shinestriker": {
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B+",
-      "UR Elementals": "A-",
-      "UB Faeries": "B",
-      "UG Vivid": "B+",
-      "RG Vivid": "A-"
+      "ur_elementals": [
+        "payoff"
+      ],
+      "ug_vivid": [
+        "payoff"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -5787,10 +7125,15 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "B-",
-      "WB Blight": "C+",
-      "RW Blight": "C-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Silvergill Mentor": {
@@ -5799,9 +7142,15 @@
       "wu_merfolk_payoff"
     ],
     "archetypes": {
-      "WU Merfolk": "A-",
-      "UR Elementals": "B",
-      "UB Faeries": "B-"
+      "wu_merfolk": [
+        "payoff"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -5822,10 +7171,15 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "C+",
-      "UB Faeries": "C",
-      "UG Vivid": "C-"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -5846,10 +7200,18 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B",
-      "RW Blight": "B-",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -5897,10 +7259,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "GW Kithkin": "A-",
-      "WU Merfolk": "A",
-      "WB Blight": "B+",
-      "RW Blight": "B+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "key_synergy"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
     }
   },
   "Soul Immolation": {
@@ -5909,10 +7279,18 @@
       "build_arounds"
     ],
     "archetypes": {
-      "BR Goblins": "A",
-      "UR Elementals": "A+",
-      "RW Blight": "A",
-      "RG Vivid": "A+"
+      "rw_blight": [
+        "payoff"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "key_synergy"
+      ]
     },
     "tags": {
       "roles": [
@@ -5932,10 +7310,15 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C",
-      "UR Elementals": "B",
-      "RW Blight": "C+",
-      "RG Vivid": "C+"
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -5968,10 +7351,18 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "B",
-      "UR Elementals": "B",
-      "RW Blight": "B-",
-      "RG Vivid": "B"
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Spell Snare": {
@@ -5993,19 +7384,27 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "C-",
-      "UR Elementals": "C+",
-      "UB Faeries": "C-"
+      "ur_elementals": [
+        "role_player"
+      ]
     }
   },
   "Spinerock Tyrant": {
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "A",
-      "UR Elementals": "A+",
-      "RW Blight": "A",
-      "RG Vivid": "A-"
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -6026,10 +7425,18 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B-",
-      "WB Blight": "B-",
-      "RW Blight": "B-"
+      "gw_kithkin": [
+        "removal"
+      ],
+      "wu_merfolk": [
+        "removal"
+      ],
+      "wb_blight": [
+        "removal"
+      ],
+      "rw_blight": [
+        "removal"
+      ]
     },
     "tags": {
       "roles": [
@@ -6060,10 +7467,12 @@
     },
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C-",
-      "WU Merfolk": "B-",
-      "UR Elementals": "C+",
-      "BG Elves": "C"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     }
   },
   "Spry and Mighty": {
@@ -6084,19 +7493,33 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B-",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Squawkroaster": {
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C",
-      "UR Elementals": "B-",
-      "RW Blight": "B-",
-      "RG Vivid": "C"
+      "ug_vivid": [
+        "payoff"
+      ],
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6130,13 +7553,18 @@
     "removal_type": "conditional",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "WU Merfolk": "B-",
-      "BR Goblins": "C",
-      "UR Elementals": "C+",
-      "BG Elves": "C+",
-      "UB Faeries": "C",
-      "RW Blight": "C"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Steam Vents": {
@@ -6152,8 +7580,12 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B-"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     }
   },
   "Sting-Slinger": {
@@ -6172,21 +7604,33 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "C+",
-      "RW Blight": "C"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Stoic Grove-Guide": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C-",
-      "BR Goblins": "C-",
-      "BG Elves": "B-",
-      "UB Faeries": "C+",
-      "WB Blight": "C+",
-      "RG Vivid": "B-"
+      "bg_elves": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6218,20 +7662,36 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B",
-      "UB Faeries": "C",
-      "UG Vivid": "C+"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Summit Sentinel": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "C+",
-      "UR Elementals": "B",
-      "UB Faeries": "C",
-      "UG Vivid": "C+"
+      "ur_elementals": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6255,10 +7715,15 @@
       "top_commons"
     ],
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "WB Blight": "C",
-      "RW Blight": "B-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6292,8 +7757,12 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "A+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ]
     }
   },
   "Surly Farrier": {
@@ -6313,10 +7782,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "C+",
-      "UG Vivid": "C+",
-      "RG Vivid": "B-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Swat Away": {
@@ -6338,17 +7815,27 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B",
-      "UB Faeries": "C+",
-      "UG Vivid": "C"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Sygg's Command": {
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "A-"
+      "wu_merfolk": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -6369,9 +7856,15 @@
     "tier": "B+",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "A",
-      "UR Elementals": "A-",
-      "UB Faeries": "B-"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6423,11 +7916,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-",
-      "UR Elementals": "B",
-      "BG Elves": "B-",
-      "UG Vivid": "C"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Tanufel Rimespeaker": {
@@ -6446,10 +7946,18 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "B+",
-      "UB Faeries": "C+",
-      "UG Vivid": "B-"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Taster of Wares": {
@@ -6470,10 +7978,18 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "BR Goblins": "A",
-      "BG Elves": "A-",
-      "UB Faeries": "A-",
-      "WB Blight": "A-"
+      "br_goblins": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ]
     }
   },
   "Temple Garden": {
@@ -6489,8 +8005,12 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Temporal Cleansing": {
@@ -6512,20 +8032,30 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "B+",
-      "UB Faeries": "C",
-      "UG Vivid": "C+"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Tend the Sprigs": {
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C",
-      "BG Elves": "C",
-      "UG Vivid": "C",
-      "RG Vivid": "C-"
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6559,10 +8089,18 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B-",
-      "UB Faeries": "C+",
-      "UG Vivid": "C"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Thoughtweft Charge": {
@@ -6584,9 +8122,12 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "B-",
-      "BG Elves": "B",
-      "RG Vivid": "C-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Thoughtweft Imbuer": {
@@ -6596,10 +8137,18 @@
       "contested"
     ],
     "archetypes": {
-      "GW Kithkin": "A-",
-      "WU Merfolk": "B-",
-      "WB Blight": "B",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "payoff"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6622,7 +8171,10 @@
       "signals"
     ],
     "archetypes": {
-      "GW Kithkin": "A-"
+      "gw_kithkin": [
+        "signpost",
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -6655,18 +8207,27 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "B",
-      "WB Blight": "C+",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     }
   },
   "Tributary Vaulter": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C-",
-      "WU Merfolk": "B"
+      "wu_merfolk": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -6687,10 +8248,18 @@
     "tier": "A+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BR Goblins": "B+",
-      "BG Elves": "A+",
-      "RG Vivid": "B+"
+      "bg_elves": [
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -6710,8 +8279,12 @@
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BG Elves": "A"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -6762,19 +8335,33 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "BR Goblins": "B-",
-      "UR Elementals": "B",
-      "RW Blight": "B-",
-      "RG Vivid": "C+"
+      "br_goblins": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     }
   },
   "Twilight Diviner": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "B",
-      "BG Elves": "B+",
-      "WB Blight": "C+"
+      "bg_elves": [
+        "role_player"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -6798,7 +8385,10 @@
       "build_arounds"
     ],
     "archetypes": {
-      "UR Elementals": "B+"
+      "ur_elementals": [
+        "signpost",
+        "payoff"
+      ]
     },
     "tags": {
       "roles": [
@@ -6833,10 +8423,18 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "BR Goblins": "B-",
-      "BG Elves": "B+",
-      "UB Faeries": "C",
-      "WB Blight": "B-"
+      "br_goblins": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
     }
   },
   "Unexpected Assistance": {
@@ -6858,10 +8456,15 @@
       ]
     },
     "archetypes": {
-      "WU Merfolk": "B+",
-      "UR Elementals": "B",
-      "UB Faeries": "C+",
-      "UG Vivid": "C"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
     }
   },
   "Unforgiving Aim": {
@@ -6884,8 +8487,12 @@
     },
     "removal_type": "hard",
     "archetypes": {
-      "GW Kithkin": "C",
-      "BG Elves": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     }
   },
   "Unwelcome Sprite": {
@@ -6894,10 +8501,18 @@
       "ub_faeries_payoff"
     ],
     "archetypes": {
-      "WU Merfolk": "B",
-      "UR Elementals": "B+",
-      "UB Faeries": "B-",
-      "UG Vivid": "B"
+      "ub_faeries": [
+        "payoff"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
@@ -6934,11 +8549,21 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "A-",
-      "BR Goblins": "A-",
-      "UR Elementals": "A+",
-      "BG Elves": "B",
-      "RG Vivid": "A+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "br_goblins": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "key_synergy"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Vinebred Brawler": {
@@ -6957,8 +8582,12 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "GW Kithkin": "C",
-      "BG Elves": "B"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
     }
   },
   "Virulent Emissary": {
@@ -6979,10 +8608,18 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B+",
-      "BG Elves": "A-",
-      "UG Vivid": "B-",
-      "RG Vivid": "B"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "enabler"
+      ]
     }
   },
   "Voracious Tome-Skimmer": {
@@ -6993,10 +8630,13 @@
       "signals"
     ],
     "archetypes": {
-      "WU Merfolk": "C+",
-      "UR Elementals": "C",
-      "BG Elves": "C-",
-      "UB Faeries": "B"
+      "ub_faeries": [
+        "signpost",
+        "payoff"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -7018,10 +8658,15 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B",
-      "WB Blight": "C-",
-      "RW Blight": "C+"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -7045,10 +8690,18 @@
       "wu_merfolk_enabler"
     ],
     "archetypes": {
-      "GW Kithkin": "A-",
-      "WU Merfolk": "A-",
-      "WB Blight": "B",
-      "RW Blight": "B-"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -7081,9 +8734,9 @@
     "removal_type": "conditional",
     "sections": [],
     "archetypes": {
-      "WU Merfolk": "C+",
-      "UR Elementals": "C-",
-      "UB Faeries": "C-"
+      "wu_merfolk": [
+        "role_player"
+      ]
     }
   },
   "Wanderwine Farewell": {
@@ -7105,9 +8758,12 @@
     },
     "removal_type": "conditional",
     "archetypes": {
-      "WU Merfolk": "B+",
-      "UR Elementals": "C+",
-      "UB Faeries": "C"
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     }
   },
   "Wanderwine Prophets": {
@@ -7130,9 +8786,15 @@
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "BR Goblins": "C+",
-      "UR Elementals": "C+",
-      "RW Blight": "C"
+      "br_goblins": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -7153,13 +8815,24 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B",
-      "WU Merfolk": "C+",
-      "BG Elves": "C+",
-      "UG Vivid": "B",
-      "WB Blight": "C+",
-      "RW Blight": "C",
-      "RG Vivid": "C+"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -7192,21 +8865,39 @@
     },
     "removal_type": "soft",
     "archetypes": {
-      "WU Merfolk": "B-",
-      "UR Elementals": "B-",
-      "UB Faeries": "B-",
-      "UG Vivid": "B-"
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ],
+      "ug_vivid": [
+        "role_player"
+      ]
     }
   },
   "Wildvine Pummeler": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "C+",
-      "UR Elementals": "C+",
-      "BG Elves": "C+",
-      "UG Vivid": "C+",
-      "RG Vivid": "C+"
+      "ug_vivid": [
+        "payoff"
+      ],
+      "rg_vivid": [
+        "payoff"
+      ],
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "ur_elementals": [
+        "role_player"
+      ],
+      "bg_elves": [
+        "role_player"
+      ]
     },
     "tags": {
       "roles": [
@@ -7240,19 +8931,33 @@
       ]
     },
     "archetypes": {
-      "GW Kithkin": "B-",
-      "WU Merfolk": "B-"
+      "gw_kithkin": [
+        "role_player"
+      ],
+      "wu_merfolk": [
+        "role_player"
+      ]
     }
   },
   "Wistfulness": {
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "GW Kithkin": "B+",
-      "WU Merfolk": "A-",
-      "UR Elementals": "A",
-      "BG Elves": "A-",
-      "UG Vivid": "A"
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ur_elementals": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ],
+      "ug_vivid": [
+        "enabler"
+      ]
     },
     "tags": {
       "roles": [
