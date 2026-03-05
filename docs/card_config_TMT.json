@@ -8,7 +8,7 @@
         "R"
       ],
       "color_hex": "#9b59b6",
-      "icon": "⚙️",
+      "icon": "\u2699\ufe0f",
       "short": "Artifacts-matter aggro/tempo. Play cheap artifact creatures, buff them, generate value.",
       "strategy": "Draft artifact creatures highly. Brilliance Unleashed is the payoff. Metalhead, Buzz Bots, Mouser Foundry are key. Manhole Missile is premium removal that also makes artifacts."
     },
@@ -20,8 +20,8 @@
         "B"
       ],
       "color_hex": "#95a5a6",
-      "icon": "🥷",
-      "short": "Evasion & disruption. Sneak creatures deal combat damage → trigger bonus effects.",
+      "icon": "\ud83e\udd77",
+      "short": "Evasion & disruption. Sneak creatures deal combat damage \u2192 trigger bonus effects.",
       "strategy": "Draft Sneak creatures that get value from dealing damage. Combine evasion (flying, unblockable) with Sneak payoffs. Removal-heavy to clear path."
     },
     {
@@ -32,7 +32,7 @@
         "G"
       ],
       "color_hex": "#27ae60",
-      "icon": "💀",
+      "icon": "\ud83d\udc80",
       "short": "Sacrifice & recursion. Cards Disappear (exile from grave) to fuel powerful effects.",
       "strategy": "Self-mill and sacrifice to fill graveyard, then Disappear cards for value. Strong midrange/grindy plan. Courier of Comestibles is a top common."
     },
@@ -44,7 +44,7 @@
         "W"
       ],
       "color_hex": "#e74c3c",
-      "icon": "⚔️",
+      "icon": "\u2694\ufe0f",
       "short": "Go-wide aggro. Alliance triggers when creatures ETB. Tokens + anthems.",
       "strategy": "Play creatures that trigger Alliance on ETB. Token generators are great. Mechanized Ninja Cavalry is a key common. Curve out aggressively."
     },
@@ -56,12 +56,12 @@
         "U"
       ],
       "color_hex": "#2ecc71",
-      "icon": "🧬",
+      "icon": "\ud83e\uddec",
       "short": "+1/+1 counters & mutation. Mutagen creatures grow and gain abilities.",
       "strategy": "Draft creatures that use +1/+1 counters and Mutagen. Build big threats over time. Tempo + size advantage. Mikey & Don, Party Planners is the top signpost."
     }
   ],
-  "_config_version": 2,
+  "_config_version": 3,
   "_tiers": [
     "A+",
     "A",
@@ -84,7 +84,7 @@
     },
     {
       "title": "Key Mechanics",
-      "body": "<b>Artifacts</b> — count for both artifact + creature synergies\n<b>Disappear</b> — exile from graveyard for effects (self-mill fills yard)\n<b>Sneak</b> — bonus on combat damage (needs evasion/removal)\n<b>Alliance</b> — triggers on creature ETB (tokens = multiple triggers)\n<b>Mutagen</b> — +1/+1 counters matter; creatures grow over time"
+      "body": "<b>Artifacts</b> \u2014 count for both artifact + creature synergies\n<b>Disappear</b> \u2014 exile from graveyard for effects (self-mill fills yard)\n<b>Sneak</b> \u2014 bonus on combat damage (needs evasion/removal)\n<b>Alliance</b> \u2014 triggers on creature ETB (tokens = multiple triggers)\n<b>Mutagen</b> \u2014 +1/+1 counters matter; creatures grow over time"
     },
     {
       "title": "Format Speed",
@@ -96,7 +96,7 @@
     }
   ],
   "Action News Crew": {
-    "tier": "C-",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "rw_alliance": [
@@ -115,7 +115,7 @@
     "comment": ""
   },
   "Agent Bishop, Man in Black": {
-    "tier": "A+",
+    "tier": "A-",
     "sections": [
       "bombs"
     ],
@@ -130,7 +130,7 @@
     "comment": "Premium threat + removal. Fits any deck with white/black."
   },
   "Anchovy & Banana Pizza": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
       "contested"
     ],
@@ -154,7 +154,7 @@
     "comment": ""
   },
   "April O'Neil, Hacktivist": {
-    "tier": "A-",
+    "tier": "A+",
     "sections": [
       "signals"
     ],
@@ -171,7 +171,7 @@
     "comment": "Premium card advantage. Any deck wants her."
   },
   "April O'Neil, Kunoichi Trainee": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "wb_sneak": [
@@ -194,7 +194,7 @@
     "comment": ""
   },
   "April, Reporter of the Weird": {
-    "tier": "D+",
+    "tier": "F",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -220,7 +220,7 @@
     "comment": ""
   },
   "Baxter Stockman": {
-    "tier": "B-",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -248,7 +248,7 @@
     "comment": ""
   },
   "Bebop, Warthog Warrior": {
-    "tier": "D-",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -262,8 +262,8 @@
     "removal_type": null,
     "comment": ""
   },
-  "Bespoke Bō": {
-    "tier": "C-",
+  "Bespoke B\u014d": {
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -298,7 +298,7 @@
     "comment": ""
   },
   "Brilliance Unleashed": {
-    "tier": "B",
+    "tier": "A",
     "sections": [
       "build_arounds"
     ],
@@ -335,7 +335,7 @@
     "comment": ""
   },
   "Buzz Bots": {
-    "tier": "C-",
+    "tier": "B+",
     "sections": [],
     "archetypes": {
       "ur_artifacts": [
@@ -358,7 +358,7 @@
     "comment": ""
   },
   "Casey Jones, Jury-Rig Justiciar": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -373,7 +373,7 @@
     "comment": ""
   },
   "Casey Jones, Vigilante": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -386,7 +386,7 @@
     "comment": ""
   },
   "Chrome Dome": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "archetypes": {
       "ur_artifacts": [
@@ -405,7 +405,7 @@
     "comment": ""
   },
   "Cool but Rude": {
-    "tier": "D",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -421,7 +421,7 @@
     "comment": ""
   },
   "Courier of Comestibles": {
-    "tier": "B",
+    "tier": "A",
     "sections": [
       "top_commons"
     ],
@@ -461,7 +461,7 @@
     "comment": ""
   },
   "Crustacean Commando": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -476,7 +476,7 @@
     "comment": ""
   },
   "Dark Leo & Shredder": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -491,7 +491,7 @@
     "comment": ""
   },
   "Death in the Family": {
-    "tier": "B-",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -519,7 +519,7 @@
     "comment": ""
   },
   "Dimensional Exile": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [
       "top_commons",
       "contested"
@@ -567,7 +567,7 @@
     "comment": "Artifact synergy common. Good in UR."
   },
   "Don & Leo, Problem Solvers": {
-    "tier": "B",
+    "tier": "A",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -580,7 +580,7 @@
     "comment": ""
   },
   "Don & Raph, Hard Science": {
-    "tier": "C",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -608,7 +608,7 @@
     "comment": ""
   },
   "Donatello, Gadget Master": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -623,7 +623,7 @@
     "comment": ""
   },
   "Donatello, Mutant Mechanic": {
-    "tier": "B",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -636,7 +636,7 @@
     "comment": ""
   },
   "Donatello, Turtle Techie": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "ur_artifacts": [
@@ -659,7 +659,7 @@
     "comment": ""
   },
   "Donatello, Way with Machines": {
-    "tier": "C+",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -674,7 +674,7 @@
     "comment": ""
   },
   "Dream Beavers": {
-    "tier": "B",
+    "tier": "A+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -690,7 +690,7 @@
     "comment": ""
   },
   "EPF Point Squad": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -703,7 +703,7 @@
     "comment": ""
   },
   "East Wind Avatar": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -719,7 +719,7 @@
     "comment": ""
   },
   "Escape Tunnel": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -735,7 +735,7 @@
     "comment": ""
   },
   "Everything Pizza": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -751,7 +751,7 @@
     "comment": ""
   },
   "Featherbrained Filcher": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -767,7 +767,7 @@
     "comment": ""
   },
   "Foot Elite": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -780,7 +780,7 @@
     "comment": ""
   },
   "Foot Headquarters": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
       "late_pick"
     ],
@@ -797,7 +797,7 @@
     "comment": ""
   },
   "Foot Mystic": {
-    "tier": "C-",
+    "tier": "D",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -812,7 +812,7 @@
     "comment": ""
   },
   "Foot Ninjas": {
-    "tier": "C-",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "wb_sneak": [
@@ -845,7 +845,7 @@
     "comment": ""
   },
   "Frog Butler": {
-    "tier": "B-",
+    "tier": "A-",
     "sections": [
       "top_commons"
     ],
@@ -870,7 +870,7 @@
     "comment": "Recursive value from graveyard. Great in BG and GU."
   },
   "Fugitive Droid": {
-    "tier": "C-",
+    "tier": "D+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -886,7 +886,7 @@
     "comment": ""
   },
   "General Traag, Heart of Stone": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -899,7 +899,7 @@
     "comment": ""
   },
   "Genghis Frog": {
-    "tier": "B-",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -914,7 +914,7 @@
     "comment": ""
   },
   "Go Ninja Go": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "rw_alliance": [
@@ -949,7 +949,7 @@
     "comment": "RW Alliance signpost. If this wheels, RW is wide open."
   },
   "Grounded for Life": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "wb_sneak": [
@@ -972,7 +972,7 @@
     "comment": ""
   },
   "Guac & Marshmallow Pizza": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -987,7 +987,7 @@
     "comment": ""
   },
   "Hamato Guardian Stance": {
-    "tier": "C-",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1030,7 +1030,7 @@
     "comment": ""
   },
   "High-Flying Ace": {
-    "tier": "D+",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1045,7 +1045,7 @@
     "comment": ""
   },
   "Ice Cream Kitty": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "bg_disappear": [
@@ -1064,7 +1064,7 @@
     "comment": ""
   },
   "Illegitimate Business": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [
       "late_pick"
     ],
@@ -1081,7 +1081,7 @@
     "comment": ""
   },
   "Improvised Arsenal": {
-    "tier": "C+",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1096,7 +1096,7 @@
     "comment": ""
   },
   "Insectoid Exterminator": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1127,7 +1127,7 @@
     "comment": ""
   },
   "Jennika's Technique": {
-    "tier": "SB",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1142,7 +1142,7 @@
     "comment": ""
   },
   "Jennika, Bad Apple Big Sister": {
-    "tier": "C-",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1172,7 +1172,7 @@
     "comment": ""
   },
   "Karai, Future of the Foot": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
       "signals"
     ],
@@ -1208,7 +1208,7 @@
     "comment": ""
   },
   "Kitsune, Dragon's Daughter": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1221,7 +1221,7 @@
     "comment": ""
   },
   "Koya, Death from Above": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1236,7 +1236,7 @@
     "comment": ""
   },
   "Krang & Shredder": {
-    "tier": "A",
+    "tier": "B+",
     "sections": [
       "bombs"
     ],
@@ -1251,7 +1251,7 @@
     "comment": "Two-card army. Game-ending bomb."
   },
   "Krang, Master Mind": {
-    "tier": "A-",
+    "tier": "B-",
     "sections": [
       "build_arounds"
     ],
@@ -1266,7 +1266,7 @@
     "comment": "Control finisher. Build a controlling deck around this."
   },
   "Krang, Utrom Warlord": {
-    "tier": "F",
+    "tier": "D+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1282,7 +1282,7 @@
     "comment": ""
   },
   "Leader's Talent": {
-    "tier": "A-",
+    "tier": "C+",
     "sections": [
       "build_arounds"
     ],
@@ -1297,7 +1297,7 @@
     "comment": "Premium enchantment. Wins games over time."
   },
   "Leatherhead, Swamp Stalker": {
-    "tier": "A-",
+    "tier": "B-",
     "sections": [
       "build_arounds"
     ],
@@ -1317,7 +1317,7 @@
     "comment": "SIGNAL: Go BG Disappear. Grows huge from graveyard exile."
   },
   "Leonardo's Technique": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1330,7 +1330,7 @@
     "comment": ""
   },
   "Leonardo, Big Brother": {
-    "tier": "C-",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "wb_sneak": [
@@ -1350,32 +1350,6 @@
     "comment": ""
   },
   "Leonardo, Cutting Edge": {
-    "tier": "C-",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": ""
-  },
-  "Leonardo, Leader in Blue": {
-    "tier": "B",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "types": [],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": ""
-  },
-  "Leonardo, Sewer Samurai": {
     "tier": "B-",
     "sections": [],
     "archetypes": {},
@@ -1388,8 +1362,34 @@
     "removal_type": null,
     "comment": ""
   },
+  "Leonardo, Leader in Blue": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
+  "Leonardo, Sewer Samurai": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": ""
+  },
   "Lessons from Life": {
-    "tier": "B",
+    "tier": "A",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1402,7 +1402,7 @@
     "comment": ""
   },
   "Lita, Little Orphan Amphibian": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1418,7 +1418,7 @@
     "comment": ""
   },
   "Lord Dregg, Insect Invader": {
-    "tier": "C",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1435,7 +1435,7 @@
     "comment": ""
   },
   "Madame Null, Power Broker": {
-    "tier": "B-",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1448,7 +1448,7 @@
     "comment": ""
   },
   "Make Your Move": {
-    "tier": "D",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1461,7 +1461,7 @@
     "comment": ""
   },
   "Manhole Missile": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [
       "top_commons"
     ],
@@ -1488,7 +1488,7 @@
     "comment": "3 damage + artifact token. Premium red common."
   },
   "Mechanized Ninja Cavalry": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [
       "top_commons"
     ],
@@ -1511,7 +1511,7 @@
     "comment": "RW Alliance key common. Multiple triggers per turn."
   },
   "Metalhead": {
-    "tier": "A-",
+    "tier": "A",
     "sections": [
       "signals",
       "contested"
@@ -1532,7 +1532,7 @@
       ]
     },
     "removal_type": null,
-    "comment": "UR Artifacts payoff. Copies artifact creatures — insane value."
+    "comment": "UR Artifacts payoff. Copies artifact creatures \u2014 insane value."
   },
   "Michelangelo's Technique": {
     "tier": "C-",
@@ -1550,7 +1550,7 @@
     "comment": ""
   },
   "Michelangelo, Game Master": {
-    "tier": "D+",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "bg_disappear": [
@@ -1570,7 +1570,7 @@
     "comment": ""
   },
   "Michelangelo, Improviser": {
-    "tier": "C",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1599,7 +1599,7 @@
     "comment": ""
   },
   "Michelangelo, Weirdness to 11": {
-    "tier": "B-",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1614,7 +1614,7 @@
     "comment": ""
   },
   "Mighty Mutanimals": {
-    "tier": "A-",
+    "tier": "A+",
     "sections": [
       "signals",
       "contested"
@@ -1639,7 +1639,7 @@
     "comment": "Goes in any green deck. Highest GIH win rate in the set."
   },
   "Mikey & Don, Party Planners": {
-    "tier": "A-",
+    "tier": "A",
     "sections": [
       "build_arounds"
     ],
@@ -1677,7 +1677,7 @@
     "comment": ""
   },
   "Mind Transfer Protocol": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [
       "late_pick"
     ],
@@ -1702,7 +1702,7 @@
     "comment": ""
   },
   "Mona Lisa, Science Geek": {
-    "tier": "C-",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1717,7 +1717,7 @@
     "comment": ""
   },
   "Mondo Gecko": {
-    "tier": "C+",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1747,7 +1747,7 @@
     "comment": ""
   },
   "Mouser Attack!": {
-    "tier": "D",
+    "tier": "D+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1763,7 +1763,7 @@
     "comment": ""
   },
   "Mouser Foundry": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [],
     "archetypes": {
       "ur_artifacts": [
@@ -1786,7 +1786,7 @@
     "comment": ""
   },
   "Mouser Mark III": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [
       "late_pick"
     ],
@@ -1805,7 +1805,7 @@
     "comment": ""
   },
   "Mutagen Man, Living Ooze": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1820,7 +1820,7 @@
     "comment": ""
   },
   "Mutant Chain Reaction": {
-    "tier": "SB",
+    "tier": "D+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1836,7 +1836,7 @@
     "comment": ""
   },
   "Mutant Town": {
-    "tier": "C+",
+    "tier": "A-",
     "sections": [
       "late_pick"
     ],
@@ -1853,7 +1853,7 @@
     "comment": ""
   },
   "Mutant Town Musicians": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1879,7 +1879,7 @@
     "comment": ""
   },
   "New Generation's Technique": {
-    "tier": "D-",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1894,7 +1894,7 @@
     "comment": ""
   },
   "Ninja Teen": {
-    "tier": "C-",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1909,7 +1909,7 @@
     "comment": ""
   },
   "Nobody": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [
       "late_pick"
     ],
@@ -1947,7 +1947,7 @@
     "comment": "Evasive finisher with massive upside."
   },
   "Northampton Farm": {
-    "tier": "C-",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1960,7 +1960,7 @@
     "comment": ""
   },
   "Novel Nunchaku": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1973,7 +1973,7 @@
     "comment": ""
   },
   "Null Group Biological Assets": {
-    "tier": "C-",
+    "tier": "D+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -1988,7 +1988,7 @@
     "comment": ""
   },
   "Old Hob, Alleycat Blues": {
-    "tier": "C",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2003,7 +2003,7 @@
     "comment": ""
   },
   "Omni-Cheese Pizza": {
-    "tier": "D+",
+    "tier": "B",
     "sections": [
       "late_pick"
     ],
@@ -2021,7 +2021,7 @@
     "comment": ""
   },
   "Ooze Spill": {
-    "tier": "B-",
+    "tier": "A",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2037,7 +2037,7 @@
     "comment": ""
   },
   "Oroku Saki, Shredder Rising": {
-    "tier": "C",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "wb_sneak": [
@@ -2069,7 +2069,7 @@
     "comment": ""
   },
   "Paramecia Coloniex": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2100,7 +2100,7 @@
     "comment": ""
   },
   "Pizza Face, Gastromancer": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2130,7 +2130,7 @@
     "comment": ""
   },
   "Prehistoric Pet": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2145,7 +2145,7 @@
     "comment": ""
   },
   "Primordial Pachyderm": {
-    "tier": "C",
+    "tier": "B",
     "sections": [
       "late_pick"
     ],
@@ -2180,7 +2180,7 @@
     "comment": ""
   },
   "Purple Dragon Punks": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2195,7 +2195,7 @@
     "comment": ""
   },
   "Putrid Pals": {
-    "tier": "D",
+    "tier": "F",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2208,7 +2208,7 @@
     "comment": ""
   },
   "Quintessential Katana": {
-    "tier": "C-",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2221,7 +2221,7 @@
     "comment": ""
   },
   "Ragamuffin Raptor": {
-    "tier": "C-",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "bg_disappear": [
@@ -2238,7 +2238,7 @@
     "comment": ""
   },
   "Raph & Leo, Sibling Rivals": {
-    "tier": "C",
+    "tier": "C-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2251,7 +2251,7 @@
     "comment": ""
   },
   "Raph & Mikey, Troublemakers": {
-    "tier": "B+",
+    "tier": "A",
     "sections": [
       "signals"
     ],
@@ -2279,7 +2279,7 @@
     "comment": ""
   },
   "Raphael, Most Attitude": {
-    "tier": "C-",
+    "tier": "D",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2320,7 +2320,7 @@
     "comment": ""
   },
   "Raphael, the Nightwatcher": {
-    "tier": "B",
+    "tier": "A",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2350,7 +2350,7 @@
     "comment": "BG value engine. Graveyard shenanigans."
   },
   "Ravenous Robots": {
-    "tier": "B",
+    "tier": "B-",
     "sections": [
       "top_commons"
     ],
@@ -2371,7 +2371,7 @@
     "comment": "UR Artifacts key creature. Strong in any red deck."
   },
   "Ray Fillet, Man Ray": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2388,7 +2388,7 @@
     "comment": ""
   },
   "Renet, Temporal Apprentice": {
-    "tier": "B-",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2401,7 +2401,7 @@
     "comment": ""
   },
   "Retro-Mutation": {
-    "tier": "C-",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "gu_mutagen": [
@@ -2418,7 +2418,7 @@
     "comment": ""
   },
   "Return to the Sewers": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [
       "late_pick"
     ],
@@ -2462,7 +2462,7 @@
     "comment": ""
   },
   "Rocksteady, Crash Courser": {
-    "tier": "D+",
+    "tier": "B-",
     "sections": [
       "late_pick"
     ],
@@ -2496,7 +2496,7 @@
     "comment": "Insane value engine. Build around her with tokens/go-wide."
   },
   "Savanti Romero, Time's Exile": {
-    "tier": "B+",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2509,7 +2509,7 @@
     "comment": ""
   },
   "Saved by the Shell": {
-    "tier": "C",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2522,7 +2522,7 @@
     "comment": ""
   },
   "Sewer-veillance Cam": {
-    "tier": "C",
+    "tier": "B",
     "sections": [
       "late_pick"
     ],
@@ -2541,7 +2541,7 @@
     "comment": ""
   },
   "Shark Shredder, Killer Clone": {
-    "tier": "B",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2554,7 +2554,7 @@
     "comment": ""
   },
   "Shredder's Armor": {
-    "tier": "D",
+    "tier": "F",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2567,7 +2567,7 @@
     "comment": ""
   },
   "Shredder's Revenge": {
-    "tier": "D",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2580,7 +2580,7 @@
     "comment": ""
   },
   "Shredder's Technique": {
-    "tier": "C",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2606,7 +2606,7 @@
     "comment": ""
   },
   "Skateboard": {
-    "tier": "D",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2619,7 +2619,7 @@
     "comment": ""
   },
   "Slash, Reptile Rampager": {
-    "tier": "B-",
+    "tier": "C+",
     "sections": [
       "signals"
     ],
@@ -2637,7 +2637,7 @@
     "comment": "BG Disappear signpost. Grows massive from Disappear count."
   },
   "Slithering Cryptid": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "gu_mutagen": [
@@ -2657,7 +2657,7 @@
     "comment": ""
   },
   "South Wind Avatar": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2670,7 +2670,7 @@
     "comment": ""
   },
   "Spicy Oatmeal Pizza": {
-    "tier": "C-",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2696,7 +2696,7 @@
     "comment": ""
   },
   "Splinter, Hamato Yoshi": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2711,7 +2711,7 @@
     "comment": ""
   },
   "Splinter, Radical Rat": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2726,7 +2726,7 @@
     "comment": ""
   },
   "Squirrelanoids": {
-    "tier": "C-",
+    "tier": "B+",
     "sections": [],
     "archetypes": {
       "bg_disappear": [
@@ -2759,7 +2759,7 @@
     "comment": ""
   },
   "Stomped by the Foot": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [
       "top_commons"
     ],
@@ -2784,7 +2784,7 @@
     "comment": "Cheap black removal. Always playable."
   },
   "Super Shredder": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2799,7 +2799,7 @@
     "comment": ""
   },
   "Swamp": {
-    "tier": "A-",
+    "tier": null,
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2814,7 +2814,7 @@
     "comment": ""
   },
   "TCRI Building": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [
       "late_pick"
     ],
@@ -2831,7 +2831,7 @@
     "comment": ""
   },
   "Tainted Treats": {
-    "tier": "B-",
+    "tier": "A",
     "sections": [],
     "archetypes": {
       "bg_disappear": [
@@ -2851,7 +2851,7 @@
     "comment": ""
   },
   "Technodrome": {
-    "tier": "C-",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2866,7 +2866,7 @@
     "comment": ""
   },
   "Tenderize": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "bg_disappear": [
@@ -2889,7 +2889,7 @@
     "comment": ""
   },
   "The Cloning of Shredder": {
-    "tier": "B+",
+    "tier": "A",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2922,7 +2922,7 @@
     "comment": "Best card in the set. Wins the game if unanswered."
   },
   "The Last Ronin's Technique": {
-    "tier": "C+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2937,7 +2937,7 @@
     "comment": ""
   },
   "The Neutrinos": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2953,7 +2953,7 @@
     "comment": ""
   },
   "The Ooze": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2968,7 +2968,7 @@
     "comment": ""
   },
   "Tokka & Rahzar, Terrible Twos": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2983,7 +2983,7 @@
     "comment": ""
   },
   "Transdimensional Bovine": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -2999,7 +2999,7 @@
     "comment": ""
   },
   "Triceraton Commander": {
-    "tier": "A-",
+    "tier": "A+",
     "sections": [
       "build_arounds"
     ],
@@ -3017,7 +3017,7 @@
     "comment": "Enormous value. Worth splashing for."
   },
   "Tunnel Rats": {
-    "tier": "D",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3030,7 +3030,7 @@
     "comment": ""
   },
   "Turncoat Kunoichi": {
-    "tier": "A-",
+    "tier": "B",
     "sections": [
       "build_arounds"
     ],
@@ -3050,7 +3050,7 @@
     "comment": "SIGNAL: Go WB Sneak. Repeated disruption machine."
   },
   "Turtle Blimp": {
-    "tier": "C+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3066,7 +3066,7 @@
     "comment": ""
   },
   "Turtle Lair": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3095,7 +3095,7 @@
     "comment": ""
   },
   "Turtle Van": {
-    "tier": "B",
+    "tier": "B-",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3134,7 +3134,7 @@
     "comment": ""
   },
   "Uneasy Alliance": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "wb_sneak": [
@@ -3166,7 +3166,7 @@
     "comment": ""
   },
   "Venus, Torn Between Worlds": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3181,7 +3181,7 @@
     "comment": ""
   },
   "Weather Maker": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3211,7 +3211,7 @@
     "comment": ""
   },
   "Wingnut, Bat on the Belfry": {
-    "tier": "C-",
+    "tier": "D+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3227,7 +3227,7 @@
     "comment": ""
   },
   "Zog, Triceraton Castaway": {
-    "tier": "D+",
+    "tier": "D",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -3240,7 +3240,7 @@
     "comment": ""
   },
   "Zoo Escapees": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "bg_disappear": [
