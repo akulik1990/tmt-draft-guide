@@ -1,32 +1,32 @@
 {
   "Action News Crew": {
-    "gih_wr": 0.5543,
-    "alsa": 6.21,
-    "diwr": -0.0491,
-    "games": 1623,
+    "gih_wr": 0.544,
+    "alsa": 6.18,
+    "diwr": -0.0416,
+    "games": 6854,
     "rarity": "common",
     "colors": [
       "W"
     ],
     "mana_cost": "{1}{W}",
-    "type_line": "Creature — Human Citizen",
+    "type_line": "Creature \u2014 Human Citizen",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
-    "oracle_text": "Vigilance\nChannel — {6}, Discard this card: Put a +1/+1 counter on each creature you control. Draw a card.",
+    "oracle_text": "Vigilance\nChannel \u2014 {6}, Discard this card: Put a +1/+1 counter on each creature you control. Draw a card.",
     "img": "https://cards.scryfall.io/normal/front/b/c/bc0f5ca8-47bd-4451-8fd1-a312ff7d31ec.jpg?1771342158"
   },
   "Agent Bishop, Man in Black": {
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 247,
+    "games": 997,
     "rarity": "rare",
     "colors": [
       "W"
     ],
     "mana_cost": "{2}{W}",
-    "type_line": "Legendary Creature — Human Soldier",
+    "type_line": "Legendary Creature \u2014 Human Soldier",
     "cmc": 3.0,
     "power": "1",
     "toughness": "2",
@@ -34,16 +34,16 @@
     "img": "https://cards.scryfall.io/normal/front/9/c/9c769202-178c-442a-a9e2-aa08b5ae5c9a.jpg?1769005601"
   },
   "April O'Neil, Kunoichi Trainee": {
-    "gih_wr": 0.5741,
-    "alsa": 5.0,
-    "diwr": -0.0422,
-    "games": 2149,
+    "gih_wr": 0.5769,
+    "alsa": 5.04,
+    "diwr": -0.0148,
+    "games": 8647,
     "rarity": "common",
     "colors": [
       "W"
     ],
     "mana_cost": "{1}{W}",
-    "type_line": "Legendary Creature — Human Ninja",
+    "type_line": "Legendary Creature \u2014 Human Ninja",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
@@ -51,16 +51,16 @@
     "img": "https://cards.scryfall.io/normal/front/8/b/8b1982ea-686b-4acd-b677-47571430efb0.jpg?1771586740"
   },
   "Dimensional Exile": {
-    "gih_wr": 0.5874,
-    "alsa": 3.09,
-    "diwr": -0.0294,
-    "games": 1233,
+    "gih_wr": 0.5884,
+    "alsa": 3.02,
+    "diwr": -0.0085,
+    "games": 4386,
     "rarity": "uncommon",
     "colors": [
       "W"
     ],
     "mana_cost": "{1}{W}",
-    "type_line": "Enchantment — Aura",
+    "type_line": "Enchantment \u2014 Aura",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -68,33 +68,33 @@
     "img": "https://cards.scryfall.io/normal/front/b/e/be8d96fb-a1be-4fff-b844-e38d185884e1.jpg?1771342164"
   },
   "East Wind Avatar": {
-    "gih_wr": null,
-    "alsa": 6.47,
-    "diwr": null,
-    "games": 794,
+    "gih_wr": 0.5288,
+    "alsa": 6.6,
+    "diwr": -0.0239,
+    "games": 2843,
     "rarity": "common",
     "colors": [
       "W"
     ],
     "mana_cost": "{3}{W}",
-    "type_line": "Creature — Bird Spirit Avatar",
+    "type_line": "Creature \u2014 Bird Spirit Avatar",
     "cmc": 4.0,
     "power": "2",
     "toughness": "4",
-    "oracle_text": "Flying, vigilance\nAlliance — Whenever another creature you control enters, this creature gets +1/+0 until end of turn.",
+    "oracle_text": "Flying, vigilance\nAlliance \u2014 Whenever another creature you control enters, this creature gets +1/+0 until end of turn.",
     "img": "https://cards.scryfall.io/normal/front/c/9/c9d5b56c-ad2a-4958-8783-4eceb8733610.jpg?1771502461"
   },
   "Featherbrained Filcher": {
-    "gih_wr": null,
-    "alsa": 4.93,
-    "diwr": null,
-    "games": 702,
+    "gih_wr": 0.5833,
+    "alsa": 4.98,
+    "diwr": 0.0082,
+    "games": 3013,
     "rarity": "uncommon",
     "colors": [
       "W"
     ],
     "mana_cost": "{W}",
-    "type_line": "Creature — Bird Mutant",
+    "type_line": "Creature \u2014 Bird Mutant",
     "cmc": 1.0,
     "power": "0",
     "toughness": "2",
@@ -102,10 +102,10 @@
     "img": "https://cards.scryfall.io/normal/front/7/8/78c55706-4d00-4b97-965c-0b2d0963e59d.jpg?1771513766"
   },
   "Grounded for Life": {
-    "gih_wr": 0.5698,
-    "alsa": 5.12,
-    "diwr": -0.0126,
-    "games": 1335,
+    "gih_wr": 0.5358,
+    "alsa": 5.16,
+    "diwr": -0.027,
+    "games": 5572,
     "rarity": "common",
     "colors": [
       "W"
@@ -119,10 +119,10 @@
     "img": "https://cards.scryfall.io/normal/front/7/2/72388199-85fa-4eba-9a9c-c2904e6da9ed.jpg?1771502482"
   },
   "Hamato Guardian Stance": {
-    "gih_wr": null,
-    "alsa": 7.6,
-    "diwr": null,
-    "games": 360,
+    "gih_wr": 0.566,
+    "alsa": 7.75,
+    "diwr": -0.0062,
+    "games": 1241,
     "rarity": "common",
     "colors": [
       "W"
@@ -136,16 +136,16 @@
     "img": "https://cards.scryfall.io/normal/front/7/3/735b540b-b472-46fa-a232-d444cabf6c4c.jpg?1771502490"
   },
   "High-Flying Ace": {
-    "gih_wr": null,
-    "alsa": 6.45,
-    "diwr": null,
-    "games": 1210,
+    "gih_wr": 0.5583,
+    "alsa": 6.44,
+    "diwr": -0.0321,
+    "games": 4536,
     "rarity": "common",
     "colors": [
       "W"
     ],
     "mana_cost": "{2}{W}",
-    "type_line": "Creature — Bird Mutant",
+    "type_line": "Creature \u2014 Bird Mutant",
     "cmc": 3.0,
     "power": "2",
     "toughness": "3",
@@ -153,16 +153,16 @@
     "img": "https://cards.scryfall.io/normal/front/e/9/e927eb0b-1c69-421a-8acd-01e92f729ffb.jpg?1771502498"
   },
   "Jennika, Bad Apple Big Sister": {
-    "gih_wr": null,
-    "alsa": 6.24,
-    "diwr": null,
-    "games": 1175,
+    "gih_wr": 0.5708,
+    "alsa": 6.26,
+    "diwr": -0.0113,
+    "games": 4889,
     "rarity": "common",
     "colors": [
       "W"
     ],
     "mana_cost": "{4}{W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 5.0,
     "power": "3",
     "toughness": "3",
@@ -170,16 +170,16 @@
     "img": "https://cards.scryfall.io/normal/front/a/5/a5b83101-e3ef-4ffe-a886-4fc2b57a0947.jpg?1771502505"
   },
   "Koya, Death from Above": {
-    "gih_wr": null,
+    "gih_wr": 0.606,
     "alsa": 3.98,
-    "diwr": null,
-    "games": 1080,
+    "diwr": 0.0177,
+    "games": 4151,
     "rarity": "uncommon",
     "colors": [
       "W"
     ],
     "mana_cost": "{2}{W}",
-    "type_line": "Legendary Creature — Mutant Ninja Bird",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Bird",
     "cmc": 3.0,
     "power": "2",
     "toughness": "1",
@@ -187,10 +187,10 @@
     "img": "https://cards.scryfall.io/normal/front/7/a/7a4f1ccc-2225-4cd0-abef-0eb7a8eae9cf.jpg?1771586885"
   },
   "The Last Ronin's Technique": {
-    "gih_wr": null,
-    "alsa": 3.47,
-    "diwr": null,
-    "games": 950,
+    "gih_wr": 0.6056,
+    "alsa": 3.57,
+    "diwr": 0.0205,
+    "games": 3734,
     "rarity": "uncommon",
     "colors": [
       "W"
@@ -207,13 +207,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 233,
+    "games": 1013,
     "rarity": "rare",
     "colors": [
       "W"
     ],
     "mana_cost": "{1}{W}",
-    "type_line": "Enchantment — Class",
+    "type_line": "Enchantment \u2014 Class",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -221,16 +221,16 @@
     "img": "https://cards.scryfall.io/normal/front/4/c/4cbcb622-1aff-460f-b8fa-4502d991e0ad.jpg?1769005523"
   },
   "Leonardo, Big Brother": {
-    "gih_wr": 0.5645,
-    "alsa": 5.27,
-    "diwr": -0.0316,
-    "games": 1572,
+    "gih_wr": 0.5599,
+    "alsa": 5.22,
+    "diwr": -0.0237,
+    "games": 6389,
     "rarity": "common",
     "colors": [
       "W"
     ],
     "mana_cost": "{2}{W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 3.0,
     "power": "1",
     "toughness": "3",
@@ -239,15 +239,15 @@
   },
   "Leonardo, Cutting Edge": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 2.28,
     "diwr": null,
-    "games": 260,
+    "games": 1117,
     "rarity": "rare",
     "colors": [
       "W"
     ],
     "mana_cost": "{1}{W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 2.0,
     "power": "1",
     "toughness": "1",
@@ -255,16 +255,16 @@
     "img": "https://cards.scryfall.io/normal/front/7/4/74c11ee3-19d1-4ad5-a727-1d74c565d6a5.jpg?1769005535"
   },
   "Leonardo, Leader in Blue": {
-    "gih_wr": null,
-    "alsa": 3.45,
-    "diwr": null,
-    "games": 959,
+    "gih_wr": 0.5837,
+    "alsa": 3.48,
+    "diwr": -0.0156,
+    "games": 4025,
     "rarity": "uncommon",
     "colors": [
       "W"
     ],
     "mana_cost": "{W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 1.0,
     "power": "2",
     "toughness": "1",
@@ -275,13 +275,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 187,
+    "games": 795,
     "rarity": "mythic",
     "colors": [
       "W"
     ],
     "mana_cost": "{3}{W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle Samurai",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle Samurai",
     "cmc": 4.0,
     "power": "3",
     "toughness": "3",
@@ -292,7 +292,7 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 191,
+    "games": 623,
     "rarity": "rare",
     "colors": [
       "W"
@@ -306,27 +306,27 @@
     "img": "https://cards.scryfall.io/normal/front/4/0/405e4057-e26c-4882-89a9-706868548c37.jpg?1769005546"
   },
   "Lita, Little Orphan Amphibian": {
-    "gih_wr": null,
-    "alsa": 3.22,
-    "diwr": null,
-    "games": 971,
+    "gih_wr": 0.6123,
+    "alsa": 3.03,
+    "diwr": 0.0428,
+    "games": 4037,
     "rarity": "uncommon",
     "colors": [
       "W"
     ],
     "mana_cost": "{1}{W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 2.0,
     "power": "2",
     "toughness": "1",
-    "oracle_text": "Alliance — Whenever another creature you control enters, choose one that hasn't been chosen this turn.\n• Put a +1/+1 counter on Lita.\n• Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\n• Scry 1.",
+    "oracle_text": "Alliance \u2014 Whenever another creature you control enters, choose one that hasn't been chosen this turn.\n\u2022 Put a +1/+1 counter on Lita.\n\u2022 Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\n\u2022 Scry 1.",
     "img": "https://cards.scryfall.io/normal/front/9/f/9fbaabb5-e981-4cbf-888c-46449412711f.jpg?1771424706"
   },
   "Make Your Move": {
-    "gih_wr": null,
-    "alsa": 5.86,
-    "diwr": null,
-    "games": 1096,
+    "gih_wr": 0.5381,
+    "alsa": 5.89,
+    "diwr": -0.0293,
+    "games": 4290,
     "rarity": "common",
     "colors": [
       "W"
@@ -340,33 +340,33 @@
     "img": "https://cards.scryfall.io/normal/front/e/d/ed8bdd98-6377-40cf-b381-cee38b1bda2a.jpg?1771502526"
   },
   "Mighty Mutanimals": {
-    "gih_wr": 0.6832,
-    "alsa": 3.39,
-    "diwr": 0.0758,
-    "games": 1308,
+    "gih_wr": 0.6798,
+    "alsa": 3.2,
+    "diwr": 0.1034,
+    "games": 4843,
     "rarity": "uncommon",
     "colors": [
       "W"
     ],
     "mana_cost": "{2}{W}{W}",
-    "type_line": "Creature — Mutant Rebel",
+    "type_line": "Creature \u2014 Mutant Rebel",
     "cmc": 4.0,
     "power": "2",
     "toughness": "1",
-    "oracle_text": "When this creature enters, create a 2/2 red Mutant creature token.\nAlliance — Whenever another creature you control enters, put a +1/+1 counter on target creature you control.",
+    "oracle_text": "When this creature enters, create a 2/2 red Mutant creature token.\nAlliance \u2014 Whenever another creature you control enters, put a +1/+1 counter on target creature you control.",
     "img": "https://cards.scryfall.io/normal/front/5/d/5dd5369c-174c-450b-b776-553866787f8f.jpg?1771502533"
   },
   "Prehistoric Pet": {
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 216,
+    "games": 854,
     "rarity": "rare",
     "colors": [
       "W"
     ],
     "mana_cost": "{W}",
-    "type_line": "Creature — Dinosaur Ninja",
+    "type_line": "Creature \u2014 Dinosaur Ninja",
     "cmc": 1.0,
     "power": "1",
     "toughness": "2",
@@ -374,16 +374,16 @@
     "img": "https://cards.scryfall.io/normal/front/1/4/148e6acd-a96a-4bea-8cfe-a129cd8d1003.jpg?1769005558"
   },
   "Quintessential Katana": {
-    "gih_wr": null,
-    "alsa": 5.1,
-    "diwr": null,
-    "games": 572,
+    "gih_wr": 0.5867,
+    "alsa": 4.93,
+    "diwr": -0.0094,
+    "games": 2189,
     "rarity": "uncommon",
     "colors": [
       "W"
     ],
     "mana_cost": "{W}",
-    "type_line": "Artifact — Equipment",
+    "type_line": "Artifact \u2014 Equipment",
     "cmc": 1.0,
     "power": "",
     "toughness": "",
@@ -391,16 +391,16 @@
     "img": "https://cards.scryfall.io/normal/front/e/f/ef9e227e-c581-479c-a962-2f191352b07f.jpg?1771502541"
   },
   "Sally Pride, Lioness Leader": {
-    "gih_wr": null,
+    "gih_wr": 0.7178,
     "alsa": null,
-    "diwr": null,
-    "games": 299,
+    "diwr": 0.1567,
+    "games": 1265,
     "rarity": "rare",
     "colors": [
       "W"
     ],
     "mana_cost": "{3}{W}{W}",
-    "type_line": "Legendary Creature — Cat Mutant Rebel",
+    "type_line": "Legendary Creature \u2014 Cat Mutant Rebel",
     "cmc": 5.0,
     "power": "2",
     "toughness": "4",
@@ -408,16 +408,16 @@
     "img": "https://cards.scryfall.io/normal/front/b/c/bcd8ee6b-7142-4548-8b7a-691a36411851.jpg?1769005568"
   },
   "Triceraton Commander": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 536,
+    "gih_wr": 0.6368,
+    "alsa": 1.86,
+    "diwr": 0.0845,
+    "games": 2343,
     "rarity": "mythic",
     "colors": [
       "W"
     ],
     "mana_cost": "{X}{X}{W}{W}",
-    "type_line": "Creature — Dinosaur Soldier",
+    "type_line": "Creature \u2014 Dinosaur Soldier",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
@@ -428,13 +428,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 330,
+    "games": 1162,
     "rarity": "rare",
     "colors": [
       "W"
     ],
     "mana_cost": "{2}{W}",
-    "type_line": "Creature — Mutant Ninja Fox",
+    "type_line": "Creature \u2014 Mutant Ninja Fox",
     "cmc": 3.0,
     "power": "3",
     "toughness": "2",
@@ -443,9 +443,9 @@
   },
   "Turtles Forever": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 4.41,
     "diwr": null,
-    "games": 56,
+    "games": 186,
     "rarity": "rare",
     "colors": [
       "W"
@@ -459,16 +459,16 @@
     "img": "https://cards.scryfall.io/normal/front/f/0/f0db974a-3289-4727-9aaf-e9cca9113c87.jpg?1760102536"
   },
   "Uneasy Alliance": {
-    "gih_wr": 0.5606,
-    "alsa": 4.59,
-    "diwr": -0.0618,
-    "games": 1954,
+    "gih_wr": 0.5681,
+    "alsa": 4.62,
+    "diwr": -0.0194,
+    "games": 8435,
     "rarity": "common",
     "colors": [
       "W"
     ],
     "mana_cost": "{1}{W}",
-    "type_line": "Enchantment — Aura",
+    "type_line": "Enchantment \u2014 Aura",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -476,16 +476,16 @@
     "img": "https://cards.scryfall.io/normal/front/5/d/5d9a4f9a-1e3a-4de8-a7c0-7158c6703b4e.jpg?1771586776"
   },
   "April O'Neil, Hacktivist": {
-    "gih_wr": null,
+    "gih_wr": 0.6519,
     "alsa": null,
-    "diwr": null,
-    "games": 291,
+    "diwr": 0.1022,
+    "games": 1282,
     "rarity": "rare",
     "colors": [
       "U"
     ],
     "mana_cost": "{3}{U}",
-    "type_line": "Legendary Creature — Human Scientist",
+    "type_line": "Legendary Creature \u2014 Human Scientist",
     "cmc": 4.0,
     "power": "1",
     "toughness": "5",
@@ -493,33 +493,33 @@
     "img": "https://cards.scryfall.io/normal/front/f/0/f0147f6d-b797-4d5e-aca2-a9d309896eca.jpg?1760102651"
   },
   "April, Reporter of the Weird": {
-    "gih_wr": null,
-    "alsa": 5.59,
-    "diwr": null,
-    "games": 333,
+    "gih_wr": 0.4533,
+    "alsa": 5.65,
+    "diwr": -0.0467,
+    "games": 1304,
     "rarity": "uncommon",
     "colors": [
       "U"
     ],
     "mana_cost": "{2}{U}",
-    "type_line": "Legendary Creature — Human Detective",
+    "type_line": "Legendary Creature \u2014 Human Detective",
     "cmc": 3.0,
     "power": "2",
     "toughness": "2",
     "oracle_text": "Whenever April deals combat damage to a player, draw that many cards, then discard a card.",
     "img": "https://cards.scryfall.io/normal/front/3/1/31aa943f-c9db-43dc-8a72-7ef56f9f5c8b.jpg?1771502549"
   },
-  "Bespoke Bō": {
-    "gih_wr": null,
-    "alsa": 4.81,
-    "diwr": null,
-    "games": 906,
+  "Bespoke B\u014d": {
+    "gih_wr": 0.5516,
+    "alsa": 4.74,
+    "diwr": 0.0197,
+    "games": 3432,
     "rarity": "uncommon",
     "colors": [
       "U"
     ],
     "mana_cost": "{2}{U}",
-    "type_line": "Artifact — Equipment",
+    "type_line": "Artifact \u2014 Equipment",
     "cmc": 3.0,
     "power": "",
     "toughness": "",
@@ -527,16 +527,16 @@
     "img": "https://cards.scryfall.io/normal/front/6/c/6c517308-831b-4e41-a82c-02ddf6383a0c.jpg?1771586788"
   },
   "Buzz Bots": {
-    "gih_wr": 0.5923,
-    "alsa": 5.67,
-    "diwr": 0.0472,
-    "games": 2017,
+    "gih_wr": 0.5845,
+    "alsa": 5.61,
+    "diwr": 0.0574,
+    "games": 8084,
     "rarity": "common",
     "colors": [
       "U"
     ],
     "mana_cost": "{1}{U}",
-    "type_line": "Artifact Creature — Robot Insect",
+    "type_line": "Artifact Creature \u2014 Robot Insect",
     "cmc": 2.0,
     "power": "1",
     "toughness": "1",
@@ -544,16 +544,16 @@
     "img": "https://cards.scryfall.io/normal/front/7/c/7c375190-f81b-4ab1-a1b6-fe432796821f.jpg?1771502556"
   },
   "Crustacean Commando": {
-    "gih_wr": null,
-    "alsa": 7.08,
-    "diwr": null,
-    "games": 957,
+    "gih_wr": 0.5252,
+    "alsa": 7.09,
+    "diwr": -0.0034,
+    "games": 3872,
     "rarity": "common",
     "colors": [
       "U"
     ],
     "mana_cost": "{1}{U}",
-    "type_line": "Creature — Crab Mutant Soldier",
+    "type_line": "Creature \u2014 Crab Mutant Soldier",
     "cmc": 2.0,
     "power": "0",
     "toughness": "3",
@@ -564,13 +564,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 229,
+    "games": 917,
     "rarity": "rare",
     "colors": [
       "U"
     ],
     "mana_cost": "{1}{U}",
-    "type_line": "Enchantment — Class",
+    "type_line": "Enchantment \u2014 Class",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -578,16 +578,16 @@
     "img": "https://cards.scryfall.io/normal/front/9/8/989da63a-2cbd-41a9-9bbb-99f4ad1c6a25.jpg?1769005611"
   },
   "Donatello, Gadget Master": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 311,
+    "gih_wr": 0.5599,
+    "alsa": 2.55,
+    "diwr": 0.0514,
+    "games": 1481,
     "rarity": "rare",
     "colors": [
       "U"
     ],
     "mana_cost": "{2}{U}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 3.0,
     "power": "3",
     "toughness": "2",
@@ -598,13 +598,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 220,
+    "games": 1030,
     "rarity": "mythic",
     "colors": [
       "U"
     ],
     "mana_cost": "{3}{U}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "3",
     "toughness": "5",
@@ -612,16 +612,16 @@
     "img": "https://cards.scryfall.io/normal/front/3/2/3271b821-8efc-49e2-96fd-c48e2b2585c6.jpg?1769005688"
   },
   "Donatello, Turtle Techie": {
-    "gih_wr": 0.5843,
-    "alsa": 5.61,
-    "diwr": 0.0271,
-    "games": 2164,
+    "gih_wr": 0.576,
+    "alsa": 5.62,
+    "diwr": 0.0296,
+    "games": 8364,
     "rarity": "common",
     "colors": [
       "U"
     ],
     "mana_cost": "{3}{U}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "3",
     "toughness": "4",
@@ -629,16 +629,16 @@
     "img": "https://cards.scryfall.io/normal/front/6/8/683cfef0-f164-4db8-b83f-79eb804e50ae.jpg?1771502569"
   },
   "Donatello, Way with Machines": {
-    "gih_wr": null,
-    "alsa": 3.78,
-    "diwr": null,
-    "games": 1060,
+    "gih_wr": 0.5345,
+    "alsa": 3.79,
+    "diwr": -0.0143,
+    "games": 3945,
     "rarity": "uncommon",
     "colors": [
       "U"
     ],
     "mana_cost": "{2}{U}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 3.0,
     "power": "1",
     "toughness": "2",
@@ -646,10 +646,10 @@
     "img": "https://cards.scryfall.io/normal/front/a/3/a3a5b63a-3263-4f06-a643-808c38f64c77.jpg?1771502576"
   },
   "Donatello's Technique": {
-    "gih_wr": null,
-    "alsa": 5.06,
-    "diwr": null,
-    "games": 604,
+    "gih_wr": 0.5297,
+    "alsa": 5.17,
+    "diwr": 0.0211,
+    "games": 2311,
     "rarity": "uncommon",
     "colors": [
       "U"
@@ -663,16 +663,16 @@
     "img": "https://cards.scryfall.io/normal/front/e/5/e570082f-8129-44d2-b471-ec7f46a98dbd.jpg?1771586794"
   },
   "Fugitive Droid": {
-    "gih_wr": null,
+    "gih_wr": 0.5224,
     "alsa": 4.87,
-    "diwr": null,
-    "games": 755,
+    "diwr": -0.0034,
+    "games": 2747,
     "rarity": "uncommon",
     "colors": [
       "U"
     ],
     "mana_cost": "{U}",
-    "type_line": "Artifact Creature — Robot Scientist",
+    "type_line": "Artifact Creature \u2014 Robot Scientist",
     "cmc": 1.0,
     "power": "1",
     "toughness": "1",
@@ -680,16 +680,16 @@
     "img": "https://cards.scryfall.io/normal/front/5/0/50c4e65f-00dc-4fc5-bd5c-8482c2848f4c.jpg?1771586801"
   },
   "Kitsune, Dragon's Daughter": {
-    "gih_wr": null,
+    "gih_wr": 0.5973,
     "alsa": null,
-    "diwr": null,
-    "games": 315,
+    "diwr": 0.1057,
+    "games": 1293,
     "rarity": "rare",
     "colors": [
       "U"
     ],
     "mana_cost": "{4}{U}{U}",
-    "type_line": "Legendary Creature — Fox Warlock Avatar",
+    "type_line": "Legendary Creature \u2014 Fox Warlock Avatar",
     "cmc": 6.0,
     "power": "6",
     "toughness": "6",
@@ -698,9 +698,9 @@
   },
   "Kitsune's Technique": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 4.64,
     "diwr": null,
-    "games": 46,
+    "games": 121,
     "rarity": "rare",
     "colors": [
       "U"
@@ -714,16 +714,16 @@
     "img": "https://cards.scryfall.io/normal/front/9/c/9ca5327e-df90-483c-875f-73a23781f56d.jpg?1769005745"
   },
   "Krang, Master Mind": {
-    "gih_wr": null,
+    "gih_wr": 0.5612,
     "alsa": null,
-    "diwr": null,
-    "games": 352,
+    "diwr": 0.0096,
+    "games": 1113,
     "rarity": "rare",
     "colors": [
       "U"
     ],
     "mana_cost": "{6}{U}{U}",
-    "type_line": "Legendary Artifact Creature — Utrom Warrior",
+    "type_line": "Legendary Artifact Creature \u2014 Utrom Warrior",
     "cmc": 8.0,
     "power": "1",
     "toughness": "4",
@@ -731,16 +731,16 @@
     "img": "https://cards.scryfall.io/normal/front/d/2/d27fa497-e842-4812-80fe-28517544e1c5.jpg?1760102684"
   },
   "Metalhead": {
-    "gih_wr": 0.644,
-    "alsa": 4.16,
-    "diwr": 0.137,
-    "games": 1285,
+    "gih_wr": 0.6218,
+    "alsa": 4.1,
+    "diwr": 0.0738,
+    "games": 5248,
     "rarity": "uncommon",
     "colors": [
       "U"
     ],
     "mana_cost": "{4}{U}",
-    "type_line": "Legendary Artifact Creature — Robot Turtle",
+    "type_line": "Legendary Artifact Creature \u2014 Robot Turtle",
     "cmc": 5.0,
     "power": "4",
     "toughness": "4",
@@ -748,10 +748,10 @@
     "img": "https://cards.scryfall.io/normal/front/3/c/3c2d8b09-8694-45ab-be01-f8dc17378cf0.jpg?1771586807"
   },
   "Mind Transfer Protocol": {
-    "gih_wr": 0.55,
-    "alsa": 7.05,
-    "diwr": -0.038,
-    "games": 1168,
+    "gih_wr": 0.5517,
+    "alsa": 7.25,
+    "diwr": 0.0086,
+    "games": 4474,
     "rarity": "common",
     "colors": [
       "U"
@@ -765,16 +765,16 @@
     "img": "https://cards.scryfall.io/normal/front/2/d/2ddfcc4d-dd5f-42f1-8f33-a8e8b5354534.jpg?1771502582"
   },
   "Mondo Gecko": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 392,
+    "gih_wr": 0.539,
+    "alsa": 2.85,
+    "diwr": 0.0305,
+    "games": 1731,
     "rarity": "mythic",
     "colors": [
       "U"
     ],
     "mana_cost": "{1}{U}{U}",
-    "type_line": "Legendary Creature — Lizard Mutant",
+    "type_line": "Legendary Creature \u2014 Lizard Mutant",
     "cmc": 3.0,
     "power": "2",
     "toughness": "3",
@@ -783,9 +783,9 @@
   },
   "Negate": {
     "gih_wr": null,
-    "alsa": 8.04,
+    "alsa": 8.19,
     "diwr": null,
-    "games": 104,
+    "games": 418,
     "rarity": "common",
     "colors": [
       "U"
@@ -799,10 +799,10 @@
     "img": "https://cards.scryfall.io/normal/front/5/2/52d58fe4-6070-4022-9cd7-c35a11b44525.jpg?1771342360"
   },
   "Ooze Spill": {
-    "gih_wr": null,
-    "alsa": 5.96,
-    "diwr": null,
-    "games": 535,
+    "gih_wr": 0.6159,
+    "alsa": 5.86,
+    "diwr": 0.0969,
+    "games": 2116,
     "rarity": "uncommon",
     "colors": [
       "U"
@@ -816,16 +816,16 @@
     "img": "https://cards.scryfall.io/normal/front/b/e/beef76b7-856e-48ab-bc73-e4f456c3a100.jpg?1771586813"
   },
   "Ray Fillet, Man Ray": {
-    "gih_wr": null,
-    "alsa": 4.24,
-    "diwr": null,
-    "games": 935,
+    "gih_wr": 0.5722,
+    "alsa": 4.16,
+    "diwr": 0.0673,
+    "games": 3558,
     "rarity": "uncommon",
     "colors": [
       "U"
     ],
     "mana_cost": "{3}{U}",
-    "type_line": "Legendary Creature — Fish Mutant",
+    "type_line": "Legendary Creature \u2014 Fish Mutant",
     "cmc": 4.0,
     "power": "3",
     "toughness": "3",
@@ -834,15 +834,15 @@
   },
   "Renet, Temporal Apprentice": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 3.12,
     "diwr": null,
-    "games": 238,
+    "games": 869,
     "rarity": "rare",
     "colors": [
       "U"
     ],
     "mana_cost": "{3}{U}{U}",
-    "type_line": "Legendary Creature — Human Wizard",
+    "type_line": "Legendary Creature \u2014 Human Wizard",
     "cmc": 5.0,
     "power": "4",
     "toughness": "3",
@@ -850,16 +850,16 @@
     "img": "https://cards.scryfall.io/normal/front/2/a/2ae30766-c858-4f4e-a042-14af55698cb2.jpg?1769005718"
   },
   "Retro-Mutation": {
-    "gih_wr": 0.5311,
-    "alsa": 6.52,
-    "diwr": 0.0363,
-    "games": 1101,
+    "gih_wr": 0.5474,
+    "alsa": 6.41,
+    "diwr": 0.0378,
+    "games": 4559,
     "rarity": "common",
     "colors": [
       "U"
     ],
     "mana_cost": "{2}{U}",
-    "type_line": "Enchantment — Aura",
+    "type_line": "Enchantment \u2014 Aura",
     "cmc": 3.0,
     "power": "",
     "toughness": "",
@@ -867,10 +867,10 @@
     "img": "https://cards.scryfall.io/normal/front/4/a/4af284ba-fa54-43c5-8c76-3e1128957452.jpg?1771586820"
   },
   "Return to the Sewers": {
-    "gih_wr": 0.5979,
-    "alsa": 6.83,
-    "diwr": 0.0433,
-    "games": 1901,
+    "gih_wr": 0.5889,
+    "alsa": 6.73,
+    "diwr": 0.041,
+    "games": 7813,
     "rarity": "common",
     "colors": [
       "U"
@@ -884,10 +884,10 @@
     "img": "https://cards.scryfall.io/normal/front/5/2/52e99505-17dc-4051-99f6-e23559fc6c95.jpg?1771586826"
   },
   "Sewer-veillance Cam": {
-    "gih_wr": 0.5957,
-    "alsa": 6.74,
-    "diwr": 0.0836,
-    "games": 1367,
+    "gih_wr": 0.5729,
+    "alsa": 6.59,
+    "diwr": 0.0376,
+    "games": 6035,
     "rarity": "common",
     "colors": [
       "U"
@@ -901,16 +901,16 @@
     "img": "https://cards.scryfall.io/normal/front/a/b/ab47a37b-b66d-4f70-9bf0-4d5ed6b518f3.jpg?1771502595"
   },
   "Stockman, Mad Fly-entist": {
-    "gih_wr": null,
-    "alsa": 7.63,
-    "diwr": null,
-    "games": 632,
+    "gih_wr": 0.5289,
+    "alsa": 7.56,
+    "diwr": 0.0251,
+    "games": 2165,
     "rarity": "common",
     "colors": [
       "U"
     ],
     "mana_cost": "{4}{U}",
-    "type_line": "Legendary Creature — Insect Mutant Scientist",
+    "type_line": "Legendary Creature \u2014 Insect Mutant Scientist",
     "cmc": 5.0,
     "power": "3",
     "toughness": "4",
@@ -919,9 +919,9 @@
   },
   "Turtles in Time": {
     "gih_wr": null,
-    "alsa": 4.48,
+    "alsa": 4.67,
     "diwr": null,
-    "games": 63,
+    "games": 290,
     "rarity": "mythic",
     "colors": [
       "U"
@@ -935,16 +935,16 @@
     "img": "https://cards.scryfall.io/normal/front/b/d/bdb3efe7-7b12-4503-83e9-7977eb099db5.jpg?1769005754"
   },
   "Utrom Scientists": {
-    "gih_wr": null,
-    "alsa": 6.75,
-    "diwr": null,
-    "games": 1006,
+    "gih_wr": 0.5205,
+    "alsa": 6.74,
+    "diwr": 0.0011,
+    "games": 4541,
     "rarity": "common",
     "colors": [
       "U"
     ],
     "mana_cost": "{2}{U}",
-    "type_line": "Artifact Creature — Utrom Robot Scientist",
+    "type_line": "Artifact Creature \u2014 Utrom Robot Scientist",
     "cmc": 3.0,
     "power": "2",
     "toughness": "2",
@@ -952,16 +952,16 @@
     "img": "https://cards.scryfall.io/normal/front/6/d/6da89625-5278-49d4-813b-a1a631f114f5.jpg?1771502610"
   },
   "Anchovy & Banana Pizza": {
-    "gih_wr": 0.5595,
-    "alsa": 3.94,
-    "diwr": -0.01,
-    "games": 2884,
+    "gih_wr": 0.5744,
+    "alsa": 3.85,
+    "diwr": 0.0274,
+    "games": 10666,
     "rarity": "common",
     "colors": [
       "B"
     ],
     "mana_cost": "{2}{B}{B}",
-    "type_line": "Artifact — Food",
+    "type_line": "Artifact \u2014 Food",
     "cmc": 4.0,
     "power": "",
     "toughness": "",
@@ -972,13 +972,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 309,
+    "games": 1086,
     "rarity": "rare",
     "colors": [
       "B"
     ],
     "mana_cost": "{6}{B}{B}",
-    "type_line": "Legendary Creature — Shark Horror Mutant",
+    "type_line": "Legendary Creature \u2014 Shark Horror Mutant",
     "cmc": 8.0,
     "power": "9",
     "toughness": "6",
@@ -986,16 +986,16 @@
     "img": "https://cards.scryfall.io/normal/front/5/9/5989378b-0eac-43cf-bc83-8f7765536789.jpg?1769005763"
   },
   "Bebop, Warthog Warrior": {
-    "gih_wr": null,
-    "alsa": 6.91,
-    "diwr": null,
-    "games": 682,
+    "gih_wr": 0.5484,
+    "alsa": 6.94,
+    "diwr": 0.0213,
+    "games": 2669,
     "rarity": "common",
     "colors": [
       "B"
     ],
     "mana_cost": "{4}{B}",
-    "type_line": "Legendary Creature — Boar Mutant Warrior",
+    "type_line": "Legendary Creature \u2014 Boar Mutant Warrior",
     "cmc": 5.0,
     "power": "5",
     "toughness": "4",
@@ -1003,27 +1003,27 @@
     "img": "https://cards.scryfall.io/normal/front/3/7/371ba16d-73f7-450c-8b1f-c05012a4ca93.jpg?1771586838"
   },
   "The Cloning of Shredder": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 657,
+    "gih_wr": 0.6157,
+    "alsa": 1.87,
+    "diwr": 0.0744,
+    "games": 2522,
     "rarity": "mythic",
     "colors": [
       "B"
     ],
     "mana_cost": "{4}{B}{B}",
-    "type_line": "Enchantment — Saga",
+    "type_line": "Enchantment \u2014 Saga",
     "cmc": 6.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Exile target creature card from your graveyard. Create a token that's a copy of it, except it isn't legendary and is a Mutant in addition to its other types.\nII, III — Create a token that's a copy of a card exiled with this Saga, except it isn't legendary and is a Mutant in addition to its other types.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Exile target creature card from your graveyard. Create a token that's a copy of it, except it isn't legendary and is a Mutant in addition to its other types.\nII, III \u2014 Create a token that's a copy of a card exiled with this Saga, except it isn't legendary and is a Mutant in addition to its other types.",
     "img": "https://cards.scryfall.io/normal/front/9/4/94449d88-2df4-4850-8ffa-d6d193835dda.jpg?1771603451"
   },
   "Death in the Family": {
-    "gih_wr": null,
-    "alsa": 3.15,
-    "diwr": null,
-    "games": 951,
+    "gih_wr": 0.5902,
+    "alsa": 3.22,
+    "diwr": 0.0272,
+    "games": 3437,
     "rarity": "uncommon",
     "colors": [
       "B"
@@ -1037,16 +1037,16 @@
     "img": "https://cards.scryfall.io/normal/front/2/e/2e4f2148-d398-4f3d-9c59-81c87b6a4588.jpg?1771586845"
   },
   "Dream Beavers": {
-    "gih_wr": null,
-    "alsa": 3.29,
-    "diwr": null,
-    "games": 1075,
+    "gih_wr": 0.6445,
+    "alsa": 3.31,
+    "diwr": 0.0627,
+    "games": 4063,
     "rarity": "uncommon",
     "colors": [
       "B"
     ],
     "mana_cost": "{B}",
-    "type_line": "Creature — Beaver Nightmare",
+    "type_line": "Creature \u2014 Beaver Nightmare",
     "cmc": 1.0,
     "power": "1",
     "toughness": "1",
@@ -1054,67 +1054,67 @@
     "img": "https://cards.scryfall.io/normal/front/6/0/600e3bc1-9777-4057-a11e-4f61582636c6.jpg?1771586853"
   },
   "Foot Mystic": {
-    "gih_wr": null,
-    "alsa": 6.54,
-    "diwr": null,
-    "games": 533,
+    "gih_wr": 0.4878,
+    "alsa": 6.78,
+    "diwr": -0.0453,
+    "games": 1988,
     "rarity": "common",
     "colors": [
       "B"
     ],
     "mana_cost": "{3}{B}",
-    "type_line": "Creature — Human Ninja Warlock",
+    "type_line": "Creature \u2014 Human Ninja Warlock",
     "cmc": 4.0,
     "power": "2",
     "toughness": "4",
-    "oracle_text": "Lifelink\nDisappear — When this creature enters, if a permanent left the battlefield under your control this turn, create a 1/1 black Ninja creature token.",
+    "oracle_text": "Lifelink\nDisappear \u2014 When this creature enters, if a permanent left the battlefield under your control this turn, create a 1/1 black Ninja creature token.",
     "img": "https://cards.scryfall.io/normal/front/6/1/61e40a18-6cc8-436d-826b-1cf8cd037df3.jpg?1771586860"
   },
   "Insectoid Exterminator": {
-    "gih_wr": null,
-    "alsa": 6.53,
-    "diwr": null,
-    "games": 679,
+    "gih_wr": 0.5263,
+    "alsa": 6.73,
+    "diwr": -0.035,
+    "games": 2618,
     "rarity": "common",
     "colors": [
       "B"
     ],
     "mana_cost": "{2}{B}",
-    "type_line": "Creature — Insect Mutant",
+    "type_line": "Creature \u2014 Insect Mutant",
     "cmc": 3.0,
     "power": "2",
     "toughness": "2",
-    "oracle_text": "Flying\nDisappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+    "oracle_text": "Flying\nDisappear \u2014 At the beginning of your end step, if a permanent left the battlefield under your control this turn, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
     "img": "https://cards.scryfall.io/normal/front/f/f/ff26f7ff-7f70-4204-9b48-de9e21dc89ec.jpg?1771586866"
   },
   "Lord Dregg, Insect Invader": {
-    "gih_wr": null,
-    "alsa": 3.59,
-    "diwr": null,
-    "games": 745,
+    "gih_wr": 0.5729,
+    "alsa": 3.66,
+    "diwr": 0.0257,
+    "games": 3144,
     "rarity": "uncommon",
     "colors": [
       "B"
     ],
     "mana_cost": "{3}{B}",
-    "type_line": "Legendary Creature — Insect Warrior",
+    "type_line": "Legendary Creature \u2014 Insect Warrior",
     "cmc": 4.0,
     "power": "3",
     "toughness": "2",
-    "oracle_text": "Flying\nDisappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Insect Warrior creature token with flying.\n{3}{G}, Sacrifice a token: Draw a card.",
+    "oracle_text": "Flying\nDisappear \u2014 At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Insect Warrior creature token with flying.\n{3}{G}, Sacrifice a token: Draw a card.",
     "img": "https://cards.scryfall.io/normal/front/8/d/8d1a9c8a-d0b6-4d83-a168-8078de4b14c7.jpg?1771586872"
   },
   "Madame Null, Power Broker": {
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 312,
+    "games": 1037,
     "rarity": "rare",
     "colors": [
       "B"
     ],
     "mana_cost": "{2}{B}",
-    "type_line": "Legendary Creature — Demon Advisor",
+    "type_line": "Legendary Creature \u2014 Demon Advisor",
     "cmc": 3.0,
     "power": "1",
     "toughness": "3",
@@ -1125,13 +1125,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 217,
+    "games": 769,
     "rarity": "rare",
     "colors": [
       "B"
     ],
     "mana_cost": "{2}{B}",
-    "type_line": "Enchantment — Class",
+    "type_line": "Enchantment \u2014 Class",
     "cmc": 3.0,
     "power": "",
     "toughness": "",
@@ -1139,16 +1139,16 @@
     "img": "https://cards.scryfall.io/normal/front/0/8/0825a28f-f60b-4f80-83e3-cad6f9b266ce.jpg?1769005903"
   },
   "Oroku Saki, Shredder Rising": {
-    "gih_wr": 0.5704,
+    "gih_wr": 0.5709,
     "alsa": 5.29,
-    "diwr": -0.0485,
-    "games": 2001,
+    "diwr": -0.0175,
+    "games": 7819,
     "rarity": "common",
     "colors": [
       "B"
     ],
     "mana_cost": "{2}{B}",
-    "type_line": "Legendary Creature — Human Ninja",
+    "type_line": "Legendary Creature \u2014 Human Ninja",
     "cmc": 3.0,
     "power": "3",
     "toughness": "1",
@@ -1156,10 +1156,10 @@
     "img": "https://cards.scryfall.io/normal/front/e/6/e65ff1f4-a061-4c31-a78e-92af6e7bc56f.jpg?1771586878"
   },
   "Pain 101": {
-    "gih_wr": null,
-    "alsa": 6.86,
-    "diwr": null,
-    "games": 430,
+    "gih_wr": 0.5131,
+    "alsa": 6.94,
+    "diwr": -0.0232,
+    "games": 1756,
     "rarity": "common",
     "colors": [
       "B"
@@ -1173,16 +1173,16 @@
     "img": "https://cards.scryfall.io/normal/front/a/1/a1c70bf2-b2bd-4585-ba50-304f4dad8e62.jpg?1771586891"
   },
   "Paramecia Coloniex": {
-    "gih_wr": null,
-    "alsa": 5.67,
-    "diwr": null,
-    "games": 693,
+    "gih_wr": 0.5286,
+    "alsa": 5.66,
+    "diwr": -0.0339,
+    "games": 2448,
     "rarity": "uncommon",
     "colors": [
       "B"
     ],
     "mana_cost": "{1}{B}",
-    "type_line": "Creature — Zombie Worm",
+    "type_line": "Creature \u2014 Zombie Worm",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
@@ -1193,30 +1193,30 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 299,
+    "games": 1116,
     "rarity": "rare",
     "colors": [
       "B"
     ],
     "mana_cost": "{1}{B}",
-    "type_line": "Legendary Creature — Rat Avatar",
+    "type_line": "Legendary Creature \u2014 Rat Avatar",
     "cmc": 2.0,
     "power": "1",
     "toughness": "1",
-    "oracle_text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Rat creature token and put a +1/+1 counter on Rat King.\n{T}, Sacrifice three Rats: Return target creature card and all other cards with the same name as that card from your graveyard to the battlefield tapped.",
+    "oracle_text": "Disappear \u2014 At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Rat creature token and put a +1/+1 counter on Rat King.\n{T}, Sacrifice three Rats: Return target creature card and all other cards with the same name as that card from your graveyard to the battlefield tapped.",
     "img": "https://cards.scryfall.io/normal/front/b/e/be464d88-8933-46e8-97b0-3be05f1976a3.jpg?1769005882"
   },
   "Savanti Romero, Time's Exile": {
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 267,
+    "games": 1076,
     "rarity": "rare",
     "colors": [
       "B"
     ],
     "mana_cost": "{3}{B}{B}",
-    "type_line": "Legendary Creature — Demon Wizard",
+    "type_line": "Legendary Creature \u2014 Demon Wizard",
     "cmc": 5.0,
     "power": "4",
     "toughness": "4",
@@ -1224,16 +1224,16 @@
     "img": "https://cards.scryfall.io/normal/front/0/1/01cb8ded-7f77-4b75-b799-23e9f5efb513.jpg?1769005872"
   },
   "Shark Shredder, Killer Clone": {
-    "gih_wr": null,
+    "gih_wr": 0.5538,
     "alsa": null,
-    "diwr": null,
-    "games": 329,
+    "diwr": 0.0092,
+    "games": 1198,
     "rarity": "rare",
     "colors": [
       "B"
     ],
     "mana_cost": "{2}{B}{B}",
-    "type_line": "Legendary Creature — Shark Octopus Ninja",
+    "type_line": "Legendary Creature \u2014 Shark Octopus Ninja",
     "cmc": 4.0,
     "power": "4",
     "toughness": "4",
@@ -1241,16 +1241,16 @@
     "img": "https://cards.scryfall.io/normal/front/8/f/8f946b3d-7d2a-4210-a909-d16078757e3b.jpg?1769006593"
   },
   "Shredder, Unrelenting": {
-    "gih_wr": null,
-    "alsa": 3.93,
-    "diwr": null,
-    "games": 644,
+    "gih_wr": 0.5591,
+    "alsa": 3.96,
+    "diwr": 0.0054,
+    "games": 2468,
     "rarity": "uncommon",
     "colors": [
       "B"
     ],
     "mana_cost": "{4}{B}",
-    "type_line": "Legendary Creature — Human Ninja",
+    "type_line": "Legendary Creature \u2014 Human Ninja",
     "cmc": 5.0,
     "power": "6",
     "toughness": "4",
@@ -1259,26 +1259,26 @@
   },
   "Shredder's Armor": {
     "gih_wr": null,
-    "alsa": 6.32,
+    "alsa": 6.47,
     "diwr": null,
-    "games": 175,
+    "games": 588,
     "rarity": "uncommon",
     "colors": [
       "B"
     ],
     "mana_cost": "{1}{B}",
-    "type_line": "Artifact — Equipment",
+    "type_line": "Artifact \u2014 Equipment",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Equipped creature gets +2/+1.\nWhen this Equipment enters, attach it to target creature you control.\nEquip—Sacrifice another nonland permanent. Activate only once each turn.",
+    "oracle_text": "Equipped creature gets +2/+1.\nWhen this Equipment enters, attach it to target creature you control.\nEquip\u2014Sacrifice another nonland permanent. Activate only once each turn.",
     "img": "https://cards.scryfall.io/normal/front/d/2/d2cbe512-725f-4884-ac49-a98a78e7d14e.jpg?1771586903"
   },
   "Shredder's Revenge": {
-    "gih_wr": null,
-    "alsa": 6.9,
-    "diwr": null,
-    "games": 480,
+    "gih_wr": 0.5572,
+    "alsa": 6.97,
+    "diwr": 0.0371,
+    "games": 2120,
     "rarity": "common",
     "colors": [
       "B"
@@ -1288,14 +1288,14 @@
     "cmc": 3.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Choose one —\n• Target player discards two cards.\n• Target player draws two cards and loses 2 life.",
+    "oracle_text": "Choose one \u2014\n\u2022 Target player discards two cards.\n\u2022 Target player draws two cards and loses 2 life.",
     "img": "https://cards.scryfall.io/normal/front/7/2/72fadf47-2e0b-4b24-b1bc-7c86780716b6.jpg?1771342364"
   },
   "Shredder's Technique": {
-    "gih_wr": null,
-    "alsa": 3.05,
-    "diwr": null,
-    "games": 1010,
+    "gih_wr": 0.5801,
+    "alsa": 2.93,
+    "diwr": 0.0111,
+    "games": 3777,
     "rarity": "uncommon",
     "colors": [
       "B"
@@ -1312,13 +1312,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 260,
+    "games": 935,
     "rarity": "rare",
     "colors": [
       "B"
     ],
     "mana_cost": "{3}{B}",
-    "type_line": "Creature — Snake Spirit Avatar",
+    "type_line": "Creature \u2014 Snake Spirit Avatar",
     "cmc": 4.0,
     "power": "3",
     "toughness": "4",
@@ -1326,16 +1326,16 @@
     "img": "https://cards.scryfall.io/normal/front/c/1/c17bc07c-7147-4c84-aa0b-8a0865fba94e.jpg?1769005861"
   },
   "Splinter, Hamato Yoshi": {
-    "gih_wr": null,
-    "alsa": 3.65,
-    "diwr": null,
-    "games": 809,
+    "gih_wr": 0.5727,
+    "alsa": 3.51,
+    "diwr": 0.0021,
+    "games": 3212,
     "rarity": "uncommon",
     "colors": [
       "B"
     ],
     "mana_cost": "{1}{B}",
-    "type_line": "Legendary Creature — Mutant Ninja Rat",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Rat",
     "cmc": 2.0,
     "power": "1",
     "toughness": "3",
@@ -1344,9 +1344,9 @@
   },
   "Splinter's Technique": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 3.65,
     "diwr": null,
-    "games": 49,
+    "games": 290,
     "rarity": "rare",
     "colors": [
       "B"
@@ -1360,16 +1360,16 @@
     "img": "https://cards.scryfall.io/normal/front/f/d/fd3a5465-074a-4688-b79b-68e232076581.jpg?1769006137"
   },
   "Squirrelanoids": {
-    "gih_wr": 0.56,
-    "alsa": 5.46,
-    "diwr": -0.0103,
-    "games": 1709,
+    "gih_wr": 0.5846,
+    "alsa": 5.43,
+    "diwr": 0.0268,
+    "games": 6512,
     "rarity": "common",
     "colors": [
       "B"
     ],
     "mana_cost": "{B}",
-    "type_line": "Creature — Squirrel Mutant",
+    "type_line": "Creature \u2014 Squirrel Mutant",
     "cmc": 1.0,
     "power": "1",
     "toughness": "1",
@@ -1377,10 +1377,10 @@
     "img": "https://cards.scryfall.io/normal/front/b/e/be08d2b0-375b-434f-9e6d-060809e0ed34.jpg?1771586916"
   },
   "Stomped by the Foot": {
-    "gih_wr": 0.5697,
-    "alsa": 4.58,
-    "diwr": -0.007,
-    "games": 2281,
+    "gih_wr": 0.5629,
+    "alsa": 4.49,
+    "diwr": -0.0044,
+    "games": 9168,
     "rarity": "common",
     "colors": [
       "B"
@@ -1390,20 +1390,20 @@
     "cmc": 2.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Kicker—Sacrifice an artifact or creature. (You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.)\nTarget creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -5/-5 until end of turn instead.",
+    "oracle_text": "Kicker\u2014Sacrifice an artifact or creature. (You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.)\nTarget creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -5/-5 until end of turn instead.",
     "img": "https://cards.scryfall.io/normal/front/3/f/3fdec16f-77f5-4792-9698-b9099a204028.jpg?1771586922"
   },
   "Super Shredder": {
-    "gih_wr": null,
+    "gih_wr": 0.5949,
     "alsa": null,
-    "diwr": null,
-    "games": 533,
+    "diwr": 0.0361,
+    "games": 2101,
     "rarity": "mythic",
     "colors": [
       "B"
     ],
     "mana_cost": "{1}{B}",
-    "type_line": "Legendary Creature — Mutant Ninja Human",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Human",
     "cmc": 2.0,
     "power": "1",
     "toughness": "1",
@@ -1411,16 +1411,16 @@
     "img": "https://cards.scryfall.io/normal/front/3/7/37a497b8-e908-4ddc-996e-a8470df72afb.jpg?1760102707"
   },
   "Tunnel Rats": {
-    "gih_wr": null,
-    "alsa": 6.87,
-    "diwr": null,
-    "games": 860,
+    "gih_wr": 0.5399,
+    "alsa": 7.03,
+    "diwr": 0.0018,
+    "games": 3320,
     "rarity": "common",
     "colors": [
       "B"
     ],
     "mana_cost": "{1}{B}",
-    "type_line": "Creature — Rat",
+    "type_line": "Creature \u2014 Rat",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
@@ -1428,10 +1428,10 @@
     "img": "https://cards.scryfall.io/normal/front/7/0/70faf7d8-008a-454a-a21b-702aa661b8f9.jpg?1771586928"
   },
   "Bot Bashing Time": {
-    "gih_wr": 0.5396,
-    "alsa": 6.39,
-    "diwr": 0.0005,
-    "games": 1296,
+    "gih_wr": 0.5346,
+    "alsa": 6.26,
+    "diwr": -0.0053,
+    "games": 5371,
     "rarity": "common",
     "colors": [
       "R"
@@ -1446,9 +1446,9 @@
   },
   "Broadcast Takeover": {
     "gih_wr": null,
-    "alsa": 4.89,
+    "alsa": 5.3,
     "diwr": null,
-    "games": 16,
+    "games": 41,
     "rarity": "mythic",
     "colors": [
       "R"
@@ -1462,16 +1462,16 @@
     "img": "https://cards.scryfall.io/normal/front/e/6/e640e930-0907-40f2-9015-88f8c1e8ee5c.jpg?1769005852"
   },
   "Casey Jones, Jury-Rig Justiciar": {
-    "gih_wr": null,
-    "alsa": 4.28,
-    "diwr": null,
-    "games": 955,
+    "gih_wr": 0.6,
+    "alsa": 4.35,
+    "diwr": 0.0471,
+    "games": 3591,
     "rarity": "uncommon",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Legendary Creature — Human Berserker",
+    "type_line": "Legendary Creature \u2014 Human Berserker",
     "cmc": 2.0,
     "power": "2",
     "toughness": "1",
@@ -1480,15 +1480,15 @@
   },
   "Casey Jones, Vigilante": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 4.05,
     "diwr": null,
-    "games": 169,
+    "games": 540,
     "rarity": "rare",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}{R}",
-    "type_line": "Legendary Creature — Human Berserker",
+    "type_line": "Legendary Creature \u2014 Human Berserker",
     "cmc": 3.0,
     "power": "4",
     "toughness": "3",
@@ -1499,13 +1499,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 134,
+    "games": 562,
     "rarity": "rare",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Enchantment — Class",
+    "type_line": "Enchantment \u2014 Class",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -1513,16 +1513,16 @@
     "img": "https://cards.scryfall.io/normal/front/a/5/a566ab2d-6ec8-4833-8ad6-210378b1a20e.jpg?1769005892"
   },
   "General Traag, Heart of Stone": {
-    "gih_wr": null,
-    "alsa": 4.64,
-    "diwr": null,
-    "games": 1035,
+    "gih_wr": 0.5586,
+    "alsa": 4.49,
+    "diwr": 0.0155,
+    "games": 3607,
     "rarity": "uncommon",
     "colors": [
       "R"
     ],
     "mana_cost": "{3}{R}{R}",
-    "type_line": "Legendary Artifact Creature — Elemental Soldier",
+    "type_line": "Legendary Artifact Creature \u2014 Elemental Soldier",
     "cmc": 5.0,
     "power": "4",
     "toughness": "3",
@@ -1531,15 +1531,15 @@
   },
   "Hard-Won Jitte": {
     "gih_wr": null,
-    "alsa": 6.05,
+    "alsa": 6.11,
     "diwr": null,
-    "games": 283,
+    "games": 835,
     "rarity": "uncommon",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Artifact — Equipment",
+    "type_line": "Artifact \u2014 Equipment",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -1548,15 +1548,15 @@
   },
   "Improvised Arsenal": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 3.04,
     "diwr": null,
-    "games": 312,
+    "games": 897,
     "rarity": "rare",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Artifact — Equipment",
+    "type_line": "Artifact \u2014 Equipment",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -1565,9 +1565,9 @@
   },
   "Jennika's Technique": {
     "gih_wr": null,
-    "alsa": 6.32,
+    "alsa": 6.47,
     "diwr": null,
-    "games": 149,
+    "games": 520,
     "rarity": "uncommon",
     "colors": [
       "R"
@@ -1581,10 +1581,10 @@
     "img": "https://cards.scryfall.io/normal/front/d/f/df559199-c8b9-455b-aa07-0a042348de96.jpg?1771502629"
   },
   "Manhole Missile": {
-    "gih_wr": 0.5914,
-    "alsa": 4.83,
-    "diwr": 0.0205,
-    "games": 2843,
+    "gih_wr": 0.5748,
+    "alsa": 4.71,
+    "diwr": 0.0063,
+    "games": 10735,
     "rarity": "common",
     "colors": [
       "R"
@@ -1599,9 +1599,9 @@
   },
   "Mouser Attack!": {
     "gih_wr": null,
-    "alsa": 7.64,
+    "alsa": 7.69,
     "diwr": null,
-    "games": 313,
+    "games": 1133,
     "rarity": "common",
     "colors": [
       "R"
@@ -1611,14 +1611,14 @@
     "cmc": 2.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Choose one —\n• Create a 1/1 colorless Robot artifact creature token.\n• Target creature gets +3/+0 and gains first strike until end of turn.",
+    "oracle_text": "Choose one \u2014\n\u2022 Create a 1/1 colorless Robot artifact creature token.\n\u2022 Target creature gets +3/+0 and gains first strike until end of turn.",
     "img": "https://cards.scryfall.io/normal/front/0/5/058490f4-0ada-45e6-b4f0-e433537f52d6.jpg?1771502642"
   },
   "Mouser Foundry": {
-    "gih_wr": 0.5861,
-    "alsa": 5.64,
-    "diwr": 0.0383,
-    "games": 2359,
+    "gih_wr": 0.5877,
+    "alsa": 5.52,
+    "diwr": 0.0451,
+    "games": 8801,
     "rarity": "common",
     "colors": [
       "R"
@@ -1632,33 +1632,33 @@
     "img": "https://cards.scryfall.io/normal/front/8/a/8aae3bd6-a935-44a5-aa4d-a525b00cbf50.jpg?1771502649"
   },
   "Mutant Town Musicians": {
-    "gih_wr": null,
-    "alsa": 7.66,
-    "diwr": null,
-    "games": 603,
+    "gih_wr": 0.5274,
+    "alsa": 7.76,
+    "diwr": -0.0335,
+    "games": 2215,
     "rarity": "common",
     "colors": [
       "R"
     ],
     "mana_cost": "{2}{R}",
-    "type_line": "Creature — Mutant Bard Performer",
+    "type_line": "Creature \u2014 Mutant Bard Performer",
     "cmc": 3.0,
     "power": "2",
     "toughness": "4",
-    "oracle_text": "Trample\nAlliance — Whenever another creature you control enters, this creature gets +1/+0 until end of turn.",
+    "oracle_text": "Trample\nAlliance \u2014 Whenever another creature you control enters, this creature gets +1/+0 until end of turn.",
     "img": "https://cards.scryfall.io/normal/front/2/d/2dbe9207-06e8-4837-8227-0f960490771b.jpg?1771766034"
   },
   "Null Group Biological Assets": {
-    "gih_wr": null,
-    "alsa": 7.43,
-    "diwr": null,
-    "games": 588,
+    "gih_wr": 0.5129,
+    "alsa": 7.52,
+    "diwr": -0.0484,
+    "games": 2542,
     "rarity": "common",
     "colors": [
       "R"
     ],
     "mana_cost": "{2}{R}",
-    "type_line": "Creature — Mutant Mercenary",
+    "type_line": "Creature \u2014 Mutant Mercenary",
     "cmc": 3.0,
     "power": "3",
     "toughness": "1",
@@ -1666,16 +1666,16 @@
     "img": "https://cards.scryfall.io/normal/front/e/b/eb44c134-fcd8-4ad8-841c-f1723ba93216.jpg?1771502666"
   },
   "Old Hob, Alleycat Blues": {
-    "gih_wr": null,
-    "alsa": 4.92,
-    "diwr": null,
-    "games": 538,
+    "gih_wr": 0.5301,
+    "alsa": 4.83,
+    "diwr": -0.0044,
+    "games": 2223,
     "rarity": "uncommon",
     "colors": [
       "R"
     ],
     "mana_cost": "{4}{R}",
-    "type_line": "Legendary Creature — Cat Mutant Rebel",
+    "type_line": "Legendary Creature \u2014 Cat Mutant Rebel",
     "cmc": 5.0,
     "power": "4",
     "toughness": "4",
@@ -1683,16 +1683,16 @@
     "img": "https://cards.scryfall.io/normal/front/1/5/1515eed9-3b21-42f0-ab57-de5df19317af.jpg?1771586941"
   },
   "Purple Dragon Punks": {
-    "gih_wr": null,
-    "alsa": 7.27,
-    "diwr": null,
-    "games": 960,
+    "gih_wr": 0.5235,
+    "alsa": 7.34,
+    "diwr": 0.0043,
+    "games": 3540,
     "rarity": "common",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Creature — Human Rogue",
+    "type_line": "Creature \u2014 Human Rogue",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
@@ -1700,50 +1700,50 @@
     "img": "https://cards.scryfall.io/normal/front/b/b/bbe1d7e5-68e2-4458-aa3f-5e97fa8e7cae.jpg?1771586948"
   },
   "Raphael, Most Attitude": {
-    "gih_wr": null,
-    "alsa": 4.48,
-    "diwr": null,
-    "games": 672,
+    "gih_wr": 0.499,
+    "alsa": 4.64,
+    "diwr": -0.0512,
+    "games": 2404,
     "rarity": "uncommon",
     "colors": [
       "R"
     ],
     "mana_cost": "{3}{R}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "4",
     "toughness": "3",
-    "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nAlliance — Whenever another creature you control enters, you may exile the top card of your library.\nWhenever Raphael attacks, until end of turn, you may play a card exiled with Raphael.",
+    "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nAlliance \u2014 Whenever another creature you control enters, you may exile the top card of your library.\nWhenever Raphael attacks, until end of turn, you may play a card exiled with Raphael.",
     "img": "https://cards.scryfall.io/normal/front/8/8/88385a87-f931-409f-8a21-250f0866d63d.jpg?1771502673"
   },
   "Raphael, Ninja Destroyer": {
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 116,
+    "games": 446,
     "rarity": "mythic",
     "colors": [
       "R"
     ],
     "mana_cost": "{2}{R}{R}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "4",
     "toughness": "4",
-    "oracle_text": "Raphael must be blocked if able.\nEnrage — Whenever Raphael is dealt damage, add that much {R}. Until end of turn, you don't lose this mana as steps and phases end.",
+    "oracle_text": "Raphael must be blocked if able.\nEnrage \u2014 Whenever Raphael is dealt damage, add that much {R}. Until end of turn, you don't lose this mana as steps and phases end.",
     "img": "https://cards.scryfall.io/normal/front/e/e/eeffadda-cb71-4434-89bf-36db1a36da0b.jpg?1769006156"
   },
   "Raphael, the Nightwatcher": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 300,
+    "gih_wr": 0.623,
+    "alsa": 2.39,
+    "diwr": 0.0886,
+    "games": 1258,
     "rarity": "rare",
     "colors": [
       "R"
     ],
     "mana_cost": "{2}{R}{R}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "2",
     "toughness": "3",
@@ -1751,27 +1751,27 @@
     "img": "https://cards.scryfall.io/normal/front/6/a/6af50b50-3776-4383-b493-7c5dd732c965.jpg?1769006162"
   },
   "Raphael, Tough Turtle": {
-    "gih_wr": null,
-    "alsa": 5.92,
-    "diwr": null,
-    "games": 1146,
+    "gih_wr": 0.5356,
+    "alsa": 5.96,
+    "diwr": -0.0136,
+    "games": 4855,
     "rarity": "common",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 2.0,
     "power": "1",
     "toughness": "3",
-    "oracle_text": "Alliance — Whenever another creature you control enters, Raphael deals 1 damage to target opponent.",
+    "oracle_text": "Alliance \u2014 Whenever another creature you control enters, Raphael deals 1 damage to target opponent.",
     "img": "https://cards.scryfall.io/normal/front/f/2/f24c90c8-ed04-4b4e-8b19-c7d07a90c6b8.jpg?1771342404"
   },
   "Raphael's Technique": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 5.14,
     "diwr": null,
-    "games": 23,
+    "games": 71,
     "rarity": "rare",
     "colors": [
       "R"
@@ -1788,13 +1788,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 269,
+    "games": 1058,
     "rarity": "rare",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Artifact Creature — Robot",
+    "type_line": "Artifact Creature \u2014 Robot",
     "cmc": 2.0,
     "power": "2",
     "toughness": "1",
@@ -1802,16 +1802,16 @@
     "img": "https://cards.scryfall.io/normal/front/3/b/3b303ea3-9f4d-4c28-9446-285a23f841a0.jpg?1769006169"
   },
   "Rock Soldiers": {
-    "gih_wr": null,
-    "alsa": 7.57,
-    "diwr": null,
-    "games": 368,
+    "gih_wr": 0.5049,
+    "alsa": 7.68,
+    "diwr": -0.0168,
+    "games": 1423,
     "rarity": "common",
     "colors": [
       "R"
     ],
     "mana_cost": "{3}{R}",
-    "type_line": "Artifact Creature — Elemental Soldier",
+    "type_line": "Artifact Creature \u2014 Elemental Soldier",
     "cmc": 4.0,
     "power": "4",
     "toughness": "3",
@@ -1822,30 +1822,30 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 247,
+    "games": 1054,
     "rarity": "rare",
     "colors": [
       "R"
     ],
     "mana_cost": "{3}{R}{R}",
-    "type_line": "Legendary Creature — Mutant Berserker Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Berserker Turtle",
     "cmc": 5.0,
     "power": "7",
     "toughness": "5",
-    "oracle_text": "Alliance — Whenever another creature you control enters, Slash deals 2 damage to each opponent.\nWhenever Slash attacks, create a 2/2 red Mutant creature token.",
+    "oracle_text": "Alliance \u2014 Whenever another creature you control enters, Slash deals 2 damage to each opponent.\nWhenever Slash attacks, create a 2/2 red Mutant creature token.",
     "img": "https://cards.scryfall.io/normal/front/0/2/025aafbc-5b24-4f5b-9b4a-81f6b9cb5ef3.jpg?1769006188"
   },
   "Spicy Oatmeal Pizza": {
-    "gih_wr": null,
-    "alsa": 4.41,
-    "diwr": null,
-    "games": 990,
+    "gih_wr": 0.5778,
+    "alsa": 4.19,
+    "diwr": 0.0258,
+    "games": 4199,
     "rarity": "uncommon",
     "colors": [
       "R"
     ],
     "mana_cost": "{2}{R}",
-    "type_line": "Artifact — Food",
+    "type_line": "Artifact \u2014 Food",
     "cmc": 3.0,
     "power": "",
     "toughness": "",
@@ -1853,33 +1853,33 @@
     "img": "https://cards.scryfall.io/normal/front/c/4/c4aeb45b-13ed-43ad-a366-7be10dec6222.jpg?1771342407"
   },
   "Wingnut, Bat on the Belfry": {
-    "gih_wr": null,
-    "alsa": 4.77,
-    "diwr": null,
-    "games": 651,
+    "gih_wr": 0.5221,
+    "alsa": 4.79,
+    "diwr": -0.0411,
+    "games": 2356,
     "rarity": "uncommon",
     "colors": [
       "R"
     ],
     "mana_cost": "{1}{R}",
-    "type_line": "Legendary Creature — Bat Mutant",
+    "type_line": "Legendary Creature \u2014 Bat Mutant",
     "cmc": 2.0,
     "power": "1",
     "toughness": "2",
-    "oracle_text": "Alliance — Whenever another creature you control enters, Wingnut gains your choice of flying, menace, or haste until end of turn.\nWhenever Wingnut attacks, each other attacking creature gets +1/+0 until end of turn.",
+    "oracle_text": "Alliance \u2014 Whenever another creature you control enters, Wingnut gains your choice of flying, menace, or haste until end of turn.\nWhenever Wingnut attacks, each other attacking creature gets +1/+0 until end of turn.",
     "img": "https://cards.scryfall.io/normal/front/4/0/40b9b1d0-b7d1-473e-b6a9-a29d527c2f35.jpg?1771502679"
   },
   "Zog, Triceraton Castaway": {
-    "gih_wr": null,
-    "alsa": 7.44,
-    "diwr": null,
-    "games": 391,
+    "gih_wr": 0.4978,
+    "alsa": 7.46,
+    "diwr": -0.0421,
+    "games": 1654,
     "rarity": "common",
     "colors": [
       "R"
     ],
     "mana_cost": "{4}{R}",
-    "type_line": "Legendary Creature — Dinosaur Soldier",
+    "type_line": "Legendary Creature \u2014 Dinosaur Soldier",
     "cmc": 5.0,
     "power": "5",
     "toughness": "4",
@@ -1887,16 +1887,16 @@
     "img": "https://cards.scryfall.io/normal/front/a/8/a83a70ba-448e-45f3-b23b-6f38af54811f.jpg?1771502686"
   },
   "Courier of Comestibles": {
-    "gih_wr": 0.6493,
-    "alsa": 4.56,
-    "diwr": 0.0416,
-    "games": 1213,
+    "gih_wr": 0.6281,
+    "alsa": 4.44,
+    "diwr": 0.0564,
+    "games": 4675,
     "rarity": "uncommon",
     "colors": [
       "G"
     ],
     "mana_cost": "{1}{G}",
-    "type_line": "Creature — Human Citizen",
+    "type_line": "Creature \u2014 Human Citizen",
     "cmc": 2.0,
     "power": "1",
     "toughness": "2",
@@ -1904,10 +1904,10 @@
     "img": "https://cards.scryfall.io/normal/front/5/3/53f5f704-2265-42bb-bff5-fd9d85bc2bfb.jpg?1771342389"
   },
   "Cowabunga!": {
-    "gih_wr": null,
-    "alsa": 7.36,
-    "diwr": null,
-    "games": 514,
+    "gih_wr": 0.5393,
+    "alsa": 7.43,
+    "diwr": 0.0234,
+    "games": 2089,
     "rarity": "common",
     "colors": [
       "G"
@@ -1921,16 +1921,16 @@
     "img": "https://cards.scryfall.io/normal/front/0/f/0ffce972-bed9-445a-a9a0-4816f156d88d.jpg?1771342415"
   },
   "Frog Butler": {
-    "gih_wr": 0.6208,
-    "alsa": 4.52,
-    "diwr": 0.0759,
-    "games": 2466,
+    "gih_wr": 0.6,
+    "alsa": 4.39,
+    "diwr": 0.0653,
+    "games": 9926,
     "rarity": "common",
     "colors": [
       "G"
     ],
     "mana_cost": "{1}{G}",
-    "type_line": "Creature — Frog Spirit",
+    "type_line": "Creature \u2014 Frog Spirit",
     "cmc": 2.0,
     "power": "1",
     "toughness": "1",
@@ -1941,13 +1941,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 200,
+    "games": 777,
     "rarity": "rare",
     "colors": [
       "G"
     ],
     "mana_cost": "{4}{G}{G}",
-    "type_line": "Legendary Creature — Ox Mole Mutant",
+    "type_line": "Legendary Creature \u2014 Ox Mole Mutant",
     "cmc": 6.0,
     "power": "8",
     "toughness": "8",
@@ -1955,16 +1955,16 @@
     "img": "https://cards.scryfall.io/normal/front/1/5/1563592e-0f21-4488-a3ec-ca766386e423.jpg?1769006182"
   },
   "Guac & Marshmallow Pizza": {
-    "gih_wr": null,
-    "alsa": 6.79,
-    "diwr": null,
-    "games": 1003,
+    "gih_wr": 0.5655,
+    "alsa": 6.82,
+    "diwr": 0.0706,
+    "games": 3808,
     "rarity": "common",
     "colors": [
       "G"
     ],
     "mana_cost": "{G}",
-    "type_line": "Artifact — Food",
+    "type_line": "Artifact \u2014 Food",
     "cmc": 1.0,
     "power": "",
     "toughness": "",
@@ -1975,13 +1975,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 321,
+    "games": 1062,
     "rarity": "rare",
     "colors": [
       "G"
     ],
     "mana_cost": "{2}{G}{G}",
-    "type_line": "Legendary Creature — Crocodile Mutant Rogue",
+    "type_line": "Legendary Creature \u2014 Crocodile Mutant Rogue",
     "cmc": 4.0,
     "power": "5",
     "toughness": "4",
@@ -1989,33 +1989,33 @@
     "img": "https://cards.scryfall.io/normal/front/b/1/b1f6b5b5-12ca-468d-bc53-dd0cde60e7b6.jpg?1769006176"
   },
   "Michelangelo, Game Master": {
-    "gih_wr": 0.5826,
-    "alsa": 5.3,
-    "diwr": 0.0402,
-    "games": 1659,
+    "gih_wr": 0.5564,
+    "alsa": 5.28,
+    "diwr": 0.0332,
+    "games": 6265,
     "rarity": "common",
     "colors": [
       "G"
     ],
     "mana_cost": "{2}{G}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 3.0,
     "power": "3",
     "toughness": "3",
-    "oracle_text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, put a +1/+1 counter on Michelangelo.",
+    "oracle_text": "Disappear \u2014 At the beginning of your end step, if a permanent left the battlefield under your control this turn, put a +1/+1 counter on Michelangelo.",
     "img": "https://cards.scryfall.io/normal/front/2/e/2e914c3d-2eed-48bf-af9a-a8998fd5111d.jpg?1771502708"
   },
   "Michelangelo, Improviser": {
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 154,
+    "games": 643,
     "rarity": "mythic",
     "colors": [
       "G"
     ],
     "mana_cost": "{3}{G}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "4",
     "toughness": "4",
@@ -2023,16 +2023,16 @@
     "img": "https://cards.scryfall.io/normal/front/9/5/955848c0-5092-4e13-97c9-5978d44d5586.jpg?1769006201"
   },
   "Michelangelo, Mutant BFF": {
-    "gih_wr": null,
-    "alsa": 3.2,
-    "diwr": null,
-    "games": 967,
+    "gih_wr": 0.576,
+    "alsa": 3.19,
+    "diwr": 0.0433,
+    "games": 3731,
     "rarity": "uncommon",
     "colors": [
       "G"
     ],
     "mana_cost": "{2}{G}{G}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "4",
     "toughness": "4",
@@ -2040,16 +2040,16 @@
     "img": "https://cards.scryfall.io/normal/front/0/2/02f7281f-b50c-4a1c-a2fc-3caeb6ab7d41.jpg?1771502715"
   },
   "Michelangelo, Weirdness to 11": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 315,
+    "gih_wr": 0.5994,
+    "alsa": 2.04,
+    "diwr": 0.1088,
+    "games": 1400,
     "rarity": "rare",
     "colors": [
       "G"
     ],
     "mana_cost": "{1}{G}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 2.0,
     "power": "1",
     "toughness": "1",
@@ -2060,7 +2060,7 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 120,
+    "games": 458,
     "rarity": "rare",
     "colors": [
       "G"
@@ -2074,16 +2074,16 @@
     "img": "https://cards.scryfall.io/normal/front/3/a/3a63c06a-7c59-4b72-b916-e5b6ad78c684.jpg?1769006772"
   },
   "Mona Lisa, Science Geek": {
-    "gih_wr": null,
-    "alsa": 4.8,
-    "diwr": null,
-    "games": 731,
+    "gih_wr": 0.5694,
+    "alsa": 4.66,
+    "diwr": 0.0399,
+    "games": 2843,
     "rarity": "uncommon",
     "colors": [
       "G"
     ],
     "mana_cost": "{2}{G}",
-    "type_line": "Legendary Creature — Lizard Mutant",
+    "type_line": "Legendary Creature \u2014 Lizard Mutant",
     "cmc": 3.0,
     "power": "1",
     "toughness": "3",
@@ -2091,16 +2091,16 @@
     "img": "https://cards.scryfall.io/normal/front/c/2/c2164204-120c-4dff-86ac-46ca9012ccd9.jpg?1771424712"
   },
   "Mutagen Man, Living Ooze": {
-    "gih_wr": null,
+    "gih_wr": 0.611,
     "alsa": null,
-    "diwr": null,
-    "games": 342,
+    "diwr": 0.0938,
+    "games": 1138,
     "rarity": "rare",
     "colors": [
       "G"
     ],
     "mana_cost": "{X}{G}{G}",
-    "type_line": "Legendary Creature — Ooze Mutant",
+    "type_line": "Legendary Creature \u2014 Ooze Mutant",
     "cmc": 2.0,
     "power": "2",
     "toughness": "3",
@@ -2108,10 +2108,10 @@
     "img": "https://cards.scryfall.io/normal/front/9/f/9f9085f0-3702-462c-8c81-b4576236792d.jpg?1769006218"
   },
   "Mutant Chain Reaction": {
-    "gih_wr": null,
-    "alsa": 7.46,
-    "diwr": null,
-    "games": 313,
+    "gih_wr": 0.519,
+    "alsa": 7.48,
+    "diwr": 0.044,
+    "games": 1203,
     "rarity": "common",
     "colors": [
       "G"
@@ -2126,9 +2126,9 @@
   },
   "New Generation's Technique": {
     "gih_wr": null,
-    "alsa": 5.91,
+    "alsa": 5.79,
     "diwr": null,
-    "games": 243,
+    "games": 962,
     "rarity": "uncommon",
     "colors": [
       "G"
@@ -2142,16 +2142,16 @@
     "img": "https://cards.scryfall.io/normal/front/f/1/f1616a07-e4a1-4574-b341-d6b31d76b3c5.jpg?1771586961"
   },
   "Novel Nunchaku": {
-    "gih_wr": null,
-    "alsa": 3.95,
-    "diwr": null,
-    "games": 953,
+    "gih_wr": 0.5941,
+    "alsa": 3.92,
+    "diwr": 0.0641,
+    "games": 3954,
     "rarity": "uncommon",
     "colors": [
       "G"
     ],
     "mana_cost": "{2}{G}",
-    "type_line": "Artifact — Equipment",
+    "type_line": "Artifact \u2014 Equipment",
     "cmc": 3.0,
     "power": "",
     "toughness": "",
@@ -2160,15 +2160,15 @@
   },
   "Party Dude": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 3.2,
     "diwr": null,
-    "games": 163,
+    "games": 466,
     "rarity": "rare",
     "colors": [
       "G"
     ],
     "mana_cost": "{G}",
-    "type_line": "Enchantment — Class",
+    "type_line": "Enchantment \u2014 Class",
     "cmc": 1.0,
     "power": "",
     "toughness": "",
@@ -2176,16 +2176,16 @@
     "img": "https://cards.scryfall.io/normal/front/d/2/d27b6f2a-84df-4097-a66a-8e463db47f58.jpg?1769006231"
   },
   "Primordial Pachyderm": {
-    "gih_wr": 0.5766,
-    "alsa": 6.23,
-    "diwr": 0.0425,
-    "games": 1790,
+    "gih_wr": 0.5694,
+    "alsa": 6.19,
+    "diwr": 0.0367,
+    "games": 6437,
     "rarity": "common",
     "colors": [
       "G"
     ],
     "mana_cost": "{3}{G}",
-    "type_line": "Creature — Elephant Avatar",
+    "type_line": "Creature \u2014 Elephant Avatar",
     "cmc": 4.0,
     "power": "4",
     "toughness": "4",
@@ -2193,16 +2193,16 @@
     "img": "https://cards.scryfall.io/normal/front/e/1/e1a866e6-4108-4290-9680-8f1652fbcf77.jpg?1771502730"
   },
   "Ragamuffin Raptor": {
-    "gih_wr": 0.5483,
-    "alsa": 6.56,
-    "diwr": -0.0425,
-    "games": 1739,
+    "gih_wr": 0.5578,
+    "alsa": 6.42,
+    "diwr": 0.011,
+    "games": 6994,
     "rarity": "common",
     "colors": [
       "G"
     ],
     "mana_cost": "{4}{G}",
-    "type_line": "Creature — Dinosaur",
+    "type_line": "Creature \u2014 Dinosaur",
     "cmc": 5.0,
     "power": "4",
     "toughness": "3",
@@ -2210,16 +2210,16 @@
     "img": "https://cards.scryfall.io/normal/front/2/e/2edc1d40-3154-4ec0-88c7-faf35fd5e560.jpg?1772578991"
   },
   "Rocksteady, Crash Courser": {
-    "gih_wr": 0.5669,
-    "alsa": 6.55,
-    "diwr": 0.0142,
-    "games": 1178,
+    "gih_wr": 0.5632,
+    "alsa": 6.47,
+    "diwr": 0.0308,
+    "games": 4481,
     "rarity": "common",
     "colors": [
       "G"
     ],
     "mana_cost": "{4}{G}{G}",
-    "type_line": "Legendary Creature — Rhino Mutant",
+    "type_line": "Legendary Creature \u2014 Rhino Mutant",
     "cmc": 6.0,
     "power": "7",
     "toughness": "7",
@@ -2227,10 +2227,10 @@
     "img": "https://cards.scryfall.io/normal/front/e/b/ebbb5756-80fa-406f-8daa-be1f5a6c3c80.jpg?1771586968"
   },
   "Saved by the Shell": {
-    "gih_wr": null,
-    "alsa": 4.95,
-    "diwr": null,
-    "games": 697,
+    "gih_wr": 0.5742,
+    "alsa": 4.82,
+    "diwr": 0.0555,
+    "games": 2580,
     "rarity": "uncommon",
     "colors": [
       "G"
@@ -2244,10 +2244,10 @@
     "img": "https://cards.scryfall.io/normal/front/f/6/f6314c7f-41dc-4bbd-99db-3a8a1d2977b2.jpg?1771586974"
   },
   "Tenderize": {
-    "gih_wr": 0.5597,
-    "alsa": 5.14,
-    "diwr": 0.023,
-    "games": 2222,
+    "gih_wr": 0.5583,
+    "alsa": 5.0,
+    "diwr": 0.031,
+    "games": 8617,
     "rarity": "common",
     "colors": [
       "G"
@@ -2264,13 +2264,13 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 188,
+    "games": 859,
     "rarity": "rare",
     "colors": [
       "G"
     ],
     "mana_cost": "{2}{G}",
-    "type_line": "Creature — Ox Avatar",
+    "type_line": "Creature \u2014 Ox Avatar",
     "cmc": 3.0,
     "power": "0",
     "toughness": "4",
@@ -2279,9 +2279,9 @@
   },
   "Turtle Power!": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 4.23,
     "diwr": null,
-    "games": 33,
+    "games": 137,
     "rarity": "rare",
     "colors": [
       "G"
@@ -2295,16 +2295,16 @@
     "img": "https://cards.scryfall.io/normal/front/4/0/4079ca90-dcc3-4184-9dfc-a626e0776332.jpg?1769006224"
   },
   "Venus, Torn Between Worlds": {
-    "gih_wr": null,
-    "alsa": 4.31,
-    "diwr": null,
-    "games": 598,
+    "gih_wr": 0.5459,
+    "alsa": 4.27,
+    "diwr": 0.0368,
+    "games": 2422,
     "rarity": "uncommon",
     "colors": [
       "G"
     ],
     "mana_cost": "{4}{G}",
-    "type_line": "Legendary Creature — Mutant Frog Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Frog Turtle",
     "cmc": 5.0,
     "power": "5",
     "toughness": "5",
@@ -2312,33 +2312,33 @@
     "img": "https://cards.scryfall.io/normal/front/f/c/fcb59b16-3d76-478e-9306-969dd2cb1b5a.jpg?1771586980"
   },
   "West Wind Avatar": {
-    "gih_wr": null,
-    "alsa": 4.38,
-    "diwr": null,
-    "games": 1086,
+    "gih_wr": 0.5729,
+    "alsa": 4.23,
+    "diwr": 0.0261,
+    "games": 3843,
     "rarity": "uncommon",
     "colors": [
       "G"
     ],
     "mana_cost": "{5}{G}{G}",
-    "type_line": "Creature — Cat Spirit Avatar",
+    "type_line": "Creature \u2014 Cat Spirit Avatar",
     "cmc": 7.0,
     "power": "7",
     "toughness": "7",
-    "oracle_text": "Trample\nWhenever this creature enters or attacks, you may sacrifice a token or a land. If you do, you gain 3 life.\nDisappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, draw a card.",
+    "oracle_text": "Trample\nWhenever this creature enters or attacks, you may sacrifice a token or a land. If you do, you gain 3 life.\nDisappear \u2014 At the beginning of your end step, if a permanent left the battlefield under your control this turn, draw a card.",
     "img": "https://cards.scryfall.io/normal/front/f/4/f4b8f7e6-9bff-430b-b2f5-4308d57d1194.jpg?1771586987"
   },
   "Zoo Escapees": {
-    "gih_wr": 0.5294,
+    "gih_wr": 0.5385,
     "alsa": 6.23,
-    "diwr": 0.0104,
-    "games": 1337,
+    "diwr": 0.0304,
+    "games": 5379,
     "rarity": "common",
     "colors": [
       "G"
     ],
     "mana_cost": "{1}{G}",
-    "type_line": "Creature — Boar Rhino",
+    "type_line": "Creature \u2014 Boar Rhino",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
@@ -2346,17 +2346,17 @@
     "img": "https://cards.scryfall.io/normal/front/f/5/f57ba8ff-2f8c-4ca1-9b13-42a7cc213e99.jpg?1771502750"
   },
   "Baxter Stockman": {
-    "gih_wr": null,
+    "gih_wr": 0.5932,
     "alsa": 4.48,
-    "diwr": null,
-    "games": 1056,
+    "diwr": 0.0451,
+    "games": 3645,
     "rarity": "uncommon",
     "colors": [
       "R",
       "U"
     ],
     "mana_cost": "{3}{U}{R}",
-    "type_line": "Legendary Creature — Human Scientist",
+    "type_line": "Legendary Creature \u2014 Human Scientist",
     "cmc": 5.0,
     "power": "3",
     "toughness": "3",
@@ -2367,14 +2367,14 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 160,
+    "games": 689,
     "rarity": "rare",
     "colors": [
       "B",
       "G"
     ],
     "mana_cost": "{1}{B/G}{B/G}",
-    "type_line": "Legendary Creature — Boar Rhino Mutant",
+    "type_line": "Legendary Creature \u2014 Boar Rhino Mutant",
     "cmc": 3.0,
     "power": "7",
     "toughness": "5",
@@ -2382,10 +2382,10 @@
     "img": "https://cards.scryfall.io/normal/front/5/3/535461bd-f763-408b-816f-64b7bfb9210d.jpg?1760102796"
   },
   "Brilliance Unleashed": {
-    "gih_wr": 0.6222,
-    "alsa": 4.61,
-    "diwr": 0.0762,
-    "games": 1295,
+    "gih_wr": 0.6125,
+    "alsa": 4.46,
+    "diwr": 0.0527,
+    "games": 4914,
     "rarity": "uncommon",
     "colors": [
       "R",
@@ -2396,21 +2396,21 @@
     "cmc": 6.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Choose one or both —\n• Brilliance Unleashed deals 5 damage to target creature.\n• Choose target artifact card in your graveyard. Return it to the battlefield if it's an artifact creature card. Otherwise, return it to the battlefield and it's a 3/3 Robot artifact creature with flying.",
+    "oracle_text": "Choose one or both \u2014\n\u2022 Brilliance Unleashed deals 5 damage to target creature.\n\u2022 Choose target artifact card in your graveyard. Return it to the battlefield if it's an artifact creature card. Otherwise, return it to the battlefield and it's a 3/3 Robot artifact creature with flying.",
     "img": "https://cards.scryfall.io/normal/front/b/7/b7ab2110-5aad-46c9-8dc4-1eac24b6f46b.jpg?1771587000"
   },
   "Dark Leo & Shredder": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 418,
+    "gih_wr": 0.6075,
+    "alsa": 1.94,
+    "diwr": 0.0344,
+    "games": 1725,
     "rarity": "mythic",
     "colors": [
       "B",
       "W"
     ],
     "mana_cost": "{W}{B}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle Human",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle Human",
     "cmc": 2.0,
     "power": "1",
     "toughness": "3",
@@ -2418,17 +2418,17 @@
     "img": "https://cards.scryfall.io/normal/front/b/a/bab93474-2f98-49a1-874f-b794bf81bd0c.jpg?1769006250"
   },
   "Don & Leo, Problem Solvers": {
-    "gih_wr": null,
+    "gih_wr": 0.6357,
     "alsa": null,
-    "diwr": null,
-    "games": 312,
+    "diwr": 0.1184,
+    "games": 1247,
     "rarity": "rare",
     "colors": [
       "U",
       "W"
     ],
     "mana_cost": "{3}{W/U}{W/U}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 5.0,
     "power": "4",
     "toughness": "6",
@@ -2439,14 +2439,14 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 224,
+    "games": 811,
     "rarity": "rare",
     "colors": [
       "R",
       "U"
     ],
     "mana_cost": "{1}{U/R}{U/R}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 3.0,
     "power": "2",
     "toughness": "4",
@@ -2454,35 +2454,35 @@
     "img": "https://cards.scryfall.io/normal/front/4/f/4f38126c-26a9-4447-801f-4f19e84c4aa5.jpg?1769006276"
   },
   "EPF Point Squad": {
-    "gih_wr": null,
-    "alsa": 5.88,
-    "diwr": null,
-    "games": 958,
+    "gih_wr": 0.5296,
+    "alsa": 5.86,
+    "diwr": -0.0391,
+    "games": 4537,
     "rarity": "common",
     "colors": [
       "R",
       "W"
     ],
     "mana_cost": "{1}{R/W}{R/W}",
-    "type_line": "Creature — Human Soldier",
+    "type_line": "Creature \u2014 Human Soldier",
     "cmc": 3.0,
     "power": "2",
     "toughness": "1",
-    "oracle_text": "Alliance — Whenever another creature you control enters, put a +1/+1 counter on this creature.",
+    "oracle_text": "Alliance \u2014 Whenever another creature you control enters, put a +1/+1 counter on this creature.",
     "img": "https://cards.scryfall.io/normal/front/f/a/faab52c0-ce79-40af-a156-b193a62d439e.jpg?1771502756"
   },
   "Foot Elite": {
-    "gih_wr": null,
+    "gih_wr": 0.5277,
     "alsa": 5.85,
-    "diwr": null,
-    "games": 1016,
+    "diwr": -0.0317,
+    "games": 3964,
     "rarity": "common",
     "colors": [
       "B",
       "W"
     ],
     "mana_cost": "{2}{W/B}",
-    "type_line": "Creature — Human Ninja",
+    "type_line": "Creature \u2014 Human Ninja",
     "cmc": 3.0,
     "power": "2",
     "toughness": "4",
@@ -2490,17 +2490,17 @@
     "img": "https://cards.scryfall.io/normal/front/2/4/24bd571e-652a-4e7c-afc6-a45f0ccf62f6.jpg?1771342404"
   },
   "Foot Ninjas": {
-    "gih_wr": 0.5644,
-    "alsa": 6.01,
-    "diwr": -0.0388,
-    "games": 1259,
+    "gih_wr": 0.5675,
+    "alsa": 6.05,
+    "diwr": -0.0037,
+    "games": 5347,
     "rarity": "common",
     "colors": [
       "B",
       "W"
     ],
     "mana_cost": "{4}{W/B}{W/B}",
-    "type_line": "Creature — Human Ninja",
+    "type_line": "Creature \u2014 Human Ninja",
     "cmc": 6.0,
     "power": "5",
     "toughness": "5",
@@ -2508,17 +2508,17 @@
     "img": "https://cards.scryfall.io/normal/front/a/b/abb1ab9c-b067-4b75-8e5b-a893b7948df1.jpg?1771503783"
   },
   "Genghis Frog": {
-    "gih_wr": null,
-    "alsa": 4.4,
-    "diwr": null,
-    "games": 946,
+    "gih_wr": 0.5833,
+    "alsa": 4.46,
+    "diwr": 0.0494,
+    "games": 3602,
     "rarity": "uncommon",
     "colors": [
       "G",
       "U"
     ],
     "mana_cost": "{G}{U}",
-    "type_line": "Legendary Creature — Frog Mutant Rogue",
+    "type_line": "Legendary Creature \u2014 Frog Mutant Rogue",
     "cmc": 2.0,
     "power": "1",
     "toughness": "3",
@@ -2526,10 +2526,10 @@
     "img": "https://cards.scryfall.io/normal/front/7/d/7df26085-eedb-4bdd-a60a-aabfbe9c3157.jpg?1771342425"
   },
   "Go Ninja Go": {
-    "gih_wr": null,
-    "alsa": 5.07,
-    "diwr": null,
-    "games": 712,
+    "gih_wr": 0.5413,
+    "alsa": 5.16,
+    "diwr": -0.0247,
+    "games": 2683,
     "rarity": "uncommon",
     "colors": [
       "R",
@@ -2540,21 +2540,21 @@
     "cmc": 2.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Choose one or both —\n• Exile target creature you control, then return it to the battlefield under its owner's control.\n• Go Ninja Go deals damage equal to the greatest power among creatures you control to target creature an opponent controls.",
+    "oracle_text": "Choose one or both \u2014\n\u2022 Exile target creature you control, then return it to the battlefield under its owner's control.\n\u2022 Go Ninja Go deals damage equal to the greatest power among creatures you control to target creature an opponent controls.",
     "img": "https://cards.scryfall.io/normal/front/9/0/90e68cd8-ea76-4bd1-9199-474da9c3e8bf.jpg?1771587007"
   },
   "Ice Cream Kitty": {
-    "gih_wr": 0.5441,
-    "alsa": 5.79,
-    "diwr": -0.0147,
-    "games": 2039,
+    "gih_wr": 0.538,
+    "alsa": 5.71,
+    "diwr": -0.0066,
+    "games": 7684,
     "rarity": "common",
     "colors": [
       "B",
       "G"
     ],
     "mana_cost": "{1}{B/G}",
-    "type_line": "Artifact Creature — Food Cat Mutant",
+    "type_line": "Artifact Creature \u2014 Food Cat Mutant",
     "cmc": 2.0,
     "power": "1",
     "toughness": "3",
@@ -2562,17 +2562,17 @@
     "img": "https://cards.scryfall.io/normal/front/6/6/66081fd3-2457-4602-96c4-3075ddfec1c2.jpg?1771587014"
   },
   "Karai, Future of the Foot": {
-    "gih_wr": null,
-    "alsa": 3.62,
-    "diwr": null,
-    "games": 877,
+    "gih_wr": 0.5749,
+    "alsa": 3.45,
+    "diwr": -0.0112,
+    "games": 3680,
     "rarity": "uncommon",
     "colors": [
       "B",
       "W"
     ],
     "mana_cost": "{1}{W}{B}",
-    "type_line": "Legendary Creature — Human Ninja",
+    "type_line": "Legendary Creature \u2014 Human Ninja",
     "cmc": 3.0,
     "power": "3",
     "toughness": "3",
@@ -2580,10 +2580,10 @@
     "img": "https://cards.scryfall.io/normal/front/0/d/0dded2d4-1640-4431-809e-403b51b27db6.jpg?1771342417"
   },
   "Karai's Technique": {
-    "gih_wr": null,
-    "alsa": 3.98,
-    "diwr": null,
-    "games": 849,
+    "gih_wr": 0.5744,
+    "alsa": 3.81,
+    "diwr": -0.0283,
+    "games": 3799,
     "rarity": "uncommon",
     "colors": [
       "B",
@@ -2594,50 +2594,50 @@
     "cmc": 3.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Sneak {W}{B} (You may cast this spell for {W}{B} if you also return an unblocked attacker you control to hand during the declare blockers step.)\nChoose one or both —\n• Target creature gets +3/+3 until end of turn.\n• Target creature gets -3/-3 until end of turn.",
+    "oracle_text": "Sneak {W}{B} (You may cast this spell for {W}{B} if you also return an unblocked attacker you control to hand during the declare blockers step.)\nChoose one or both \u2014\n\u2022 Target creature gets +3/+3 until end of turn.\n\u2022 Target creature gets -3/-3 until end of turn.",
     "img": "https://cards.scryfall.io/normal/front/0/3/037fe188-3355-4724-b2eb-e2448fc55607.jpg?1771587021"
   },
   "Krang & Shredder": {
-    "gih_wr": null,
+    "gih_wr": 0.5787,
     "alsa": null,
-    "diwr": null,
-    "games": 282,
+    "diwr": 0.0405,
+    "games": 1230,
     "rarity": "rare",
     "colors": [
       "B",
       "U"
     ],
     "mana_cost": "{4}{U/B}{U/B}",
-    "type_line": "Legendary Creature — Utrom Human Ninja",
+    "type_line": "Legendary Creature \u2014 Utrom Human Ninja",
     "cmc": 6.0,
     "power": "6",
     "toughness": "7",
-    "oracle_text": "Whenever Krang & Shredder enter or attack, each opponent exiles cards from the top of their library until they exile a nonland card.\nDisappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, you may cast a card exiled with Krang & Shredder without paying its mana cost.",
+    "oracle_text": "Whenever Krang & Shredder enter or attack, each opponent exiles cards from the top of their library until they exile a nonland card.\nDisappear \u2014 At the beginning of your end step, if a permanent left the battlefield under your control this turn, you may cast a card exiled with Krang & Shredder without paying its mana cost.",
     "img": "https://cards.scryfall.io/normal/front/9/b/9b5437e2-e3f4-4c19-a2aa-a75f65a001bb.jpg?1769006256"
   },
   "The Last Ronin": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 666,
+    "gih_wr": 0.6795,
+    "alsa": 1.92,
+    "diwr": 0.1405,
+    "games": 2630,
     "rarity": "mythic",
     "colors": [
       "B",
       "G"
     ],
     "mana_cost": "{4}{B}{G}",
-    "type_line": "Enchantment — Saga",
+    "type_line": "Enchantment \u2014 Saga",
     "cmc": 6.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Destroy all creatures.\nII — Mill four cards. When you do, return target creature card from your graveyard to your hand.\nIII — Whenever a creature you control attacks alone this turn, put three +1/+1 counters on it. It gains trample, lifelink, and indestructible until end of turn.",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Destroy all creatures.\nII \u2014 Mill four cards. When you do, return target creature card from your graveyard to your hand.\nIII \u2014 Whenever a creature you control attacks alone this turn, put three +1/+1 counters on it. It gains trample, lifelink, and indestructible until end of turn.",
     "img": "https://cards.scryfall.io/normal/front/7/2/72ab3ccf-3ddb-4dd1-9cfb-98802a18d954.jpg?1771603465"
   },
   "Lessons from Life": {
-    "gih_wr": null,
-    "alsa": 4.79,
-    "diwr": null,
-    "games": 932,
+    "gih_wr": 0.6179,
+    "alsa": 4.64,
+    "diwr": 0.0848,
+    "games": 3686,
     "rarity": "uncommon",
     "colors": [
       "G",
@@ -2652,17 +2652,17 @@
     "img": "https://cards.scryfall.io/normal/front/0/f/0f886117-aff3-4db7-9cf5-7cbe94c8cd02.jpg?1771424719"
   },
   "Mechanized Ninja Cavalry": {
-    "gih_wr": 0.607,
-    "alsa": 4.78,
-    "diwr": 0.0548,
-    "games": 2560,
+    "gih_wr": 0.5856,
+    "alsa": 4.74,
+    "diwr": 0.0166,
+    "games": 10536,
     "rarity": "common",
     "colors": [
       "R",
       "W"
     ],
     "mana_cost": "{1}{R/W}",
-    "type_line": "Artifact Creature — Robot Ninja",
+    "type_line": "Artifact Creature \u2014 Robot Ninja",
     "cmc": 2.0,
     "power": "1",
     "toughness": "1",
@@ -2670,17 +2670,17 @@
     "img": "https://cards.scryfall.io/normal/front/2/c/2cb65388-dc6c-4e2a-93ac-49ea484849e9.jpg?1771502774"
   },
   "Mikey & Don, Party Planners": {
-    "gih_wr": null,
+    "gih_wr": 0.6149,
     "alsa": null,
-    "diwr": null,
-    "games": 320,
+    "diwr": 0.0826,
+    "games": 1174,
     "rarity": "rare",
     "colors": [
       "G",
       "U"
     ],
     "mana_cost": "{2}{G/U}{G/U}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 4.0,
     "power": "3",
     "toughness": "3",
@@ -2691,14 +2691,14 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 199,
+    "games": 868,
     "rarity": "rare",
     "colors": [
       "G",
       "W"
     ],
     "mana_cost": "{G/W}{G/W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 2.0,
     "power": "2",
     "toughness": "2",
@@ -2706,17 +2706,17 @@
     "img": "https://cards.scryfall.io/normal/front/9/c/9cfeb2b4-937c-4bcc-bb03-467cc0effba2.jpg?1769006353"
   },
   "Mouser Mark III": {
-    "gih_wr": 0.5613,
-    "alsa": 6.74,
-    "diwr": 0.0139,
-    "games": 1555,
+    "gih_wr": 0.5452,
+    "alsa": 6.78,
+    "diwr": -0.0149,
+    "games": 5923,
     "rarity": "common",
     "colors": [
       "R",
       "U"
     ],
     "mana_cost": "{1}{U/R}",
-    "type_line": "Artifact Creature — Robot",
+    "type_line": "Artifact Creature \u2014 Robot",
     "cmc": 2.0,
     "power": "2",
     "toughness": "3",
@@ -2724,35 +2724,35 @@
     "img": "https://cards.scryfall.io/normal/front/6/0/608a13b4-0b94-4be5-ac4b-e939901e8419.jpg?1771502784"
   },
   "The Neutrinos": {
-    "gih_wr": null,
-    "alsa": 4.78,
-    "diwr": null,
-    "games": 756,
+    "gih_wr": 0.5433,
+    "alsa": 4.8,
+    "diwr": -0.0356,
+    "games": 3193,
     "rarity": "uncommon",
     "colors": [
       "R",
       "W"
     ],
     "mana_cost": "{2}{R}{W}",
-    "type_line": "Legendary Creature — Elf Rebel",
+    "type_line": "Legendary Creature \u2014 Elf Rebel",
     "cmc": 4.0,
     "power": "2",
     "toughness": "4",
-    "oracle_text": "Flying\nAlliance — Whenever another creature you control enters, The Neutrinos get +1/+0 until end of turn.\nWhenever The Neutrinos attack, exile up to one target creature you own, then return it to the battlefield under your control tapped and attacking.",
+    "oracle_text": "Flying\nAlliance \u2014 Whenever another creature you control enters, The Neutrinos get +1/+0 until end of turn.\nWhenever The Neutrinos attack, exile up to one target creature you own, then return it to the battlefield under your control tapped and attacking.",
     "img": "https://cards.scryfall.io/normal/front/1/3/1308dadc-08a9-40bd-98a4-fb66d792e27d.jpg?1771587028"
   },
   "Nobody": {
-    "gih_wr": 0.5847,
-    "alsa": 6.67,
-    "diwr": 0.0174,
-    "games": 1799,
+    "gih_wr": 0.5843,
+    "alsa": 6.6,
+    "diwr": 0.0258,
+    "games": 7508,
     "rarity": "common",
     "colors": [
       "R",
       "U"
     ],
     "mana_cost": "{1}{U/R}{U/R}",
-    "type_line": "Artifact Creature — Human Hero",
+    "type_line": "Artifact Creature \u2014 Human Hero",
     "cmc": 3.0,
     "power": "3",
     "toughness": "2",
@@ -2760,17 +2760,17 @@
     "img": "https://cards.scryfall.io/normal/front/0/9/0966b8ff-61d3-4394-a357-97c35f042a29.jpg?1771587036"
   },
   "North Wind Avatar": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 604,
+    "gih_wr": 0.6144,
+    "alsa": 2.65,
+    "diwr": 0.0528,
+    "games": 2487,
     "rarity": "mythic",
     "colors": [
       "R",
       "U"
     ],
     "mana_cost": "{2}{U}{U}{R}",
-    "type_line": "Creature — Dragon Spirit Avatar",
+    "type_line": "Creature \u2014 Dragon Spirit Avatar",
     "cmc": 5.0,
     "power": "5",
     "toughness": "5",
@@ -2778,35 +2778,35 @@
     "img": "https://cards.scryfall.io/normal/front/4/1/41439cfe-bb3e-42f3-9d81-de9db537ce68.jpg?1769006359"
   },
   "Pizza Face, Gastromancer": {
-    "gih_wr": null,
-    "alsa": 4.04,
-    "diwr": null,
-    "games": 1043,
+    "gih_wr": 0.5639,
+    "alsa": 3.86,
+    "diwr": 0.0513,
+    "games": 3668,
     "rarity": "uncommon",
     "colors": [
       "B",
       "G"
     ],
     "mana_cost": "{3}{B}{G}",
-    "type_line": "Legendary Artifact Creature — Food Mutant",
+    "type_line": "Legendary Artifact Creature \u2014 Food Mutant",
     "cmc": 5.0,
     "power": "2",
     "toughness": "4",
-    "oracle_text": "When Pizza Face enters, create a Food token.\nDisappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, put three +1/+1 counters on up to one other target artifact or creature. If it isn't a creature, it becomes a 0/0 Mutant creature in addition to its other types.\n{10}, {T}, Sacrifice Pizza Face: You gain 15 life.",
+    "oracle_text": "When Pizza Face enters, create a Food token.\nDisappear \u2014 At the beginning of your end step, if a permanent left the battlefield under your control this turn, put three +1/+1 counters on up to one other target artifact or creature. If it isn't a creature, it becomes a 0/0 Mutant creature in addition to its other types.\n{10}, {T}, Sacrifice Pizza Face: You gain 15 life.",
     "img": "https://cards.scryfall.io/normal/front/b/0/b03cf0bb-3207-4e8e-bb3f-e3e4367aa86e.jpg?1771599896"
   },
   "Punk Frogs": {
     "gih_wr": null,
-    "alsa": 7.85,
+    "alsa": 7.87,
     "diwr": null,
-    "games": 163,
+    "games": 770,
     "rarity": "common",
     "colors": [
       "G",
       "U"
     ],
     "mana_cost": "{3}{G/U}{G/U}",
-    "type_line": "Creature — Frog Mutant Rebel",
+    "type_line": "Creature \u2014 Frog Mutant Rebel",
     "cmc": 5.0,
     "power": "4",
     "toughness": "5",
@@ -2814,35 +2814,35 @@
     "img": "https://cards.scryfall.io/normal/front/3/7/375c91a3-53c4-4f2d-bf7b-2c79a219d3ae.jpg?1771587049"
   },
   "Putrid Pals": {
-    "gih_wr": null,
-    "alsa": 6.06,
-    "diwr": null,
-    "games": 697,
+    "gih_wr": 0.472,
+    "alsa": 6.16,
+    "diwr": -0.0271,
+    "games": 2617,
     "rarity": "common",
     "colors": [
       "B",
       "G"
     ],
     "mana_cost": "{2}{B/G}{B/G}",
-    "type_line": "Creature — Human Ooze Mutant",
+    "type_line": "Creature \u2014 Human Ooze Mutant",
     "cmc": 4.0,
     "power": "3",
     "toughness": "3",
-    "oracle_text": "Deathtouch\nDisappear — This creature enters with two +1/+1 counters on it if a permanent left the battlefield under your control this turn.",
+    "oracle_text": "Deathtouch\nDisappear \u2014 This creature enters with two +1/+1 counters on it if a permanent left the battlefield under your control this turn.",
     "img": "https://cards.scryfall.io/normal/front/4/2/42cdb88d-675a-43bb-b85c-51c4cc526315.jpg?1771587057"
   },
   "Raph & Leo, Sibling Rivals": {
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 174,
+    "games": 765,
     "rarity": "rare",
     "colors": [
       "R",
       "W"
     ],
     "mana_cost": "{1}{R/W}{R/W}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 3.0,
     "power": "2",
     "toughness": "4",
@@ -2850,17 +2850,17 @@
     "img": "https://cards.scryfall.io/normal/front/4/9/49293f77-5d7b-4106-b485-db6ce0ed37e6.jpg?1769006383"
   },
   "Raph & Mikey, Troublemakers": {
-    "gih_wr": null,
+    "gih_wr": 0.623,
     "alsa": null,
-    "diwr": null,
-    "games": 296,
+    "diwr": 0.0646,
+    "games": 1186,
     "rarity": "rare",
     "colors": [
       "G",
       "R"
     ],
     "mana_cost": "{5}{R/G}{R/G}",
-    "type_line": "Legendary Creature — Mutant Ninja Turtle",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle",
     "cmc": 7.0,
     "power": "7",
     "toughness": "7",
@@ -2868,17 +2868,17 @@
     "img": "https://cards.scryfall.io/normal/front/8/7/8795fba4-0ff3-4c04-a81c-60408608a00c.jpg?1769006366"
   },
   "Slithering Cryptid": {
-    "gih_wr": 0.5501,
-    "alsa": 6.22,
-    "diwr": -0.0025,
-    "games": 1895,
+    "gih_wr": 0.5497,
+    "alsa": 6.11,
+    "diwr": 0.0141,
+    "games": 7026,
     "rarity": "common",
     "colors": [
       "G",
       "U"
     ],
     "mana_cost": "{2}{G/U}",
-    "type_line": "Creature — Fish Mutant",
+    "type_line": "Creature \u2014 Fish Mutant",
     "cmc": 3.0,
     "power": "2",
     "toughness": "3",
@@ -2889,14 +2889,14 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 162,
+    "games": 792,
     "rarity": "rare",
     "colors": [
       "B",
       "W"
     ],
     "mana_cost": "{1}{W/B}{W/B}",
-    "type_line": "Legendary Creature — Mutant Ninja Rat",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Rat",
     "cmc": 3.0,
     "power": "2",
     "toughness": "4",
@@ -2904,10 +2904,10 @@
     "img": "https://cards.scryfall.io/normal/front/f/0/f0797466-c527-4d35-86bc-e0e90fd04073.jpg?1769024412"
   },
   "Tainted Treats": {
-    "gih_wr": null,
-    "alsa": 3.6,
-    "diwr": null,
-    "games": 1080,
+    "gih_wr": 0.6185,
+    "alsa": 3.62,
+    "diwr": 0.0837,
+    "games": 4217,
     "rarity": "uncommon",
     "colors": [
       "B",
@@ -2925,14 +2925,14 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 160,
+    "games": 546,
     "rarity": "rare",
     "colors": [
       "B",
       "R"
     ],
     "mana_cost": "{B/R}{B/R}",
-    "type_line": "Legendary Creature — Turtle Wolf Mutant",
+    "type_line": "Legendary Creature \u2014 Turtle Wolf Mutant",
     "cmc": 2.0,
     "power": "3",
     "toughness": "2",
@@ -2943,11 +2943,11 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 260,
+    "games": 1005,
     "rarity": "rare",
     "colors": [],
     "mana_cost": "{2}",
-    "type_line": "Artifact Creature — Robot Ninja",
+    "type_line": "Artifact Creature \u2014 Robot Ninja",
     "cmc": 2.0,
     "power": "1",
     "toughness": "3",
@@ -2955,14 +2955,14 @@
     "img": "https://cards.scryfall.io/normal/front/9/9/994a01eb-2689-49e7-be23-0713da9da9a8.jpg?1769006406"
   },
   "Everything Pizza": {
-    "gih_wr": null,
-    "alsa": 6.18,
-    "diwr": null,
-    "games": 456,
+    "gih_wr": 0.6045,
+    "alsa": 6.04,
+    "diwr": 0.0664,
+    "games": 2418,
     "rarity": "uncommon",
     "colors": [],
     "mana_cost": "{2}",
-    "type_line": "Artifact — Food",
+    "type_line": "Artifact \u2014 Food",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -2970,14 +2970,14 @@
     "img": "https://cards.scryfall.io/normal/front/d/f/df2cdaa5-9ea0-4aa5-89d3-9edf40fa2a39.jpg?1771476702"
   },
   "Henchbots": {
-    "gih_wr": null,
-    "alsa": 4.16,
-    "diwr": null,
-    "games": 844,
+    "gih_wr": 0.5447,
+    "alsa": 4.25,
+    "diwr": -0.0022,
+    "games": 3029,
     "rarity": "uncommon",
     "colors": [],
     "mana_cost": "{4}",
-    "type_line": "Artifact Creature — Robot",
+    "type_line": "Artifact Creature \u2014 Robot",
     "cmc": 4.0,
     "power": "2",
     "toughness": "3",
@@ -2985,14 +2985,14 @@
     "img": "https://cards.scryfall.io/normal/front/d/7/d77aa46e-fa57-4427-b0a3-0a957dc994dc.jpg?1771502803"
   },
   "Krang, Utrom Warlord": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 309,
+    "gih_wr": 0.5148,
+    "alsa": 2.16,
+    "diwr": -0.0058,
+    "games": 1223,
     "rarity": "mythic",
     "colors": [],
     "mana_cost": "{9}",
-    "type_line": "Legendary Artifact Creature — Utrom Robot",
+    "type_line": "Legendary Artifact Creature \u2014 Utrom Robot",
     "cmc": 9.0,
     "power": "9",
     "toughness": "9",
@@ -3000,14 +3000,14 @@
     "img": "https://cards.scryfall.io/normal/front/8/8/88d36c32-d6f9-46e4-9cc8-08e6c0ff05d2.jpg?1769006413"
   },
   "Omni-Cheese Pizza": {
-    "gih_wr": 0.6111,
-    "alsa": 6.51,
-    "diwr": 0.0817,
-    "games": 1210,
+    "gih_wr": 0.5775,
+    "alsa": 6.46,
+    "diwr": 0.0333,
+    "games": 4790,
     "rarity": "common",
     "colors": [],
     "mana_cost": "{2}",
-    "type_line": "Artifact — Food",
+    "type_line": "Artifact \u2014 Food",
     "cmc": 2.0,
     "power": "",
     "toughness": "",
@@ -3018,7 +3018,7 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 252,
+    "games": 964,
     "rarity": "rare",
     "colors": [],
     "mana_cost": "{2}",
@@ -3031,13 +3031,13 @@
   },
   "Skateboard": {
     "gih_wr": null,
-    "alsa": 5.84,
+    "alsa": 5.88,
     "diwr": null,
-    "games": 199,
+    "games": 783,
     "rarity": "uncommon",
     "colors": [],
     "mana_cost": "{1}",
-    "type_line": "Artifact — Equipment",
+    "type_line": "Artifact \u2014 Equipment",
     "cmc": 1.0,
     "power": "",
     "toughness": "",
@@ -3045,14 +3045,14 @@
     "img": "https://cards.scryfall.io/normal/front/d/e/deadb6d8-3eea-4261-a07c-8536df89e85c.jpg?1771502813"
   },
   "Technodrome": {
-    "gih_wr": null,
-    "alsa": null,
-    "diwr": null,
-    "games": 494,
+    "gih_wr": 0.5861,
+    "alsa": 2.17,
+    "diwr": 0.0381,
+    "games": 1973,
     "rarity": "mythic",
     "colors": [],
     "mana_cost": "{2}",
-    "type_line": "Artifact Creature — Construct",
+    "type_line": "Artifact Creature \u2014 Construct",
     "cmc": 2.0,
     "power": "3",
     "toughness": "3",
@@ -3060,14 +3060,14 @@
     "img": "https://cards.scryfall.io/normal/front/2/8/287f5ab0-b15b-4507-8a24-585f9a9841ad.jpg?1769006421"
   },
   "Turtle Blimp": {
-    "gih_wr": null,
-    "alsa": 6.17,
-    "diwr": null,
-    "games": 555,
+    "gih_wr": 0.6059,
+    "alsa": 6.01,
+    "diwr": 0.0354,
+    "games": 1931,
     "rarity": "uncommon",
     "colors": [],
     "mana_cost": "{5}",
-    "type_line": "Artifact — Vehicle",
+    "type_line": "Artifact \u2014 Vehicle",
     "cmc": 5.0,
     "power": "3",
     "toughness": "4",
@@ -3075,14 +3075,14 @@
     "img": "https://cards.scryfall.io/normal/front/6/e/6e118fc5-b0ae-4592-8292-d611856ae203.jpg?1771587078"
   },
   "Turtle Van": {
-    "gih_wr": null,
+    "gih_wr": 0.5586,
     "alsa": null,
-    "diwr": null,
-    "games": 323,
+    "diwr": 0.0493,
+    "games": 1096,
     "rarity": "rare",
     "colors": [],
     "mana_cost": "{3}",
-    "type_line": "Artifact — Vehicle",
+    "type_line": "Artifact \u2014 Vehicle",
     "cmc": 3.0,
     "power": "4",
     "toughness": "4",
@@ -3093,7 +3093,7 @@
     "gih_wr": null,
     "alsa": null,
     "diwr": null,
-    "games": 240,
+    "games": 855,
     "rarity": "rare",
     "colors": [],
     "mana_cost": "{3}",
@@ -3101,14 +3101,14 @@
     "cmc": 3.0,
     "power": "",
     "toughness": "",
-    "oracle_text": "Landfall — Whenever a land you control enters, put a charge counter on this artifact.\n{T}: Add one mana of any color.\n{T}, Remove two charge counters from this artifact: Add {C}{C}.\n{T}, Remove three charge counters from this artifact: It deals 3 damage to any target.",
+    "oracle_text": "Landfall \u2014 Whenever a land you control enters, put a charge counter on this artifact.\n{T}: Add one mana of any color.\n{T}, Remove two charge counters from this artifact: Add {C}{C}.\n{T}, Remove three charge counters from this artifact: It deals 3 damage to any target.",
     "img": "https://cards.scryfall.io/normal/front/a/a/aaba62c1-760b-491b-8047-869bb1d3f67e.jpg?1769006491"
   },
   "Dimension X": {
-    "gih_wr": null,
-    "alsa": 7.1,
-    "diwr": null,
-    "games": 1033,
+    "gih_wr": 0.544,
+    "alsa": 7.03,
+    "diwr": -0.0204,
+    "games": 3995,
     "rarity": "common",
     "colors": [
       "R"
@@ -3122,10 +3122,10 @@
     "img": "https://cards.scryfall.io/normal/front/1/c/1c244fc2-70f0-4149-b0d2-d49fc6bac2b0.jpg?1771587085"
   },
   "Escape Tunnel": {
-    "gih_wr": 0.5883,
-    "alsa": 5.51,
-    "diwr": 0.0019,
-    "games": 2019,
+    "gih_wr": 0.5779,
+    "alsa": 5.48,
+    "diwr": 0.0098,
+    "games": 8216,
     "rarity": "common",
     "colors": [],
     "mana_cost": "",
@@ -3137,10 +3137,10 @@
     "img": "https://cards.scryfall.io/normal/front/5/d/5df90940-15ea-418c-8547-6c75d69ec6d3.jpg?1771424732"
   },
   "Foot Headquarters": {
-    "gih_wr": 0.5886,
-    "alsa": 6.35,
-    "diwr": -0.0138,
-    "games": 1414,
+    "gih_wr": 0.5765,
+    "alsa": 6.24,
+    "diwr": -0.0034,
+    "games": 5642,
     "rarity": "common",
     "colors": [
       "W"
@@ -3154,10 +3154,10 @@
     "img": "https://cards.scryfall.io/normal/front/4/5/45e68113-3f05-4547-947d-4cb9ebfa73c7.jpg?1771587092"
   },
   "Illegitimate Business": {
-    "gih_wr": 0.5731,
-    "alsa": 6.31,
-    "diwr": 0.0175,
-    "games": 1591,
+    "gih_wr": 0.5655,
+    "alsa": 6.16,
+    "diwr": 0.0153,
+    "games": 6247,
     "rarity": "common",
     "colors": [
       "B"
@@ -3171,10 +3171,10 @@
     "img": "https://cards.scryfall.io/normal/front/7/1/71597acf-1ce6-46a8-b6c0-88755c8a377c.jpg?1771587098"
   },
   "Mutant Town": {
-    "gih_wr": 0.5994,
-    "alsa": 6.69,
-    "diwr": 0.0606,
-    "games": 1321,
+    "gih_wr": 0.6008,
+    "alsa": 6.63,
+    "diwr": 0.0717,
+    "games": 5455,
     "rarity": "common",
     "colors": [
       "G"
@@ -3189,9 +3189,9 @@
   },
   "Northampton Farm": {
     "gih_wr": null,
-    "alsa": null,
+    "alsa": 4.38,
     "diwr": null,
-    "games": 140,
+    "games": 636,
     "rarity": "rare",
     "colors": [],
     "mana_cost": "",
@@ -3203,10 +3203,10 @@
     "img": "https://cards.scryfall.io/normal/front/d/b/dbca168e-095f-4fbc-88f8-3048d83caf94.jpg?1769006600"
   },
   "TCRI Building": {
-    "gih_wr": 0.5882,
-    "alsa": 6.79,
-    "diwr": 0.0309,
-    "games": 1600,
+    "gih_wr": 0.5824,
+    "alsa": 6.7,
+    "diwr": 0.0326,
+    "games": 6139,
     "rarity": "common",
     "colors": [
       "U"
@@ -3220,10 +3220,10 @@
     "img": "https://cards.scryfall.io/normal/front/8/8/8817a1d6-ef39-4e7c-8277-74aea012803b.jpg?1771587112"
   },
   "Turtle Lair": {
-    "gih_wr": null,
-    "alsa": 4.93,
-    "diwr": null,
-    "games": 478,
+    "gih_wr": 0.5531,
+    "alsa": 5.11,
+    "diwr": -0.0196,
+    "games": 2089,
     "rarity": "uncommon",
     "colors": [],
     "mana_cost": "",
@@ -3244,7 +3244,7 @@
       "W"
     ],
     "mana_cost": "",
-    "type_line": "Basic Land — Plains",
+    "type_line": "Basic Land \u2014 Plains",
     "cmc": 0.0,
     "power": "",
     "toughness": "",
@@ -3261,7 +3261,7 @@
       "U"
     ],
     "mana_cost": "",
-    "type_line": "Basic Land — Island",
+    "type_line": "Basic Land \u2014 Island",
     "cmc": 0.0,
     "power": "",
     "toughness": "",
@@ -3278,7 +3278,7 @@
       "B"
     ],
     "mana_cost": "",
-    "type_line": "Basic Land — Swamp",
+    "type_line": "Basic Land \u2014 Swamp",
     "cmc": 0.0,
     "power": "",
     "toughness": "",
@@ -3295,7 +3295,7 @@
       "R"
     ],
     "mana_cost": "",
-    "type_line": "Basic Land — Mountain",
+    "type_line": "Basic Land \u2014 Mountain",
     "cmc": 0.0,
     "power": "",
     "toughness": "",
@@ -3312,7 +3312,7 @@
       "G"
     ],
     "mana_cost": "",
-    "type_line": "Basic Land — Forest",
+    "type_line": "Basic Land \u2014 Forest",
     "cmc": 0.0,
     "power": "",
     "toughness": "",
