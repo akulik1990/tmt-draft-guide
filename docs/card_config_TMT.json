@@ -297,7 +297,7 @@
     "F"
   ],
   "_tips": [
-    { "title": "Mana Curve", "body": "1-drops: 1-2 · 2-drops: 4-5 · 3-drops: 4-5 · 4-drops: 3-4 · 5+: 2-3\nTotal: 16-17 creatures, 6-8 spells, 16-17 lands" },
+    { "title": "Mana Curve", "body": "1-drops: 1-2/n2-drops: 4-5/n3-drops: 4-5/n4-drops: 3-4/n5+: 2-3\nTotal: 16-17 creatures, 6-8 spells, 16-17 lands" },
     { "title": "Key Mechanics", "body": "<b>Artifacts</b> — count for both artifact + creature synergies\n<b>Disappear</b> — exile from graveyard for effects (self-mill fills yard)\n<b>Sneak</b> — bonus on combat damage (needs evasion/removal)\n<b>Alliance</b> — triggers on creature ETB (tokens = multiple triggers)\n<b>Mutagen</b> — +1/+1 counters matter; creatures grow over time" },
     { "title": "Format Speed", "body": "Medium speed. RW Alliance and UR Artifacts close by turn 6-7.\nBG Disappear grinds longest. Don't be too greedy with your curve." },
     { "title": "Draft Priorities", "body": "<b>P1P1:</b> Bombs > Premium removal > Best uncommon signpost\n<b>Pack 1:</b> Stay open, grab the best card regardless of color\n<b>Pack 2:</b> Commit to an archetype, prioritize synergy pieces\n<b>Pack 3:</b> Fill curve gaps, grab fixing, snag last removal" }
