@@ -190,6 +190,8 @@ h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
 #preview .hover-tags { margin-top:3px; display:flex; flex-wrap:wrap; gap:2px; }
 #preview .hover-tags span { font-size:9px; padding:1px 5px; border-radius:6px;
     background:#21262d; color:#79c0ff; border:1px solid #30363d; }
+#preview .hover-comment { margin-top:4px; font-size:10px; color:#8b949e; font-style:italic;
+    border-top:1px solid #21262d; padding-top:3px; }
 
 /* ── Mobile Detail ── */
 #mobile-detail { display:none; position:fixed; top:0; left:0; right:0; bottom:0;
@@ -455,6 +457,7 @@ Draft Guide
         <div class="hover-type"></div>
         <div class="hover-stats"></div>
         <div class="hover-tags"></div>
+        <div class="hover-comment"></div>
     </div>
 </div>
 
@@ -1442,9 +1445,13 @@ function populatePreview(tile) {
         const label = arch ? arch.name : aid;
         return roles.map(r => `<span style="background:#1a3a2a;border-color:#2ea043;">${label} ${r}</span>`);
     });
+    const sectionBadges = (c.sections||[]).map(s => `<span style="background:#2a1a2a;border-color:#9b59b6;color:#c39bd3;">${s.replace(/_/g,' ')}</span>`);
     const typeBadges = (c.tags.types||[]).map(t => `<span>${t}</span>`);
     const speedBadges = (c.tags.speed||[]).map(s => `<span style="background:#1a2a3a;border-color:#3498db;">${s}</span>`);
-    prevTags.innerHTML = archBadges.concat(typeBadges, speedBadges).join('');
+    prevTags.innerHTML = sectionBadges.concat(archBadges, typeBadges, speedBadges).join('');
+    const prevComment = preview.querySelector('.hover-comment');
+    prevComment.textContent = c.comment || '';
+    prevComment.style.display = c.comment ? 'block' : 'none';
 }
 
 function hidePreview() {
