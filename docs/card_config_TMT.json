@@ -61,7 +61,7 @@
       "strategy": "Draft creatures that use +1/+1 counters and Mutagen. Build big threats over time. Tempo + size advantage. Mikey & Don, Party Planners is the top signpost."
     }
   ],
-  "_config_version": 1,
+  "_config_version": 2,
   "_tiers": [
     "A+",
     "A",
@@ -97,18 +97,13 @@
   ],
   "Action News Crew": {
     "tier": "C-",
-    "sections": [
-      "rw_alliance_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "rw_alliance": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -126,9 +121,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -140,8 +132,6 @@
   "Anchovy & Banana Pizza": {
     "tier": "C+",
     "sections": [
-      "bg_disappear_removal",
-      "wb_sneak_removal",
       "contested"
     ],
     "archetypes": {
@@ -153,9 +143,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -173,9 +160,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -188,10 +172,7 @@
   },
   "April O'Neil, Kunoichi Trainee": {
     "tier": "C+",
-    "sections": [
-      "wb_sneak_payoff",
-      "rw_alliance_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "payoff"
@@ -201,9 +182,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -220,9 +198,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -236,9 +211,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -252,9 +224,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -270,9 +239,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -286,9 +252,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -304,9 +267,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -317,10 +277,7 @@
   },
   "Bot Bashing Time": {
     "tier": "C",
-    "sections": [
-      "rw_alliance_removal",
-      "ur_artifacts_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "removal"
@@ -330,9 +287,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -346,7 +300,6 @@
   "Brilliance Unleashed": {
     "tier": "B",
     "sections": [
-      "ur_artifacts_signpost",
       "build_arounds"
     ],
     "archetypes": {
@@ -357,9 +310,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "evasion"
       ],
@@ -375,9 +325,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "aggro",
@@ -389,10 +336,7 @@
   },
   "Buzz Bots": {
     "tier": "C-",
-    "sections": [
-      "gu_mutagen_enabler",
-      "ur_artifacts_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "enabler"
@@ -402,9 +346,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -421,9 +362,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -439,9 +377,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -452,18 +387,13 @@
   },
   "Chrome Dome": {
     "tier": "B",
-    "sections": [
-      "ur_artifacts_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "token-maker"
       ],
@@ -479,9 +409,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage",
         "sweeper"
@@ -496,8 +423,6 @@
   "Courier of Comestibles": {
     "tier": "B",
     "sections": [
-      "gu_mutagen_role_player",
-      "bg_disappear_enabler",
       "top_commons"
     ],
     "archetypes": {
@@ -510,9 +435,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -528,9 +450,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -546,9 +465,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -564,9 +480,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -582,9 +495,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -598,9 +508,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -614,9 +521,7 @@
   "Dimensional Exile": {
     "tier": "B",
     "sections": [
-      "wb_sneak_enabler",
       "top_commons",
-      "rw_alliance_removal",
       "contested"
     ],
     "archetypes": {
@@ -630,9 +535,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -646,7 +548,6 @@
   "Does Machines": {
     "tier": "B-",
     "sections": [
-      "ur_artifacts_payoff",
       "top_commons"
     ],
     "archetypes": {
@@ -655,9 +556,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "self-mill"
       ],
@@ -673,9 +571,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -689,9 +584,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -707,9 +599,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -723,9 +612,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -741,9 +627,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -754,10 +637,7 @@
   },
   "Donatello, Turtle Techie": {
     "tier": "C+",
-    "sections": [
-      "ur_artifacts_role_player",
-      "gu_mutagen_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "role_player"
@@ -768,9 +648,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -786,9 +663,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -804,9 +678,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -823,9 +694,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "aggro"
@@ -839,9 +707,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -858,9 +723,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "ramp-fixing"
@@ -877,9 +739,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -896,9 +755,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "evasion"
@@ -915,9 +771,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -933,9 +786,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -951,9 +801,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -966,9 +813,7 @@
   },
   "Foot Ninjas": {
     "tier": "C-",
-    "sections": [
-      "wb_sneak_signpost"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "signpost",
@@ -976,10 +821,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler",
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -993,9 +834,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1009,8 +847,6 @@
   "Frog Butler": {
     "tier": "B-",
     "sections": [
-      "gu_mutagen_enabler",
-      "bg_disappear_enabler",
       "top_commons"
     ],
     "archetypes": {
@@ -1023,9 +859,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1041,9 +874,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "counter-magic"
@@ -1060,9 +890,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1076,9 +903,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1091,9 +915,7 @@
   },
   "Go Ninja Go": {
     "tier": "C-",
-    "sections": [
-      "rw_alliance_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "rw_alliance": [
         "enabler",
@@ -1101,9 +923,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1119,9 +938,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1134,10 +950,7 @@
   },
   "Grounded for Life": {
     "tier": "C-",
-    "sections": [
-      "wb_sneak_enabler",
-      "rw_alliance_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "enabler",
@@ -1148,9 +961,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -1166,9 +976,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -1184,9 +991,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "card-advantage",
@@ -1204,9 +1008,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1220,9 +1021,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1236,9 +1034,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -1251,18 +1046,13 @@
   },
   "Ice Cream Kitty": {
     "tier": "C-",
-    "sections": [
-      "bg_disappear_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1280,9 +1070,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1298,9 +1085,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1316,9 +1100,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -1335,9 +1116,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1353,9 +1131,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "sweeper"
       ],
@@ -1371,9 +1146,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1389,9 +1161,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -1405,7 +1174,6 @@
   "Karai, Future of the Foot": {
     "tier": "C+",
     "sections": [
-      "wb_sneak_signpost",
       "signals"
     ],
     "archetypes": {
@@ -1416,10 +1184,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff",
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1433,9 +1197,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "self-mill"
       ],
@@ -1451,9 +1212,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1467,9 +1225,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -1487,9 +1242,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1505,9 +1257,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1521,9 +1270,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -1542,9 +1288,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1556,7 +1299,6 @@
   "Leatherhead, Swamp Stalker": {
     "tier": "A-",
     "sections": [
-      "bg_disappear_signpost",
       "build_arounds"
     ],
     "archetypes": {
@@ -1566,9 +1308,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1582,9 +1321,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1595,10 +1331,7 @@
   },
   "Leonardo, Big Brother": {
     "tier": "C-",
-    "sections": [
-      "wb_sneak_enabler",
-      "rw_alliance_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "enabler"
@@ -1608,9 +1341,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1624,9 +1354,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1640,9 +1367,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "aggro"
@@ -1656,9 +1380,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1672,9 +1393,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1688,9 +1406,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "card-advantage"
@@ -1707,9 +1422,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker",
         "evasion",
@@ -1727,9 +1439,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1743,9 +1452,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1757,8 +1463,6 @@
   "Manhole Missile": {
     "tier": "B-",
     "sections": [
-      "ur_artifacts_enabler",
-      "rw_alliance_enabler",
       "top_commons"
     ],
     "archetypes": {
@@ -1772,9 +1476,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage",
         "conditional-removal"
@@ -1789,7 +1490,6 @@
   "Mechanized Ninja Cavalry": {
     "tier": "C+",
     "sections": [
-      "rw_alliance_signpost",
       "top_commons"
     ],
     "archetypes": {
@@ -1800,10 +1500,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff",
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1817,7 +1513,6 @@
   "Metalhead": {
     "tier": "A-",
     "sections": [
-      "ur_artifacts_signpost",
       "signals",
       "contested"
     ],
@@ -1829,10 +1524,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff",
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -1848,9 +1539,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1863,10 +1551,7 @@
   },
   "Michelangelo, Game Master": {
     "tier": "D+",
-    "sections": [
-      "gu_mutagen_role_player",
-      "bg_disappear_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "role_player"
@@ -1876,9 +1561,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1892,9 +1574,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -1908,9 +1587,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "evasion"
@@ -1927,9 +1603,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1943,9 +1616,7 @@
   "Mighty Mutanimals": {
     "tier": "A-",
     "sections": [
-      "wb_sneak_role_player",
       "signals",
-      "rw_alliance_role_player",
       "contested"
     ],
     "archetypes": {
@@ -1957,9 +1628,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1973,7 +1641,6 @@
   "Mikey & Don, Party Planners": {
     "tier": "A-",
     "sections": [
-      "gu_mutagen_signpost",
       "build_arounds"
     ],
     "archetypes": {
@@ -1984,9 +1651,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2002,9 +1666,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2018,8 +1679,6 @@
   "Mind Transfer Protocol": {
     "tier": "C",
     "sections": [
-      "gu_mutagen_removal",
-      "ur_artifacts_removal",
       "late_pick"
     ],
     "archetypes": {
@@ -2031,9 +1690,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage",
         "unconditional-removal"
@@ -2050,9 +1706,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2068,9 +1721,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2086,9 +1736,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2104,9 +1751,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker",
         "combat-trick"
@@ -2120,10 +1764,7 @@
   },
   "Mouser Foundry": {
     "tier": "C+",
-    "sections": [
-      "ur_artifacts_enabler",
-      "rw_alliance_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "enabler",
@@ -2134,9 +1775,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2150,7 +1788,6 @@
   "Mouser Mark III": {
     "tier": "D+",
     "sections": [
-      "ur_artifacts_payoff",
       "late_pick"
     ],
     "archetypes": {
@@ -2159,9 +1796,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2175,9 +1809,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2193,9 +1824,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker",
         "evasion"
@@ -2214,9 +1842,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2232,9 +1857,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "aggro"
@@ -2248,9 +1870,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "control"
@@ -2264,9 +1883,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2282,9 +1898,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -2298,7 +1911,6 @@
   "Nobody": {
     "tier": "C+",
     "sections": [
-      "ur_artifacts_enabler",
       "late_pick"
     ],
     "archetypes": {
@@ -2307,9 +1919,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2327,9 +1936,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "evasion"
       ],
@@ -2345,9 +1951,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2361,9 +1964,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2377,9 +1977,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2395,9 +1992,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2415,9 +2009,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -2434,9 +2025,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "counter-magic"
@@ -2450,18 +2038,13 @@
   },
   "Oroku Saki, Shredder Rising": {
     "tier": "C",
-    "sections": [
-      "wb_sneak_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2477,9 +2060,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2493,9 +2073,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "self-mill"
       ],
@@ -2511,9 +2088,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker",
         "card-advantage"
@@ -2530,9 +2104,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2548,9 +2119,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2566,9 +2134,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -2582,8 +2147,6 @@
   "Primordial Pachyderm": {
     "tier": "C",
     "sections": [
-      "gu_mutagen_role_player",
-      "bg_disappear_role_player",
       "late_pick"
     ],
     "archetypes": {
@@ -2595,9 +2158,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2611,9 +2171,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2627,9 +2184,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2645,9 +2199,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2661,9 +2212,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2674,18 +2222,13 @@
   },
   "Ragamuffin Raptor": {
     "tier": "C-",
-    "sections": [
-      "bg_disappear_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2699,9 +2242,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2717,9 +2257,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "aggro"
@@ -2733,9 +2270,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2749,9 +2283,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -2767,9 +2298,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2783,9 +2311,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "aggro"
@@ -2799,9 +2324,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2817,9 +2339,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2833,7 +2352,6 @@
   "Ravenous Robots": {
     "tier": "B",
     "sections": [
-      "ur_artifacts_enabler",
       "top_commons"
     ],
     "archetypes": {
@@ -2842,9 +2360,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2860,9 +2375,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "evasion",
@@ -2880,9 +2392,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2893,18 +2402,13 @@
   },
   "Retro-Mutation": {
     "tier": "C-",
-    "sections": [
-      "gu_mutagen_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "gu_mutagen": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2916,8 +2420,6 @@
   "Return to the Sewers": {
     "tier": "C+",
     "sections": [
-      "gu_mutagen_enabler",
-      "ur_artifacts_removal",
       "late_pick"
     ],
     "archetypes": {
@@ -2931,9 +2433,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker",
         "bounce"
@@ -2947,18 +2446,13 @@
   },
   "Rock Soldiers": {
     "tier": "D",
-    "sections": [
-      "rw_alliance_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "rw_alliance": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -2974,9 +2468,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -2994,9 +2485,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3012,9 +2500,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3028,9 +2513,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3042,7 +2524,6 @@
   "Sewer-veillance Cam": {
     "tier": "C",
     "sections": [
-      "ur_artifacts_enabler",
       "late_pick"
     ],
     "archetypes": {
@@ -3051,9 +2532,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3067,9 +2545,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "aggro"
@@ -3083,9 +2558,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3099,9 +2571,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3115,9 +2584,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3131,9 +2597,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3147,9 +2610,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "aggro"
@@ -3165,9 +2625,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "sweeper"
@@ -3181,9 +2638,7 @@
   },
   "Slithering Cryptid": {
     "tier": "C",
-    "sections": [
-      "gu_mutagen_signpost"
-    ],
+    "sections": [],
     "archetypes": {
       "gu_mutagen": [
         "signpost",
@@ -3191,10 +2646,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff",
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3210,9 +2661,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3226,9 +2674,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3242,9 +2687,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3258,9 +2700,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -3276,9 +2715,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -3291,18 +2727,13 @@
   },
   "Squirrelanoids": {
     "tier": "C-",
-    "sections": [
-      "bg_disappear_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3316,9 +2747,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -3333,8 +2761,6 @@
   "Stomped by the Foot": {
     "tier": "C+",
     "sections": [
-      "bg_disappear_removal",
-      "wb_sneak_removal",
       "top_commons"
     ],
     "archetypes": {
@@ -3346,9 +2772,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick",
         "unconditional-removal"
@@ -3365,9 +2788,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -3383,9 +2803,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3403,9 +2820,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3418,18 +2832,13 @@
   },
   "Tainted Treats": {
     "tier": "B-",
-    "sections": [
-      "bg_disappear_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "removal"
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "conditional-removal"
@@ -3446,9 +2855,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3461,10 +2867,7 @@
   },
   "Tenderize": {
     "tier": "C",
-    "sections": [
-      "gu_mutagen_removal",
-      "bg_disappear_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "enabler",
@@ -3475,9 +2878,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3493,9 +2893,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3513,9 +2910,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "self-mill",
         "sweeper"
@@ -3532,9 +2926,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3550,9 +2941,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -3569,9 +2957,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3587,9 +2972,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -3605,9 +2987,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "ramp-fixing"
@@ -3626,9 +3005,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "token-maker",
         "evasion"
@@ -3645,9 +3021,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3659,7 +3032,6 @@
   "Turncoat Kunoichi": {
     "tier": "A-",
     "sections": [
-      "wb_sneak_payoff",
       "build_arounds"
     ],
     "archetypes": {
@@ -3669,9 +3041,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3685,9 +3054,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "evasion"
@@ -3704,9 +3070,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "ramp-fixing"
@@ -3723,9 +3086,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3739,9 +3099,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3755,9 +3112,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3771,9 +3125,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3784,18 +3135,13 @@
   },
   "Uneasy Alliance": {
     "tier": "C+",
-    "sections": [
-      "wb_sneak_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3811,9 +3157,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3827,9 +3170,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3845,9 +3185,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3863,9 +3200,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3881,9 +3215,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -3900,9 +3231,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [],
       "speed": [
         "midrange"
@@ -3913,18 +3241,13 @@
   },
   "Zoo Escapees": {
     "tier": "D+",
-    "sections": [
-      "bg_disappear_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],

@@ -159,9 +159,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal",
         "evasion"
@@ -177,9 +174,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -192,9 +186,6 @@
   "Ajani, Outland Chaperone": {
     "tier": "A-",
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal",
         "token-maker",
@@ -205,9 +196,7 @@
       ]
     },
     "removal_type": "conditional",
-    "sections": [
-      "rw_blight_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "rw_blight": [
         "enabler"
@@ -220,9 +209,6 @@
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick",
         "ramp-fixing"
@@ -240,9 +226,6 @@
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -260,9 +243,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "sweeper",
         "card-advantage"
@@ -276,18 +256,13 @@
   },
   "Ashling, Rekindled": {
     "tier": "B+",
-    "sections": [
-      "ur_elementals_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -301,9 +276,6 @@
   "Ashling, Rekindled // Ashling, Rimebound": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -317,10 +289,6 @@
   "Assert Perfection": {
     "tier": "C+",
     "sections": [
-      "gw_kithkin_removal",
-      "bg_elves_removal",
-      "ug_vivid_removal",
-      "rg_vivid_removal",
       "top_commons"
     ],
     "archetypes": {
@@ -338,9 +306,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -353,12 +318,7 @@
   },
   "Auntie's Sentence": {
     "tier": "D+",
-    "sections": [
-      "br_goblins_removal",
-      "bg_elves_removal",
-      "ub_faeries_removal",
-      "wb_blight_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "removal"
@@ -374,9 +334,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "conditional-removal",
         "card-advantage"
@@ -390,12 +347,7 @@
   },
   "Aurora Awakener": {
     "tier": "B+",
-    "sections": [
-      "ug_vivid_signpost",
-      "ug_vivid_payoff",
-      "ug_vivid_key_synergy",
-      "rg_vivid_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "signpost",
@@ -407,9 +359,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -423,14 +372,9 @@
   "Barbed Bloodletter": {
     "tier": "D+",
     "sections": [
-      "ub_faeries_role_player",
-      "wb_blight_enabler",
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -455,9 +399,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -471,9 +412,6 @@
   "Bile-Vial Boggart": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -487,18 +425,13 @@
   },
   "Bitterbloom Bearer": {
     "tier": "B+",
-    "sections": [
-      "ub_faeries_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "ub_faeries": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "token-maker"
@@ -512,18 +445,13 @@
   },
   "Bitterblossom": {
     "tier": "A",
-    "sections": [
-      "ub_faeries_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "ub_faeries": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "token-maker"
@@ -541,9 +469,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -556,11 +481,7 @@
   },
   "Blighted Blackthorn": {
     "tier": "D",
-    "sections": [
-      "bg_elves_enabler",
-      "wb_blight_enabler",
-      "wb_blight_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "enabler"
@@ -571,9 +492,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -588,9 +506,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -602,18 +517,13 @@
   },
   "Bloodline Bidding": {
     "tier": "C+",
-    "sections": [
-      "bg_elves_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -629,9 +539,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -644,10 +551,6 @@
   "Blossombind": {
     "tier": "C+",
     "sections": [
-      "wu_merfolk_removal",
-      "ur_elementals_removal",
-      "ub_faeries_removal",
-      "ug_vivid_removal",
       "top_commons"
     ],
     "archetypes": {
@@ -665,9 +568,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -684,9 +584,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -700,9 +597,6 @@
   "Boggart Cursecrafter": {
     "tier": "B-",
     "sections": [
-      "br_goblins_signpost",
-      "br_goblins_payoff",
-      "br_goblins_key_synergy",
       "signals"
     ],
     "archetypes": {
@@ -713,9 +607,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion"
       ],
@@ -729,8 +620,6 @@
   "Boggart Mischief": {
     "tier": "B",
     "sections": [
-      "br_goblins_enabler",
-      "br_goblins_key_synergy",
       "signals"
     ],
     "archetypes": {
@@ -740,9 +629,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -755,10 +641,7 @@
   },
   "Boggart Prankster": {
     "tier": "D+",
-    "sections": [
-      "br_goblins_enabler",
-      "wb_blight_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "enabler"
@@ -768,9 +651,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -784,12 +664,6 @@
   "Bogslither's Embrace": {
     "tier": "C",
     "sections": [
-      "br_goblins_enabler",
-      "br_goblins_removal",
-      "br_goblins_key_synergy",
-      "bg_elves_removal",
-      "ub_faeries_removal",
-      "wb_blight_enabler",
       "top_commons"
     ],
     "archetypes": {
@@ -809,9 +683,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -824,11 +695,7 @@
   },
   "Boldwyr Aggressor": {
     "tier": "D+",
-    "sections": [
-      "ur_elementals_role_player",
-      "rg_vivid_payoff",
-      "rg_vivid_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "role_player"
@@ -839,9 +706,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -855,9 +719,6 @@
   "Boneclub Berserker": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -872,12 +733,7 @@
   },
   "Boulder Dash": {
     "tier": "B-",
-    "sections": [
-      "br_goblins_removal",
-      "ur_elementals_removal",
-      "rw_blight_removal",
-      "rg_vivid_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "removal"
@@ -893,9 +749,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -908,13 +761,8 @@
   },
   "Brambleback Brute": {
     "tier": "D+",
-    "sections": [
-      "rg_vivid_enabler"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -931,14 +779,8 @@
   },
   "Bre of Clan Stoutarm": {
     "tier": "C+",
-    "sections": [
-      "rw_blight_enabler",
-      "rg_vivid_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "token-maker",
@@ -963,9 +805,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal",
         "token-maker"
@@ -982,9 +821,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "token-maker"
       ],
@@ -998,9 +834,6 @@
   "Brigid, Clachan's Heart // Brigid, Doun's Mind": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1015,9 +848,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1034,9 +864,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -1052,9 +879,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -1071,9 +895,6 @@
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1087,13 +908,9 @@
   "Catharsis": {
     "tier": "B+",
     "sections": [
-      "rw_blight_enabler",
       "build_arounds"
     ],
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1111,9 +928,6 @@
     "tier": "F",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1125,18 +939,13 @@
   },
   "Champion of the Clachan": {
     "tier": "B+",
-    "sections": [
-      "gw_kithkin_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1151,9 +960,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -1166,13 +972,8 @@
   },
   "Champion of the Weird": {
     "tier": "B+",
-    "sections": [
-      "br_goblins_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -1191,9 +992,6 @@
     "tier": "A-",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1206,18 +1004,13 @@
   },
   "Champions of the Shoal": {
     "tier": "A-",
-    "sections": [
-      "wu_merfolk_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -1230,16 +1023,7 @@
   },
   "Changeling Wayfinder": {
     "tier": "C-",
-    "sections": [
-      "gw_kithkin_enabler",
-      "wu_merfolk_enabler",
-      "ur_elementals_enabler",
-      "bg_elves_enabler",
-      "ug_vivid_enabler",
-      "ug_vivid_key_synergy",
-      "rg_vivid_enabler",
-      "ub_faeries_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "enabler"
@@ -1265,9 +1049,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -1283,9 +1064,6 @@
     "tier": "D",
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1299,9 +1077,6 @@
   "Chitinous Graspling": {
     "tier": "D+",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -1315,9 +1090,6 @@
   "Chomping Changeling": {
     "tier": "SB",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -1335,9 +1107,6 @@
     "tier": "A-",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1350,12 +1119,6 @@
   "Cinder Strike": {
     "tier": "C+",
     "sections": [
-      "br_goblins_removal",
-      "ur_elementals_removal",
-      "rw_blight_enabler",
-      "rw_blight_removal",
-      "rw_blight_key_synergy",
-      "rg_vivid_removal",
       "top_commons"
     ],
     "archetypes": {
@@ -1375,9 +1138,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -1390,18 +1150,13 @@
   },
   "Clachan Festival": {
     "tier": "C+",
-    "sections": [
-      "gw_kithkin_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1415,9 +1170,6 @@
   "Collective Inferno": {
     "tier": "D+",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1433,9 +1185,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1452,9 +1201,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "unconditional-removal",
         "token-maker"
@@ -1469,8 +1215,6 @@
   "Crossroads Watcher": {
     "tier": "C",
     "sections": [
-      "gw_kithkin_enabler",
-      "gw_kithkin_key_synergy",
       "top_commons"
     ],
     "archetypes": {
@@ -1480,9 +1224,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1495,13 +1236,8 @@
   },
   "Curious Colossus": {
     "tier": "A-",
-    "sections": [
-      "rw_blight_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -1520,9 +1256,6 @@
     "tier": "D",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "sweeper"
       ],
@@ -1535,18 +1268,13 @@
   },
   "Dawn's Light Archer": {
     "tier": "C-",
-    "sections": [
-      "bg_elves_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -1563,9 +1291,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1578,18 +1303,13 @@
   },
   "Dawnhand Dissident": {
     "tier": "B",
-    "sections": [
-      "bg_elves_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1606,9 +1326,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "self-mill"
@@ -1623,7 +1340,6 @@
   "Deceit": {
     "tier": "A-",
     "sections": [
-      "ub_faeries_key_synergy",
       "build_arounds"
     ],
     "archetypes": {
@@ -1632,9 +1348,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "bounce"
       ],
@@ -1647,11 +1360,7 @@
   },
   "Deepchannel Duelist": {
     "tier": "A-",
-    "sections": [
-      "wu_merfolk_signpost",
-      "wu_merfolk_payoff",
-      "wu_merfolk_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "signpost",
@@ -1660,9 +1369,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "token-maker"
       ],
@@ -1678,9 +1384,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -1691,11 +1394,7 @@
   },
   "Disruptor of Currents": {
     "tier": "A",
-    "sections": [
-      "wu_merfolk_enabler",
-      "wu_merfolk_key_synergy",
-      "ub_faeries_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "enabler",
@@ -1706,9 +1405,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "bounce",
         "ramp-fixing"
@@ -1722,18 +1418,13 @@
   },
   "Doran, Besieged by Time": {
     "tier": "C+",
-    "sections": [
-      "wb_blight_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_blight": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1750,9 +1441,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1767,9 +1455,6 @@
     "tier": "D",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1783,9 +1468,6 @@
   "Dream Seizer": {
     "tier": "D+",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -1799,11 +1481,7 @@
   },
   "Dundoolin Weaver": {
     "tier": "C+",
-    "sections": [
-      "gw_kithkin_enabler",
-      "gw_kithkin_key_synergy",
-      "bg_elves_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "enabler",
@@ -1814,9 +1492,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1830,8 +1505,6 @@
   "Eclipsed Boggart": {
     "tier": "B+",
     "sections": [
-      "br_goblins_signpost",
-      "br_goblins_payoff",
       "signals"
     ],
     "archetypes": {
@@ -1841,9 +1514,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1856,11 +1526,7 @@
   },
   "Eclipsed Elf": {
     "tier": "A-",
-    "sections": [
-      "bg_elves_signpost",
-      "bg_elves_payoff",
-      "bg_elves_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "signpost",
@@ -1869,9 +1535,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1884,10 +1547,7 @@
   },
   "Eclipsed Flamekin": {
     "tier": "B",
-    "sections": [
-      "ur_elementals_signpost",
-      "ur_elementals_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "signpost",
@@ -1895,9 +1555,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1910,10 +1567,7 @@
   },
   "Eclipsed Kithkin": {
     "tier": "B+",
-    "sections": [
-      "gw_kithkin_signpost",
-      "gw_kithkin_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "signpost",
@@ -1921,9 +1575,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1936,10 +1587,7 @@
   },
   "Eclipsed Merrow": {
     "tier": "A-",
-    "sections": [
-      "wu_merfolk_signpost",
-      "wu_merfolk_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "signpost",
@@ -1947,9 +1595,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -1966,9 +1611,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -1982,9 +1624,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion",
         "ramp-fixing"
@@ -1997,18 +1636,13 @@
   },
   "Elder Auntie": {
     "tier": "D+",
-    "sections": [
-      "br_goblins_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2022,13 +1656,9 @@
   "Emptiness": {
     "tier": "B+",
     "sections": [
-      "wb_blight_role_player",
       "build_arounds"
     ],
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "conditional-removal",
         "card-advantage"
@@ -2048,9 +1678,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2065,9 +1692,6 @@
     "tier": "B+",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2082,9 +1706,6 @@
     "tier": "D+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -2101,9 +1722,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -2119,9 +1737,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -2134,10 +1749,7 @@
   },
   "Explosive Prodigy": {
     "tier": "B-",
-    "sections": [
-      "ur_elementals_enabler",
-      "ur_elementals_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "enabler",
@@ -2145,9 +1757,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -2162,9 +1771,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -2178,9 +1784,6 @@
   "Feisty Spikeling": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -2198,9 +1801,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2214,9 +1814,6 @@
   "Firdoch Core": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2229,18 +1826,13 @@
   },
   "Flame-Chain Mauler": {
     "tier": "D+",
-    "sections": [
-      "ur_elementals_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -2253,12 +1845,7 @@
   },
   "Flamebraider": {
     "tier": "B",
-    "sections": [
-      "ur_elementals_enabler",
-      "ur_elementals_key_synergy",
-      "ug_vivid_enabler",
-      "rg_vivid_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "enabler",
@@ -2272,9 +1859,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2288,7 +1872,6 @@
   "Flamekin Gildweaver": {
     "tier": "C+",
     "sections": [
-      "ur_elementals_role_player",
       "top_commons"
     ],
     "archetypes": {
@@ -2297,9 +1880,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2317,9 +1897,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2332,9 +1909,6 @@
     "tier": "A-",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -2348,11 +1922,7 @@
   },
   "Flock Impostor": {
     "tier": "C",
-    "sections": [
-      "wu_merfolk_role_player",
-      "ub_faeries_enabler",
-      "ug_vivid_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "role_player"
@@ -2365,9 +1935,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "bounce"
@@ -2381,13 +1948,8 @@
   },
   "Foraging Wickermaw": {
     "tier": "C-",
-    "sections": [
-      "wb_blight_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -2406,9 +1968,6 @@
     "tier": "B+",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2421,18 +1980,13 @@
   },
   "Gallant Fowlknight": {
     "tier": "C-",
-    "sections": [
-      "gw_kithkin_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2447,9 +2001,6 @@
     "tier": "C-",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -2463,9 +2014,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -2479,8 +2027,6 @@
   "Giantfall": {
     "tier": "C-",
     "sections": [
-      "rg_vivid_removal",
-      "rg_vivid_key_synergy",
       "signals"
     ],
     "archetypes": {
@@ -2490,9 +2036,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -2507,9 +2050,6 @@
     "tier": "C-",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -2524,9 +2064,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion"
       ],
@@ -2539,10 +2076,7 @@
   },
   "Glamermite": {
     "tier": "D+",
-    "sections": [
-      "wu_merfolk_role_player",
-      "ub_faeries_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "role_player"
@@ -2552,9 +2086,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -2569,9 +2100,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -2587,9 +2115,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion",
         "token-maker"
@@ -2603,7 +2128,6 @@
   "Glister Bairn": {
     "tier": "D",
     "sections": [
-      "ug_vivid_payoff",
       "signals"
     ],
     "archetypes": {
@@ -2612,9 +2136,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2628,7 +2149,6 @@
   "Gloom Ripper": {
     "tier": "A+",
     "sections": [
-      "bg_elves_payoff",
       "bombs"
     ],
     "archetypes": {
@@ -2637,9 +2157,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -2653,7 +2170,6 @@
   "Gnarlbark Elm": {
     "tier": "C-",
     "sections": [
-      "wb_blight_role_player",
       "signals"
     ],
     "archetypes": {
@@ -2662,9 +2178,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -2681,9 +2194,6 @@
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -2696,18 +2206,13 @@
   },
   "Goldmeadow Nomad": {
     "tier": "D+",
-    "sections": [
-      "gw_kithkin_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2722,9 +2227,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2738,7 +2240,6 @@
   "Gravelgill Scoundrel": {
     "tier": "C",
     "sections": [
-      "wu_merfolk_role_player",
       "top_commons"
     ],
     "archetypes": {
@@ -2747,9 +2248,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -2762,12 +2260,7 @@
   },
   "Graveshifter": {
     "tier": "C+",
-    "sections": [
-      "bg_elves_enabler",
-      "bg_elves_key_synergy",
-      "ub_faeries_role_player",
-      "wb_blight_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "enabler",
@@ -2781,9 +2274,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2796,18 +2286,13 @@
   },
   "Great Forest Druid": {
     "tier": "C-",
-    "sections": [
-      "ug_vivid_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2822,9 +2307,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2837,18 +2319,13 @@
   },
   "Grub's Command": {
     "tier": "A",
-    "sections": [
-      "br_goblins_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "unconditional-removal",
         "self-mill"
@@ -2864,9 +2341,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -2881,9 +2355,6 @@
   "Gutsplitter Gang": {
     "tier": "D+",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2901,9 +2372,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -2917,9 +2385,6 @@
     "tier": "C-",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -2933,9 +2398,6 @@
   "Heirloom Auntie": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -2950,9 +2412,6 @@
   "Hexing Squelcher": {
     "tier": "C-",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -2965,18 +2424,13 @@
   },
   "High Perfect Morcant": {
     "tier": "A",
-    "sections": [
-      "bg_elves_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "payoff"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -2992,9 +2446,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "token-maker"
@@ -3013,9 +2464,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -3033,9 +2481,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3049,7 +2494,6 @@
   "Iron-Shield Elf": {
     "tier": "B-",
     "sections": [
-      "bg_elves_enabler",
       "signals"
     ],
     "archetypes": {
@@ -3058,9 +2502,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -3075,9 +2516,6 @@
     "tier": "D+",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3095,9 +2533,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3113,9 +2548,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3129,7 +2561,6 @@
   "Kinsbaile Aspirant": {
     "tier": "B-",
     "sections": [
-      "gw_kithkin_payoff",
       "signals"
     ],
     "archetypes": {
@@ -3138,9 +2569,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3155,9 +2583,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion",
         "ramp-fixing"
@@ -3170,13 +2595,8 @@
   },
   "Kirol, Attentive First-Year": {
     "tier": "C",
-    "sections": [
-      "rw_blight_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3197,9 +2617,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "token-maker"
@@ -3213,7 +2630,6 @@
   "Kulrath Mystic": {
     "tier": "D+",
     "sections": [
-      "ur_elementals_role_player",
       "late_pick"
     ],
     "archetypes": {
@@ -3222,9 +2638,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -3238,8 +2651,6 @@
   "Kulrath Zealot": {
     "tier": "C+",
     "sections": [
-      "br_goblins_role_player",
-      "rw_blight_role_player",
       "top_commons"
     ],
     "archetypes": {
@@ -3251,9 +2662,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -3268,9 +2676,6 @@
   "Lasting Tarfire": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3285,9 +2690,6 @@
   "Lavaleaper": {
     "tier": "D-",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3301,10 +2703,6 @@
   "Liminal Hold": {
     "tier": "C+",
     "sections": [
-      "gw_kithkin_removal",
-      "wu_merfolk_removal",
-      "wb_blight_removal",
-      "rw_blight_removal",
       "top_commons"
     ],
     "archetypes": {
@@ -3322,9 +2720,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -3340,9 +2735,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "token-maker",
         "self-mill"
@@ -3358,9 +2750,6 @@
     "tier": "A",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3377,9 +2766,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "card-advantage",
@@ -3394,9 +2780,6 @@
   "Luminollusk": {
     "tier": "D+",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -3415,9 +2798,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3433,9 +2813,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3447,18 +2824,13 @@
   },
   "Maralen, Fae Ascendant": {
     "tier": "A-",
-    "sections": [
-      "bg_elves_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion"
       ],
@@ -3472,7 +2844,6 @@
   "Meanders Guide": {
     "tier": "C-",
     "sections": [
-      "wu_merfolk_payoff",
       "signals"
     ],
     "archetypes": {
@@ -3481,9 +2852,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3497,9 +2865,6 @@
   "Meek Attack": {
     "tier": "F",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3517,9 +2882,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "token-maker",
@@ -3536,9 +2898,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "self-mill"
       ],
@@ -3555,9 +2914,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -3571,9 +2927,6 @@
   "Mirrormind Crown": {
     "tier": "F",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3588,9 +2941,6 @@
     "tier": "C-",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -3603,8 +2953,6 @@
   "Mistmeadow Council": {
     "tier": "C+",
     "sections": [
-      "gw_kithkin_enabler",
-      "gw_kithkin_key_synergy",
       "top_commons"
     ],
     "archetypes": {
@@ -3614,9 +2962,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -3630,18 +2975,13 @@
   },
   "Moon-Vigil Adherents": {
     "tier": "B",
-    "sections": [
-      "gw_kithkin_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -3656,9 +2996,6 @@
     "tier": "C-",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3671,11 +3008,7 @@
   },
   "Moonlit Lamenter": {
     "tier": "B-",
-    "sections": [
-      "wb_blight_payoff",
-      "wb_blight_key_synergy",
-      "rw_blight_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_blight": [
         "payoff",
@@ -3686,9 +3019,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3703,9 +3033,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion"
       ],
@@ -3719,7 +3046,6 @@
   "Morcant's Eyes": {
     "tier": "B",
     "sections": [
-      "bg_elves_payoff",
       "signals"
     ],
     "archetypes": {
@@ -3728,9 +3054,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker",
         "card-advantage"
@@ -3744,11 +3067,7 @@
   },
   "Morcant's Loyalist": {
     "tier": "B+",
-    "sections": [
-      "bg_elves_signpost",
-      "bg_elves_payoff",
-      "bg_elves_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "signpost",
@@ -3757,9 +3076,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "token-maker",
         "card-advantage"
@@ -3777,9 +3093,6 @@
       "build_arounds"
     ],
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3793,9 +3106,6 @@
   "Mornsong Aria": {
     "tier": "D-",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -3810,7 +3120,6 @@
   "Mudbutton Cursetosser": {
     "tier": "C+",
     "sections": [
-      "br_goblins_payoff",
       "signals"
     ],
     "archetypes": {
@@ -3819,9 +3128,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3836,9 +3142,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3850,13 +3153,7 @@
   },
   "Nameless Inversion": {
     "tier": "B-",
-    "sections": [
-      "br_goblins_removal",
-      "bg_elves_removal",
-      "ub_faeries_enabler",
-      "ub_faeries_removal",
-      "wb_blight_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "removal"
@@ -3873,9 +3170,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3889,8 +3183,6 @@
   "Nightmare Sower": {
     "tier": "D",
     "sections": [
-      "ub_faeries_payoff",
-      "ub_faeries_key_synergy",
       "signals"
     ],
     "archetypes": {
@@ -3900,9 +3192,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal",
         "evasion"
@@ -3918,9 +3207,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -3936,9 +3222,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3951,7 +3234,6 @@
   "Oko, Lorwyn Liege": {
     "tier": "B+",
     "sections": [
-      "ug_vivid_key_synergy",
       "build_arounds"
     ],
     "archetypes": {
@@ -3960,9 +3242,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3976,9 +3255,6 @@
   "Oko, Lorwyn Liege // Oko, Shadowmoor Scion": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -3994,9 +3270,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4010,9 +3283,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4026,9 +3296,6 @@
     "tier": "D",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4045,9 +3312,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "unconditional-removal",
         "token-maker"
@@ -4065,9 +3329,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "token-maker"
@@ -4081,9 +3342,6 @@
   "Pitiless Fists": {
     "tier": "C+",
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -4099,9 +3357,6 @@
     "tier": "C-",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -4113,10 +3368,7 @@
   },
   "Prismabasher": {
     "tier": "C+",
-    "sections": [
-      "ug_vivid_payoff",
-      "rg_vivid_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "payoff"
@@ -4126,9 +3378,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -4142,9 +3391,6 @@
   "Prismatic Undercurrents": {
     "tier": "D-",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -4160,9 +3406,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4175,13 +3418,8 @@
   },
   "Puca's Eye": {
     "tier": "C",
-    "sections": [
-      "ug_vivid_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4198,7 +3436,6 @@
   "Pummeler for Hire": {
     "tier": "C",
     "sections": [
-      "gw_kithkin_role_player",
       "signals"
     ],
     "archetypes": {
@@ -4207,9 +3444,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion"
       ],
@@ -4224,9 +3458,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -4240,9 +3471,6 @@
   "Raiding Schemes": {
     "tier": "F",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4256,11 +3484,7 @@
   },
   "Reaping Willow": {
     "tier": "B-",
-    "sections": [
-      "wb_blight_signpost",
-      "wb_blight_payoff",
-      "wb_blight_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_blight": [
         "signpost",
@@ -4269,9 +3493,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4285,13 +3506,9 @@
   "Reckless Ransacking": {
     "tier": "D",
     "sections": [
-      "rw_blight_enabler",
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing",
         "combat-trick"
@@ -4310,9 +3527,6 @@
   "Reluctant Dounguard": {
     "tier": "D+",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -4327,13 +3541,9 @@
   "Requiting Hex": {
     "tier": "C-",
     "sections": [
-      "wb_blight_enabler",
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -4351,10 +3561,6 @@
   "Retched Wretch": {
     "tier": "C-",
     "sections": [
-      "br_goblins_enabler",
-      "br_goblins_key_synergy",
-      "wb_blight_enabler",
-      "rw_blight_enabler",
       "signals"
     ],
     "archetypes": {
@@ -4370,9 +3576,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -4387,9 +3590,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -4406,9 +3606,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -4423,9 +3620,6 @@
   "Rimefire Torque": {
     "tier": "F",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4439,12 +3633,7 @@
   },
   "Rimekin Recluse": {
     "tier": "B+",
-    "sections": [
-      "wu_merfolk_removal",
-      "ur_elementals_removal",
-      "ub_faeries_enabler",
-      "ug_vivid_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "removal"
@@ -4460,9 +3649,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "bounce"
       ],
@@ -4479,9 +3665,6 @@
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -4498,9 +3681,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -4517,9 +3697,6 @@
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "bounce"
       ],
@@ -4536,9 +3713,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -4551,13 +3725,8 @@
   },
   "Sanar, Innovative First-Year": {
     "tier": "B+",
-    "sections": [
-      "rw_blight_enabler"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4574,13 +3743,8 @@
   },
   "Sapling Nursery": {
     "tier": "C",
-    "sections": [
-      "ug_vivid_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker",
         "ramp-fixing"
@@ -4602,9 +3766,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "self-mill"
       ],
@@ -4618,9 +3779,6 @@
     "tier": "D+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -4635,9 +3793,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4651,10 +3806,6 @@
   "Sear": {
     "tier": "B",
     "sections": [
-      "br_goblins_removal",
-      "ur_elementals_removal",
-      "rw_blight_removal",
-      "rg_vivid_removal",
       "contested"
     ],
     "archetypes": {
@@ -4672,9 +3823,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -4689,9 +3837,6 @@
     "tier": "B-",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4705,9 +3850,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4721,13 +3863,9 @@
   "Shimmercreep": {
     "tier": "C",
     "sections": [
-      "rg_vivid_role_player",
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -4745,9 +3883,6 @@
   "Shimmerwilds Growth": {
     "tier": "C-",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4762,11 +3897,7 @@
   },
   "Shinestriker": {
     "tier": "B",
-    "sections": [
-      "ur_elementals_payoff",
-      "ug_vivid_payoff",
-      "rg_vivid_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "payoff"
@@ -4779,9 +3910,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -4797,9 +3925,6 @@
     "tier": "D+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -4813,7 +3938,6 @@
   "Silvergill Mentor": {
     "tier": "B",
     "sections": [
-      "wu_merfolk_payoff",
       "signals"
     ],
     "archetypes": {
@@ -4822,9 +3946,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "token-maker"
       ],
@@ -4837,18 +3958,13 @@
   },
   "Silvergill Peddler": {
     "tier": "C",
-    "sections": [
-      "wu_merfolk_enabler"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "enabler"
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4862,7 +3978,6 @@
   "Sizzling Changeling": {
     "tier": "C",
     "sections": [
-      "br_goblins_role_player",
       "signals"
     ],
     "archetypes": {
@@ -4871,9 +3986,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4888,9 +4000,6 @@
     "tier": "A-",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -4904,9 +4013,6 @@
   "Soul Immolation": {
     "tier": "A-",
     "sections": [
-      "rw_blight_payoff",
-      "rw_blight_key_synergy",
-      "rg_vivid_enabler",
       "bombs"
     ],
     "archetypes": {
@@ -4919,9 +4025,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -4935,8 +4038,6 @@
   "Soulbright Seeker": {
     "tier": "C",
     "sections": [
-      "ur_elementals_enabler",
-      "rg_vivid_role_player",
       "signals"
     ],
     "archetypes": {
@@ -4948,9 +4049,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -4967,9 +4065,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -4984,9 +4079,6 @@
     "tier": "SB",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "counter-magic"
       ],
@@ -5002,9 +4094,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion"
       ],
@@ -5017,12 +4106,7 @@
   },
   "Spiral into Solitude": {
     "tier": "C",
-    "sections": [
-      "gw_kithkin_removal",
-      "wu_merfolk_removal",
-      "wb_blight_removal",
-      "rw_blight_removal"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "removal"
@@ -5038,9 +4122,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "unconditional-removal"
       ],
@@ -5054,9 +4135,6 @@
   "Springleaf Drum": {
     "tier": "D+",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -5071,9 +4149,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -5086,8 +4161,6 @@
   "Squawkroaster": {
     "tier": "D",
     "sections": [
-      "ug_vivid_payoff",
-      "rw_blight_enabler",
       "signals"
     ],
     "archetypes": {
@@ -5099,9 +4172,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion"
       ],
@@ -5115,9 +4185,6 @@
   "Stalactite Dagger": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -5133,9 +4200,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -5151,9 +4215,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -5169,9 +4230,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -5185,9 +4243,6 @@
     "tier": "D+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "card-advantage",
@@ -5202,18 +4257,13 @@
   },
   "Summit Sentinel": {
     "tier": "D+",
-    "sections": [
-      "ur_elementals_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -5226,10 +4276,7 @@
   },
   "Sun-Dappled Celebrant": {
     "tier": "D+",
-    "sections": [
-      "gw_kithkin_role_player",
-      "wu_merfolk_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "role_player"
@@ -5239,9 +4286,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -5258,9 +4302,6 @@
       "bombs"
     ],
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "evasion"
       ],
@@ -5274,9 +4315,6 @@
     "tier": "D+",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -5293,9 +4331,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -5311,9 +4346,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -5328,9 +4360,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -5346,9 +4375,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -5363,9 +4389,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -5377,13 +4400,8 @@
   },
   "Taster of Wares": {
     "tier": "A-",
-    "sections": [
-      "wb_blight_role_player"
-    ],
+    "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -5402,9 +4420,6 @@
     "tier": "C+",
     "sections": [],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -5420,9 +4435,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -5438,9 +4450,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "evasion",
         "token-maker",
@@ -5460,9 +4469,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -5478,9 +4484,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "combat-trick"
@@ -5495,7 +4498,6 @@
   "Thoughtweft Imbuer": {
     "tier": "B-",
     "sections": [
-      "gw_kithkin_payoff",
       "signals"
     ],
     "archetypes": {
@@ -5504,9 +4506,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -5519,11 +4518,7 @@
   },
   "Thoughtweft Lieutenant": {
     "tier": "B",
-    "sections": [
-      "gw_kithkin_signpost",
-      "gw_kithkin_payoff",
-      "gw_kithkin_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "signpost",
@@ -5532,9 +4527,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -5551,9 +4543,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "token-maker"
       ],
@@ -5566,7 +4555,6 @@
   "Tributary Vaulter": {
     "tier": "C-",
     "sections": [
-      "wu_merfolk_enabler",
       "top_commons"
     ],
     "archetypes": {
@@ -5575,9 +4563,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "token-maker"
@@ -5592,8 +4577,6 @@
   "Trystan's Command": {
     "tier": "A+",
     "sections": [
-      "bg_elves_payoff",
-      "bg_elves_key_synergy",
       "bombs"
     ],
     "archetypes": {
@@ -5603,9 +4586,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "bomb"
-      ],
       "types": [
         "unconditional-removal",
         "card-advantage",
@@ -5622,9 +4602,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "self-mill"
       ],
@@ -5638,9 +4615,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "conditional-removal",
         "card-advantage"
@@ -5654,18 +4628,13 @@
   },
   "Twilight Diviner": {
     "tier": "C+",
-    "sections": [
-      "bg_elves_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -5679,10 +4648,6 @@
   "Twinflame Travelers": {
     "tier": "C+",
     "sections": [
-      "ur_elementals_signpost",
-      "ur_elementals_payoff",
-      "ur_elementals_key_synergy",
-      "ug_vivid_key_synergy",
       "signals"
     ],
     "archetypes": {
@@ -5696,9 +4661,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion"
       ],
@@ -5713,9 +4675,6 @@
     "tier": "C",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "bounce"
@@ -5733,9 +4692,6 @@
       "top_commons"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage",
         "ramp-fixing"
@@ -5752,9 +4708,6 @@
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "unconditional-removal",
         "evasion",
@@ -5770,8 +4723,6 @@
   "Unwelcome Sprite": {
     "tier": "C-",
     "sections": [
-      "ub_faeries_payoff",
-      "ub_faeries_key_synergy",
       "signals"
     ],
     "archetypes": {
@@ -5781,9 +4732,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -5798,13 +4746,9 @@
   "Vibrance": {
     "tier": "A",
     "sections": [
-      "rg_vivid_enabler",
       "build_arounds"
     ],
     "tags": {
-      "roles": [
-        "build-around"
-      ],
       "types": [
         "conditional-removal",
         "card-advantage",
@@ -5827,9 +4771,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker"
       ],
@@ -5844,9 +4785,6 @@
     "tier": "B",
     "sections": [],
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "evasion"
       ],
@@ -5859,9 +4797,6 @@
   "Voracious Tome-Skimmer": {
     "tier": "C+",
     "sections": [
-      "ub_faeries_signpost",
-      "ub_faeries_payoff",
-      "ub_faeries_key_synergy",
       "signals"
     ],
     "archetypes": {
@@ -5872,9 +4807,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion",
         "card-advantage"
@@ -5893,9 +4825,6 @@
     ],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "evasion"
       ],
@@ -5908,10 +4837,7 @@
   },
   "Wanderbrine Trapper": {
     "tier": "B",
-    "sections": [
-      "wu_merfolk_enabler",
-      "wu_merfolk_key_synergy"
-    ],
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "enabler",
@@ -5919,9 +4845,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "enabler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -5935,9 +4858,6 @@
   "Wanderwine Distracter": {
     "tier": "D",
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "conditional-removal"
       ],
@@ -5957,9 +4877,6 @@
       "signals"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "token-maker",
         "bounce",
@@ -5975,8 +4892,6 @@
   "Warren Torchmaster": {
     "tier": "D",
     "sections": [
-      "br_goblins_role_player",
-      "rw_blight_role_player",
       "signals"
     ],
     "archetypes": {
@@ -5988,9 +4903,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "combat-trick"
       ],
@@ -6003,18 +4915,13 @@
   },
   "Wary Farmer": {
     "tier": "C",
-    "sections": [
-      "ug_vivid_role_player"
-    ],
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "role_player"
       ]
     },
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "card-advantage"
       ],
@@ -6026,13 +4933,9 @@
   "Wild Unraveling": {
     "tier": "D+",
     "sections": [
-      "ub_faeries_role_player",
       "late_pick"
     ],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "counter-magic"
       ],
@@ -6049,10 +4952,7 @@
   },
   "Wildvine Pummeler": {
     "tier": "D+",
-    "sections": [
-      "ug_vivid_payoff",
-      "rg_vivid_payoff"
-    ],
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "payoff"
@@ -6062,9 +4962,6 @@
       ]
     },
     "tags": {
-      "roles": [
-        "filler"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -6079,9 +4976,6 @@
     "tier": "D",
     "sections": [],
     "tags": {
-      "roles": [
-        "role-player"
-      ],
       "types": [
         "ramp-fixing"
       ],
@@ -6096,9 +4990,6 @@
     "sections": [],
     "archetypes": {},
     "tags": {
-      "roles": [
-        "payoff"
-      ],
       "types": [
         "unconditional-removal",
         "card-advantage"
@@ -6110,5 +5001,5 @@
     "removal_type": "hard",
     "comment": "6/5 that sometimes kills Liminal Hold and Blossombind."
   },
-  "_config_version": 2
+  "_config_version": 3
 }

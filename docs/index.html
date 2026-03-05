@@ -403,11 +403,12 @@ Draft Guide
     </div>
     <div class="filter-group">
         <label>Role:</label>
-        <span class="pill" data-filter="role" data-val="bomb">Bomb</span>
-        <span class="pill" data-filter="role" data-val="build-around">Build-around</span>
+        <span class="pill" data-filter="role" data-val="signpost">Signpost</span>
         <span class="pill" data-filter="role" data-val="payoff">Payoff</span>
         <span class="pill" data-filter="role" data-val="enabler">Enabler</span>
-        <span class="pill" data-filter="role" data-val="role-player">Role Player</span>
+        <span class="pill" data-filter="role" data-val="removal">Removal</span>
+        <span class="pill" data-filter="role" data-val="role_player">Role Player</span>
+        <span class="pill" data-filter="role" data-val="key_synergy">Key Synergy</span>
     </div>
     <div class="filter-group">
         <label>Type:</label>
@@ -590,7 +591,7 @@ async function loadData(setCode) {
             const data = CARD_DATA[name] || {};
             const config = CARD_CONFIG[name] || {
                 tier: null, sections: [], archetypes: {},
-                tags: { roles: ['filler'], types: [], speed: ['midrange'] },
+                tags: { types: [], speed: ['midrange'] },
                 removal_type: null, comment: ''
             };
             DEFAULT_CONFIG[name] = { ...data, ...config };
@@ -840,7 +841,7 @@ async function refresh17lands() {
                     ...stats, img: '', mana_cost: '', cmc: 0, type_line: '', oracle_text: '',
                     colors: [], rarity: '', power: '', toughness: '', collector_number: '',
                     tier: null, sections: [], archetypes: {},
-                    tags: { roles: ['filler'], types: [], speed: ['midrange'] },
+                    tags: { types: [], speed: ['midrange'] },
                     removal_type: null, comment: ''
                 };
                 created++;
@@ -924,7 +925,7 @@ async function refreshScryfall() {
                 DB[name] = {
                     ...sdata,
                     tier: null, sections: [], archetypes: {},
-                    tags: { roles: ['filler'], types: [], speed: ['midrange'] },
+                    tags: { types: [], speed: ['midrange'] },
                     removal_type: null, comment: '',
                     gih_wr: null, alsa: null, diwr: null, games: 0
                 };
@@ -1138,7 +1139,10 @@ function renderBrowser() {
             if (!match) return false;
         }
         if (activeFilters.rarity && !activeFilters.rarity.includes(c.rarity)) return false;
-        if (activeFilters.role && !activeFilters.role.some(r => c.tags.roles.includes(r))) return false;
+        if (activeFilters.role) {
+            const allRoles = Object.values(c.archetypes || {}).flat();
+            if (!activeFilters.role.some(r => allRoles.includes(r))) return false;
+        }
         if (activeFilters.type) {
             const hasType = activeFilters.type.some(t => {
                 if (t === 'unconditional-removal') return c.removal_type != null;
@@ -1213,7 +1217,11 @@ function renderBrowser() {
             const rarChar = {mythic:'M',rare:'R',uncommon:'U',common:'C'}[c.rarity] || '?';
             const rarColor = {mythic:'#f0883e',rare:'#f1e05a',uncommon:'#7ee8fa',common:'#8b949e'}[c.rarity] || '#999';
             const colorPips = c.colors.length ? c.colors.join('') : (c.type_line.includes('Land') ? 'Land' : 'C');
-            const roles = (c.tags.roles || []).map(r => `<span class="tbl-tag">${esc(r)}</span>`).join('');
+            const archRoles = Object.entries(c.archetypes || {}).map(([aid, roles]) => {
+                const arch = ARCHETYPES.find(a => a.id === aid);
+                const label = arch ? arch.name : aid;
+                return roles.map(r => `<span class="tbl-tag" style="background:#1a3a2a;color:#2ecc71;">${esc(label + ' ' + r)}</span>`).join('');
+            }).join('');
             const types = (c.tags.types || []).map(t => `<span class="tbl-tag">${esc(t)}</span>`).join('');
             const speeds = (c.tags.speed || []).map(s => `<span class="tbl-tag">${esc(s)}</span>`).join('');
             const sections = (c.sections || []).map(s => `<span class="tbl-tag" style="background:#1a3a2a;color:#2ecc71;">${esc(s)}</span>`).join('');
@@ -1231,7 +1239,7 @@ function renderBrowser() {
             thtml += `<td style="font-weight:600;">${colorPips}</td>`;
             thtml += `<td style="font-size:11px;color:#8b949e;">${esc(c.mana_cost || '')}</td>`;
             thtml += `<td style="font-size:11px;color:#8b949e;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${esc(c.type_line || '')}</td>`;
-            thtml += `<td>${roles}</td>`;
+            thtml += `<td>${archRoles}</td>`;
             thtml += `<td>${types}</td>`;
             thtml += `<td>${speeds}</td>`;
             thtml += `<td>${sections}</td>`;
@@ -1308,7 +1316,7 @@ function openEditPanel(name) {
 
     // Archetype Roles
     html += '<div class="ep-section"><div class="ep-section-title">Archetype Roles</div>';
-    const archCategories = ['signpost','payoff','enabler','removal','role_player'];
+    const archCategories = ['signpost','payoff','enabler','removal','role_player','key_synergy'];
     for (const arch of ARCHETYPES) {
         const myRoles = c.archetypes[arch.id] || [];
         html += `<div style="margin-bottom:4px;"><span style="font-size:11px;color:#79c0ff;">${arch.icon} ${arch.name}</span><div class="tag-chips" style="margin-top:2px;">`;
@@ -1319,15 +1327,6 @@ function openEditPanel(name) {
         html += '</div></div>';
     }
     html += '</div>';
-
-    // Role tags
-    html += '<div class="ep-section"><div class="ep-section-title">Role Tags</div><div class="tag-chips">';
-    const roleTags = ['bomb','build-around','payoff','enabler','role-player','filler'];
-    for (const t of roleTags) {
-        const on = c.tags.roles.includes(t);
-        html += `<span class="tag-chip role ${on?'on':'off'}" data-group="roles" data-val="${t}" onclick="toggleTag(this)">${t}</span>`;
-    }
-    html += '</div></div>';
 
     // Type tags
     html += '<div class="ep-section"><div class="ep-section-title">Type Tags</div><div class="tag-chips">';
@@ -1393,13 +1392,8 @@ function saveEdit() {
             roles.push(el.dataset.val);
         });
         if (roles.length) c.archetypes[arch.id] = roles;
-        if (roles.length) c.sections.push(`${arch.id}_${roles[0]}`);
     }
 
-    c.tags.roles = [];
-    document.querySelectorAll('#ep-body .tag-chip[data-group="roles"].on').forEach(el => {
-        c.tags.roles.push(el.dataset.val);
-    });
     c.tags.types = [];
     document.querySelectorAll('#ep-body .tag-chip[data-group="types"].on').forEach(el => {
         c.tags.types.push(el.dataset.val);
@@ -1443,9 +1437,13 @@ function populatePreview(tile) {
         <span class="hs-label">Rarity</span><span class="hs-val">${c.rarity}</span>
         <span class="hs-label">Tier</span><span class="hs-val">${c.tier||'—'}</span>
     `;
-    const roleBadges = (c.tags.roles||[]).map(r => `<span style="background:#1a3a2a;border-color:#2ea043;">${r}</span>`);
+    const archBadges = Object.entries(c.archetypes || {}).flatMap(([aid, roles]) => {
+        const arch = ARCHETYPES.find(a => a.id === aid);
+        const label = arch ? arch.name : aid;
+        return roles.map(r => `<span style="background:#1a3a2a;border-color:#2ea043;">${label} ${r}</span>`);
+    });
     const typeBadges = (c.tags.types||[]).map(t => `<span>${t}</span>`);
-    prevTags.innerHTML = roleBadges.concat(typeBadges).join('');
+    prevTags.innerHTML = archBadges.concat(typeBadges).join('');
 }
 
 function hidePreview() {
@@ -1504,7 +1502,12 @@ function openMobileDetail(name) {
         html += `<div class="md-comment">${esc(c.comment)}</div>`;
     }
 
-    const allTags = [...(c.tags.roles||[]), ...(c.tags.types||[]), ...(c.tags.speed||[])];
+    const archTags = Object.entries(c.archetypes || {}).flatMap(([aid, roles]) => {
+        const arch = ARCHETYPES.find(a => a.id === aid);
+        const label = arch ? arch.name : aid;
+        return roles.map(r => `${label} ${r}`);
+    });
+    const allTags = [...archTags, ...(c.tags.types||[]), ...(c.tags.speed||[])];
     if (allTags.length) {
         html += '<div class="md-tags">';
         for (const t of allTags) html += `<span>${t}</span>`;
