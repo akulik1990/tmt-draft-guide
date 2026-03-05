@@ -1445,7 +1445,8 @@ function populatePreview(tile) {
         const label = arch ? arch.name : aid;
         return roles.map(r => `<span style="background:#1a3a2a;border-color:#2ea043;">${label} ${r}</span>`);
     });
-    const sectionBadges = (c.sections||[]).map(s => `<span style="background:#2a1a2a;border-color:#9b59b6;color:#c39bd3;">${s.replace(/_/g,' ')}</span>`);
+    const secLabels = {bombs:'Bomb',build_arounds:'Build-Around',signals:'Signal',top_commons:'Top Common',late_pick:'Late Pick',contested:'Overdrafted'};
+    const sectionBadges = (c.sections||[]).map(s => `<span style="background:#2a1a2a;border-color:#9b59b6;color:#c39bd3;">${secLabels[s]||s.replace(/_/g,' ')}</span>`);
     const typeBadges = (c.tags.types||[]).map(t => `<span>${t}</span>`);
     const speedBadges = (c.tags.speed||[]).map(s => `<span style="background:#1a2a3a;border-color:#3498db;">${s}</span>`);
     prevTags.innerHTML = sectionBadges.concat(archBadges, typeBadges, speedBadges).join('');
