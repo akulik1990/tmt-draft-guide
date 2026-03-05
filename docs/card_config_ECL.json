@@ -155,7 +155,7 @@
     }
   ],
   "Abigale, Eloquent First-Year": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -171,7 +171,7 @@
     "comment": "Premium rare."
   },
   "Adept Watershaper": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -184,7 +184,7 @@
     "archetypes": {}
   },
   "Ajani, Outland Chaperone": {
-    "tier": "A-",
+    "tier": "A",
     "tags": {
       "types": [
         "conditional-removal",
@@ -196,7 +196,9 @@
       ]
     },
     "removal_type": "conditional",
-    "sections": [],
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "rw_blight": [
         "enabler"
@@ -204,10 +206,8 @@
     }
   },
   "Appeal to Eirdu": {
-    "tier": "D",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "D+",
+    "sections": [],
     "tags": {
       "types": [
         "combat-trick",
@@ -221,10 +221,8 @@
     "archetypes": {}
   },
   "Aquitect's Defenses": {
-    "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C",
+    "sections": [],
     "tags": {
       "types": [
         "combat-trick"
@@ -255,7 +253,7 @@
     "comment": "Among the most broken rares. Premium for UR Elementals."
   },
   "Ashling, Rekindled": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {
       "ur_elementals": [
@@ -274,7 +272,7 @@
     "comment": "Mana ramp and late-game threat rolled into one."
   },
   "Ashling, Rekindled // Ashling, Rimebound": {
-    "tier": "D",
+    "tier": "A-",
     "tags": {
       "types": [
         "card-advantage"
@@ -287,7 +285,7 @@
     "archetypes": {}
   },
   "Assert Perfection": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [
       "top_commons"
     ],
@@ -317,7 +315,7 @@
     "comment": "Green's only removal. Slightly better Rabid Bite."
   },
   "Auntie's Sentence": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "br_goblins": [
@@ -346,7 +344,7 @@
     "comment": "Solid black common removal."
   },
   "Aurora Awakener": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "archetypes": {
       "ug_vivid": [
@@ -370,10 +368,8 @@
     "comment": "Possibly the best card in the set. Reason to draft UG Vivid."
   },
   "Barbed Bloodletter": {
-    "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C+",
+    "sections": [],
     "tags": {
       "types": [
         "combat-trick"
@@ -394,9 +390,7 @@
   },
   "Bark of Doran": {
     "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -410,7 +404,7 @@
     "comment": "Awesome with Gravelgill Scoundrel and Tributary Vaulter. Usually tables."
   },
   "Bile-Vial Boggart": {
-    "tier": "D",
+    "tier": "C-",
     "tags": {
       "types": [
         "conditional-removal"
@@ -444,7 +438,7 @@
     "comment": "Premium card. High win rate per 17lands data."
   },
   "Bitterblossom": {
-    "tier": "A",
+    "tier": "B+",
     "sections": [],
     "archetypes": {
       "ub_faeries": [
@@ -464,9 +458,9 @@
     "comment": "Turn 2 Bitterblossom is the best start in the format. Insane with tribal."
   },
   "Blight Rot": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [
-      "top_commons"
+      "contested"
     ],
     "tags": {
       "types": [
@@ -480,7 +474,7 @@
     "archetypes": {}
   },
   "Blighted Blackthorn": {
-    "tier": "D",
+    "tier": "C-",
     "sections": [],
     "archetypes": {
       "bg_elves": [
@@ -503,7 +497,7 @@
     "comment": "High toughness absorbs -1/-1 counters. Top common for blight decks."
   },
   "Blood Crypt": {
-    "tier": "C+",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -516,7 +510,7 @@
     "archetypes": {}
   },
   "Bloodline Bidding": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [],
     "archetypes": {
       "bg_elves": [
@@ -536,7 +530,7 @@
     "comment": "Mass recursion. Often ends the game immediately in Elves."
   },
   "Bloom Tender": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -549,10 +543,8 @@
     "archetypes": {}
   },
   "Blossombind": {
-    "tier": "C+",
-    "sections": [
-      "top_commons"
-    ],
+    "tier": "B-",
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "removal"
@@ -579,10 +571,8 @@
     "comment": "2-mana Claustrophobia that prevents untapping. Best version of the effect."
   },
   "Blossoming Defense": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "combat-trick"
@@ -595,10 +585,8 @@
     "archetypes": {}
   },
   "Boggart Cursecrafter": {
-    "tier": "B-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B",
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "signpost",
@@ -619,9 +607,7 @@
   },
   "Boggart Mischief": {
     "tier": "B",
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "enabler",
@@ -640,7 +626,7 @@
     "comment": "Kill a Goblin, make two, drain opponent. Does everything Goblins wants."
   },
   "Boggart Prankster": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "br_goblins": [
@@ -662,10 +648,8 @@
     "comment": "Solid 2-drop. Attacks as 2/3 early, absorbs -1/-1 counters late."
   },
   "Bogslither's Embrace": {
-    "tier": "C",
-    "sections": [
-      "top_commons"
-    ],
+    "tier": "B",
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "enabler",
@@ -694,7 +678,7 @@
     "comment": "2 mana + blight for efficient removal. Top black common."
   },
   "Boldwyr Aggressor": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {
       "ur_elementals": [
@@ -717,7 +701,7 @@
     "comment": "Double strike for Giants. Only Giant typal card. Needs Changelings."
   },
   "Boneclub Berserker": {
-    "tier": "D",
+    "tier": "D+",
     "tags": {
       "types": [
         "token-maker"
@@ -726,14 +710,14 @@
         "midrange"
       ]
     },
-    "sections": [
-      "late_pick"
-    ],
+    "sections": [],
     "archetypes": {}
   },
   "Boulder Dash": {
     "tier": "B-",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {
       "br_goblins": [
         "removal"
@@ -760,7 +744,7 @@
     "comment": "Arc Trail reprint. Split 3 damage for a two-for-one. Creatures are small in ECL."
   },
   "Brambleback Brute": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -778,7 +762,7 @@
     }
   },
   "Bre of Clan Stoutarm": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -817,7 +801,7 @@
     "comment": "Strong command. Doesn't require Kithkin to be good."
   },
   "Brigid, Clachan's Heart": {
-    "tier": "B+",
+    "tier": "A",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -832,7 +816,7 @@
     "comment": "Strong rare. Doesn't require Kithkin to be good."
   },
   "Brigid, Clachan's Heart // Brigid, Doun's Mind": {
-    "tier": "D",
+    "tier": "A",
     "tags": {
       "types": [
         "token-maker"
@@ -845,7 +829,7 @@
     "archetypes": {}
   },
   "Bristlebane Battler": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "tags": {
       "types": [
@@ -859,10 +843,8 @@
     "archetypes": {}
   },
   "Bristlebane Outrider": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B",
+    "sections": [],
     "tags": {
       "types": [
         "evasion"
@@ -874,10 +856,8 @@
     "archetypes": {}
   },
   "Burdened Stoneback": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C",
+    "sections": [],
     "tags": {
       "types": [
         "combat-trick"
@@ -890,10 +870,8 @@
     "archetypes": {}
   },
   "Burning Curiosity": {
-    "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C-",
+    "sections": [],
     "tags": {
       "types": [
         "card-advantage"
@@ -906,10 +884,8 @@
     "archetypes": {}
   },
   "Catharsis": {
-    "tier": "B+",
-    "sections": [
-      "build_arounds"
-    ],
+    "tier": "C",
+    "sections": [],
     "tags": {
       "types": [
         "token-maker"
@@ -925,7 +901,7 @@
     }
   },
   "Celestial Reunion": {
-    "tier": "F",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -938,7 +914,7 @@
     "archetypes": {}
   },
   "Champion of the Clachan": {
-    "tier": "B+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -957,7 +933,7 @@
     "comment": "Strong Kithkin payoff. Rewards heavy tribal commitment."
   },
   "Champion of the Path": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -971,7 +947,7 @@
     "archetypes": {}
   },
   "Champion of the Weird": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "tags": {
       "types": [
@@ -989,7 +965,7 @@
     }
   },
   "Champions of the Perfect": {
-    "tier": "A-",
+    "tier": "A",
     "sections": [],
     "tags": {
       "types": [
@@ -1003,8 +979,10 @@
     "archetypes": {}
   },
   "Champions of the Shoal": {
-    "tier": "A-",
-    "sections": [],
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
     "archetypes": {
       "wu_merfolk": [
         "payoff"
@@ -1022,7 +1000,7 @@
     "comment": "4-mana Frost Titan for Merfolk. 6 toughness dodges most removal."
   },
   "Changeling Wayfinder": {
-    "tier": "C-",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -1061,7 +1039,7 @@
     "comment": "Most important common in ECL. Mana fixing at premium. Every creature type."
   },
   "Chaos Spewer": {
-    "tier": "D",
+    "tier": "D+",
     "archetypes": {},
     "tags": {
       "types": [
@@ -1075,7 +1053,7 @@
     "sections": []
   },
   "Chitinous Graspling": {
-    "tier": "D+",
+    "tier": "C-",
     "tags": {
       "types": [
         "evasion"
@@ -1088,7 +1066,7 @@
     "archetypes": {}
   },
   "Chomping Changeling": {
-    "tier": "SB",
+    "tier": "D",
     "tags": {
       "types": [
         "unconditional-removal"
@@ -1098,14 +1076,14 @@
       ]
     },
     "removal_type": "hard",
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {}
   },
   "Chronicle of Victory": {
-    "tier": "A-",
-    "sections": [],
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
     "tags": {
       "types": [
         "card-advantage"
@@ -1117,10 +1095,8 @@
     "archetypes": {}
   },
   "Cinder Strike": {
-    "tier": "C+",
-    "sections": [
-      "top_commons"
-    ],
+    "tier": "B",
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "removal"
@@ -1149,7 +1125,7 @@
     "comment": "1 mana for 4 damage with blight cost. Extremely efficient in blight decks."
   },
   "Clachan Festival": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -1168,7 +1144,7 @@
     "comment": "Strong card that doesn't require Kithkin to be good."
   },
   "Collective Inferno": {
-    "tier": "D+",
+    "tier": "D",
     "tags": {
       "types": [
         "ramp-fixing"
@@ -1182,7 +1158,7 @@
     "removal_type": "damage"
   },
   "Creakwood Safewright": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -1196,10 +1172,8 @@
     "archetypes": {}
   },
   "Crib Swap": {
-    "tier": "D-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "D+",
+    "sections": [],
     "tags": {
       "types": [
         "unconditional-removal",
@@ -1213,10 +1187,8 @@
     "archetypes": {}
   },
   "Crossroads Watcher": {
-    "tier": "C",
-    "sections": [
-      "top_commons"
-    ],
+    "tier": "B-",
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "enabler",
@@ -1235,8 +1207,10 @@
     "comment": "Trample finisher for wide boards. Ranked highly on pick order."
   },
   "Curious Colossus": {
-    "tier": "A-",
-    "sections": [],
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
     "tags": {
       "types": [
         "conditional-removal"
@@ -1267,7 +1241,7 @@
     "archetypes": {}
   },
   "Dawn's Light Archer": {
-    "tier": "C-",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "bg_elves": [
@@ -1286,10 +1260,8 @@
     "comment": "Top green common. Solid in Elves."
   },
   "Dawn-Blessed Pennant": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "tags": {
       "types": [
         "card-advantage"
@@ -1302,7 +1274,7 @@
     "archetypes": {}
   },
   "Dawnhand Dissident": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "archetypes": {
       "bg_elves": [
@@ -1321,7 +1293,7 @@
     "comment": "Plays from graveyard. Pairs with Blight strategies."
   },
   "Dawnhand Eulogist": {
-    "tier": "B-",
+    "tier": "B+",
     "sections": [
       "top_commons"
     ],
@@ -1339,9 +1311,7 @@
   },
   "Deceit": {
     "tier": "A-",
-    "sections": [
-      "build_arounds"
-    ],
+    "sections": [],
     "archetypes": {
       "ub_faeries": [
         "key_synergy"
@@ -1359,8 +1329,10 @@
     "comment": "Incarnation mythic. Extremely promising in Limited."
   },
   "Deepchannel Duelist": {
-    "tier": "A-",
-    "sections": [],
+    "tier": "A+",
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "wu_merfolk": [
         "signpost",
@@ -1394,7 +1366,9 @@
   },
   "Disruptor of Currents": {
     "tier": "A",
-    "sections": [],
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "wu_merfolk": [
         "enabler",
@@ -1417,7 +1391,7 @@
     "comment": "Convoke on opponent's turn for a discount. Great utility + stats."
   },
   "Doran, Besieged by Time": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [],
     "archetypes": {
       "wb_blight": [
@@ -1436,10 +1410,8 @@
     "comment": "Effectively a 5/9. Build around high-toughness creatures. Worth splashing."
   },
   "Dose of Dawnglow": {
-    "tier": "D",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C-",
+    "sections": [],
     "tags": {
       "types": [
         "card-advantage"
@@ -1452,7 +1424,7 @@
     "archetypes": {}
   },
   "Dream Harvest": {
-    "tier": "D",
+    "tier": "D+",
     "sections": [],
     "tags": {
       "types": [
@@ -1466,7 +1438,7 @@
     "archetypes": {}
   },
   "Dream Seizer": {
-    "tier": "D+",
+    "tier": "C-",
     "tags": {
       "types": [
         "evasion"
@@ -1480,7 +1452,7 @@
     "archetypes": {}
   },
   "Dundoolin Weaver": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -1503,7 +1475,7 @@
     "comment": "2-mana Eternal Witness with setup. Great in Kithkin or Elves."
   },
   "Eclipsed Boggart": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [
       "signals"
     ],
@@ -1525,8 +1497,10 @@
     "comment": "SIGNAL: Go BR Goblins. Premium Eclipsed creature."
   },
   "Eclipsed Elf": {
-    "tier": "A-",
-    "sections": [],
+    "tier": "A+",
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "bg_elves": [
         "signpost",
@@ -1546,8 +1520,10 @@
     "comment": "SIGNAL: Go BG Elves. Best Eclipsed creature. Only playable in Elves."
   },
   "Eclipsed Flamekin": {
-    "tier": "B",
-    "sections": [],
+    "tier": "A-",
+    "sections": [
+      "signals"
+    ],
     "archetypes": {
       "ur_elementals": [
         "signpost",
@@ -1566,8 +1542,10 @@
     "comment": "Smooths draws and buys time for Elementals."
   },
   "Eclipsed Kithkin": {
-    "tier": "B+",
-    "sections": [],
+    "tier": "A",
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "gw_kithkin": [
         "signpost",
@@ -1586,8 +1564,10 @@
     "comment": "SIGNAL: Go GW Kithkin. Premium Eclipsed creature for the archetype."
   },
   "Eclipsed Merrow": {
-    "tier": "A-",
-    "sections": [],
+    "tier": "A",
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "wu_merfolk": [
         "signpost",
@@ -1606,10 +1586,8 @@
     "comment": "SIGNAL: Go WU Merfolk. Digs for lands/fuel in creature-heavy Merfolk."
   },
   "Eclipsed Realms": {
-    "tier": "D+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "tags": {
       "types": [
         "ramp-fixing"
@@ -1621,7 +1599,7 @@
     "archetypes": {}
   },
   "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight": {
-    "tier": "B",
+    "tier": "A",
     "sections": [],
     "tags": {
       "types": [
@@ -1635,7 +1613,7 @@
     "archetypes": {}
   },
   "Elder Auntie": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {
       "br_goblins": [
@@ -1654,10 +1632,8 @@
     "comment": "Provides 2 bodies for Goblin sacrifice. Only good in heavy Goblins."
   },
   "Emptiness": {
-    "tier": "B+",
-    "sections": [
-      "build_arounds"
-    ],
+    "tier": "B",
+    "sections": [],
     "tags": {
       "types": [
         "conditional-removal",
@@ -1675,7 +1651,7 @@
     }
   },
   "Encumbered Reejerey": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -1689,7 +1665,7 @@
     "archetypes": {}
   },
   "End-Blaze Epiphany": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "tags": {
       "types": [
@@ -1703,7 +1679,7 @@
     "archetypes": {}
   },
   "Enraged Flamecaster": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -1716,10 +1692,8 @@
     "archetypes": {}
   },
   "Evershrike's Gift": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -1734,7 +1708,7 @@
     "comment": "Gives flying. Helps giants/big creatures get through."
   },
   "Evolving Wilds": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -1748,7 +1722,7 @@
     "archetypes": {}
   },
   "Explosive Prodigy": {
-    "tier": "B-",
+    "tier": "B+",
     "sections": [],
     "archetypes": {
       "ur_elementals": [
@@ -1768,7 +1742,7 @@
     "comment": "2-mana 1/1 that deals 2 on entry. Every red drafter takes highly."
   },
   "Feed the Flames": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -1782,7 +1756,7 @@
     "archetypes": {}
   },
   "Feisty Spikeling": {
-    "tier": "D",
+    "tier": "D+",
     "tags": {
       "types": [
         "evasion"
@@ -1795,7 +1769,7 @@
     "archetypes": {}
   },
   "Figure of Fable": {
-    "tier": "A",
+    "tier": "A+",
     "sections": [
       "bombs"
     ],
@@ -1812,7 +1786,7 @@
     "comment": "Grows fast, threatens to end the game. Any G or W deck wants this."
   },
   "Firdoch Core": {
-    "tier": "D",
+    "tier": "D+",
     "tags": {
       "types": [
         "ramp-fixing"
@@ -1825,7 +1799,7 @@
     "archetypes": {}
   },
   "Flame-Chain Mauler": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "ur_elementals": [
@@ -1844,8 +1818,10 @@
     "comment": "Solid 2-drop. Good activated ability in a format lacking mana sinks."
   },
   "Flamebraider": {
-    "tier": "B",
-    "sections": [],
+    "tier": "A-",
+    "sections": [
+      "signals"
+    ],
     "archetypes": {
       "ur_elementals": [
         "enabler",
@@ -1870,7 +1846,7 @@
     "comment": "Best mana creature for Elementals. 2 mana of any color towards Elementals."
   },
   "Flamekin Gildweaver": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
       "top_commons"
     ],
@@ -1891,9 +1867,9 @@
     "comment": "Makes treasures. Doubled by Twinflame Travelers."
   },
   "Flaring Cinder": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [
-      "top_commons"
+      "late_pick"
     ],
     "archetypes": {},
     "tags": {
@@ -1921,8 +1897,10 @@
     "archetypes": {}
   },
   "Flock Impostor": {
-    "tier": "C",
-    "sections": [],
+    "tier": "B-",
+    "sections": [
+      "contested"
+    ],
     "archetypes": {
       "wu_merfolk": [
         "role_player"
@@ -1947,7 +1925,7 @@
     "comment": "Hold open 3 mana for saves, combat tricks, or retrigger ETBs."
   },
   "Foraging Wickermaw": {
-    "tier": "C-",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -1979,7 +1957,7 @@
     "archetypes": {}
   },
   "Gallant Fowlknight": {
-    "tier": "C-",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -1998,7 +1976,7 @@
     "comment": "Solid curve filler in Kithkin. Best in GW."
   },
   "Gangly Stompling": {
-    "tier": "C-",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -2011,7 +1989,7 @@
     "archetypes": {}
   },
   "Gathering Stone": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -2025,10 +2003,8 @@
     "archetypes": {}
   },
   "Giantfall": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
       "rg_vivid": [
         "removal",
@@ -2047,7 +2023,7 @@
     "comment": "Instant-speed bite spell. Red has big creatures to back it up."
   },
   "Gilt-Leaf's Embrace": {
-    "tier": "C-",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -2061,7 +2037,7 @@
     "archetypes": {}
   },
   "Glamer Gifter": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -2075,7 +2051,7 @@
     "archetypes": {}
   },
   "Glamermite": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "wu_merfolk": [
@@ -2112,7 +2088,7 @@
     "archetypes": {}
   },
   "Glen Elendra's Answer": {
-    "tier": "B-",
+    "tier": "A-",
     "sections": [],
     "tags": {
       "types": [
@@ -2126,10 +2102,8 @@
     "archetypes": {}
   },
   "Glister Bairn": {
-    "tier": "D",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C",
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "payoff"
@@ -2168,10 +2142,8 @@
     "comment": "Bomb-level payoff in Elves. Demands heavy Elf count."
   },
   "Gnarlbark Elm": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
       "wb_blight": [
         "role_player"
@@ -2189,10 +2161,8 @@
     "comment": "Green removal. Excels in toughness-matters with extra -1/-1 counters."
   },
   "Goatnap": {
-    "tier": "D-",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "D",
+    "sections": [],
     "tags": {
       "types": [
         "conditional-removal"
@@ -2205,7 +2175,7 @@
     "archetypes": {}
   },
   "Goldmeadow Nomad": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -2224,7 +2194,7 @@
     "comment": "One-mana Kithkin that's two bodies. Divisive — great in aggro, weak elsewhere."
   },
   "Goliath Daydreamer": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -2238,9 +2208,9 @@
     "archetypes": {}
   },
   "Gravelgill Scoundrel": {
-    "tier": "C",
+    "tier": "B",
     "sections": [
-      "top_commons"
+      "late_pick"
     ],
     "archetypes": {
       "wu_merfolk": [
@@ -2260,7 +2230,9 @@
   },
   "Graveshifter": {
     "tier": "C+",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {
       "bg_elves": [
         "enabler",
@@ -2285,7 +2257,7 @@
     "comment": "Gravedigger upgrade. 4 mana 2/2 + recursion. Every creature type. Any black deck wants this."
   },
   "Great Forest Druid": {
-    "tier": "C-",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "ug_vivid": [
@@ -2304,7 +2276,7 @@
     "comment": "Pairs with Soul Immolation. Solid green body."
   },
   "Gristle Glutton": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -2319,7 +2291,9 @@
   },
   "Grub's Command": {
     "tier": "A",
-    "sections": [],
+    "sections": [
+      "bombs"
+    ],
     "archetypes": {
       "br_goblins": [
         "payoff"
@@ -2338,7 +2312,7 @@
     "comment": "63.7% IHW. No weak modes. Best card in Goblins by far."
   },
   "Grub, Storied Matriarch // Grub, Notorious Auntie": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -2353,7 +2327,7 @@
     "archetypes": {}
   },
   "Gutsplitter Gang": {
-    "tier": "D+",
+    "tier": "C-",
     "tags": {
       "types": [
         "ramp-fixing"
@@ -2363,13 +2337,11 @@
       ]
     },
     "removal_type": "soft",
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {}
   },
   "Hallowed Fountain": {
-    "tier": "C+",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -2382,7 +2354,7 @@
     "archetypes": {}
   },
   "Harmonized Crescendo": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -2410,7 +2382,7 @@
     "archetypes": {}
   },
   "Hexing Squelcher": {
-    "tier": "C-",
+    "tier": "D+",
     "tags": {
       "types": [
         "token-maker"
@@ -2424,7 +2396,9 @@
   },
   "High Perfect Morcant": {
     "tier": "A",
-    "sections": [],
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "bg_elves": [
         "payoff"
@@ -2442,8 +2416,10 @@
     "comment": "Elf lord bomb. Tremendous payoff for heavy Elf count."
   },
   "Hovel Hurler": {
-    "tier": "C-",
-    "sections": [],
+    "tier": "C",
+    "sections": [
+      "contested"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2458,10 +2434,8 @@
     "comment": "Helps giants fly over."
   },
   "Illusion Spinners": {
-    "tier": "D",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C-",
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2475,10 +2449,8 @@
     "comment": "Works with changeling type matters cards."
   },
   "Impolite Entrance": {
-    "tier": "D-",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "F",
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2492,10 +2464,8 @@
     "comment": "Gives trample. Helps push damage."
   },
   "Iron-Shield Elf": {
-    "tier": "B-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B+",
+    "sections": [],
     "archetypes": {
       "bg_elves": [
         "enabler"
@@ -2513,7 +2483,7 @@
     "comment": "Top black common for Elves."
   },
   "Keep Out": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -2544,8 +2514,10 @@
     "comment": "Miserable to face. Liminal Hold is the best answer."
   },
   "Kindle the Inner Flame": {
-    "tier": "C-",
-    "sections": [],
+    "tier": "B-",
+    "sections": [
+      "late_pick"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2559,7 +2531,7 @@
     "comment": "Explosive synergy with Twinflame Travelers."
   },
   "Kinsbaile Aspirant": {
-    "tier": "B-",
+    "tier": "B+",
     "sections": [
       "signals"
     ],
@@ -2580,7 +2552,7 @@
     "comment": "Direct Kithkin payoff."
   },
   "Kinscaer Sentry": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "tags": {
       "types": [
@@ -2612,10 +2584,8 @@
     }
   },
   "Kithkeeper": {
-    "tier": "D+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "tags": {
       "types": [
         "evasion",
@@ -2628,10 +2598,8 @@
     "archetypes": {}
   },
   "Kulrath Mystic": {
-    "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "role_player"
@@ -2649,7 +2617,7 @@
     "comment": "Grows from Twinflame Travelers triggers. 4/4 base."
   },
   "Kulrath Zealot": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
       "top_commons"
     ],
@@ -2674,7 +2642,7 @@
     "comment": "Top red common."
   },
   "Lasting Tarfire": {
-    "tier": "D",
+    "tier": "F",
     "tags": {
       "types": [
         "conditional-removal"
@@ -2688,7 +2656,7 @@
     "removal_type": "damage"
   },
   "Lavaleaper": {
-    "tier": "D-",
+    "tier": "D",
     "tags": {
       "types": [
         "ramp-fixing"
@@ -2701,9 +2669,9 @@
     "archetypes": {}
   },
   "Liminal Hold": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
-      "top_commons"
+      "contested"
     ],
     "archetypes": {
       "gw_kithkin": [
@@ -2748,7 +2716,9 @@
   },
   "Loch Mare": {
     "tier": "A",
-    "sections": [],
+    "sections": [
+      "bombs"
+    ],
     "tags": {
       "types": [
         "card-advantage"
@@ -2761,10 +2731,8 @@
     "archetypes": {}
   },
   "Lofty Dreams": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "evasion",
@@ -2778,7 +2746,7 @@
     "archetypes": {}
   },
   "Luminollusk": {
-    "tier": "D+",
+    "tier": "C-",
     "tags": {
       "types": [
         "evasion"
@@ -2787,16 +2755,12 @@
         "midrange"
       ]
     },
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {}
   },
   "Lys Alana Dignitary": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B+",
+    "sections": [],
     "tags": {
       "types": [
         "ramp-fixing"
@@ -2808,7 +2772,7 @@
     "archetypes": {}
   },
   "Lys Alana Informant": {
-    "tier": "C",
+    "tier": "B",
     "sections": [
       "top_commons"
     ],
@@ -2842,10 +2806,8 @@
     "comment": "Bomb-level payoff in Elves."
   },
   "Meanders Guide": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
         "payoff"
@@ -2876,7 +2838,7 @@
     "archetypes": {}
   },
   "Merrow Skyswimmer": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
       "top_commons"
     ],
@@ -2893,8 +2855,9 @@
     }
   },
   "Midnight Tilling": {
-    "tier": "C",
+    "tier": "B",
     "sections": [
+      "late_pick",
       "top_commons"
     ],
     "tags": {
@@ -2908,10 +2871,8 @@
     "archetypes": {}
   },
   "Mirrorform": {
-    "tier": "C+",
-    "sections": [
-      "build_arounds"
-    ],
+    "tier": "B-",
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2938,7 +2899,7 @@
     "archetypes": {}
   },
   "Mischievous Sneakling": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -2951,7 +2912,7 @@
     "archetypes": {}
   },
   "Mistmeadow Council": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [
       "top_commons"
     ],
@@ -2974,8 +2935,10 @@
     "comment": "Absurd when mostly Kithkin. Play any number of copies."
   },
   "Moon-Vigil Adherents": {
-    "tier": "B",
-    "sections": [],
+    "tier": "B+",
+    "sections": [
+      "signals"
+    ],
     "archetypes": {
       "gw_kithkin": [
         "role_player"
@@ -3008,7 +2971,9 @@
   },
   "Moonlit Lamenter": {
     "tier": "B-",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {
       "wb_blight": [
         "payoff",
@@ -3030,7 +2995,7 @@
     "comment": "2/5 that converts -1/-1 counters into cards. Fragile to removal."
   },
   "Moonshadow": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -3044,7 +3009,7 @@
     "archetypes": {}
   },
   "Morcant's Eyes": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [
       "signals"
     ],
@@ -3066,8 +3031,10 @@
     "comment": "Premium Elf payoff. Relies on heavy Elf count."
   },
   "Morcant's Loyalist": {
-    "tier": "B+",
-    "sections": [],
+    "tier": "A",
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "bg_elves": [
         "signpost",
@@ -3088,10 +3055,8 @@
     "comment": "SIGNAL: Go BG Elves. Buffs Elves and returns one on death."
   },
   "Morningtide's Light": {
-    "tier": "B-",
-    "sections": [
-      "build_arounds"
-    ],
+    "tier": "C+",
+    "sections": [],
     "tags": {
       "types": [
         "conditional-removal"
@@ -3118,10 +3083,8 @@
     "archetypes": {}
   },
   "Mudbutton Cursetosser": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B+",
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "payoff"
@@ -3152,7 +3115,7 @@
     "archetypes": {}
   },
   "Nameless Inversion": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "br_goblins": [
@@ -3181,10 +3144,8 @@
     "comment": "Best black common. 2 mana -3/-3. Every creature type — insane tribal synergy."
   },
   "Nightmare Sower": {
-    "tier": "D",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C-",
+    "sections": [],
     "archetypes": {
       "ub_faeries": [
         "payoff",
@@ -3204,7 +3165,7 @@
     "comment": "Flash payoff. Lifelink + -1/-1 counters. Makes racing impossible."
   },
   "Noggle Robber": {
-    "tier": "B-",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -3217,10 +3178,8 @@
     "archetypes": {}
   },
   "Noggle the Mind": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "conditional-removal"
@@ -3232,10 +3191,8 @@
     "archetypes": {}
   },
   "Oko, Lorwyn Liege": {
-    "tier": "B+",
-    "sections": [
-      "build_arounds"
-    ],
+    "tier": "B",
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "key_synergy"
@@ -3253,7 +3210,7 @@
     "comment": "Puts 6 power into play on turn 4 with constant self-mill/draw."
   },
   "Oko, Lorwyn Liege // Oko, Shadowmoor Scion": {
-    "tier": "D",
+    "tier": "B",
     "tags": {
       "types": [
         "conditional-removal"
@@ -3267,7 +3224,7 @@
     "archetypes": {}
   },
   "Omni-Changeling": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -3280,7 +3237,7 @@
     "archetypes": {}
   },
   "Overgrown Tomb": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -3293,7 +3250,7 @@
     "archetypes": {}
   },
   "Perfect Intimidation": {
-    "tier": "D",
+    "tier": "F",
     "sections": [],
     "tags": {
       "types": [
@@ -3307,10 +3264,8 @@
     "archetypes": {}
   },
   "Personify": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "unconditional-removal",
@@ -3324,10 +3279,8 @@
     "archetypes": {}
   },
   "Pestered Wellguard": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "evasion",
@@ -3340,7 +3293,7 @@
     "archetypes": {}
   },
   "Pitiless Fists": {
-    "tier": "C+",
+    "tier": "B+",
     "tags": {
       "types": [
         "conditional-removal"
@@ -3354,7 +3307,7 @@
     "archetypes": {}
   },
   "Prideful Feastling": {
-    "tier": "C-",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -3367,7 +3320,7 @@
     "archetypes": {}
   },
   "Prismabasher": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "ug_vivid": [
@@ -3389,7 +3342,7 @@
     "comment": "Big vivid threat. Costs substantial mana."
   },
   "Prismatic Undercurrents": {
-    "tier": "D-",
+    "tier": "D",
     "tags": {
       "types": [
         "card-advantage",
@@ -3403,7 +3356,7 @@
     "archetypes": {}
   },
   "Protective Response": {
-    "tier": "B-",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -3417,7 +3370,7 @@
     "archetypes": {}
   },
   "Puca's Eye": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -3434,10 +3387,8 @@
     }
   },
   "Pummeler for Hire": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "archetypes": {
       "gw_kithkin": [
         "role_player"
@@ -3455,7 +3406,7 @@
     "comment": "Solid green body. Often better than narrow tribal cards."
   },
   "Pyrrhic Strike": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -3483,7 +3434,7 @@
     "archetypes": {}
   },
   "Reaping Willow": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "wb_blight": [
@@ -3504,10 +3455,8 @@
     "comment": "3/6 lifelinker that reanimates. Key WB payoff. Hybrid so contested."
   },
   "Reckless Ransacking": {
-    "tier": "D",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "D+",
+    "sections": [],
     "tags": {
       "types": [
         "ramp-fixing",
@@ -3525,7 +3474,7 @@
     }
   },
   "Reluctant Dounguard": {
-    "tier": "D+",
+    "tier": "C-",
     "tags": {
       "types": [
         "token-maker"
@@ -3539,10 +3488,8 @@
     "archetypes": {}
   },
   "Requiting Hex": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C",
+    "sections": [],
     "tags": {
       "types": [
         "conditional-removal"
@@ -3559,10 +3506,8 @@
     }
   },
   "Retched Wretch": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "enabler",
@@ -3601,10 +3546,8 @@
     "archetypes": {}
   },
   "Rime Chill": {
-    "tier": "D+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C",
+    "sections": [],
     "tags": {
       "types": [
         "card-advantage",
@@ -3632,8 +3575,10 @@
     "archetypes": {}
   },
   "Rimekin Recluse": {
-    "tier": "B+",
-    "sections": [],
+    "tier": "A-",
+    "sections": [
+      "signals"
+    ],
     "archetypes": {
       "wu_merfolk": [
         "removal"
@@ -3660,10 +3605,8 @@
     "comment": "Man-o'-War variant. Contender for best nonrare in ECL."
   },
   "Riverguard's Reflexes": {
-    "tier": "D",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C",
+    "sections": [],
     "tags": {
       "types": [
         "combat-trick"
@@ -3676,9 +3619,9 @@
     "archetypes": {}
   },
   "Rooftop Percher": {
-    "tier": "D+",
+    "tier": "B-",
     "sections": [
-      "top_commons"
+      "late_pick"
     ],
     "tags": {
       "types": [
@@ -3692,10 +3635,8 @@
     "archetypes": {}
   },
   "Run Away Together": {
-    "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C-",
+    "sections": [],
     "tags": {
       "types": [
         "bounce"
@@ -3708,7 +3649,7 @@
     "archetypes": {}
   },
   "Safewright Cavalry": {
-    "tier": "C",
+    "tier": "B",
     "sections": [
       "top_commons"
     ],
@@ -3724,7 +3665,7 @@
     "archetypes": {}
   },
   "Sanar, Innovative First-Year": {
-    "tier": "B+",
+    "tier": "A-",
     "sections": [],
     "tags": {
       "types": [
@@ -3742,7 +3683,7 @@
     }
   },
   "Sapling Nursery": {
-    "tier": "C",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -3761,7 +3702,7 @@
     }
   },
   "Scarblade Scout": {
-    "tier": "C+",
+    "tier": "B+",
     "sections": [
       "top_commons"
     ],
@@ -3776,7 +3717,7 @@
     "archetypes": {}
   },
   "Scarblade's Malice": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -3790,7 +3731,7 @@
     "archetypes": {}
   },
   "Scuzzback Scrounger": {
-    "tier": "C+",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -3805,9 +3746,7 @@
   },
   "Sear": {
     "tier": "B",
-    "sections": [
-      "contested"
-    ],
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "removal"
@@ -3834,7 +3773,7 @@
     "comment": "2 mana 4 damage instant. Premium red common removal."
   },
   "Selfless Safewright": {
-    "tier": "B-",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -3847,7 +3786,7 @@
     "archetypes": {}
   },
   "Shadow Urchin": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -3861,10 +3800,8 @@
     "archetypes": {}
   },
   "Shimmercreep": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "evasion"
@@ -3881,7 +3818,7 @@
     }
   },
   "Shimmerwilds Growth": {
-    "tier": "C-",
+    "tier": "D+",
     "tags": {
       "types": [
         "ramp-fixing"
@@ -3890,14 +3827,14 @@
         "midrange"
       ]
     },
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {}
   },
   "Shinestriker": {
-    "tier": "B",
-    "sections": [],
+    "tier": "B+",
+    "sections": [
+      "signals"
+    ],
     "archetypes": {
       "ur_elementals": [
         "payoff"
@@ -3922,7 +3859,7 @@
     "comment": "Premium Elemental/Vivid payoff. Expensive but worth it."
   },
   "Shore Lurker": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -3936,7 +3873,7 @@
     "archetypes": {}
   },
   "Silvergill Mentor": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [
       "signals"
     ],
@@ -3957,7 +3894,7 @@
     "comment": "2-mana Silvergill Adept variant. Creates 1/1 token instead of drawing."
   },
   "Silvergill Peddler": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "wu_merfolk": [
@@ -3976,10 +3913,8 @@
     "comment": "Cares about being tapped. Great with convoke."
   },
   "Sizzling Changeling": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "role_player"
@@ -4011,7 +3946,7 @@
     "archetypes": {}
   },
   "Soul Immolation": {
-    "tier": "A-",
+    "tier": "A+",
     "sections": [
       "bombs"
     ],
@@ -4036,10 +3971,8 @@
     "comment": "Red Plague Wind with high-toughness enablers. Pair with Blighted Blackthorn."
   },
   "Soulbright Seeker": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "enabler"
@@ -4060,10 +3993,8 @@
     "comment": "Aggressive Elemental. Gives trample. Not worth playing in most UR decks."
   },
   "Sourbread Auntie": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "token-maker"
@@ -4076,7 +4007,7 @@
     "archetypes": {}
   },
   "Spell Snare": {
-    "tier": "SB",
+    "tier": "D",
     "sections": [],
     "tags": {
       "types": [
@@ -4090,7 +4021,7 @@
     "archetypes": {}
   },
   "Spinerock Tyrant": {
-    "tier": "B+",
+    "tier": "A",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -4105,7 +4036,7 @@
     "comment": "Monster bomb. 6/6 dragon with wither + removal doubling."
   },
   "Spiral into Solitude": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -4146,7 +4077,7 @@
     "archetypes": {}
   },
   "Spry and Mighty": {
-    "tier": "C",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -4159,10 +4090,8 @@
     "archetypes": {}
   },
   "Squawkroaster": {
-    "tier": "D",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C-",
+    "sections": [],
     "archetypes": {
       "ug_vivid": [
         "payoff"
@@ -4183,7 +4112,7 @@
     "comment": "Vivid payoff. Expensive but powerful."
   },
   "Stalactite Dagger": {
-    "tier": "D",
+    "tier": "C-",
     "tags": {
       "types": [
         "token-maker"
@@ -4197,7 +4126,7 @@
     "archetypes": {}
   },
   "Steam Vents": {
-    "tier": "C+",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -4211,9 +4140,7 @@
   },
   "Sting-Slinger": {
     "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "tags": {
       "types": [
         "conditional-removal"
@@ -4226,7 +4153,7 @@
     "archetypes": {}
   },
   "Stoic Grove-Guide": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -4240,7 +4167,7 @@
     "removal_type": "hard"
   },
   "Stratosoarer": {
-    "tier": "D+",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -4256,7 +4183,7 @@
     "archetypes": {}
   },
   "Summit Sentinel": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [],
     "archetypes": {
       "ur_elementals": [
@@ -4275,7 +4202,7 @@
     "comment": "Preferred over Flame-Chain Mauler in Elementals."
   },
   "Sun-Dappled Celebrant": {
-    "tier": "D+",
+    "tier": "C",
     "sections": [],
     "archetypes": {
       "gw_kithkin": [
@@ -4297,7 +4224,7 @@
     "comment": "Big convoke creature. Merfolk love being tapped for this."
   },
   "Sunderflock": {
-    "tier": "A-",
+    "tier": "A+",
     "sections": [
       "bombs"
     ],
@@ -4312,7 +4239,7 @@
     "archetypes": {}
   },
   "Surly Farrier": {
-    "tier": "D+",
+    "tier": "C+",
     "sections": [],
     "tags": {
       "types": [
@@ -4326,10 +4253,8 @@
     "archetypes": {}
   },
   "Swat Away": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "ramp-fixing"
@@ -4342,7 +4267,7 @@
     "archetypes": {}
   },
   "Sygg's Command": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -4357,7 +4282,7 @@
     "comment": "Strong Merfolk command with flexible modes."
   },
   "Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield": {
-    "tier": "B",
+    "tier": "A-",
     "sections": [],
     "tags": {
       "types": [
@@ -4386,7 +4311,7 @@
     "archetypes": {}
   },
   "Tanufel Rimespeaker": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "tags": {
       "types": [
@@ -4400,7 +4325,9 @@
   },
   "Taster of Wares": {
     "tier": "A-",
-    "sections": [],
+    "sections": [
+      "build_arounds"
+    ],
     "tags": {
       "types": [
         "card-advantage"
@@ -4417,7 +4344,7 @@
     }
   },
   "Temple Garden": {
-    "tier": "C+",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -4430,9 +4357,9 @@
     "archetypes": {}
   },
   "Temporal Cleansing": {
-    "tier": "C",
+    "tier": "B",
     "sections": [
-      "top_commons"
+      "late_pick"
     ],
     "tags": {
       "types": [
@@ -4446,7 +4373,7 @@
     "archetypes": {}
   },
   "Tend the Sprigs": {
-    "tier": "D",
+    "tier": "D+",
     "sections": [],
     "archetypes": {},
     "tags": {
@@ -4464,10 +4391,8 @@
     "comment": "Works with changeling type matters cards."
   },
   "Thirst for Identity": {
-    "tier": "D",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C+",
+    "sections": [],
     "tags": {
       "types": [
         "card-advantage"
@@ -4479,10 +4404,8 @@
     "archetypes": {}
   },
   "Thoughtweft Charge": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "card-advantage",
@@ -4496,7 +4419,7 @@
     "archetypes": {}
   },
   "Thoughtweft Imbuer": {
-    "tier": "B-",
+    "tier": "B+",
     "sections": [
       "signals"
     ],
@@ -4517,8 +4440,10 @@
     "comment": "Most aggressively-taken uncommon in ECL. Swings most games."
   },
   "Thoughtweft Lieutenant": {
-    "tier": "B",
-    "sections": [],
+    "tier": "A-",
+    "sections": [
+      "signals"
+    ],
     "archetypes": {
       "gw_kithkin": [
         "signpost",
@@ -4538,10 +4463,8 @@
     "comment": "SIGNAL: Go GW Kithkin. Keeps all creatures permanently above rate."
   },
   "Timid Shieldbearer": {
-    "tier": "C-",
-    "sections": [
-      "top_commons"
-    ],
+    "tier": "B-",
+    "sections": [],
     "tags": {
       "types": [
         "token-maker"
@@ -4553,9 +4476,9 @@
     "archetypes": {}
   },
   "Tributary Vaulter": {
-    "tier": "C-",
+    "tier": "B-",
     "sections": [
-      "top_commons"
+      "late_pick"
     ],
     "archetypes": {
       "wu_merfolk": [
@@ -4599,7 +4522,7 @@
     "comment": "Best command. Murder + Overrun or Murder + Restock. Wins games outright."
   },
   "Trystan, Callous Cultivator // Trystan, Penitent Culler": {
-    "tier": "B",
+    "tier": "A",
     "sections": [],
     "tags": {
       "types": [
@@ -4612,7 +4535,7 @@
     "archetypes": {}
   },
   "Tweeze": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "tags": {
       "types": [
@@ -4627,7 +4550,7 @@
     "archetypes": {}
   },
   "Twilight Diviner": {
-    "tier": "C+",
+    "tier": "B",
     "sections": [],
     "archetypes": {
       "bg_elves": [
@@ -4646,10 +4569,8 @@
     "comment": "Copies spells cast from graveyard. Massive value swings in Elves."
   },
   "Twinflame Travelers": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B",
+    "sections": [],
     "archetypes": {
       "ur_elementals": [
         "signpost",
@@ -4672,8 +4593,10 @@
     "comment": "SIGNAL: Go UR Elementals. Panharmonicon for Elemental triggers."
   },
   "Unbury": {
-    "tier": "C",
-    "sections": [],
+    "tier": "B-",
+    "sections": [
+      "contested"
+    ],
     "tags": {
       "types": [
         "card-advantage",
@@ -4687,10 +4610,8 @@
     "archetypes": {}
   },
   "Unexpected Assistance": {
-    "tier": "C+",
-    "sections": [
-      "top_commons"
-    ],
+    "tier": "B",
+    "sections": [],
     "tags": {
       "types": [
         "card-advantage",
@@ -4703,10 +4624,8 @@
     "archetypes": {}
   },
   "Unforgiving Aim": {
-    "tier": "SB",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C-",
+    "sections": [],
     "tags": {
       "types": [
         "unconditional-removal",
@@ -4721,10 +4640,8 @@
     "archetypes": {}
   },
   "Unwelcome Sprite": {
-    "tier": "C-",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B",
+    "sections": [],
     "archetypes": {
       "ub_faeries": [
         "payoff",
@@ -4766,10 +4683,8 @@
     }
   },
   "Vinebred Brawler": {
-    "tier": "C",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B",
+    "sections": [],
     "tags": {
       "types": [
         "token-maker"
@@ -4782,7 +4697,7 @@
     "archetypes": {}
   },
   "Virulent Emissary": {
-    "tier": "B",
+    "tier": "B+",
     "sections": [],
     "tags": {
       "types": [
@@ -4795,10 +4710,8 @@
     "archetypes": {}
   },
   "Voracious Tome-Skimmer": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C",
+    "sections": [],
     "archetypes": {
       "ub_faeries": [
         "signpost",
@@ -4819,10 +4732,8 @@
     "comment": "SIGNAL: Go UB Faeries. Need 3+ copies. Only strong payoff for the archetype."
   },
   "Wanderbrine Preacher": {
-    "tier": "C+",
-    "sections": [
-      "top_commons"
-    ],
+    "tier": "B-",
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -4836,8 +4747,10 @@
     "comment": "Listed among top white commons alongside Liminal Hold."
   },
   "Wanderbrine Trapper": {
-    "tier": "B",
-    "sections": [],
+    "tier": "A-",
+    "sections": [
+      "signals"
+    ],
     "archetypes": {
       "wu_merfolk": [
         "enabler",
@@ -4856,7 +4769,7 @@
     "comment": "Best tapper since Gideon's Lawkeeper. 1-mana 2/1 that locks down threats."
   },
   "Wanderwine Distracter": {
-    "tier": "D",
+    "tier": "C-",
     "tags": {
       "types": [
         "conditional-removal"
@@ -4866,16 +4779,12 @@
       ]
     },
     "removal_type": "conditional",
-    "sections": [
-      "late_pick"
-    ],
+    "sections": [],
     "archetypes": {}
   },
   "Wanderwine Farewell": {
-    "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "tier": "B",
+    "sections": [],
     "tags": {
       "types": [
         "token-maker",
@@ -4890,10 +4799,8 @@
     "archetypes": {}
   },
   "Warren Torchmaster": {
-    "tier": "D",
-    "sections": [
-      "signals"
-    ],
+    "tier": "C-",
+    "sections": [],
     "archetypes": {
       "br_goblins": [
         "role_player"
@@ -4914,7 +4821,7 @@
     "comment": "Top red common."
   },
   "Wary Farmer": {
-    "tier": "C",
+    "tier": "B-",
     "sections": [],
     "archetypes": {
       "ug_vivid": [
@@ -4931,10 +4838,8 @@
     }
   },
   "Wild Unraveling": {
-    "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
+    "tier": "C+",
+    "sections": [],
     "tags": {
       "types": [
         "counter-magic"
@@ -4951,7 +4856,7 @@
     }
   },
   "Wildvine Pummeler": {
-    "tier": "D+",
+    "tier": "C-",
     "sections": [],
     "archetypes": {
       "ug_vivid": [
@@ -4973,7 +4878,7 @@
     "comment": "Big vivid threat. Expensive."
   },
   "Winnowing": {
-    "tier": "D",
+    "tier": "C",
     "sections": [],
     "tags": {
       "types": [
@@ -5001,5 +4906,5 @@
     "removal_type": "hard",
     "comment": "6/5 that sometimes kills Liminal Hold and Blossombind."
   },
-  "_config_version": 3
+  "_config_version": 4
 }
