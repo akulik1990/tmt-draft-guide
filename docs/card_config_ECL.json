@@ -8,7 +8,7 @@
         "W"
       ],
       "color_hex": "#f1c40f",
-      "icon": "🛡️",
+      "icon": "\ud83d\udee1\ufe0f",
       "short": "Go-wide aggro/midrange. Kithkin tribal with anthems, convoke, and one big attacker per turn.",
       "strategy": "Curve out with Kithkin creatures and leverage Thoughtweft Lieutenant to keep them above rate. Attack with one huge buffed creature while stonewalling with the rest. Mistmeadow Council is absurd when mostly Kithkin.",
       "signposts": [
@@ -72,7 +72,7 @@
         "U"
       ],
       "color_hex": "#3498db",
-      "icon": "🌊",
+      "icon": "\ud83c\udf0a",
       "short": "Tempo/tap synergies. Merfolk tap for value, convoke spells, and fly over for damage.",
       "strategy": "Draft Merfolk that care about being tapped. Use convoke to tap creatures for value without risking combat. Wanderbrine Trapper locks down threats while triggering tap abilities. Flying keeps pressure on.",
       "signposts": [
@@ -136,7 +136,7 @@
         "R"
       ],
       "color_hex": "#e74c3c",
-      "icon": "💣",
+      "icon": "\ud83d\udca3",
       "short": "Blight aristocrats. Weaponize -1/-1 counters and goblin deaths for damage and value.",
       "strategy": "Flood the board with Goblin tokens, stack Blight counters where they don't matter, and sacrifice recklessly. Boggart Cursecrafter pings on each goblin death. Boggart Mischief and Retched Wretch are key engines.",
       "signposts": [
@@ -200,7 +200,7 @@
         "R"
       ],
       "color_hex": "#9b59b6",
-      "icon": "🔥",
+      "icon": "\ud83d\udd25",
       "short": "Big spells & ETB doublers. Cast MV 4+ spells to trigger Elementals. Panharmonicon with Twinflame Travelers.",
       "strategy": "Draft Elementals with strong ETB triggers. Twinflame Travelers doubles them. Prioritize MV 4+ cards. Flamebraider ramps into big Elementals. Often splashes for vivid payoffs.",
       "signposts": [
@@ -237,7 +237,7 @@
         [
           "Twinflame Travelers",
           "Elemental ETB triggers",
-          "Panharmonicon — double all elemental triggers"
+          "Panharmonicon \u2014 double all elemental triggers"
         ],
         [
           "Flamebraider",
@@ -264,8 +264,8 @@
         "G"
       ],
       "color_hex": "#27ae60",
-      "icon": "🌿",
-      "short": "Graveyard grind. Elves die, return, and die again — each time generating value through recursion and tokens.",
+      "icon": "\ud83c\udf3f",
+      "short": "Graveyard grind. Elves die, return, and die again \u2014 each time generating value through recursion and tokens.",
       "strategy": "Best archetype in the format. Fill your graveyard with Elves via self-mill and trades, then recur them for massive value. Morcant's Loyalist buffs and replaces. Play minimum 9 Elves/Changelings to enable Behold.",
       "signposts": [
         "Morcant's Loyalist",
@@ -308,7 +308,7 @@
         [
           "Graveshifter",
           "Milled/dead Elves",
-          "Recursion engine — every creature type too"
+          "Recursion engine \u2014 every creature type too"
         ],
         [
           "Trystan's Command",
@@ -330,9 +330,9 @@
         "B"
       ],
       "color_hex": "#8e44ad",
-      "icon": "🧚",
+      "icon": "\ud83e\uddda",
       "short": "Flash/instant control. Cast spells on opponent's turn to trigger Faerie payoffs.",
-      "strategy": "Draft Voracious Tome-Skimmer highly — you need 3+ copies. Fill deck with flash creatures and instants. Unwelcome Sprite and Nightmare Sower provide redundancy. Control the game at instant speed.",
+      "strategy": "Draft Voracious Tome-Skimmer highly \u2014 you need 3+ copies. Fill deck with flash creatures and instants. Unwelcome Sprite and Nightmare Sower provide redundancy. Control the game at instant speed.",
       "signposts": [
         "Voracious Tome-Skimmer"
       ],
@@ -383,7 +383,7 @@
         "G"
       ],
       "color_hex": "#1abc9c",
-      "icon": "🌈",
+      "icon": "\ud83c\udf08",
       "short": "5-color good stuff. Control permanents of different colors for Vivid bonuses. Ramp into bombs.",
       "strategy": "Draft fixing (Changeling Wayfinder is key) and powerful vivid payoffs. Often splashes 3+ colors. Aurora Awakener may be the best card in the set. Prismabasher, Glister Bairn, Wildvine Pummeler are top-end threats.",
       "signposts": [
@@ -414,7 +414,7 @@
         [
           "Aurora Awakener",
           "Multicolor permanents",
-          "Best card in set — cheats mana costs"
+          "Best card in set \u2014 cheats mana costs"
         ],
         [
           "Changeling Wayfinder",
@@ -436,7 +436,7 @@
         "B"
       ],
       "color_hex": "#95a5a6",
-      "icon": "☠️",
+      "icon": "\u2620\ufe0f",
       "short": "-1/-1 counter synergies. Place counters to fuel abilities, draw cards, and reanimate.",
       "strategy": "Use Blight as a resource. Moonlit Lamenter converts -1/-1 counters into card draw. Reaping Willow reanimates creatures. Blighted Blackthorn pairs well with both. Grindy midrange/control plan.",
       "signposts": [
@@ -488,9 +488,9 @@
         "W"
       ],
       "color_hex": "#e67e22",
-      "icon": "⚔️",
+      "icon": "\u2694\ufe0f",
       "short": "Aggressive blight. Place -1/-1 counters to fuel efficient spells and pump effects.",
-      "strategy": "Use Blight aggressively — Cinder Strike becomes 1-mana deal 4. Combine with white's removal and efficient creatures. More aggressive than WB, using counters to enable cheap, powerful effects.",
+      "strategy": "Use Blight aggressively \u2014 Cinder Strike becomes 1-mana deal 4. Combine with white's removal and efficient creatures. More aggressive than WB, using counters to enable cheap, powerful effects.",
       "signposts": [],
       "payoffs": [
         "Soul Immolation"
@@ -532,7 +532,7 @@
         "G"
       ],
       "color_hex": "#d35400",
-      "icon": "🌋",
+      "icon": "\ud83c\udf0b",
       "short": "Ramp into big vivid threats. Giants and Elementals overlap. Often 3+ colors with UG.",
       "strategy": "Overlaps heavily with UG Vivid. Ramp with green fixing into expensive multicolor threats. Boldwyr Aggressor gives giants double strike. Usually played as Temur (URG).",
       "signposts": [],
@@ -587,15 +587,15 @@
   "_tips": [
     {
       "title": "Mana Curve",
-      "body": "1-drops: 1-2 · 2-drops: 4-5 · 3-drops: 3-5 · 4-drops: 3-4 · 5+: 2-3\nTotal: 15-17 creatures, 6-8 spells, 17 lands (or 16 with fixing)"
+      "body": "1-drops: 1-2 \u00b7 2-drops: 4-5 \u00b7 3-drops: 3-5 \u00b7 4-drops: 3-4 \u00b7 5+: 2-3\nTotal: 15-17 creatures, 6-8 spells, 17 lands (or 16 with fixing)"
     },
     {
       "title": "Key Mechanics",
-      "body": "<b>Kithkin/Merfolk/Goblins/Elves/Faeries</b> — 5 typal archetypes with tribal payoffs\n<b>Vivid Lands</b> — enable 3+ color 'good stuff' decks (UG/RG Vivid)\n<b>-1/-1 Counters</b> — WB/RW use Blight mechanic to shrink + remove threats\n<b>Evoke</b> — pay alternate cost for immediate ETB effect\n<b>Champion</b> — exile your creature, get it back when champion leaves"
+      "body": "<b>Kithkin/Merfolk/Goblins/Elves/Faeries</b> \u2014 5 typal archetypes with tribal payoffs\n<b>Vivid Lands</b> \u2014 enable 3+ color 'good stuff' decks (UG/RG Vivid)\n<b>-1/-1 Counters</b> \u2014 WB/RW use Blight mechanic to shrink + remove threats\n<b>Evoke</b> \u2014 pay alternate cost for immediate ETB effect\n<b>Champion</b> \u2014 exile your creature, get it back when champion leaves"
     },
     {
       "title": "Format Speed",
-      "body": "Medium-fast format. Aggro (RW Blight, BR Goblins) can close games quickly.\nUB Faeries and UG Vivid play longer games. Respect early pressure — don't stumble on mana."
+      "body": "Medium-fast format. Aggro (RW Blight, BR Goblins) can close games quickly.\nUB Faeries and UG Vivid play longer games. Respect early pressure \u2014 don't stumble on mana."
     },
     {
       "title": "Draft Priorities",
@@ -605,14 +605,25 @@
   "Abigale, Eloquent First-Year": {
     "tier": "B",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "A-",
+      "WU Merfolk": "B",
+      "BR Goblins": "B",
+      "BG Elves": "A",
+      "WB Blight": "B",
+      "RW Blight": "B"
+    },
     "tags": {
-      "roles": [],
+      "roles": [
+        "premium"
+      ],
       "types": [
         "card-advantage"
       ],
       "speed": [
-        "midrange"
+        "aggro",
+        "evasion",
+        "early"
       ]
     },
     "removal_type": null,
@@ -623,73 +634,23 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "merfolk"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "WU Merfolk": "B+",
+      "RW Blight": "B"
     }
   },
   "Ajani, Outland Chaperone": {
     "tier": "A-",
-    "tags": {
-      "roles": [
-        "role_player"
-      ],
-      "types": [],
-      "speed": [
-        "tempo"
-      ]
-    },
-    "removal_type": "conditional",
-    "sections": []
-  },
-  "Appeal to Eirdu": {
-    "tier": "D",
-    "sections": [
-      "removal"
-    ],
-    "tags": {
-      "roles": [
-        "removal"
-      ],
-      "types": [
-        "instant"
-      ],
-      "speed": [
-        "midrange",
-        "tempo"
-      ]
-    },
-    "removal_type": "conditional"
-  },
-  "Aquitect's Defenses": {
-    "tier": "D+",
-    "sections": [],
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "enchantment"
-      ],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": "conditional"
-  },
-  "Ashling's Command": {
-    "tier": "A+",
-    "sections": [],
-    "archetypes": {
-      "ur_elementals": [
-        "payoff"
-      ]
-    },
     "tags": {
       "roles": [
         "bomb"
@@ -699,7 +660,81 @@
         "midrange"
       ]
     },
-    "removal_type": null,
+    "removal_type": "conditional",
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "A+",
+      "WU Merfolk": "A-",
+      "RW Blight": "A+"
+    }
+  },
+  "Appeal to Eirdu": {
+    "tier": "D",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "filler",
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "C",
+      "WU Merfolk": "C"
+    }
+  },
+  "Aquitect's Defenses": {
+    "tier": "D+",
+    "sections": [],
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "C+",
+      "UB Faeries": "C+"
+    }
+  },
+  "Ashling's Command": {
+    "tier": "A+",
+    "sections": [],
+    "archetypes": {
+      "WU Merfolk": "A",
+      "BR Goblins": "A-",
+      "UR Elementals": "A+",
+      "RG Vivid": "A+"
+    },
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "elemental",
+        "card-draw"
+      ],
+      "speed": [
+        "late-game",
+        "tempo"
+      ]
+    },
+    "removal_type": "damage",
     "comment": "Among the most broken rares. Premium for UR Elementals."
   },
   "Ashling, Rekindled": {
@@ -708,19 +743,21 @@
       "build_arounds"
     ],
     "archetypes": {
-      "ur_elementals": [
-        "payoff"
-      ]
+      "BR Goblins": "B-",
+      "UR Elementals": "A",
+      "RG Vivid": "B"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "buildaround"
       ],
       "types": [
-        "ramp-fixing"
+        "elemental",
+        "card-draw"
       ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -730,33 +767,28 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "elemental",
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Assert Perfection": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "removal"
-      ],
-      "gw_kithkin": [
-        "removal"
-      ],
-      "ug_vivid": [
-        "removal"
-      ],
-      "rg_vivid": [
-        "removal"
-      ]
+      "GW Kithkin": "B+",
+      "BG Elves": "A-",
+      "UG Vivid": "B-",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
@@ -776,18 +808,10 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "bg_elves": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "removal"
-      ],
-      "wb_blight": [
-        "removal"
-      ]
+      "BR Goblins": "C+",
+      "BG Elves": "B",
+      "UB Faeries": "C",
+      "WB Blight": "C+"
     },
     "tags": {
       "roles": [
@@ -809,18 +833,20 @@
       "build_arounds"
     ],
     "archetypes": {
-      "ug_vivid": [
-        "signpost",
-        "payoff"
-      ]
+      "GW Kithkin": "A-",
+      "UR Elementals": "A",
+      "BG Elves": "B+",
+      "RG Vivid": "A"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "buildaround"
       ],
-      "types": [],
+      "types": [
+        "giant"
+      ],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -831,29 +857,41 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "artifact"
+        "artifact",
+        "equipment"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "BG Elves": "B-",
+      "UB Faeries": "B-",
+      "WB Blight": "B"
+    }
   },
   "Bark of Doran": {
     "tier": "D+",
     "sections": [
       "late_pick"
     ],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "C-",
+      "WU Merfolk": "C+",
+      "WB Blight": "C-"
+    },
     "tags": {
       "roles": [
         "filler"
       ],
       "types": [
-        "combat-trick"
+        "artifact",
+        "equipment"
       ],
       "speed": [
         "midrange"
@@ -866,29 +904,45 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": "soft",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C+",
+      "BG Elves": "C",
+      "UB Faeries": "C-",
+      "WB Blight": "C"
+    }
   },
   "Bitterbloom Bearer": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "BR Goblins": "B+",
+      "BG Elves": "A-",
+      "UB Faeries": "B+"
+    },
     "tags": {
       "roles": [
-        "role-player"
+        "payoff"
       ],
-      "types": [],
+      "types": [
+        "faerie"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "tempo",
+        "evasion",
+        "early"
       ]
     },
     "removal_type": null,
@@ -897,20 +951,17 @@
   "Bitterblossom": {
     "tier": "A",
     "sections": [],
-    "archetypes": {
-      "ub_faeries": [
-        "payoff"
-      ]
-    },
+    "archetypes": {},
     "tags": {
       "roles": [
-        "bomb"
+        "payoff"
       ],
       "types": [
-        "token-maker"
+        "faerie",
+        "enchantment"
       ],
       "speed": [
-        "midrange"
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -923,6 +974,7 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
@@ -932,27 +984,34 @@
         "tempo"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "UR Elementals": "B+",
+      "BG Elves": "B+",
+      "UB Faeries": "B-",
+      "WB Blight": "B-"
+    }
   },
   "Blighted Blackthorn": {
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "enabler"
-      ],
-      "wb_blight": [
-        "enabler",
-        "key_synergy"
-      ]
+      "BR Goblins": "C",
+      "BG Elves": "C",
+      "UB Faeries": "C-",
+      "WB Blight": "C+"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "treefolk",
+        "card-draw"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -963,12 +1022,17 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "enabler"
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "BR Goblins": "C+",
+      "UR Elementals": "C+",
+      "BG Elves": "B"
     }
   },
   "Bloodline Bidding": {
@@ -977,17 +1041,16 @@
       "build_arounds"
     ],
     "archetypes": {
-      "bg_elves": [
-        "role_player"
-      ]
+      "BR Goblins": "B-",
+      "BG Elves": "A"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "premium"
       ],
       "types": [],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -998,39 +1061,37 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B",
+      "RG Vivid": "C+"
     }
   },
   "Blossombind": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "removal"
-      ],
-      "ug_vivid": [
-        "removal"
-      ]
+      "WU Merfolk": "B",
+      "UR Elementals": "B",
+      "UB Faeries": "C",
+      "UG Vivid": "B-"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "conditional-removal"
+        "enchantment"
       ],
       "speed": [
         "midrange"
@@ -1046,16 +1107,23 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B",
+      "BG Elves": "B",
+      "UG Vivid": "C+",
+      "RG Vivid": "B"
+    }
   },
   "Boggart Cursecrafter": {
     "tier": "B-",
@@ -1064,19 +1132,18 @@
       "signals"
     ],
     "archetypes": {
-      "br_goblins": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
+      "BR Goblins": "B+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "goblin"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -1088,17 +1155,17 @@
       "br_goblins_enabler"
     ],
     "archetypes": {
-      "br_goblins": [
-        "enabler",
-        "key_synergy"
-      ]
+      "BR Goblins": "B+",
+      "BG Elves": "C-",
+      "WB Blight": "C+"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
       "types": [
-        "token-maker"
+        "goblin",
+        "enchantment"
       ],
       "speed": [
         "midrange"
@@ -1111,20 +1178,20 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "br_goblins": [
-        "enabler"
-      ],
-      "wb_blight": [
-        "role_player"
-      ]
+      "BR Goblins": "C+",
+      "BG Elves": "C-",
+      "WB Blight": "C"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "goblin"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -1136,19 +1203,11 @@
       "top_commons"
     ],
     "archetypes": {
-      "br_goblins": [
-        "enabler",
-        "removal"
-      ],
-      "bg_elves": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "removal"
-      ],
-      "wb_blight": [
-        "enabler"
-      ]
+      "BR Goblins": "B",
+      "UR Elementals": "B",
+      "BG Elves": "B+",
+      "UB Faeries": "B-",
+      "WB Blight": "B-"
     },
     "tags": {
       "roles": [
@@ -1168,17 +1227,20 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "rg_vivid": [
-        "payoff"
-      ]
+      "BR Goblins": "C-",
+      "UR Elementals": "C+",
+      "RW Blight": "C+",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
         "filler"
       ],
-      "types": [],
+      "types": [
+        "giant"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -1188,17 +1250,19 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C"
+    }
   },
   "Boulder Dash": {
     "tier": "B-",
@@ -1206,18 +1270,10 @@
       "top_commons"
     ],
     "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "rw_blight": [
-        "removal"
-      ],
-      "rg_vivid": [
-        "removal"
-      ]
+      "BR Goblins": "B-",
+      "UR Elementals": "B+",
+      "RW Blight": "B-",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
@@ -1241,40 +1297,58 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "giant"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "UR Elementals": "B-",
+      "RW Blight": "C+",
+      "RG Vivid": "B-"
+    }
   },
   "Bre of Clan Stoutarm": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "payoff"
       ],
       "types": [
-        "creature"
+        "giant"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "evasion"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C+",
+      "UR Elementals": "B",
+      "RW Blight": "B+",
+      "RG Vivid": "B"
+    }
   },
   "Brigid's Command": {
     "tier": "A-",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "A",
+      "BG Elves": "B-"
+    },
     "tags": {
       "roles": [
-        "bomb"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
         "midrange"
       ]
@@ -1285,12 +1359,20 @@
   "Brigid, Clachan's Heart": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "A",
+      "WU Merfolk": "A-",
+      "RW Blight": "B"
+    },
     "tags": {
-      "roles": [],
-      "types": [],
+      "roles": [
+        "premium"
+      ],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -1300,16 +1382,17 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Bristlebane Battler": {
     "tier": "B",
@@ -1318,31 +1401,42 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "GW Kithkin": "A",
+      "BG Elves": "A-",
+      "RG Vivid": "B+"
+    }
   },
   "Bristlebane Outrider": {
     "tier": "C",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "BG Elves": "B-",
+      "UG Vivid": "C+",
+      "RG Vivid": "B-"
     }
   },
   "Burdened Stoneback": {
@@ -1350,16 +1444,23 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "giant"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "C+",
+      "WB Blight": "C+",
+      "RW Blight": "C"
+    }
   },
   "Burning Curiosity": {
     "tier": "D+",
@@ -1368,32 +1469,45 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "UR Elementals": "C+",
+      "RW Blight": "C",
+      "RG Vivid": "C+"
+    }
   },
   "Catharsis": {
     "tier": "B+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler",
-        "buildaround"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elemental",
+        "evoke"
       ],
       "speed": [
-        "midrange",
-        "control"
+        "late-game"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "C",
+      "BR Goblins": "C-",
+      "UR Elementals": "B-",
+      "RW Blight": "B"
     }
   },
   "Celestial Reunion": {
@@ -1403,14 +1517,19 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B"
     }
   },
   "Champion of the Clachan": {
@@ -1419,17 +1538,18 @@
       "gw_kithkin_payoff"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "payoff"
-      ]
+      "GW Kithkin": "B+",
+      "WU Merfolk": "C"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
     "removal_type": null,
@@ -1440,17 +1560,20 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "UR Elementals": "B",
+      "RG Vivid": "C"
+    }
   },
   "Champion of the Weird": {
     "tier": "B+",
@@ -1459,17 +1582,20 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "A",
+      "BG Elves": "B-"
+    }
   },
   "Champions of the Perfect": {
     "tier": "A-",
@@ -1478,39 +1604,42 @@
     ],
     "tags": {
       "roles": [
-        "bomb",
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "elf",
+        "card-draw"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "A-",
+      "BG Elves": "A",
+      "RG Vivid": "B"
+    }
   },
   "Champions of the Shoal": {
     "tier": "A-",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
+      "WU Merfolk": "A+",
+      "UR Elementals": "B+"
     },
     "tags": {
       "roles": [
         "bomb"
       ],
       "types": [
-        "evasion"
+        "merfolk"
       ],
       "speed": [
         "midrange"
       ]
     },
-    "removal_type": null,
+    "removal_type": "hard",
     "comment": "4-mana Frost Titan for Merfolk. 6 toughness dodges most removal."
   },
   "Changeling Wayfinder": {
@@ -1520,34 +1649,26 @@
       "contested"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ],
-      "bg_elves": [
-        "enabler"
-      ],
-      "ug_vivid": [
-        "enabler"
-      ],
-      "ur_elementals": [
-        "enabler"
-      ],
-      "wu_merfolk": [
-        "enabler"
-      ],
-      "rg_vivid": [
-        "enabler"
-      ]
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C+",
+      "UR Elementals": "B",
+      "BG Elves": "B-",
+      "UB Faeries": "B-",
+      "UG Vivid": "B-",
+      "WB Blight": "B-",
+      "RW Blight": "C+",
+      "RG Vivid": "C-"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
       "types": [
-        "ramp-fixing"
+        "changeling"
       ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -1556,17 +1677,23 @@
   "Chaos Spewer": {
     "tier": "D",
     "archetypes": {
-      "br_goblins": "enabler"
+      "BR Goblins": "C",
+      "UR Elementals": "C+",
+      "BG Elves": "C-",
+      "UB Faeries": "C",
+      "WB Blight": "C+",
+      "RW Blight": "C",
+      "RG Vivid": "C"
     },
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
     "removal_type": "soft",
@@ -1576,33 +1703,45 @@
     "tier": "D+",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C",
+      "WU Merfolk": "C+",
+      "UR Elementals": "C+",
+      "BG Elves": "C+",
+      "UB Faeries": "C",
+      "UG Vivid": "C",
+      "RG Vivid": "C-"
+    }
   },
   "Chomping Changeling": {
     "tier": "SB",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
     "removal_type": "hard",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C",
+      "BG Elves": "C"
+    }
   },
   "Chronicle of Victory": {
     "tier": "A-",
@@ -1612,12 +1751,19 @@
         "bomb"
       ],
       "types": [
-        "artifact"
+        "artifact",
+        "card-draw"
       ],
       "speed": [
-        "midrange",
-        "control"
+        "late-game"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "A+",
+      "WU Merfolk": "A",
+      "BR Goblins": "A-",
+      "UR Elementals": "A+",
+      "BG Elves": "A+"
     }
   },
   "Cinder Strike": {
@@ -1626,19 +1772,10 @@
       "top_commons"
     ],
     "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "rw_blight": [
-        "enabler",
-        "removal"
-      ],
-      "rg_vivid": [
-        "removal"
-      ]
+      "BR Goblins": "B-",
+      "UR Elementals": "B+",
+      "RW Blight": "B-",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
@@ -1648,7 +1785,7 @@
         "conditional-removal"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
     "removal_type": "conditional",
@@ -1658,15 +1795,19 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
+      "GW Kithkin": "B+",
+      "WU Merfolk": "B",
+      "WB Blight": "B-",
+      "RW Blight": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "kithkin",
+        "enchantment"
+      ],
       "speed": [
         "midrange"
       ]
@@ -1678,32 +1819,44 @@
     "tier": "D+",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C",
+      "UR Elementals": "C-"
+    },
+    "removal_type": "damage"
   },
   "Creakwood Safewright": {
     "tier": "B",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "BG Elves": "B+",
+      "UB Faeries": "B-",
+      "WB Blight": "C+"
+    }
   },
   "Crib Swap": {
     "tier": "D-",
@@ -1712,32 +1865,41 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
-        "instant"
+        "changeling"
       ],
       "speed": [
         "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "C+",
+      "RW Blight": "C-"
+    }
   },
   "Crossroads Watcher": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ]
+      "GW Kithkin": "B",
+      "BG Elves": "C+",
+      "UG Vivid": "C",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
-        "aggro"
+        "early"
       ]
     },
     "removal_type": null,
@@ -1751,13 +1913,18 @@
         "bomb"
       ],
       "types": [
-        "creature"
+        "giant"
       ],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "A+",
+      "WU Merfolk": "A+",
+      "RW Blight": "A+"
+    }
   },
   "Darkness Descends": {
     "tier": "D",
@@ -1766,35 +1933,42 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C-",
+      "BG Elves": "C+",
+      "WB Blight": "C"
+    }
   },
   "Dawn's Light Archer": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "role_player"
-      ]
+      "GW Kithkin": "C+",
+      "BG Elves": "B",
+      "UG Vivid": "C-",
+      "RG Vivid": "C"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "evasion"
+        "elf"
       ],
       "speed": [
-        "midrange"
+        "tempo",
+        "early"
       ]
     },
     "removal_type": null,
@@ -1805,32 +1979,43 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
         "artifact"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "C+",
+      "BR Goblins": "C+",
+      "UR Elementals": "B-",
+      "BG Elves": "B"
+    }
   },
   "Dawnhand Dissident": {
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "enabler"
-      ]
+      "BR Goblins": "B+",
+      "BG Elves": "A-",
+      "UB Faeries": "B+",
+      "WB Blight": "B"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -1841,33 +2026,43 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "BG Elves": "B+",
+      "UB Faeries": "C+",
+      "WB Blight": "C+"
+    }
   },
   "Deceit": {
     "tier": "A-",
     "sections": [],
     "archetypes": {
-      "ub_faeries": [
-        "role_player"
-      ]
+      "WU Merfolk": "B",
+      "BR Goblins": "B+",
+      "UR Elementals": "A-",
+      "BG Elves": "A-",
+      "UB Faeries": "A+"
     },
     "tags": {
       "roles": [
-        "bomb"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elemental",
+        "evoke"
+      ],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -1880,22 +2075,18 @@
       "signals"
     ],
     "archetypes": {
-      "wu_merfolk": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
+      "WU Merfolk": "A+"
     },
     "tags": {
       "roles": [
-        "bomb",
-        "payoff"
+        "bomb"
       ],
       "types": [
-        "evasion"
+        "merfolk"
       ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -1905,17 +2096,19 @@
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": "enabler"
+      "WU Merfolk": "B"
     },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "merfolk"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "tempo",
+        "early"
       ]
     }
   },
@@ -1939,22 +2132,21 @@
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "enabler"
-      ],
-      "ub_faeries": [
-        "enabler"
-      ]
+      "WU Merfolk": "A",
+      "UR Elementals": "A",
+      "UB Faeries": "B-",
+      "UG Vivid": "B"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "premium"
       ],
       "types": [
-        "bounce"
+        "merfolk"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "tempo"
       ]
     },
     "removal_type": "bounce",
@@ -1982,7 +2174,7 @@
     "archetypes": {},
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [],
       "speed": [
@@ -1998,15 +2190,16 @@
       "build_arounds"
     ],
     "archetypes": {
-      "wb_blight": [
-        "payoff"
-      ]
+      "GW Kithkin": "A-",
+      "BG Elves": "A-"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "buildaround"
       ],
-      "types": [],
+      "types": [
+        "treefolk"
+      ],
       "speed": [
         "midrange"
       ]
@@ -2021,16 +2214,24 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "tempo"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C-",
+      "BG Elves": "C+",
+      "UB Faeries": "C-",
+      "WB Blight": "C-"
+    }
   },
   "Dream Harvest": {
     "tier": "D",
@@ -2039,54 +2240,66 @@
     ],
     "tags": {
       "roles": [
+        "enabler",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "WU Merfolk": "C",
+      "BR Goblins": "C",
+      "UR Elementals": "B-",
+      "BG Elves": "C+",
+      "UB Faeries": "C-"
+    }
   },
   "Dream Seizer": {
     "tier": "D+",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "faerie"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "evasion"
       ]
     },
     "removal_type": "soft",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C+",
+      "BG Elves": "C+",
+      "UB Faeries": "C-",
+      "WB Blight": "C+"
+    }
   },
   "Dundoolin Weaver": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ],
-      "bg_elves": [
-        "enabler"
-      ]
+      "GW Kithkin": "B+",
+      "BG Elves": "B",
+      "UG Vivid": "B-",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "card-advantage"
+        "kithkin"
       ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -2099,18 +2312,17 @@
       "signals"
     ],
     "archetypes": {
-      "br_goblins": [
-        "signpost",
-        "payoff"
-      ]
+      "BR Goblins": "A-"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "goblin"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -2123,19 +2335,18 @@
       "signals"
     ],
     "archetypes": {
-      "bg_elves": [
-        "signpost",
-        "payoff"
-      ]
+      "GW Kithkin": "B-",
+      "BG Elves": "A+"
     },
     "tags": {
       "roles": [
-        "bomb",
-        "payoff"
+        "bomb"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -2147,18 +2358,21 @@
       "ur_elementals_signpost"
     ],
     "archetypes": {
-      "ur_elementals": [
-        "signpost",
-        "payoff"
-      ]
+      "WU Merfolk": "B",
+      "BR Goblins": "B-",
+      "UR Elementals": "A",
+      "RW Blight": "B-",
+      "RG Vivid": "B"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -2171,18 +2385,21 @@
       "signals"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "signpost",
-        "payoff"
-      ]
+      "GW Kithkin": "A+",
+      "WU Merfolk": "B-",
+      "BG Elves": "B",
+      "RW Blight": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "bomb"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -2195,20 +2412,18 @@
       "signals"
     ],
     "archetypes": {
-      "wu_merfolk": [
-        "signpost",
-        "payoff"
-      ]
+      "WU Merfolk": "A",
+      "UR Elementals": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
       "types": [
-        "card-advantage"
+        "merfolk"
       ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -2219,21 +2434,32 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C",
+      "UR Elementals": "B",
+      "BG Elves": "B"
     }
   },
   "Eirdu, Carrier of Dawn": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "A+",
+      "WU Merfolk": "A",
+      "WB Blight": "B+"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "bomb"
       ],
       "types": [],
       "speed": [
@@ -2250,33 +2476,36 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "filler"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
-    }
+    },
+    "archetypes": {}
   },
   "Elder Auntie": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "br_goblins": [
-        "enabler"
-      ]
+      "BR Goblins": "C+",
+      "UR Elementals": "B-",
+      "RW Blight": "C",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "filler"
       ],
       "types": [
-        "token-maker"
+        "goblin"
       ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -2287,33 +2516,47 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elemental",
+        "evoke"
       ],
       "speed": [
-        "midrange",
-        "control"
+        "late-game"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "BR Goblins": "B-",
+      "BG Elves": "A-",
+      "WB Blight": "B+"
+    }
   },
   "Encumbered Reejerey": {
     "tier": "B-",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "merfolk"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "B+",
+      "WB Blight": "B-",
+      "RW Blight": "C+"
+    }
   },
   "End-Blaze Epiphany": {
     "tier": "B+",
@@ -2322,16 +2565,24 @@
     ],
     "tags": {
       "roles": [
+        "premium",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "A-",
+      "UR Elementals": "A",
+      "BG Elves": "A+",
+      "RW Blight": "B+",
+      "RG Vivid": "B+"
+    }
   },
   "Enraged Flamecaster": {
     "tier": "D+",
@@ -2341,26 +2592,37 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
+    },
+    "archetypes": {
+      "BR Goblins": "C-",
+      "UR Elementals": "B-",
+      "RW Blight": "C-",
+      "RG Vivid": "C"
     }
   },
   "Evershrike's Gift": {
     "tier": "C-",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "C+",
+      "WB Blight": "C-",
+      "RW Blight": "C"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "evasion"
+        "enchantment"
       ],
       "speed": [
-        "midrange"
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -2371,12 +2633,24 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B",
+      "BR Goblins": "B-",
+      "UR Elementals": "B",
+      "BG Elves": "B",
+      "UB Faeries": "C+",
+      "UG Vivid": "C+",
+      "WB Blight": "C+",
+      "RW Blight": "B-",
+      "RG Vivid": "C+"
     }
   },
   "Explosive Prodigy": {
@@ -2385,21 +2659,24 @@
       "top_commons"
     ],
     "archetypes": {
-      "ur_elementals": [
-        "enabler",
-        "key_synergy"
-      ]
+      "BR Goblins": "B",
+      "UR Elementals": "A-",
+      "RW Blight": "B",
+      "RG Vivid": "B"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": null,
+    "removal_type": "damage",
     "comment": "2-mana 1/1 that deals 2 on entry. Every red drafter takes highly."
   },
   "Faerie Macabre": {
@@ -2425,48 +2702,69 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "midrange",
         "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "UR Elementals": "B",
+      "RW Blight": "C+",
+      "RG Vivid": "C+"
+    }
   },
   "Feisty Spikeling": {
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "C+",
+      "BR Goblins": "C-",
+      "UR Elementals": "C+",
+      "WB Blight": "C-",
+      "RW Blight": "C",
+      "RG Vivid": "C-"
+    }
   },
   "Figure of Fable": {
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
+      "GW Kithkin": "A+",
+      "WU Merfolk": "A",
+      "BG Elves": "A+",
+      "RW Blight": "A",
+      "RG Vivid": "A-"
     },
     "tags": {
       "roles": [
         "bomb"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -2476,32 +2774,47 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
+        "changeling",
         "artifact"
       ],
       "speed": [
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C",
+      "WU Merfolk": "C",
+      "BR Goblins": "C-",
+      "UR Elementals": "C+",
+      "BG Elves": "C+",
+      "UB Faeries": "C-",
+      "UG Vivid": "C+",
+      "RG Vivid": "C-"
+    }
   },
   "Flame-Chain Mauler": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "ur_elementals": [
-        "enabler"
-      ]
+      "BR Goblins": "C",
+      "UR Elementals": "B-",
+      "RW Blight": "C",
+      "RG Vivid": "C"
     },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -2513,20 +2826,21 @@
       "ur_elementals_enabler"
     ],
     "archetypes": {
-      "ur_elementals": [
-        "enabler",
-        "key_synergy"
-      ]
+      "BR Goblins": "B-",
+      "UR Elementals": "A-",
+      "RW Blight": "B-",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "premium"
       ],
       "types": [
-        "ramp-fixing"
+        "elemental"
       ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -2536,16 +2850,17 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "ur_elementals": [
-        "role_player"
-      ]
+      "BR Goblins": "C+",
+      "UR Elementals": "B+",
+      "RW Blight": "B-",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "ramp-fixing"
+        "elemental"
       ],
       "speed": [
         "midrange"
@@ -2558,17 +2873,24 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "ur_elementals": "enabler"
+      "WU Merfolk": "C+",
+      "BR Goblins": "C+",
+      "UR Elementals": "B",
+      "UB Faeries": "C+",
+      "UG Vivid": "C",
+      "RW Blight": "C+",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elemental",
+        "card-draw"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     }
   },
@@ -2579,37 +2901,46 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "faerie",
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "evasion",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "WU Merfolk": "A",
+      "UR Elementals": "A-",
+      "UB Faeries": "B+",
+      "UG Vivid": "B+"
+    }
   },
   "Flock Impostor": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ],
-      "ub_faeries": [
-        "enabler"
-      ]
+      "GW Kithkin": "B",
+      "WU Merfolk": "B",
+      "WB Blight": "C",
+      "RW Blight": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "bounce"
+        "changeling"
       ],
       "speed": [
-        "midrange"
+        "tempo",
+        "evasion",
+        "early"
       ]
     },
     "removal_type": "bounce",
@@ -2620,15 +2951,27 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature",
         "artifact"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C",
+      "UR Elementals": "B",
+      "BG Elves": "C+",
+      "UB Faeries": "C+",
+      "UG Vivid": "B-",
+      "WB Blight": "B",
+      "RW Blight": "C+",
+      "RG Vivid": "C+"
     }
   },
   "Formidable Speaker": {
@@ -2636,34 +2979,40 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B",
+      "BG Elves": "A-",
+      "RG Vivid": "B-"
+    }
   },
   "Gallant Fowlknight": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ]
+      "GW Kithkin": "B-",
+      "WU Merfolk": "C+",
+      "WB Blight": "C",
+      "RW Blight": "C"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
       "types": [
-        "evasion"
+        "kithkin"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
     "removal_type": null,
@@ -2674,14 +3023,23 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B",
+      "BR Goblins": "C+",
+      "UR Elementals": "B-",
+      "BG Elves": "B-",
+      "UG Vivid": "C+",
+      "RW Blight": "C+",
+      "RG Vivid": "C+"
     }
   },
   "Gathering Stone": {
@@ -2689,25 +3047,31 @@
     "sections": [],
     "tags": {
       "roles": [
-        "role_player",
-        "buildaround"
+        "premium"
       ],
       "types": [
         "artifact"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "B+",
+      "BR Goblins": "B+",
+      "UR Elementals": "A-",
+      "BG Elves": "A-"
     }
   },
   "Giantfall": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "rg_vivid": [
-        "removal"
-      ]
+      "BR Goblins": "C+",
+      "UR Elementals": "B-",
+      "RW Blight": "C",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
@@ -2717,7 +3081,7 @@
         "conditional-removal"
       ],
       "speed": [
-        "midrange"
+        "tempo"
       ]
     },
     "removal_type": "conditional",
@@ -2728,7 +3092,7 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
         "enchantment"
@@ -2737,42 +3101,58 @@
         "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B",
+      "RG Vivid": "C+"
+    }
   },
   "Glamer Gifter": {
     "tier": "B-",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "faerie"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "tempo",
+        "evasion",
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "B+",
+      "UR Elementals": "B",
+      "UB Faeries": "B-",
+      "UG Vivid": "B-"
+    }
   },
   "Glamermite": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ],
-      "ub_faeries": [
-        "role_player"
-      ]
+      "WU Merfolk": "B-",
+      "UR Elementals": "C+",
+      "UB Faeries": "C+",
+      "UG Vivid": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "faerie"
+      ],
       "speed": [
-        "midrange"
+        "tempo",
+        "evasion",
+        "early"
       ]
     },
     "removal_type": null,
@@ -2783,16 +3163,25 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "faerie",
+        "card-draw"
       ],
       "speed": [
-        "tempo"
+        "tempo",
+        "evasion",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "WU Merfolk": "B+",
+      "UR Elementals": "B+",
+      "UB Faeries": "B",
+      "UG Vivid": "C+"
+    }
   },
   "Glen Elendra's Answer": {
     "tier": "B-",
@@ -2801,32 +3190,41 @@
     ],
     "tags": {
       "roles": [
+        "premium",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "tempo",
+        "evasion"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "A-",
+      "UR Elementals": "A-",
+      "UB Faeries": "B"
     }
   },
   "Glister Bairn": {
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ]
+      "GW Kithkin": "C+",
+      "WU Merfolk": "B",
+      "UR Elementals": "B-",
+      "BG Elves": "C+",
+      "UG Vivid": "C",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "enabler"
       ],
       "types": [],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -2838,17 +3236,18 @@
       "bg_elves_payoff"
     ],
     "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
+      "BR Goblins": "A-",
+      "BG Elves": "A+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "bomb"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -2858,19 +3257,20 @@
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "wb_blight": [
-        "role_player"
-      ]
+      "BR Goblins": "B-",
+      "BG Elves": "B",
+      "UB Faeries": "C+",
+      "WB Blight": "B-"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "conditional-removal"
+        "treefolk"
       ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": "conditional",
@@ -2883,24 +3283,30 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "BR Goblins": "C"
+    }
   },
   "Goblin Chieftain": {
     "tier": "C+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "BR Goblins": "B+"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "payoff"
       ],
       "types": [],
       "speed": [
@@ -2913,10 +3319,12 @@
   "Goblin Sharpshooter": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "BR Goblins": "A"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "buildaround"
       ],
       "types": [],
       "speed": [
@@ -2930,58 +3338,67 @@
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ]
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "WB Blight": "C",
+      "RW Blight": "C"
     },
     "tags": {
       "roles": [
         "filler"
       ],
       "types": [
-        "token-maker"
+        "kithkin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
-    "comment": "One-mana Kithkin that's two bodies. Divisive — great in aggro, weak elsewhere."
+    "comment": "One-mana Kithkin that's two bodies. Divisive \u2014 great in aggro, weak elsewhere."
   },
   "Goliath Daydreamer": {
     "tier": "C",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "giant"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "UR Elementals": "B+",
+      "RW Blight": "B-",
+      "RG Vivid": "B-"
+    }
   },
   "Gravelgill Scoundrel": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ]
+      "WU Merfolk": "B",
+      "UR Elementals": "C+",
+      "UB Faeries": "C",
+      "UG Vivid": "C"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "evasion"
+        "merfolk"
       ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -2994,20 +3411,18 @@
       "contested"
     ],
     "archetypes": {
-      "bg_elves": [
-        "enabler",
-        "key_synergy"
-      ],
-      "wb_blight": [
-        "role_player"
-      ]
+      "BR Goblins": "B-",
+      "UR Elementals": "B",
+      "BG Elves": "B",
+      "UB Faeries": "C+",
+      "WB Blight": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "card-advantage"
+        "changeling"
       ],
       "speed": [
         "midrange"
@@ -3019,14 +3434,22 @@
   "Great Forest Druid": {
     "tier": "C-",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "BG Elves": "B-",
+      "UG Vivid": "B",
+      "RG Vivid": "C+"
+    },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "treefolk"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -3037,45 +3460,57 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "goblin",
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "UR Elementals": "B-",
+      "RW Blight": "B-",
+      "RG Vivid": "C+"
+    }
   },
   "Grub's Command": {
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "br_goblins": [
-        "payoff"
-      ]
+      "BR Goblins": "A+",
+      "UR Elementals": "B+",
+      "BG Elves": "B-"
     },
     "tags": {
       "roles": [
-        "bomb",
-        "buildaround"
+        "bomb"
       ],
-      "types": [],
+      "types": [
+        "goblin"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
-    "removal_type": null,
+    "removal_type": "hard",
     "comment": "63.7% IHW. No weak modes. Best card in Goblins by far."
   },
   "Grub, Storied Matriarch": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "BR Goblins": "B+",
+      "BG Elves": "B"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "payoff"
       ],
       "types": [],
       "speed": [
@@ -3093,30 +3528,35 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {}
   },
   "Gutsplitter Gang": {
     "tier": "D+",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
     "removal_type": "soft",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C+",
+      "BG Elves": "C",
+      "WB Blight": "C+"
+    }
   },
   "Hallowed Fountain": {
     "tier": "C+",
@@ -3127,8 +3567,12 @@
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B"
     }
   },
   "Harmonized Crescendo": {
@@ -3138,15 +3582,20 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
-        "instant"
+        "card-draw"
       ],
       "speed": [
-        "midrange",
-        "control"
+        "late-game",
+        "tempo"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B",
+      "UR Elementals": "C+"
     }
   },
   "Heat Shimmer": {
@@ -3169,17 +3618,22 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
     "removal_type": "soft",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C",
+      "BG Elves": "C-",
+      "WB Blight": "C-"
+    }
   },
   "Helix Pinnacle": {
     "tier": "F",
@@ -3201,30 +3655,36 @@
     "tier": "C-",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C",
+      "UR Elementals": "B-",
+      "RW Blight": "C+"
+    }
   },
   "High Perfect Morcant": {
     "tier": "A",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
+      "BG Elves": "A"
     },
     "tags": {
       "roles": [
-        "bomb"
+        "buildaround"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
         "midrange"
       ]
@@ -3235,16 +3695,25 @@
   "Hovel Hurler": {
     "tier": "C-",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C+",
+      "UR Elementals": "B-",
+      "WB Blight": "C",
+      "RW Blight": "C+",
+      "RG Vivid": "C+"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "evasion"
+        "giant"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -3269,16 +3738,22 @@
   "Illusion Spinners": {
     "tier": "D",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "WU Merfolk": "C",
+      "UR Elementals": "C",
+      "UB Faeries": "C+"
+    },
     "tags": {
       "roles": [
         "filler"
       ],
       "types": [
-        "token-maker"
+        "faerie"
       ],
       "speed": [
-        "control"
+        "late-game",
+        "tempo",
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -3287,16 +3762,18 @@
   "Impolite Entrance": {
     "tier": "D-",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "UR Elementals": "C-"
+    },
     "tags": {
       "roles": [
         "filler"
       ],
       "types": [
-        "combat-trick"
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
     "removal_type": null,
@@ -3306,17 +3783,21 @@
     "tier": "B-",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "enabler"
-      ]
+      "BR Goblins": "B-",
+      "BG Elves": "B+",
+      "UB Faeries": "B",
+      "WB Blight": "B"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -3329,28 +3810,42 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "B-",
+      "WB Blight": "C+",
+      "RW Blight": "C-"
+    }
   },
   "Kinbinding": {
     "tier": "A+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "A+",
+      "WU Merfolk": "A+",
+      "WB Blight": "A",
+      "RW Blight": "A"
+    },
     "tags": {
       "roles": [
-        "role-player"
+        "bomb"
       ],
-      "types": [],
+      "types": [
+        "enchantment"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -3360,19 +3855,18 @@
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "ur_elementals": [
-        "enabler"
-      ]
+      "UR Elementals": "B",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
       "types": [
-        "combat-trick"
+        "elemental"
       ],
       "speed": [
-        "midrange"
+        "tempo"
       ]
     },
     "removal_type": null,
@@ -3384,17 +3878,20 @@
       "gw_kithkin_payoff"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "payoff"
-      ]
+      "GW Kithkin": "A-",
+      "WU Merfolk": "C+",
+      "RW Blight": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -3423,14 +3920,21 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "A",
+      "WU Merfolk": "B+",
+      "WB Blight": "B",
+      "RW Blight": "B"
     }
   },
   "Kirol, Attentive First-Year": {
@@ -3444,41 +3948,59 @@
         "creature"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C",
+      "UR Elementals": "B-",
+      "RW Blight": "B-"
+    }
   },
   "Kithkeeper": {
     "tier": "D+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "enabler"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "control"
+        "late-game",
+        "evasion"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "C+",
+      "UR Elementals": "B+",
+      "RW Blight": "C+",
+      "RG Vivid": "C+"
     }
   },
   "Kulrath Mystic": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "ur_elementals": [
-        "role_player"
-      ]
+      "WU Merfolk": "C",
+      "UR Elementals": "B-",
+      "UB Faeries": "C-",
+      "UG Vivid": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -3488,63 +4010,71 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "br_goblins": [
-        "role_player"
-      ],
-      "rw_blight": [
-        "role_player"
-      ]
+      "BR Goblins": "B-",
+      "UR Elementals": "B+",
+      "RW Blight": "B",
+      "RG Vivid": "B"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "aggro"
+        "late-game"
       ]
     },
-    "removal_type": null,
+    "removal_type": "hard",
     "comment": "Top red common."
   },
   "Lasting Tarfire": {
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "BR Goblins": "C-"
+    },
+    "removal_type": "damage"
   },
   "Lavaleaper": {
     "tier": "D-",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "UR Elementals": "C-"
+    }
   },
   "Leaf-Crowned Visionary": {
     "tier": "B",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "BG Elves": "A-"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "premium"
       ],
       "types": [],
       "speed": [
@@ -3560,29 +4090,22 @@
       "top_commons"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "removal"
-      ],
-      "wu_merfolk": [
-        "removal"
-      ],
-      "wb_blight": [
-        "removal"
-      ],
-      "rw_blight": [
-        "removal"
-      ]
+      "GW Kithkin": "B",
+      "WU Merfolk": "B",
+      "UR Elementals": "B+",
+      "BG Elves": "B-",
+      "WB Blight": "B",
+      "RW Blight": "B"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "unconditional-removal"
+        "enchantment"
       ],
       "speed": [
-        "midrange",
-        "control"
+        "midrange"
       ]
     },
     "removal_type": "unconditional",
@@ -3591,14 +4114,21 @@
   "Lluwen, Imperfect Naturalist": {
     "tier": "A-",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "B",
+      "BR Goblins": "C+",
+      "BG Elves": "A"
+    },
     "tags": {
       "roles": [
-        "bomb"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -3612,58 +4142,83 @@
         "bomb"
       ],
       "types": [
-        "creature"
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "WU Merfolk": "A",
+      "UR Elementals": "A+",
+      "UB Faeries": "B+"
+    }
   },
   "Lofty Dreams": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "enchantment"
+        "enchantment",
+        "card-draw"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B",
+      "UR Elementals": "B-",
+      "UB Faeries": "C",
+      "UG Vivid": "C"
     }
   },
   "Luminollusk": {
     "tier": "D+",
     "tags": {
       "roles": [
-        "role_player"
+        "enabler"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C",
+      "UR Elementals": "B-",
+      "BG Elves": "C",
+      "UG Vivid": "C",
+      "RG Vivid": "C+"
+    }
   },
   "Lys Alana Dignitary": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "BG Elves": "B+"
     }
   },
   "Lys Alana Informant": {
@@ -3671,14 +4226,21 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B",
+      "BG Elves": "B+",
+      "UG Vivid": "C+",
+      "RG Vivid": "B-"
     }
   },
   "Manamorphose": {
@@ -3703,39 +4265,42 @@
       "bg_elves_role_player"
     ],
     "archetypes": {
-      "bg_elves": [
-        "role_player"
-      ]
+      "BG Elves": "A+",
+      "UB Faeries": "B",
+      "UG Vivid": "B+"
     },
     "tags": {
       "roles": [
-        "role-player"
+        "buildaround"
       ],
-      "types": [],
+      "types": [
+        "elf",
+        "faerie"
+      ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
     },
-    "removal_type": null,
+    "removal_type": "hard",
     "comment": "Bomb-level payoff in Elves."
   },
   "Meanders Guide": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
+      "GW Kithkin": "C+",
+      "WU Merfolk": "B-"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "role-player"
       ],
       "types": [
-        "bounce"
+        "merfolk"
       ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": "bounce",
@@ -3745,32 +4310,40 @@
     "tier": "F",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Merrow Skyswimmer": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": "enabler"
+      "GW Kithkin": "B",
+      "WU Merfolk": "B+",
+      "UR Elementals": "B",
+      "UB Faeries": "C+",
+      "UG Vivid": "B-",
+      "WB Blight": "C+",
+      "RW Blight": "C+"
     },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "merfolk"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
     }
   },
@@ -3781,14 +4354,21 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B+",
+      "UG Vivid": "C",
+      "RG Vivid": "C+"
     }
   },
   "Mirrorform": {
@@ -3796,16 +4376,20 @@
     "sections": [
       "build_arounds"
     ],
-    "archetypes": {},
+    "archetypes": {
+      "WU Merfolk": "B+",
+      "UR Elementals": "B-"
+    },
     "tags": {
       "roles": [
-        "build-around"
+        "role-player"
       ],
       "types": [
         "token-maker"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "tempo"
       ]
     },
     "removal_type": null,
@@ -3815,17 +4399,18 @@
     "tier": "F",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "artifact"
+        "artifact",
+        "equipment"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Mischievous Sneakling": {
     "tier": "C-",
@@ -3835,11 +4420,22 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "tempo",
+        "early"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "C+",
+      "BR Goblins": "C",
+      "UR Elementals": "B-",
+      "BG Elves": "B-",
+      "UB Faeries": "C+",
+      "UG Vivid": "C+",
+      "WB Blight": "C-"
     }
   },
   "Mistbind Clique": {
@@ -3848,7 +4444,7 @@
     "archetypes": {},
     "tags": {
       "roles": [
-        "buildaround"
+        "filler"
       ],
       "types": [],
       "speed": [
@@ -3864,20 +4460,21 @@
       "gw_kithkin_enabler"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "enabler",
-        "key_synergy"
-      ]
+      "GW Kithkin": "B+",
+      "BG Elves": "B-",
+      "UG Vivid": "B-",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
       "types": [
-        "card-advantage"
+        "kithkin",
+        "card-draw"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -3887,16 +4484,18 @@
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
+      "GW Kithkin": "B",
+      "BG Elves": "A-",
+      "UG Vivid": "B",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
-        "role-player",
-        "buildaround"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
         "midrange"
       ]
@@ -3912,13 +4511,20 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "elf",
+        "card-draw"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C-",
+      "BG Elves": "B-",
+      "UB Faeries": "C-",
+      "WB Blight": "C-"
+    }
   },
   "Moonlit Lamenter": {
     "tier": "B-",
@@ -3926,23 +4532,21 @@
       "wb_blight_payoff"
     ],
     "archetypes": {
-      "wb_blight": [
-        "payoff",
-        "key_synergy"
-      ],
-      "rw_blight": [
-        "enabler"
-      ]
+      "GW Kithkin": "B",
+      "WU Merfolk": "B",
+      "WB Blight": "B",
+      "RW Blight": "B"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "role-player"
       ],
       "types": [
-        "card-advantage"
+        "treefolk",
+        "card-draw"
       ],
       "speed": [
-        "control"
+        "early"
       ]
     },
     "removal_type": null,
@@ -3953,16 +4557,21 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "BG Elves": "A-"
+    }
   },
   "Morcant's Eyes": {
     "tier": "B",
@@ -3970,16 +4579,16 @@
       "bg_elves_payoff"
     ],
     "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
+      "GW Kithkin": "C",
+      "BG Elves": "A"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
       "types": [
-        "card-advantage"
+        "elf",
+        "enchantment"
       ],
       "speed": [
         "midrange"
@@ -3995,19 +4604,17 @@
       "signals"
     ],
     "archetypes": {
-      "bg_elves": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
+      "BG Elves": "A"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -4020,33 +4627,39 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "WU Merfolk": "B-"
+    }
   },
   "Mornsong Aria": {
     "tier": "D-",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "enchantment"
+        "enchantment",
+        "card-draw"
       ],
       "speed": [
-        "tempo"
+        "midrange"
       ]
     },
     "removal_type": "soft",
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Mudbutton Cursetosser": {
     "tier": "C+",
@@ -4054,17 +4667,20 @@
       "br_goblins_payoff"
     ],
     "archetypes": {
-      "br_goblins": [
-        "payoff"
-      ]
+      "BR Goblins": "B+",
+      "BG Elves": "C",
+      "WB Blight": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "goblin"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -4075,14 +4691,20 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B",
+      "UG Vivid": "C+",
+      "RG Vivid": "C"
     }
   },
   "Nameless Inversion": {
@@ -4092,33 +4714,24 @@
       "contested"
     ],
     "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "bg_elves": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "enabler",
-        "removal"
-      ],
-      "wb_blight": [
-        "removal"
-      ]
+      "BR Goblins": "B-",
+      "BG Elves": "A-",
+      "UB Faeries": "B-",
+      "WB Blight": "B-"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "conditional-removal"
+        "changeling"
       ],
       "speed": [
-        "midrange"
+        "tempo"
       ]
     },
     "removal_type": "conditional",
-    "comment": "Best black common. 2 mana -3/-3. Every creature type — insane tribal synergy."
+    "comment": "Best black common. 2 mana -3/-3. Every creature type \u2014 insane tribal synergy."
   },
   "Nightmare Sower": {
     "tier": "D",
@@ -4126,17 +4739,20 @@
       "ub_faeries_payoff"
     ],
     "archetypes": {
-      "ub_faeries": [
-        "payoff"
-      ]
+      "BR Goblins": "C-",
+      "BG Elves": "C+",
+      "UB Faeries": "B-",
+      "WB Blight": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "faerie"
+      ],
       "speed": [
-        "control"
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -4147,14 +4763,23 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
         "creature"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B",
+      "BR Goblins": "B-",
+      "UR Elementals": "B+",
+      "BG Elves": "B+",
+      "UG Vivid": "B",
+      "RW Blight": "B",
+      "RG Vivid": "B"
     }
   },
   "Noggle the Mind": {
@@ -4162,22 +4787,35 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B",
+      "UB Faeries": "B-",
+      "UG Vivid": "B-"
     }
   },
   "Oko, Lorwyn Liege": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B+",
+      "BG Elves": "B",
+      "UG Vivid": "A"
+    },
     "tags": {
-      "roles": [],
+      "roles": [
+        "payoff"
+      ],
       "types": [],
       "speed": [
         "midrange"
@@ -4190,29 +4828,36 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [],
       "speed": [
-        "tempo"
+        "midrange"
       ]
     },
     "removal_type": "conditional",
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Omni-Changeling": {
     "tier": "B-",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B",
+      "UR Elementals": "B",
+      "UB Faeries": "C+",
+      "UG Vivid": "B"
     }
   },
   "Overgrown Tomb": {
@@ -4220,12 +4865,16 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "C",
+      "BG Elves": "B"
     }
   },
   "Painter's Servant": {
@@ -4251,17 +4900,21 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "C-",
+      "BG Elves": "C-"
+    }
   },
   "Personify": {
     "tier": "C+",
@@ -4270,50 +4923,66 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
-        "instant"
+        "changeling"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "B",
+      "WB Blight": "C+",
+      "RW Blight": "C"
+    }
   },
   "Pestered Wellguard": {
     "tier": "C-",
     "sections": [],
     "tags": {
       "roles": [
-        "filler",
-        "buildaround"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "merfolk"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "evasion"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B",
+      "UR Elementals": "B-",
+      "UB Faeries": "C-",
+      "UG Vivid": "C+"
     }
   },
   "Pitiless Fists": {
     "tier": "C+",
     "tags": {
       "roles": [
-        "role_player"
+        "premium"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
     "removal_type": "conditional",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "BG Elves": "A-",
+      "UG Vivid": "B",
+      "RG Vivid": "B"
+    }
   },
   "Prideful Feastling": {
     "tier": "C-",
@@ -4323,31 +4992,41 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C-",
+      "BG Elves": "B-",
+      "UB Faeries": "C",
+      "WB Blight": "C+",
+      "RW Blight": "C+"
     }
   },
   "Prismabasher": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ],
-      "rg_vivid": [
-        "payoff"
-      ]
+      "GW Kithkin": "B+",
+      "UR Elementals": "B",
+      "BG Elves": "B+",
+      "UG Vivid": "B",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -4357,17 +5036,20 @@
     "tier": "D-",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C-",
+      "BG Elves": "C-"
+    }
   },
   "Protective Response": {
     "tier": "B-",
@@ -4376,6 +5058,7 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
@@ -4385,39 +5068,54 @@
         "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "WU Merfolk": "B+",
+      "WB Blight": "B-",
+      "RW Blight": "B-"
+    }
   },
   "Puca's Eye": {
     "tier": "C",
     "sections": [],
     "tags": {
       "roles": [
-        "filler",
-        "buildaround"
+        "role-player"
       ],
       "types": [
-        "artifact"
+        "artifact",
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "UR Elementals": "B",
+      "BG Elves": "C",
+      "UG Vivid": "B",
+      "RG Vivid": "B-"
     }
   },
   "Pummeler for Hire": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
+      "GW Kithkin": "B",
+      "BG Elves": "B",
+      "UG Vivid": "B",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "giant"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -4430,6 +5128,7 @@
     ],
     "tags": {
       "roles": [
+        "premium",
         "removal"
       ],
       "types": [
@@ -4439,23 +5138,31 @@
         "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "A-",
+      "WU Merfolk": "B+",
+      "UR Elementals": "A-",
+      "WB Blight": "B+",
+      "RW Blight": "B"
+    }
   },
   "Raiding Schemes": {
     "tier": "F",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": "conditional",
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Reaping Willow": {
     "tier": "B-",
@@ -4464,17 +5171,21 @@
       "build_arounds"
     ],
     "archetypes": {
-      "wb_blight": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
+      "GW Kithkin": "B",
+      "WU Merfolk": "B",
+      "BR Goblins": "B+",
+      "BG Elves": "B+",
+      "UB Faeries": "B-",
+      "WB Blight": "A-",
+      "RW Blight": "B"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "treefolk"
+      ],
       "speed": [
         "midrange"
       ]
@@ -4489,16 +5200,23 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "BR Goblins": "C",
+      "UR Elementals": "C",
+      "RW Blight": "B-",
+      "RG Vivid": "C"
+    }
   },
   "Regal Force": {
     "tier": "B-",
@@ -4520,17 +5238,23 @@
     "tier": "D+",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
     "removal_type": "soft",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "C",
+      "WB Blight": "C-",
+      "RW Blight": "C+"
+    }
   },
   "Requiting Hex": {
     "tier": "C-",
@@ -4539,16 +5263,23 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "C",
+      "BG Elves": "B",
+      "UB Faeries": "C+",
+      "WB Blight": "B-"
+    }
   },
   "Retched Wretch": {
     "tier": "C-",
@@ -4556,24 +5287,20 @@
       "br_goblins_enabler"
     ],
     "archetypes": {
-      "br_goblins": [
-        "enabler",
-        "key_synergy"
-      ],
-      "wb_blight": [
-        "enabler"
-      ],
-      "rw_blight": [
-        "enabler"
-      ]
+      "BR Goblins": "B-",
+      "BG Elves": "C-",
+      "UB Faeries": "C-",
+      "WB Blight": "C"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "goblin"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -4587,13 +5314,21 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "tempo",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "WB Blight": "C+",
+      "RW Blight": "C"
+    }
   },
   "Rime Chill": {
     "tier": "D+",
@@ -4602,32 +5337,41 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
-        "instant"
+        "card-draw"
       ],
       "speed": [
-        "control"
+        "late-game",
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "C+",
+      "UR Elementals": "B-",
+      "UB Faeries": "C",
+      "UG Vivid": "C+"
+    }
   },
   "Rimefire Torque": {
     "tier": "F",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
         "artifact"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
     "removal_type": "conditional",
-    "sections": []
+    "sections": [],
+    "archetypes": {}
   },
   "Rimekin Recluse": {
     "tier": "B+",
@@ -4636,25 +5380,20 @@
       "contested"
     ],
     "archetypes": {
-      "wu_merfolk": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "enabler"
-      ]
+      "WU Merfolk": "A",
+      "UR Elementals": "A",
+      "UB Faeries": "B",
+      "UG Vivid": "B+"
     },
     "tags": {
       "roles": [
-        "role-player"
+        "premium"
       ],
       "types": [
-        "bounce"
+        "elemental"
       ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": "bounce",
@@ -4668,7 +5407,7 @@
     "archetypes": {},
     "tags": {
       "roles": [
-        "filler"
+        "buildaround"
       ],
       "types": [],
       "speed": [
@@ -4685,32 +5424,49 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "C+"
+    }
   },
   "Rooftop Percher": {
     "tier": "D+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "changeling"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C+",
+      "UR Elementals": "B",
+      "BG Elves": "B",
+      "UB Faeries": "B-",
+      "WB Blight": "C",
+      "RW Blight": "B-",
+      "RG Vivid": "C-"
+    }
   },
   "Run Away Together": {
     "tier": "D+",
@@ -4719,33 +5475,45 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "C+",
+      "UR Elementals": "C+",
+      "UB Faeries": "C-",
+      "UG Vivid": "C"
+    }
   },
   "Safewright Cavalry": {
     "tier": "C",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B+",
+      "UG Vivid": "B-",
+      "RG Vivid": "C+"
+    }
   },
   "Sanar, Innovative First-Year": {
     "tier": "B+",
@@ -4754,48 +5522,66 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "WU Merfolk": "A",
+      "BR Goblins": "A-",
+      "UR Elementals": "A",
+      "RW Blight": "A",
+      "RG Vivid": "B+"
+    }
   },
   "Sapling Nursery": {
     "tier": "C",
     "sections": [],
     "tags": {
       "roles": [
-        "filler",
-        "buildaround"
+        "role-player"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B+",
+      "UG Vivid": "B+",
+      "RG Vivid": "B-"
+    }
   },
   "Scarblade Scout": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "BR Goblins": "C",
+      "BG Elves": "B+",
+      "UB Faeries": "B-",
+      "WB Blight": "B-"
     }
   },
   "Scarblade's Malice": {
@@ -4805,32 +5591,46 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "BG Elves": "B",
+      "UB Faeries": "C",
+      "WB Blight": "C+"
+    }
   },
   "Scuzzback Scrounger": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "UR Elementals": "B+",
+      "RW Blight": "B-",
+      "RG Vivid": "C+"
+    }
   },
   "Sear": {
     "tier": "B",
@@ -4839,18 +5639,10 @@
       "contested"
     ],
     "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "rw_blight": [
-        "removal"
-      ],
-      "rg_vivid": [
-        "removal"
-      ]
+      "BR Goblins": "B",
+      "UR Elementals": "B+",
+      "RW Blight": "B-",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
@@ -4860,7 +5652,7 @@
         "unconditional-removal"
       ],
       "speed": [
-        "midrange"
+        "tempo"
       ]
     },
     "removal_type": "unconditional",
@@ -4871,14 +5663,20 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "tempo"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B",
+      "BG Elves": "B+",
+      "RG Vivid": "B-"
     }
   },
   "Shadow Urchin": {
@@ -4886,66 +5684,89 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
         "creature"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "UR Elementals": "B-",
+      "BG Elves": "B-",
+      "RW Blight": "C"
+    }
   },
   "Shimmercreep": {
     "tier": "C",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "enabler"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "UR Elementals": "B+",
+      "BG Elves": "B-",
+      "UB Faeries": "B-",
+      "WB Blight": "C",
+      "RG Vivid": "B"
+    }
   },
   "Shimmerwilds Growth": {
     "tier": "C-",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
         "enchantment"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C-",
+      "BG Elves": "C",
+      "UG Vivid": "C+",
+      "RG Vivid": "C"
+    }
   },
   "Shinestriker": {
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "ur_elementals": [
-        "payoff"
-      ],
-      "ug_vivid": [
-        "payoff"
-      ]
+      "WU Merfolk": "B+",
+      "UR Elementals": "A-",
+      "UB Faeries": "B",
+      "UG Vivid": "B+",
+      "RG Vivid": "A-"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "elemental",
+        "card-draw"
+      ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -4956,15 +5777,20 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "merfolk"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "evasion"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "B-",
+      "WB Blight": "C+",
+      "RW Blight": "C-"
     }
   },
   "Silvergill Mentor": {
@@ -4973,19 +5799,20 @@
       "wu_merfolk_payoff"
     ],
     "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
+      "WU Merfolk": "A-",
+      "UR Elementals": "B",
+      "UB Faeries": "B-"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
       "types": [
-        "token-maker"
+        "merfolk"
       ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -4995,17 +5822,21 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "enabler"
-      ]
+      "WU Merfolk": "B",
+      "UR Elementals": "C+",
+      "UB Faeries": "C",
+      "UG Vivid": "C-"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "merfolk",
+        "card-draw"
+      ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -5015,17 +5846,20 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "br_goblins": [
-        "role_player"
-      ]
+      "BR Goblins": "B-",
+      "UR Elementals": "B",
+      "RW Blight": "B-",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "changeling"
+      ],
       "speed": [
-        "aggro"
+        "early"
       ]
     },
     "removal_type": null,
@@ -5052,16 +5886,22 @@
     "sections": [],
     "tags": {
       "roles": [
-        "bomb"
+        "premium"
       ],
       "types": [
-        "creature"
+        "giant"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "GW Kithkin": "A-",
+      "WU Merfolk": "A",
+      "WB Blight": "B+",
+      "RW Blight": "B+"
+    }
   },
   "Soul Immolation": {
     "tier": "A-",
@@ -5069,42 +5909,44 @@
       "build_arounds"
     ],
     "archetypes": {
-      "rw_blight": [
-        "payoff"
-      ]
+      "BR Goblins": "A",
+      "UR Elementals": "A+",
+      "RW Blight": "A",
+      "RG Vivid": "A+"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "bomb"
       ],
       "types": [
         "sweeper"
       ],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
-    "removal_type": null,
+    "removal_type": "damage",
     "comment": "Red Plague Wind with high-toughness enablers. Pair with Blighted Blackthorn."
   },
   "Soulbright Seeker": {
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "ur_elementals": [
-        "enabler"
-      ],
-      "rg_vivid": [
-        "role_player"
-      ]
+      "BR Goblins": "C",
+      "UR Elementals": "B",
+      "RW Blight": "C+",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -5115,17 +5957,22 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "B",
+      "UR Elementals": "B",
+      "RW Blight": "B-",
+      "RG Vivid": "B"
+    }
   },
   "Spell Snare": {
     "tier": "SB",
@@ -5134,28 +5981,42 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "C-",
+      "UR Elementals": "C+",
+      "UB Faeries": "C-"
+    }
   },
   "Spinerock Tyrant": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "BR Goblins": "A",
+      "UR Elementals": "A+",
+      "RW Blight": "A",
+      "RG Vivid": "A-"
+    },
     "tags": {
-      "roles": [],
+      "roles": [
+        "buildaround"
+      ],
       "types": [
         "evasion"
       ],
       "speed": [
-        "control"
+        "late-game",
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -5165,25 +6026,17 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": [
-        "removal"
-      ],
-      "wu_merfolk": [
-        "removal"
-      ],
-      "wb_blight": [
-        "removal"
-      ],
-      "rw_blight": [
-        "removal"
-      ]
+      "GW Kithkin": "B",
+      "WU Merfolk": "B-",
+      "WB Blight": "B-",
+      "RW Blight": "B-"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "conditional-removal"
+        "enchantment"
       ],
       "speed": [
         "midrange"
@@ -5196,16 +6049,22 @@
     "tier": "D+",
     "tags": {
       "roles": [
-        "role_player"
+        "enabler"
       ],
       "types": [
         "artifact"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C-",
+      "WU Merfolk": "B-",
+      "UR Elementals": "C+",
+      "BG Elves": "C"
+    }
   },
   "Spry and Mighty": {
     "tier": "C",
@@ -5214,29 +6073,38 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
-        "sorcery"
+        "card-draw"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B-",
+      "RG Vivid": "C+"
     }
   },
   "Squawkroaster": {
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ]
+      "BR Goblins": "C",
+      "UR Elementals": "B-",
+      "RW Blight": "B-",
+      "RG Vivid": "C"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
         "midrange"
       ]
@@ -5248,29 +6116,44 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "artifact"
+        "changeling",
+        "artifact",
+        "equipment"
       ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
     "removal_type": "conditional",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "GW Kithkin": "C+",
+      "WU Merfolk": "B-",
+      "BR Goblins": "C",
+      "UR Elementals": "C+",
+      "BG Elves": "C+",
+      "UB Faeries": "C",
+      "RW Blight": "C"
+    }
   },
   "Steam Vents": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B-"
     }
   },
   "Sting-Slinger": {
@@ -5281,29 +6164,39 @@
         "filler"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "BR Goblins": "C+",
+      "UR Elementals": "C+",
+      "RW Blight": "C"
+    }
   },
   "Stoic Grove-Guide": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "bg_elves": "enabler"
+      "GW Kithkin": "C-",
+      "BR Goblins": "C-",
+      "BG Elves": "B-",
+      "UB Faeries": "C+",
+      "WB Blight": "C+",
+      "RG Vivid": "B-"
     },
     "tags": {
       "roles": [
         "filler"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": "hard"
@@ -5313,32 +6206,44 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "midrange"
+        "late-game",
+        "evasion"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B",
+      "UB Faeries": "C",
+      "UG Vivid": "C+"
+    }
   },
   "Summit Sentinel": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "ur_elementals": [
-        "enabler"
-      ]
+      "WU Merfolk": "C+",
+      "UR Elementals": "B",
+      "UB Faeries": "C",
+      "UG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "elemental",
+        "card-draw"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -5350,20 +6255,20 @@
       "top_commons"
     ],
     "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ],
-      "gw_kithkin": [
-        "role_player"
-      ]
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "WB Blight": "C",
+      "RW Blight": "B-"
     },
     "tags": {
       "roles": [
-        "role-player"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "treefolk"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -5376,15 +6281,19 @@
     ],
     "tags": {
       "roles": [
-        "bomb",
-        "buildaround"
+        "bomb"
       ],
       "types": [
-        "creature"
+        "elemental"
       ],
       "speed": [
-        "control"
+        "late-game",
+        "evasion"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B",
+      "UR Elementals": "A+"
     }
   },
   "Surly Farrier": {
@@ -5392,16 +6301,23 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "C+",
+      "UG Vivid": "C+",
+      "RG Vivid": "B-"
+    }
   },
   "Swat Away": {
     "tier": "C",
@@ -5410,29 +6326,38 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "midrange",
         "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B",
+      "UB Faeries": "C+",
+      "UG Vivid": "C"
+    }
   },
   "Sygg's Command": {
     "tier": "B",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
+      "WU Merfolk": "A-"
     },
     "tags": {
-      "roles": [],
-      "types": [],
+      "roles": [
+        "premium"
+      ],
+      "types": [
+        "merfolk",
+        "card-draw"
+      ],
       "speed": [
         "midrange"
       ]
@@ -5443,10 +6368,14 @@
   "Sygg, Wanderwine Wisdom": {
     "tier": "B+",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "WU Merfolk": "A",
+      "UR Elementals": "A-",
+      "UB Faeries": "B-"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "premium"
       ],
       "types": [],
       "speed": [
@@ -5463,47 +6392,64 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "filler"
       ],
       "types": [
-        "creature"
+        "merfolk",
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {}
   },
   "Tam, Mindful First-Year": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
         "creature"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-",
+      "UR Elementals": "B",
+      "BG Elves": "B-",
+      "UG Vivid": "C"
+    }
   },
   "Tanufel Rimespeaker": {
     "tier": "C+",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elemental",
+        "card-draw"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B",
+      "UR Elementals": "B+",
+      "UB Faeries": "C+",
+      "UG Vivid": "B-"
     }
   },
   "Taster of Wares": {
@@ -5513,16 +6459,22 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "goblin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "hard",
+    "archetypes": {
+      "BR Goblins": "A",
+      "BG Elves": "A-",
+      "UB Faeries": "A-",
+      "WB Blight": "A-"
+    }
   },
   "Temple Garden": {
     "tier": "C+",
@@ -5533,8 +6485,12 @@
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B"
     }
   },
   "Temporal Cleansing": {
@@ -5544,22 +6500,33 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "B",
+      "UR Elementals": "B+",
+      "UB Faeries": "C",
+      "UG Vivid": "C+"
+    }
   },
   "Tend the Sprigs": {
     "tier": "D",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "C",
+      "BG Elves": "C",
+      "UG Vivid": "C",
+      "RG Vivid": "C-"
+    },
     "tags": {
       "roles": [
         "filler"
@@ -5568,7 +6535,7 @@
         "card-advantage"
       ],
       "speed": [
-        "control"
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -5581,14 +6548,21 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
-        "instant"
+        "card-draw"
       ],
       "speed": [
         "tempo"
       ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B-",
+      "UB Faeries": "C+",
+      "UG Vivid": "C"
     }
   },
   "Thoughtweft Charge": {
@@ -5598,16 +6572,22 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
-        "instant"
+        "card-draw"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "BG Elves": "B",
+      "RG Vivid": "C-"
+    }
   },
   "Thoughtweft Imbuer": {
     "tier": "B-",
@@ -5616,18 +6596,19 @@
       "contested"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "payoff",
-        "key_synergy"
-      ]
+      "GW Kithkin": "A-",
+      "WU Merfolk": "B-",
+      "WB Blight": "B",
+      "RW Blight": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
-        "aggro",
         "midrange"
       ]
     },
@@ -5641,20 +6622,18 @@
       "signals"
     ],
     "archetypes": {
-      "gw_kithkin": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
+      "GW Kithkin": "A-"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "kithkin"
+      ],
       "speed": [
         "aggro",
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -5665,31 +6644,40 @@
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B",
+      "WU Merfolk": "B",
+      "WB Blight": "C+",
+      "RW Blight": "C+"
     }
   },
   "Tributary Vaulter": {
     "tier": "C-",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "enabler"
-      ]
+      "GW Kithkin": "C-",
+      "WU Merfolk": "B"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "merfolk"
+      ],
       "speed": [
-        "midrange"
+        "evasion",
+        "early"
       ]
     },
     "removal_type": null,
@@ -5699,29 +6687,35 @@
     "tier": "A+",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
+      "GW Kithkin": "B+",
+      "BR Goblins": "B+",
+      "BG Elves": "A+",
+      "RG Vivid": "B+"
     },
     "tags": {
       "roles": [
         "bomb"
       ],
-      "types": [],
+      "types": [
+        "elf"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
-    "removal_type": null,
+    "removal_type": "hard",
     "comment": "Best command. Murder + Overrun or Murder + Restock. Wins games outright."
   },
   "Trystan, Callous Cultivator": {
     "tier": "B",
     "sections": [],
-    "archetypes": {},
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "BG Elves": "A"
+    },
     "tags": {
       "roles": [
-        "filler"
+        "premium"
       ],
       "types": [],
       "speed": [
@@ -5738,15 +6732,16 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "filler"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
-    }
+    },
+    "archetypes": {}
   },
   "Tweeze": {
     "tier": "C",
@@ -5755,34 +6750,41 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
-        "instant"
+        "card-draw"
       ],
       "speed": [
         "tempo"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "UR Elementals": "B",
+      "RW Blight": "B-",
+      "RG Vivid": "C+"
+    }
   },
   "Twilight Diviner": {
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "bg_elves": [
-        "role_player"
-      ]
+      "BR Goblins": "B",
+      "BG Elves": "B+",
+      "WB Blight": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [
-        "card-advantage"
+        "elf"
       ],
       "speed": [
-        "midrange"
+        "early"
       ]
     },
     "removal_type": null,
@@ -5796,20 +6798,17 @@
       "build_arounds"
     ],
     "archetypes": {
-      "ur_elementals": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
+      "UR Elementals": "B+"
     },
     "tags": {
       "roles": [
-        "build-around",
-        "payoff"
+        "role-player"
       ],
-      "types": [],
+      "types": [
+        "elemental"
+      ],
       "speed": [
-        "midrange"
+        "evasion"
       ]
     },
     "removal_type": null,
@@ -5822,41 +6821,7 @@
     ],
     "tags": {
       "roles": [
-        "removal"
-      ],
-      "types": [
-        "instant"
-      ],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": "conditional"
-  },
-  "Unexpected Assistance": {
-    "tier": "C+",
-    "sections": [
-      "removal"
-    ],
-    "tags": {
-      "roles": [
-        "removal"
-      ],
-      "types": [
-        "instant"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    }
-  },
-  "Unforgiving Aim": {
-    "tier": "SB",
-    "sections": [
-      "removal"
-    ],
-    "tags": {
-      "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
@@ -5866,7 +6831,62 @@
         "tempo"
       ]
     },
-    "removal_type": "hard"
+    "removal_type": "conditional",
+    "archetypes": {
+      "BR Goblins": "B-",
+      "BG Elves": "B+",
+      "UB Faeries": "C",
+      "WB Blight": "B-"
+    }
+  },
+  "Unexpected Assistance": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "role-player",
+        "removal"
+      ],
+      "types": [
+        "card-draw"
+      ],
+      "speed": [
+        "late-game",
+        "tempo"
+      ]
+    },
+    "archetypes": {
+      "WU Merfolk": "B+",
+      "UR Elementals": "B",
+      "UB Faeries": "C+",
+      "UG Vivid": "C"
+    }
+  },
+  "Unforgiving Aim": {
+    "tier": "SB",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "filler",
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "tempo",
+        "evasion"
+      ]
+    },
+    "removal_type": "hard",
+    "archetypes": {
+      "GW Kithkin": "C",
+      "BG Elves": "C+"
+    }
   },
   "Unwelcome Sprite": {
     "tier": "C-",
@@ -5874,19 +6894,22 @@
       "ub_faeries_payoff"
     ],
     "archetypes": {
-      "ub_faeries": [
-        "payoff"
-      ]
+      "WU Merfolk": "B",
+      "UR Elementals": "B+",
+      "UB Faeries": "B-",
+      "UG Vivid": "B"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "role-player"
       ],
       "types": [
-        "evasion"
+        "faerie"
       ],
       "speed": [
-        "control"
+        "aggro",
+        "evasion",
+        "early"
       ]
     },
     "removal_type": null,
@@ -5902,29 +6925,41 @@
         "buildaround"
       ],
       "types": [
-        "creature"
+        "elemental",
+        "evoke"
       ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "A-",
+      "BR Goblins": "A-",
+      "UR Elementals": "A+",
+      "BG Elves": "B",
+      "RG Vivid": "A+"
+    }
   },
   "Vinebred Brawler": {
     "tier": "C",
     "sections": [],
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "GW Kithkin": "C",
+      "BG Elves": "B"
+    }
   },
   "Virulent Emissary": {
     "tier": "B",
@@ -5933,14 +6968,21 @@
     ],
     "tags": {
       "roles": [
-        "buildaround"
+        "premium"
       ],
       "types": [
-        "creature"
+        "elf"
       ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "BG Elves": "A-",
+      "UG Vivid": "B-",
+      "RG Vivid": "B"
     }
   },
   "Voracious Tome-Skimmer": {
@@ -5951,21 +6993,22 @@
       "signals"
     ],
     "archetypes": {
-      "ub_faeries": [
-        "payoff",
-        "key_synergy"
-      ]
+      "WU Merfolk": "C+",
+      "UR Elementals": "C",
+      "BG Elves": "C-",
+      "UB Faeries": "B"
     },
     "tags": {
       "roles": [
-        "build-around"
+        "filler"
       ],
       "types": [
-        "card-advantage",
-        "evasion"
+        "faerie",
+        "card-draw"
       ],
       "speed": [
-        "control"
+        "evasion",
+        "early"
       ]
     },
     "removal_type": null,
@@ -5975,17 +7018,21 @@
     "tier": "C+",
     "sections": [],
     "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ]
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B",
+      "WB Blight": "C-",
+      "RW Blight": "C+"
     },
     "tags": {
       "roles": [
         "role-player"
       ],
-      "types": [],
+      "types": [
+        "merfolk"
+      ],
       "speed": [
-        "midrange"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -5998,18 +7045,21 @@
       "wu_merfolk_enabler"
     ],
     "archetypes": {
-      "wu_merfolk": [
-        "enabler",
-        "key_synergy"
-      ]
+      "GW Kithkin": "A-",
+      "WU Merfolk": "A-",
+      "WB Blight": "B",
+      "RW Blight": "B-"
     },
     "tags": {
       "roles": [
-        "enabler"
+        "premium"
       ],
-      "types": [],
+      "types": [
+        "merfolk"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -6019,18 +7069,22 @@
     "tier": "D",
     "tags": {
       "roles": [
-        "role_player"
+        "filler"
       ],
       "types": [
-        "creature"
+        "merfolk"
       ],
       "speed": [
-        "midrange",
-        "tempo"
+        "midrange"
       ]
     },
     "removal_type": "conditional",
-    "sections": []
+    "sections": [],
+    "archetypes": {
+      "WU Merfolk": "C+",
+      "UR Elementals": "C-",
+      "UB Faeries": "C-"
+    }
   },
   "Wanderwine Farewell": {
     "tier": "C+",
@@ -6039,16 +7093,22 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
-        "sorcery"
+        "merfolk"
       ],
       "speed": [
-        "control"
+        "late-game"
       ]
     },
-    "removal_type": "conditional"
+    "removal_type": "conditional",
+    "archetypes": {
+      "WU Merfolk": "B+",
+      "UR Elementals": "C+",
+      "UB Faeries": "C"
+    }
   },
   "Wanderwine Prophets": {
     "tier": "D-",
@@ -6070,20 +7130,20 @@
     "tier": "D",
     "sections": [],
     "archetypes": {
-      "br_goblins": [
-        "role_player"
-      ],
-      "rw_blight": [
-        "role_player"
-      ]
+      "BR Goblins": "C+",
+      "UR Elementals": "C+",
+      "RW Blight": "C"
     },
     "tags": {
       "roles": [
-        "role-player"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "goblin"
+      ],
       "speed": [
-        "aggro"
+        "aggro",
+        "early"
       ]
     },
     "removal_type": null,
@@ -6093,17 +7153,23 @@
     "tier": "C",
     "sections": [],
     "archetypes": {
-      "gw_kithkin": "enabler"
+      "GW Kithkin": "B",
+      "WU Merfolk": "C+",
+      "BG Elves": "C+",
+      "UG Vivid": "B",
+      "WB Blight": "C+",
+      "RW Blight": "C",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "filler"
+        "role-player"
       ],
       "types": [
-        "creature"
+        "kithkin"
       ],
       "speed": [
-        "tempo"
+        "early"
       ]
     }
   },
@@ -6114,35 +7180,43 @@
     ],
     "tags": {
       "roles": [
+        "role-player",
         "removal"
       ],
       "types": [
         "instant"
       ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": "soft"
+    "removal_type": "soft",
+    "archetypes": {
+      "WU Merfolk": "B-",
+      "UR Elementals": "B-",
+      "UB Faeries": "B-",
+      "UG Vivid": "B-"
+    }
   },
   "Wildvine Pummeler": {
     "tier": "D+",
     "sections": [],
     "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ],
-      "rg_vivid": [
-        "payoff"
-      ]
+      "GW Kithkin": "C+",
+      "UR Elementals": "C+",
+      "BG Elves": "C+",
+      "UG Vivid": "C+",
+      "RG Vivid": "C+"
     },
     "tags": {
       "roles": [
-        "payoff"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "giant"
+      ],
       "speed": [
-        "midrange"
+        "late-game"
       ]
     },
     "removal_type": null,
@@ -6155,24 +7229,54 @@
     ],
     "tags": {
       "roles": [
+        "filler",
         "removal"
       ],
       "types": [
         "sorcery"
       ],
       "speed": [
-        "midrange",
-        "control"
+        "late-game"
       ]
+    },
+    "archetypes": {
+      "GW Kithkin": "B-",
+      "WU Merfolk": "B-"
     }
   },
   "Wistfulness": {
     "tier": "A",
     "sections": [],
+    "archetypes": {
+      "GW Kithkin": "B+",
+      "WU Merfolk": "A-",
+      "UR Elementals": "A",
+      "BG Elves": "A-",
+      "UG Vivid": "A"
+    },
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "elemental",
+        "card-draw",
+        "evoke"
+      ],
+      "speed": [
+        "late-game"
+      ]
+    },
+    "removal_type": "hard",
+    "comment": "6/5 that sometimes kills Liminal Hold and Blossombind."
+  },
+  "Thousand-Year Elixir": {
+    "tier": null,
+    "sections": [],
     "archetypes": {},
     "tags": {
       "roles": [
-        "role-player"
+        "filler"
       ],
       "types": [],
       "speed": [
@@ -6180,6 +7284,6 @@
       ]
     },
     "removal_type": null,
-    "comment": "6/5 that sometimes kills Liminal Hold and Blossombind."
+    "comment": ""
   }
 }
