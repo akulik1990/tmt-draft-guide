@@ -584,201 +584,26 @@
     "D-",
     "F"
   ],
-  "Trystan's Command": {
-    "tier": "A+",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
+  "_tips": [
+    {
+      "title": "Mana Curve",
+      "body": "1-drops: 1-2 \u00b7 2-drops: 4-5 \u00b7 3-drops: 3-5 \u00b7 4-drops: 3-4 \u00b7 5+: 2-3\nTotal: 15-17 creatures, 6-8 spells, 17 lands (or 16 with fixing)"
     },
-    "tags": {
-      "roles": [
-        "bomb"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
+    {
+      "title": "Key Mechanics",
+      "body": "<b>Kithkin/Merfolk/Goblins/Elves/Faeries</b> \u2014 5 typal archetypes with tribal payoffs\n<b>Vivid Lands</b> \u2014 enable 3+ color 'good stuff' decks (UG/RG Vivid)\n<b>-1/-1 Counters</b> \u2014 WB/RW use Blight mechanic to shrink + remove threats\n<b>Evoke</b> \u2014 pay alternate cost for immediate ETB effect\n<b>Champion</b> \u2014 exile your creature, get it back when champion leaves"
     },
-    "removal_type": null,
-    "comment": "Best command. Murder + Overrun or Murder + Restock. Wins games outright."
-  },
-  "Figure of Fable": {
-    "tier": "A+",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
+    {
+      "title": "Format Speed",
+      "body": "Medium-fast format. Aggro (RW Blight, BR Goblins) can close games quickly.\nUB Faeries and UG Vivid play longer games. Respect early pressure \u2014 don't stumble on mana."
     },
-    "tags": {
-      "roles": [
-        "bomb"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Grows fast, threatens to end the game. Any G or W deck wants this."
-  },
-  "Deepchannel Duelist": {
-    "tier": "A+",
-    "sections": [
-      "bombs",
-      "wu_merfolk_signpost",
-      "signals"
-    ],
-    "archetypes": {
-      "wu_merfolk": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb",
-        "payoff"
-      ],
-      "types": [
-        "evasion"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go WU Merfolk. Buffs Merfolk, untaps creatures, only 2 mana."
-  },
-  "Eclipsed Elf": {
-    "tier": "A+",
-    "sections": [
-      "bombs",
-      "bg_elves_signpost",
-      "signals"
-    ],
-    "archetypes": {
-      "bg_elves": [
-        "signpost",
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb",
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go BG Elves. Best Eclipsed creature. Only playable in Elves."
-  },
-  "Grub's Command": {
-    "tier": "A+",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {
-      "br_goblins": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "63.7% IHW. No weak modes. Best card in Goblins by far."
-  },
-  "Eclipsed Kithkin": {
-    "tier": "A+",
-    "sections": [
-      "bombs",
-      "gw_kithkin_signpost",
-      "signals"
-    ],
-    "archetypes": {
-      "gw_kithkin": [
-        "signpost",
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb",
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go GW Kithkin. Premium Eclipsed creature for the archetype."
-  },
-  "High Perfect Morcant": {
-    "tier": "A+",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Elf lord bomb. Tremendous payoff for heavy Elf count."
-  },
-  "Champions of the Shoal": {
-    "tier": "A+",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb"
-      ],
-      "types": [
-        "evasion"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "4-mana Frost Titan for Merfolk. 6 toughness dodges most removal."
-  },
-  "Spinerock Tyrant": {
-    "tier": "A+",
+    {
+      "title": "Draft Priorities",
+      "body": "<b>P1P1:</b> Bombs > Premium removal (Soul Immolation) > Best uncommon signpost\n<b>Pack 1:</b> Stay open, take best card. Tribal payoffs wheel if open.\n<b>Pack 2:</b> Commit to archetype, prioritize tribal synergy + removal\n<b>Pack 3:</b> Fill curve gaps, grab tribal role-players, last removal"
+    }
+  ],
+  "Abigale, Eloquent First-Year": {
+    "tier": "A",
     "sections": [
       "bombs"
     ],
@@ -788,22 +613,103 @@
         "bomb"
       ],
       "types": [
-        "evasion"
+        "card-advantage"
       ],
       "speed": [
-        "control"
+        "midrange"
       ]
     },
     "removal_type": null,
-    "comment": "Monster bomb. 6/6 dragon with wither + removal doubling."
+    "comment": "Premium rare."
   },
-  "Bitterblossom": {
-    "tier": "A+",
+  "Adept Watershaper": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Ajani, Outland Chaperone": {
+    "tier": "B",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Appeal to Eirdu": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Aquitect's Defenses": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Ashling, Rekindled // Ashling, Rimebound": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Ashling's Command": {
+    "tier": "A",
     "sections": [
       "bombs"
     ],
     "archetypes": {
-      "ub_faeries": [
+      "ur_elementals": [
         "payoff"
       ]
     },
@@ -811,15 +717,75 @@
       "roles": [
         "bomb"
       ],
-      "types": [
-        "token-maker"
-      ],
+      "types": [],
       "speed": [
         "midrange"
       ]
     },
     "removal_type": null,
-    "comment": "Turn 2 Bitterblossom is the best start in the format. Insane with tribal."
+    "comment": "Among the most broken rares. Premium for UR Elementals."
+  },
+  "Assert Perfection": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "bg_elves": [
+        "removal"
+      ],
+      "gw_kithkin": [
+        "removal"
+      ],
+      "ug_vivid": [
+        "removal"
+      ],
+      "rg_vivid": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": "Green's only removal. Slightly better Rabid Bite."
+  },
+  "Auntie's Sentence": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "br_goblins": [
+        "removal"
+      ],
+      "bg_elves": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "removal"
+      ],
+      "wb_blight": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": "Solid black common removal."
   },
   "Aurora Awakener": {
     "tier": "A+",
@@ -846,39 +812,66 @@
     "removal_type": null,
     "comment": "Possibly the best card in the set. Reason to draft UG Vivid."
   },
-  "Eclipsed Boggart": {
-    "tier": "A",
+  "Barbed Bloodletter": {
+    "tier": "C",
     "sections": [
-      "br_goblins_signpost",
-      "signals"
+      "fillers"
     ],
-    "archetypes": {
-      "br_goblins": [
-        "signpost",
-        "payoff"
-      ]
-    },
     "tags": {
       "roles": [
-        "payoff"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "artifact"
+      ],
       "speed": [
-        "midrange"
+        "aggro"
       ]
     },
-    "removal_type": null,
-    "comment": "SIGNAL: Go BR Goblins. Premium Eclipsed creature."
+    "removal_type": "soft"
   },
-  "Lluwen, Imperfect Naturalist": {
-    "tier": "A",
+  "Bark of Doran": {
+    "tier": "D+",
     "sections": [
-      "bombs"
+      "late_pick"
     ],
     "archetypes": {},
     "tags": {
       "roles": [
-        "bomb"
+        "filler"
+      ],
+      "types": [
+        "combat-trick"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Awesome with Gravelgill Scoundrel and Tributary Vaulter. Usually tables."
+  },
+  "Bile-Vial Boggart": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Bitterbloom Bearer": {
+    "tier": "A-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
       ],
       "types": [],
       "speed": [
@@ -886,69 +879,23 @@
       ]
     },
     "removal_type": null,
-    "comment": "Premium rare threat."
+    "comment": "Premium card. High win rate per 17lands data."
   },
-  "Deceit": {
-    "tier": "A",
-    "sections": [
-      "bombs"
-    ],
+  "Blighted Blackthorn": {
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
-      "ub_faeries": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb"
+      "bg_elves": [
+        "enabler"
       ],
-      "types": [],
-      "speed": [
-        "control"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Incarnation mythic. Extremely promising in Limited."
-  },
-  "Thoughtweft Lieutenant": {
-    "tier": "A",
-    "sections": [
-      "gw_kithkin_signpost",
-      "signals"
-    ],
-    "archetypes": {
-      "gw_kithkin": [
-        "signpost",
-        "payoff",
+      "wb_blight": [
+        "enabler",
         "key_synergy"
       ]
     },
     "tags": {
       "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "aggro",
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go GW Kithkin. Keeps all creatures permanently above rate."
-  },
-  "Sygg's Command": {
-    "tier": "A",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb"
+        "enabler"
       ],
       "types": [],
       "speed": [
@@ -956,115 +903,40 @@
       ]
     },
     "removal_type": null,
-    "comment": "Strong Merfolk command with flexible modes."
+    "comment": "High toughness absorbs -1/-1 counters. Top common for blight decks."
   },
-  "Abigale, Eloquent First-Year": {
-    "tier": "A",
+  "Blight Rot": {
+    "tier": "C+",
     "sections": [
-      "bombs"
+      "removal"
     ],
-    "archetypes": {},
     "tags": {
       "roles": [
-        "bomb"
+        "removal"
       ],
       "types": [
-        "card-advantage"
+        "instant"
       ],
       "speed": [
-        "midrange"
+        "tempo"
       ]
     },
-    "removal_type": null,
-    "comment": "Premium rare."
+    "removal_type": "soft"
   },
-  "Doran, Besieged by Time": {
-    "tier": "A",
+  "Blood Crypt": {
+    "tier": "C",
     "sections": [
-      "bombs",
-      "build_arounds"
+      "fillers"
     ],
-    "archetypes": {
-      "wb_blight": [
-        "payoff"
-      ]
-    },
     "tags": {
       "roles": [
-        "bomb",
-        "build-around"
+        "filler"
       ],
       "types": [],
       "speed": [
-        "midrange"
+        "aggro"
       ]
-    },
-    "removal_type": null,
-    "comment": "Effectively a 5/9. Build around high-toughness creatures. Worth splashing."
-  },
-  "Ashling's Command": {
-    "tier": "A",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {
-      "ur_elementals": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "bomb"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Among the most broken rares. Premium for UR Elementals."
-  },
-  "Brigid's Command": {
-    "tier": "A",
-    "sections": [
-      "bombs"
-    ],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "bomb"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Strong command. Doesn't require Kithkin to be good."
-  },
-  "Ashling, Rekindled": {
-    "tier": "A",
-    "sections": [
-      "build_arounds"
-    ],
-    "archetypes": {
-      "ur_elementals": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "build-around"
-      ],
-      "types": [
-        "ramp-fixing"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Mana ramp and late-game threat rolled into one."
+    }
   },
   "Bloodline Bidding": {
     "tier": "A-",
@@ -1088,128 +960,71 @@
     "removal_type": null,
     "comment": "Mass recursion. Often ends the game immediately in Elves."
   },
-  "Eclipsed Merrow": {
-    "tier": "A",
+  "Bloom Tender": {
+    "tier": "C",
     "sections": [
-      "wu_merfolk_signpost",
-      "signals"
+      "fillers"
     ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Blossombind": {
+    "tier": "C+",
+    "sections": [],
     "archetypes": {
       "wu_merfolk": [
-        "signpost",
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
+        "removal"
       ],
-      "types": [
-        "card-advantage"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go WU Merfolk. Digs for lands/fuel in creature-heavy Merfolk."
-  },
-  "Eclipsed Flamekin": {
-    "tier": "B",
-    "sections": [
-      "ur_elementals_signpost"
-    ],
-    "archetypes": {
       "ur_elementals": [
-        "signpost",
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
+        "removal"
       ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Smooths draws and buys time for Elementals."
-  },
-  "Thoughtweft Imbuer": {
-    "tier": "A-",
-    "sections": [
-      "gw_kithkin_payoff",
-      "contested"
-    ],
-    "archetypes": {
-      "gw_kithkin": [
-        "payoff",
-        "key_synergy"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
+      "ub_faeries": [
+        "removal"
       ],
-      "types": [],
-      "speed": [
-        "aggro",
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Most aggressively-taken uncommon in ECL. Swings most games."
-  },
-  "Morcant's Loyalist": {
-    "tier": "B+",
-    "sections": [
-      "bg_elves_signpost",
-      "signals"
-    ],
-    "archetypes": {
-      "bg_elves": [
-        "signpost",
-        "payoff",
-        "key_synergy"
+      "ug_vivid": [
+        "removal"
       ]
     },
     "tags": {
       "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go BG Elves. Buffs Elves and returns one on death."
-  },
-  "Morcant's Eyes": {
-    "tier": "A-",
-    "sections": [
-      "bg_elves_payoff"
-    ],
-    "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
+        "role-player"
       ],
       "types": [
-        "card-advantage"
+        "conditional-removal"
       ],
       "speed": [
         "midrange"
       ]
     },
-    "removal_type": null,
-    "comment": "Premium Elf payoff. Relies on heavy Elf count."
+    "removal_type": "conditional",
+    "comment": "2-mana Claustrophobia that prevents untapping. Best version of the effect."
+  },
+  "Blossoming Defense": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
   },
   "Boggart Cursecrafter": {
     "tier": "B+",
@@ -1236,93 +1051,13 @@
     "removal_type": null,
     "comment": "SIGNAL: Go BR Goblins. Pings opponent every time a Goblin dies."
   },
-  "Twinflame Travelers": {
-    "tier": "A-",
-    "sections": [
-      "ur_elementals_signpost",
-      "signals",
-      "build_arounds"
-    ],
-    "archetypes": {
-      "ur_elementals": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "build-around",
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go UR Elementals. Panharmonicon for Elemental triggers."
-  },
-  "Voracious Tome-Skimmer": {
-    "tier": "B+",
-    "sections": [
-      "ub_faeries_payoff",
-      "build_arounds",
-      "signals"
-    ],
-    "archetypes": {
-      "ub_faeries": [
-        "payoff",
-        "key_synergy"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "build-around"
-      ],
-      "types": [
-        "card-advantage",
-        "evasion"
-      ],
-      "speed": [
-        "control"
-      ]
-    },
-    "removal_type": null,
-    "comment": "SIGNAL: Go UB Faeries. Need 3+ copies. Only strong payoff for the archetype."
-  },
-  "Reaping Willow": {
-    "tier": "A-",
-    "sections": [
-      "wb_blight_signpost",
-      "build_arounds"
-    ],
-    "archetypes": {
-      "wb_blight": [
-        "signpost",
-        "payoff",
-        "key_synergy"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "build-around"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "3/6 lifelinker that reanimates. Key WB payoff. Hybrid so contested."
-  },
-  "Flamebraider": {
+  "Boggart Mischief": {
     "tier": "B",
     "sections": [
-      "ur_elementals_enabler"
+      "br_goblins_enabler"
     ],
     "archetypes": {
-      "ur_elementals": [
+      "br_goblins": [
         "enabler",
         "key_synergy"
       ]
@@ -1332,30 +1067,6 @@
         "enabler"
       ],
       "types": [
-        "ramp-fixing"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Best mana creature for Elementals. 2 mana of any color towards Elementals."
-  },
-  "Silvergill Mentor": {
-    "tier": "B",
-    "sections": [
-      "wu_merfolk_payoff"
-    ],
-    "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [
         "token-maker"
       ],
       "speed": [
@@ -1363,21 +1074,76 @@
       ]
     },
     "removal_type": null,
-    "comment": "2-mana Silvergill Adept variant. Creates 1/1 token instead of drawing."
+    "comment": "Kill a Goblin, make two, drain opponent. Does everything Goblins wants."
   },
-  "Mudbutton Cursetosser": {
+  "Boggart Prankster": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {
+      "br_goblins": [
+        "enabler"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Solid 2-drop. Attacks as 2/3 early, absorbs -1/-1 counters late."
+  },
+  "Bogslither's Embrace": {
     "tier": "B",
     "sections": [
-      "br_goblins_payoff"
+      "top_commons"
     ],
     "archetypes": {
       "br_goblins": [
+        "enabler",
+        "removal"
+      ],
+      "bg_elves": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "removal"
+      ],
+      "wb_blight": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": "2 mana + blight for efficient removal. Top black common."
+  },
+  "Boldwyr Aggressor": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {
+      "rg_vivid": [
         "payoff"
       ]
     },
     "tags": {
       "roles": [
-        "payoff"
+        "filler"
       ],
       "types": [],
       "speed": [
@@ -1385,7 +1151,231 @@
       ]
     },
     "removal_type": null,
-    "comment": "Worthy runner-up among best uncommon Big Five payoffs."
+    "comment": "Double strike for Giants. Only Giant typal card. Needs Changelings."
+  },
+  "Boneclub Berserker": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Boulder Dash": {
+    "tier": "B-",
+    "sections": [
+      "top_commons"
+    ],
+    "archetypes": {
+      "br_goblins": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "rw_blight": [
+        "removal"
+      ],
+      "rg_vivid": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": "Arc Trail reprint. Split 3 damage for a two-for-one. Creatures are small in ECL."
+  },
+  "Brambleback Brute": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Bre of Clan Stoutarm": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Brigid, Clachan's Heart // Brigid, Doun's Mind": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Brigid's Command": {
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Strong command. Doesn't require Kithkin to be good."
+  },
+  "Bristlebane Battler": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Bristlebane Outrider": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Burdened Stoneback": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Burning Curiosity": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Catharsis": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "control"
+      ]
+    }
+  },
+  "Celestial Reunion": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
   },
   "Champion of the Clachan": {
     "tier": "B+",
@@ -1409,135 +1399,88 @@
     "removal_type": null,
     "comment": "Strong Kithkin payoff. Rewards heavy tribal commitment."
   },
-  "Kinsbaile Aspirant": {
-    "tier": "B",
+  "Champion of the Path": {
+    "tier": "C",
     "sections": [
-      "gw_kithkin_payoff"
+      "fillers"
     ],
-    "archetypes": {
-      "gw_kithkin": [
-        "payoff"
-      ]
-    },
     "tags": {
       "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Direct Kithkin payoff."
-  },
-  "Gloom Ripper": {
-    "tier": "A-",
-    "sections": [
-      "bg_elves_payoff"
-    ],
-    "archetypes": {
-      "bg_elves": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Bomb-level payoff in Elves. Demands heavy Elf count."
-  },
-  "Maralen, Fae Ascendant": {
-    "tier": "A-",
-    "sections": [
-      "bg_elves_role_player"
-    ],
-    "archetypes": {
-      "bg_elves": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Bomb-level payoff in Elves."
-  },
-  "Nameless Inversion": {
-    "tier": "B+",
-    "sections": [
-      "top_commons",
-      "contested"
-    ],
-    "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "bg_elves": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "enabler",
-        "removal"
-      ],
-      "wb_blight": [
-        "removal"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
+        "filler"
       ],
       "types": [
-        "conditional-removal"
+        "creature"
       ],
       "speed": [
-        "midrange"
+        "midrange",
+        "tempo"
       ]
     },
-    "removal_type": "conditional",
-    "comment": "Best black common. 2 mana -3/-3. Every creature type \u2014 insane tribal synergy."
+    "removal_type": "hard"
   },
-  "Graveshifter": {
+  "Champion of the Weird": {
     "tier": "B+",
     "sections": [
-      "top_commons",
-      "contested"
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Champions of the Perfect": {
+    "tier": "A-",
+    "sections": [
+      "bombs",
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "bomb",
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Champions of the Shoal": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
     ],
     "archetypes": {
-      "bg_elves": [
-        "enabler",
-        "key_synergy"
-      ],
-      "wb_blight": [
-        "role_player"
+      "wu_merfolk": [
+        "payoff"
       ]
     },
     "tags": {
       "roles": [
-        "role-player"
+        "bomb"
       ],
       "types": [
-        "card-advantage"
+        "evasion"
       ],
       "speed": [
         "midrange"
       ]
     },
     "removal_type": null,
-    "comment": "Gravedigger upgrade. 4 mana 2/2 + recursion. Every creature type. Any black deck wants this."
+    "comment": "4-mana Frost Titan for Merfolk. 6 toughness dodges most removal."
   },
   "Changeling Wayfinder": {
     "tier": "B",
@@ -1579,142 +1522,71 @@
     "removal_type": null,
     "comment": "Most important common in ECL. Mana fixing at premium. Every creature type."
   },
-  "Wanderbrine Trapper": {
-    "tier": "B+",
-    "sections": [
-      "top_commons",
-      "wu_merfolk_enabler"
-    ],
+  "Chaos Spewer": {
+    "tier": "C-",
     "archetypes": {
-      "wu_merfolk": [
-        "enabler",
-        "key_synergy"
-      ]
+      "br_goblins": "enabler"
     },
     "tags": {
       "roles": [
-        "enabler"
-      ],
-      "types": [],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Best tapper since Gideon's Lawkeeper. 1-mana 2/1 that locks down threats."
-  },
-  "Rimekin Recluse": {
-    "tier": "B+",
-    "sections": [
-      "top_commons",
-      "contested"
-    ],
-    "archetypes": {
-      "wu_merfolk": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "bounce"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "bounce",
-    "comment": "Man-o'-War variant. Contender for best nonrare in ECL."
-  },
-  "Sun-Dappled Celebrant": {
-    "tier": "B-",
-    "sections": [
-      "top_commons"
-    ],
-    "archetypes": {
-      "wu_merfolk": [
         "role_player"
       ],
-      "gw_kithkin": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
+      "types": [
+        "creature"
       ],
-      "types": [],
       "speed": [
-        "midrange"
+        "tempo"
       ]
     },
-    "removal_type": null,
-    "comment": "Big convoke creature. Merfolk love being tapped for this."
+    "removal_type": "soft"
   },
-  "Sear": {
-    "tier": "B",
-    "sections": [
-      "top_commons",
-      "contested"
-    ],
-    "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "rw_blight": [
-        "removal"
-      ],
-      "rg_vivid": [
-        "removal"
-      ]
-    },
+  "Chitinous Graspling": {
+    "tier": "C-",
     "tags": {
       "roles": [
-        "role-player"
+        "role_player"
       ],
       "types": [
-        "unconditional-removal"
+        "creature"
       ],
       "speed": [
-        "midrange"
+        "midrange",
+        "tempo"
       ]
-    },
-    "removal_type": "unconditional",
-    "comment": "2 mana 4 damage instant. Premium red common removal."
+    }
   },
-  "Explosive Prodigy": {
-    "tier": "B-",
-    "sections": [
-      "top_commons"
-    ],
-    "archetypes": {
-      "ur_elementals": [
-        "enabler",
-        "key_synergy"
-      ]
-    },
+  "Chomping Changeling": {
+    "tier": "C-",
     "tags": {
       "roles": [
-        "enabler"
+        "role_player"
       ],
-      "types": [],
+      "types": [
+        "creature"
+      ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
     },
-    "removal_type": null,
-    "comment": "2-mana 1/1 that deals 2 on entry. Every red drafter takes highly."
+    "removal_type": "hard"
+  },
+  "Chronicle of Victory": {
+    "tier": "A-",
+    "sections": [
+      "bombs"
+    ],
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "midrange",
+        "control"
+      ]
+    }
   },
   "Cinder Strike": {
     "tier": "B",
@@ -1750,21 +1622,1012 @@
     "removal_type": "conditional",
     "comment": "1 mana for 4 damage with blight cost. Extremely efficient in blight decks."
   },
-  "Boulder Dash": {
+  "Clachan Festival": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "gw_kithkin": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Strong card that doesn't require Kithkin to be good."
+  },
+  "Collective Inferno": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    }
+  },
+  "Creakwood Safewright": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Crib Swap": {
+    "tier": "B-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Crossroads Watcher": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {
+      "gw_kithkin": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Trample finisher for wide boards. Ranked highly on pick order."
+  },
+  "Curious Colossus": {
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Darkness Descends": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Dawn-Blessed Pennant": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Dawnhand Dissident": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {
+      "bg_elves": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Plays from graveyard. Pairs with Blight strategies."
+  },
+  "Dawnhand Eulogist": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Dawn's Light Archer": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "bg_elves": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Top green common. Solid in Elves."
+  },
+  "Deceit": {
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {
+      "ub_faeries": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Incarnation mythic. Extremely promising in Limited."
+  },
+  "Deepchannel Duelist": {
+    "tier": "A+",
+    "sections": [
+      "bombs",
+      "wu_merfolk_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "wu_merfolk": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb",
+        "payoff"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go WU Merfolk. Buffs Merfolk, untaps creatures, only 2 mana."
+  },
+  "Deepway Navigator": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "archetypes": {
+      "wu_merfolk": "enabler"
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Disruptor of Currents": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "enabler"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "bounce"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "bounce",
+    "comment": "Convoke on opponent's turn for a discount. Great utility + stats."
+  },
+  "Doran, Besieged by Time": {
+    "tier": "A",
+    "sections": [
+      "bombs",
+      "build_arounds"
+    ],
+    "archetypes": {
+      "wb_blight": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb",
+        "build-around"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Effectively a 5/9. Build around high-toughness creatures. Worth splashing."
+  },
+  "Dose of Dawnglow": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Dream Harvest": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Dream Seizer": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Dundoolin Weaver": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {
+      "gw_kithkin": [
+        "enabler"
+      ],
+      "bg_elves": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "2-mana Eternal Witness with setup. Great in Kithkin or Elves."
+  },
+  "Eclipsed Boggart": {
+    "tier": "A",
+    "sections": [
+      "br_goblins_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "br_goblins": [
+        "signpost",
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go BR Goblins. Premium Eclipsed creature."
+  },
+  "Eclipsed Elf": {
+    "tier": "A+",
+    "sections": [
+      "bombs",
+      "bg_elves_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "bg_elves": [
+        "signpost",
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb",
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go BG Elves. Best Eclipsed creature. Only playable in Elves."
+  },
+  "Eclipsed Flamekin": {
+    "tier": "B",
+    "sections": [
+      "ur_elementals_signpost"
+    ],
+    "archetypes": {
+      "ur_elementals": [
+        "signpost",
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Smooths draws and buys time for Elementals."
+  },
+  "Eclipsed Kithkin": {
+    "tier": "A+",
+    "sections": [
+      "bombs",
+      "gw_kithkin_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "gw_kithkin": [
+        "signpost",
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb",
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go GW Kithkin. Premium Eclipsed creature for the archetype."
+  },
+  "Eclipsed Merrow": {
+    "tier": "A",
+    "sections": [
+      "wu_merfolk_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "wu_merfolk": [
+        "signpost",
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go WU Merfolk. Digs for lands/fuel in creature-heavy Merfolk."
+  },
+  "Eclipsed Realms": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    }
+  },
+  "Elder Auntie": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {
+      "br_goblins": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Provides 2 bodies for Goblin sacrifice. Only good in heavy Goblins."
+  },
+  "Emptiness": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "control"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Encumbered Reejerey": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "End-Blaze Epiphany": {
+    "tier": "B+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Enraged Flamecaster": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Evershrike's Gift": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Gives flying. Helps giants/big creatures get through."
+  },
+  "Evolving Wilds": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Explosive Prodigy": {
     "tier": "B-",
     "sections": [
       "top_commons"
     ],
     "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
       "ur_elementals": [
+        "enabler",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "2-mana 1/1 that deals 2 on entry. Every red drafter takes highly."
+  },
+  "Feed the Flames": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
         "removal"
       ],
-      "rw_blight": [
-        "removal"
+      "types": [
+        "instant"
       ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Feisty Spikeling": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Figure of Fable": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {
+      "gw_kithkin": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Grows fast, threatens to end the game. Any G or W deck wants this."
+  },
+  "Firdoch Core": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Flamebraider": {
+    "tier": "B",
+    "sections": [
+      "ur_elementals_enabler"
+    ],
+    "archetypes": {
+      "ur_elementals": [
+        "enabler",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Best mana creature for Elementals. 2 mana of any color towards Elementals."
+  },
+  "Flame-Chain Mauler": {
+    "tier": "D",
+    "sections": [],
+    "archetypes": {
+      "ur_elementals": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Solid 2-drop. Good activated ability in a format lacking mana sinks."
+  },
+  "Flamekin Gildweaver": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {
+      "ur_elementals": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Makes treasures. Doubled by Twinflame Travelers."
+  },
+  "Flaring Cinder": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "archetypes": {
+      "ur_elementals": "enabler"
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Flitterwing Nuisance": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Flock Impostor": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "bounce"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "bounce",
+    "comment": "Hold open 3 mana for saves, combat tricks, or retrigger ETBs."
+  },
+  "Foraging Wickermaw": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature",
+        "artifact"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Formidable Speaker": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Gallant Fowlknight": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {
+      "gw_kithkin": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Solid curve filler in Kithkin. Best in GW."
+  },
+  "Gangly Stompling": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Gathering Stone": {
+    "tier": "B+",
+    "sections": [
+      "top_uncommons"
+    ],
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Giantfall": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
       "rg_vivid": [
         "removal"
       ]
@@ -1774,14 +2637,733 @@
         "role-player"
       ],
       "types": [
-        "unconditional-removal"
+        "conditional-removal"
       ],
       "speed": [
         "midrange"
       ]
     },
-    "removal_type": "unconditional",
-    "comment": "Arc Trail reprint. Split 3 damage for a two-for-one. Creatures are small in ECL."
+    "removal_type": "conditional",
+    "comment": "Instant-speed bite spell. Red has big creatures to back it up."
+  },
+  "Gilt-Leaf's Embrace": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Glamer Gifter": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Glamermite": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "ub_faeries": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Crafty plays in Merfolk. Enables tap synergies."
+  },
+  "Glen Elendra Guardian": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Glen Elendra's Answer": {
+    "tier": "B",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Glister Bairn": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {
+      "ug_vivid": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Vivid payoff. Costs substantial mana."
+  },
+  "Gloom Ripper": {
+    "tier": "A-",
+    "sections": [
+      "bg_elves_payoff"
+    ],
+    "archetypes": {
+      "bg_elves": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Bomb-level payoff in Elves. Demands heavy Elf count."
+  },
+  "Gnarlbark Elm": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "wb_blight": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": "Green removal. Excels in toughness-matters with extra -1/-1 counters."
+  },
+  "Goatnap": {
+    "tier": "D",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Goldmeadow Nomad": {
+    "tier": "D+",
+    "sections": [],
+    "archetypes": {
+      "gw_kithkin": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "One-mana Kithkin that's two bodies. Divisive \u2014 great in aggro, weak elsewhere."
+  },
+  "Goliath Daydreamer": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Gravelgill Scoundrel": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Gets value even on stalled boards. Built-in evasion."
+  },
+  "Graveshifter": {
+    "tier": "B+",
+    "sections": [
+      "top_commons",
+      "contested"
+    ],
+    "archetypes": {
+      "bg_elves": [
+        "enabler",
+        "key_synergy"
+      ],
+      "wb_blight": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Gravedigger upgrade. 4 mana 2/2 + recursion. Every creature type. Any black deck wants this."
+  },
+  "Great Forest Druid": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Pairs with Soul Immolation. Solid green body."
+  },
+  "Gristle Glutton": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Grub's Command": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {
+      "br_goblins": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "63.7% IHW. No weak modes. Best card in Goblins by far."
+  },
+  "Grub, Storied Matriarch // Grub, Notorious Auntie": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Gutsplitter Gang": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Hallowed Fountain": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Harmonized Crescendo": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "midrange",
+        "control"
+      ]
+    }
+  },
+  "Heirloom Auntie": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Hexing Squelcher": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "High Perfect Morcant": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {
+      "bg_elves": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Elf lord bomb. Tremendous payoff for heavy Elf count."
+  },
+  "Hovel Hurler": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Helps giants fly over."
+  },
+  "Illusion Spinners": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Works with changeling type matters cards."
+  },
+  "Impolite Entrance": {
+    "tier": "C-",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "combat-trick"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Gives trample. Helps push damage."
+  },
+  "Iron-Shield Elf": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "bg_elves": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Top black common for Elves."
+  },
+  "Keep Out": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Kinbinding": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Miserable to face. Liminal Hold is the best answer."
+  },
+  "Kindle the Inner Flame": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "ur_elementals": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "combat-trick"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Explosive synergy with Twinflame Travelers."
+  },
+  "Kinsbaile Aspirant": {
+    "tier": "B",
+    "sections": [
+      "gw_kithkin_payoff"
+    ],
+    "archetypes": {
+      "gw_kithkin": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Direct Kithkin payoff."
+  },
+  "Kinscaer Sentry": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Kirol, Attentive First-Year": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Kithkeeper": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "control"
+      ]
+    }
+  },
+  "Kulrath Mystic": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {
+      "ur_elementals": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Grows from Twinflame Travelers triggers. 4/4 base."
+  },
+  "Kulrath Zealot": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {
+      "br_goblins": [
+        "role_player"
+      ],
+      "rw_blight": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Top red common."
+  },
+  "Lasting Tarfire": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Lavaleaper": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
   },
   "Liminal Hold": {
     "tier": "B-",
@@ -1817,6 +3399,1514 @@
     "removal_type": "unconditional",
     "comment": "4-mana Banishing Light + 2 life. Premium universal answer."
   },
+  "Lluwen, Imperfect Naturalist": {
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Premium rare threat."
+  },
+  "Loch Mare": {
+    "tier": "A-",
+    "sections": [
+      "bombs"
+    ],
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Lofty Dreams": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    }
+  },
+  "Luminollusk": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Lys Alana Dignitary": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Lys Alana Informant": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Maralen, Fae Ascendant": {
+    "tier": "A-",
+    "sections": [
+      "bg_elves_role_player"
+    ],
+    "archetypes": {
+      "bg_elves": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Bomb-level payoff in Elves."
+  },
+  "Meanders Guide": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "bounce"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "bounce",
+    "comment": "Repeated bounce when you safely tap Merfolk."
+  },
+  "Meek Attack": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Merrow Skyswimmer": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "archetypes": {
+      "wu_merfolk": "enabler"
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    }
+  },
+  "Midnight Tilling": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Mirrorform": {
+    "tier": "B-",
+    "sections": [
+      "build_arounds"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Build-around. Pair with token generators like Elder Auntie."
+  },
+  "Mirrormind Crown": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Mischievous Sneakling": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Mistmeadow Council": {
+    "tier": "B-",
+    "sections": [
+      "gw_kithkin_enabler"
+    ],
+    "archetypes": {
+      "gw_kithkin": [
+        "enabler",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Absurd when mostly Kithkin. Play any number of copies."
+  },
+  "Moonglove Extractor": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Moonlit Lamenter": {
+    "tier": "C-",
+    "sections": [
+      "wb_blight_payoff"
+    ],
+    "archetypes": {
+      "wb_blight": [
+        "payoff",
+        "key_synergy"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "2/5 that converts -1/-1 counters into cards. Fragile to removal."
+  },
+  "Moonshadow": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Moon-Vigil Adherents": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "gw_kithkin": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Top green card. Good in any green deck, especially Kithkin."
+  },
+  "Morcant's Eyes": {
+    "tier": "A-",
+    "sections": [
+      "bg_elves_payoff"
+    ],
+    "archetypes": {
+      "bg_elves": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "card-advantage"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Premium Elf payoff. Relies on heavy Elf count."
+  },
+  "Morcant's Loyalist": {
+    "tier": "B+",
+    "sections": [
+      "bg_elves_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "bg_elves": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go BG Elves. Buffs Elves and returns one on death."
+  },
+  "Morningtide's Light": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Mornsong Aria": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Mudbutton Cursetosser": {
+    "tier": "B",
+    "sections": [
+      "br_goblins_payoff"
+    ],
+    "archetypes": {
+      "br_goblins": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Worthy runner-up among best uncommon Big Five payoffs."
+  },
+  "Mutable Explorer": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Nameless Inversion": {
+    "tier": "B+",
+    "sections": [
+      "top_commons",
+      "contested"
+    ],
+    "archetypes": {
+      "br_goblins": [
+        "removal"
+      ],
+      "bg_elves": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "enabler",
+        "removal"
+      ],
+      "wb_blight": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "conditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional",
+    "comment": "Best black common. 2 mana -3/-3. Every creature type \u2014 insane tribal synergy."
+  },
+  "Nightmare Sower": {
+    "tier": "C+",
+    "sections": [
+      "ub_faeries_payoff"
+    ],
+    "archetypes": {
+      "ub_faeries": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Flash payoff. Lifelink + -1/-1 counters. Makes racing impossible."
+  },
+  "Noggle Robber": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Noggle the Mind": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Oko, Lorwyn Liege // Oko, Shadowmoor Scion": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Omni-Changeling": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    }
+  },
+  "Overgrown Tomb": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Perfect Intimidation": {
+    "tier": "D",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Personify": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Pestered Wellguard": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Pitiless Fists": {
+    "tier": "B",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Prideful Feastling": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Prismabasher": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {
+      "ug_vivid": [
+        "payoff"
+      ],
+      "rg_vivid": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Big vivid threat. Costs substantial mana."
+  },
+  "Prismatic Undercurrents": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Protective Response": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Puca's Eye": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Pummeler for Hire": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {
+      "gw_kithkin": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Solid green body. Often better than narrow tribal cards."
+  },
+  "Pyrrhic Strike": {
+    "tier": "B",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Raiding Schemes": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Reaping Willow": {
+    "tier": "A-",
+    "sections": [
+      "wb_blight_signpost",
+      "build_arounds"
+    ],
+    "archetypes": {
+      "wb_blight": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "3/6 lifelinker that reanimates. Key WB payoff. Hybrid so contested."
+  },
+  "Reckless Ransacking": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Reluctant Dounguard": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Requiting Hex": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Retched Wretch": {
+    "tier": "B-",
+    "sections": [
+      "br_goblins_enabler"
+    ],
+    "archetypes": {
+      "br_goblins": [
+        "enabler",
+        "key_synergy"
+      ],
+      "wb_blight": [
+        "enabler"
+      ],
+      "rw_blight": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Comes back immediately. Perfect blight host for any deck using -1/-1 counters."
+  },
+  "Rhys, the Evermore": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Rime Chill": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Rimefire Torque": {
+    "tier": "D",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Rimekin Recluse": {
+    "tier": "B+",
+    "sections": [
+      "top_commons",
+      "contested"
+    ],
+    "archetypes": {
+      "wu_merfolk": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "ub_faeries": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "bounce"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "bounce",
+    "comment": "Man-o'-War variant. Contender for best nonrare in ECL."
+  },
+  "Riverguard's Reflexes": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Rooftop Percher": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Run Away Together": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Safewright Cavalry": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Sanar, Innovative First-Year": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Sapling Nursery": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Scarblade Scout": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Scarblade's Malice": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Scuzzback Scrounger": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Sear": {
+    "tier": "B",
+    "sections": [
+      "top_commons",
+      "contested"
+    ],
+    "archetypes": {
+      "br_goblins": [
+        "removal"
+      ],
+      "ur_elementals": [
+        "removal"
+      ],
+      "rw_blight": [
+        "removal"
+      ],
+      "rg_vivid": [
+        "removal"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [
+        "unconditional-removal"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "unconditional",
+    "comment": "2 mana 4 damage instant. Premium red common removal."
+  },
+  "Selfless Safewright": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    }
+  },
+  "Shadow Urchin": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Shimmercreep": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Shimmerwilds Growth": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "enchantment"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Shinestriker": {
+    "tier": "B+",
+    "sections": [],
+    "archetypes": {
+      "ur_elementals": [
+        "payoff"
+      ],
+      "ug_vivid": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Premium Elemental/Vivid payoff. Expensive but worth it."
+  },
+  "Shore Lurker": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Silvergill Mentor": {
+    "tier": "B",
+    "sections": [
+      "wu_merfolk_payoff"
+    ],
+    "archetypes": {
+      "wu_merfolk": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [
+        "token-maker"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "2-mana Silvergill Adept variant. Creates 1/1 token instead of drawing."
+  },
+  "Silvergill Peddler": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Cares about being tapped. Great with convoke."
+  },
+  "Sizzling Changeling": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {
+      "br_goblins": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Changeling for any tribal deck. Decent red body."
+  },
+  "Slumbering Walker": {
+    "tier": "A-",
+    "sections": [
+      "bombs"
+    ],
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Soulbright Seeker": {
+    "tier": "D-",
+    "sections": [],
+    "archetypes": {
+      "ur_elementals": [
+        "enabler"
+      ],
+      "rg_vivid": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Aggressive Elemental. Gives trample. Not worth playing in most UR decks."
+  },
+  "Soul Immolation": {
+    "tier": "B",
+    "sections": [
+      "build_arounds"
+    ],
+    "archetypes": {
+      "rw_blight": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [
+        "sweeper"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Red Plague Wind with high-toughness enablers. Pair with Blighted Blackthorn."
+  },
+  "Sourbread Auntie": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "soft"
+  },
+  "Spell Snare": {
+    "tier": "D",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Spinerock Tyrant": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {},
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [
+        "evasion"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Monster bomb. 6/6 dragon with wither + removal doubling."
+  },
   "Spiral into Solitude": {
     "tier": "C+",
     "sections": [],
@@ -1848,644 +4938,77 @@
     "removal_type": "conditional",
     "comment": "Pacifism-plus. Solid white common removal."
   },
-  "Blossombind": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "removal"
-      ],
-      "ur_elementals": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "removal"
-      ],
-      "ug_vivid": [
-        "removal"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "conditional-removal"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "conditional",
-    "comment": "2-mana Claustrophobia that prevents untapping. Best version of the effect."
-  },
-  "Assert Perfection": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "bg_elves": [
-        "removal"
-      ],
-      "gw_kithkin": [
-        "removal"
-      ],
-      "ug_vivid": [
-        "removal"
-      ],
-      "rg_vivid": [
-        "removal"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "conditional-removal"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "conditional",
-    "comment": "Green's only removal. Slightly better Rabid Bite."
-  },
-  "Bogslither's Embrace": {
+  "Springleaf Drum": {
     "tier": "B",
-    "sections": [
-      "top_commons"
-    ],
-    "archetypes": {
-      "br_goblins": [
-        "enabler",
-        "removal"
-      ],
-      "bg_elves": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "removal"
-      ],
-      "wb_blight": [
-        "enabler"
-      ]
-    },
     "tags": {
       "roles": [
-        "role-player"
-      ],
-      "types": [
-        "unconditional-removal"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "unconditional",
-    "comment": "2 mana + blight for efficient removal. Top black common."
-  },
-  "Auntie's Sentence": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "br_goblins": [
-        "removal"
-      ],
-      "bg_elves": [
-        "removal"
-      ],
-      "ub_faeries": [
-        "removal"
-      ],
-      "wb_blight": [
-        "removal"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "unconditional-removal"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "unconditional",
-    "comment": "Solid black common removal."
-  },
-  "Giantfall": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "rg_vivid": [
-        "removal"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "conditional-removal"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "conditional",
-    "comment": "Instant-speed bite spell. Red has big creatures to back it up."
-  },
-  "Flock Impostor": {
-    "tier": "B-",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
         "role_player"
       ],
-      "ub_faeries": [
-        "enabler"
+      "types": [
+        "artifact"
+      ],
+      "speed": [
+        "aggro"
       ]
-    },
+    }
+  },
+  "Spry and Mighty": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
     "tags": {
       "roles": [
-        "role-player"
+        "removal"
       ],
       "types": [
-        "bounce"
+        "sorcery"
       ],
       "speed": [
         "midrange"
       ]
-    },
-    "removal_type": "bounce",
-    "comment": "Hold open 3 mana for saves, combat tricks, or retrigger ETBs."
+    }
   },
-  "Moonlit Lamenter": {
+  "Squawkroaster": {
+    "tier": "B",
+    "sections": [],
+    "archetypes": {
+      "ug_vivid": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Vivid payoff. Expensive but powerful."
+  },
+  "Stalactite Dagger": {
     "tier": "C-",
-    "sections": [
-      "wb_blight_payoff"
-    ],
-    "archetypes": {
-      "wb_blight": [
-        "payoff",
-        "key_synergy"
-      ],
-      "rw_blight": [
-        "enabler"
-      ]
-    },
     "tags": {
       "roles": [
-        "build-around"
-      ],
-      "types": [
-        "card-advantage"
-      ],
-      "speed": [
-        "control"
-      ]
-    },
-    "removal_type": null,
-    "comment": "2/5 that converts -1/-1 counters into cards. Fragile to removal."
-  },
-  "Boggart Mischief": {
-    "tier": "B",
-    "sections": [
-      "br_goblins_enabler"
-    ],
-    "archetypes": {
-      "br_goblins": [
-        "enabler",
-        "key_synergy"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [
-        "token-maker"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Kill a Goblin, make two, drain opponent. Does everything Goblins wants."
-  },
-  "Retched Wretch": {
-    "tier": "B-",
-    "sections": [
-      "br_goblins_enabler"
-    ],
-    "archetypes": {
-      "br_goblins": [
-        "enabler",
-        "key_synergy"
-      ],
-      "wb_blight": [
-        "enabler"
-      ],
-      "rw_blight": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Comes back immediately. Perfect blight host for any deck using -1/-1 counters."
-  },
-  "Elder Auntie": {
-    "tier": "D",
-    "sections": [],
-    "archetypes": {
-      "br_goblins": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [
-        "token-maker"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Provides 2 bodies for Goblin sacrifice. Only good in heavy Goblins."
-  },
-  "Boggart Prankster": {
-    "tier": "D",
-    "sections": [],
-    "archetypes": {
-      "br_goblins": [
-        "enabler"
-      ],
-      "wb_blight": [
         "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
       ],
-      "types": [],
+      "types": [
+        "artifact"
+      ],
       "speed": [
         "aggro"
       ]
     },
-    "removal_type": null,
-    "comment": "Solid 2-drop. Attacks as 2/3 early, absorbs -1/-1 counters late."
+    "removal_type": "conditional"
   },
-  "Mistmeadow Council": {
-    "tier": "B-",
-    "sections": [
-      "gw_kithkin_enabler"
-    ],
-    "archetypes": {
-      "gw_kithkin": [
-        "enabler",
-        "key_synergy"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [
-        "card-advantage"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Absurd when mostly Kithkin. Play any number of copies."
-  },
-  "Gallant Fowlknight": {
+  "Steam Vents": {
     "tier": "C",
-    "sections": [],
-    "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [
-        "evasion"
-      ],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Solid curve filler in Kithkin. Best in GW."
-  },
-  "Crossroads Watcher": {
-    "tier": "B-",
-    "sections": [],
-    "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Trample finisher for wide boards. Ranked highly on pick order."
-  },
-  "Goldmeadow Nomad": {
-    "tier": "D+",
-    "sections": [],
-    "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "token-maker"
-      ],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": "One-mana Kithkin that's two bodies. Divisive \u2014 great in aggro, weak elsewhere."
-  },
-  "Moon-Vigil Adherents": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Top green card. Good in any green deck, especially Kithkin."
-  },
-  "Pummeler for Hire": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Solid green body. Often better than narrow tribal cards."
-  },
-  "Dundoolin Weaver": {
-    "tier": "B-",
-    "sections": [],
-    "archetypes": {
-      "gw_kithkin": [
-        "enabler"
-      ],
-      "bg_elves": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "card-advantage"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "2-mana Eternal Witness with setup. Great in Kithkin or Elves."
-  },
-  "Clachan Festival": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "gw_kithkin": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Strong card that doesn't require Kithkin to be good."
-  },
-  "Silvergill Peddler": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Cares about being tapped. Great with convoke."
-  },
-  "Tributary Vaulter": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Tap payoff. Uses convoke spells to great effect."
-  },
-  "Disruptor of Currents": {
-    "tier": "B-",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "enabler"
-      ],
-      "ub_faeries": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [
-        "bounce"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "bounce",
-    "comment": "Convoke on opponent's turn for a discount. Great utility + stats."
-  },
-  "Meanders Guide": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [
-        "bounce"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "bounce",
-    "comment": "Repeated bounce when you safely tap Merfolk."
-  },
-  "Glamermite": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ],
-      "ub_faeries": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Crafty plays in Merfolk. Enables tap synergies."
-  },
-  "Gravelgill Scoundrel": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "evasion"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Gets value even on stalled boards. Built-in evasion."
-  },
-  "Shinestriker": {
-    "tier": "B+",
-    "sections": [],
-    "archetypes": {
-      "ur_elementals": [
-        "payoff"
-      ],
-      "ug_vivid": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Premium Elemental/Vivid payoff. Expensive but worth it."
-  },
-  "Flame-Chain Mauler": {
-    "tier": "D",
-    "sections": [],
-    "archetypes": {
-      "ur_elementals": [
-        "enabler"
-      ]
-    },
+    "sections": [
+      "fillers"
+    ],
     "tags": {
       "roles": [
         "filler"
@@ -2494,32 +5017,64 @@
       "speed": [
         "aggro"
       ]
-    },
-    "removal_type": null,
-    "comment": "Solid 2-drop. Good activated ability in a format lacking mana sinks."
+    }
   },
-  "Soulbright Seeker": {
-    "tier": "D-",
-    "sections": [],
-    "archetypes": {
-      "ur_elementals": [
-        "enabler"
+  "Sting-Slinger": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
       ],
-      "rg_vivid": [
-        "role_player"
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
       ]
+    },
+    "removal_type": "soft"
+  },
+  "Stoic Grove-Guide": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "archetypes": {
+      "bg_elves": "enabler"
     },
     "tags": {
       "roles": [
         "filler"
       ],
-      "types": [],
+      "types": [
+        "creature"
+      ],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
-    "removal_type": null,
-    "comment": "Aggressive Elemental. Gives trample. Not worth playing in most UR decks."
+    "removal_type": "hard"
+  },
+  "Stratosoarer": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional"
   },
   "Summit Sentinel": {
     "tier": "C-",
@@ -2541,122 +5096,346 @@
     "removal_type": null,
     "comment": "Preferred over Flame-Chain Mauler in Elementals."
   },
-  "Boldwyr Aggressor": {
-    "tier": "D",
-    "sections": [],
+  "Sun-Dappled Celebrant": {
+    "tier": "B-",
+    "sections": [
+      "top_commons"
+    ],
     "archetypes": {
-      "rg_vivid": [
+      "wu_merfolk": [
+        "role_player"
+      ],
+      "gw_kithkin": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Big convoke creature. Merfolk love being tapped for this."
+  },
+  "Sunderflock": {
+    "tier": "A",
+    "sections": [
+      "bombs",
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "bomb",
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "control"
+      ]
+    }
+  },
+  "Surly Farrier": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Swat Away": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Sygg's Command": {
+    "tier": "A",
+    "sections": [
+      "bombs"
+    ],
+    "archetypes": {
+      "wu_merfolk": [
         "payoff"
       ]
     },
+    "tags": {
+      "roles": [
+        "bomb"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Strong Merfolk command with flexible modes."
+  },
+  "Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Tam, Mindful First-Year": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Tanufel Rimespeaker": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    }
+  },
+  "Taster of Wares": {
+    "tier": "B+",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
+  },
+  "Temple Garden": {
+    "tier": "C",
+    "sections": [
+      "fillers"
+    ],
     "tags": {
       "roles": [
         "filler"
       ],
       "types": [],
       "speed": [
-        "midrange"
+        "aggro"
       ]
-    },
-    "removal_type": null,
-    "comment": "Double strike for Giants. Only Giant typal card. Needs Changelings."
+    }
   },
-  "Kulrath Mystic": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {
-      "ur_elementals": [
-        "role_player"
-      ]
-    },
+  "Temporal Cleansing": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
     "tags": {
       "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Grows from Twinflame Travelers triggers. 4/4 base."
-  },
-  "Flamekin Gildweaver": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {
-      "ur_elementals": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
+        "removal"
       ],
       "types": [
-        "ramp-fixing"
+        "sorcery"
       ],
       "speed": [
-        "midrange"
+        "midrange",
+        "tempo"
       ]
     },
-    "removal_type": null,
-    "comment": "Makes treasures. Doubled by Twinflame Travelers."
+    "removal_type": "conditional"
   },
-  "Iron-Shield Elf": {
-    "tier": "C+",
+  "Tend the Sprigs": {
+    "tier": "C",
     "sections": [],
-    "archetypes": {
-      "bg_elves": [
-        "enabler"
-      ]
-    },
+    "archetypes": {},
     "tags": {
       "roles": [
-        "enabler"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "card-advantage"
+      ],
       "speed": [
-        "midrange"
+        "control"
       ]
     },
     "removal_type": null,
-    "comment": "Top black common for Elves."
+    "comment": "Works with changeling type matters cards."
   },
-  "Dawnhand Dissident": {
-    "tier": "B-",
-    "sections": [],
-    "archetypes": {
-      "bg_elves": [
-        "enabler"
-      ]
-    },
+  "Thirst for Identity": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
     "tags": {
       "roles": [
-        "enabler"
+        "removal"
       ],
-      "types": [],
+      "types": [
+        "instant"
+      ],
       "speed": [
-        "midrange"
+        "tempo"
+      ]
+    }
+  },
+  "Thoughtweft Charge": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
       ]
     },
-    "removal_type": null,
-    "comment": "Plays from graveyard. Pairs with Blight strategies."
+    "removal_type": "conditional"
   },
-  "Blighted Blackthorn": {
-    "tier": "C+",
-    "sections": [],
+  "Thoughtweft Imbuer": {
+    "tier": "A-",
+    "sections": [
+      "gw_kithkin_payoff",
+      "contested"
+    ],
     "archetypes": {
-      "bg_elves": [
-        "enabler"
-      ],
-      "wb_blight": [
-        "enabler",
+      "gw_kithkin": [
+        "payoff",
         "key_synergy"
       ]
     },
     "tags": {
       "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "aggro",
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Most aggressively-taken uncommon in ECL. Swings most games."
+  },
+  "Thoughtweft Lieutenant": {
+    "tier": "A",
+    "sections": [
+      "gw_kithkin_signpost",
+      "signals"
+    ],
+    "archetypes": {
+      "gw_kithkin": [
+        "signpost",
+        "payoff",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "aggro",
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "SIGNAL: Go GW Kithkin. Keeps all creatures permanently above rate."
+  },
+  "Timid Shieldbearer": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Tributary Vaulter": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "enabler"
+      ]
+    },
+    "tags": {
+      "roles": [
         "enabler"
       ],
       "types": [],
@@ -2665,29 +5444,64 @@
       ]
     },
     "removal_type": null,
-    "comment": "High toughness absorbs -1/-1 counters. Top common for blight decks."
+    "comment": "Tap payoff. Uses convoke spells to great effect."
   },
-  "Dawn's Light Archer": {
-    "tier": "C+",
-    "sections": [],
+  "Trystan, Callous Cultivator // Trystan, Penitent Culler": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    }
+  },
+  "Trystan's Command": {
+    "tier": "A+",
+    "sections": [
+      "bombs"
+    ],
     "archetypes": {
       "bg_elves": [
-        "role_player"
+        "payoff"
       ]
     },
     "tags": {
       "roles": [
-        "role-player"
+        "bomb"
       ],
-      "types": [
-        "evasion"
-      ],
+      "types": [],
       "speed": [
         "midrange"
       ]
     },
     "removal_type": null,
-    "comment": "Top green common. Solid in Elves."
+    "comment": "Best command. Murder + Overrun or Murder + Restock. Wins games outright."
+  },
+  "Tweeze": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
   },
   "Twilight Diviner": {
     "tier": "B",
@@ -2711,27 +5525,85 @@
     "removal_type": null,
     "comment": "Copies spells cast from graveyard. Massive value swings in Elves."
   },
-  "Nightmare Sower": {
-    "tier": "C+",
+  "Twinflame Travelers": {
+    "tier": "A-",
     "sections": [
-      "ub_faeries_payoff"
+      "ur_elementals_signpost",
+      "signals",
+      "build_arounds"
     ],
     "archetypes": {
-      "ub_faeries": [
-        "payoff"
+      "ur_elementals": [
+        "signpost",
+        "payoff",
+        "key_synergy"
       ]
     },
     "tags": {
       "roles": [
+        "build-around",
         "payoff"
       ],
       "types": [],
       "speed": [
-        "control"
+        "midrange"
       ]
     },
     "removal_type": null,
-    "comment": "Flash payoff. Lifelink + -1/-1 counters. Makes racing impossible."
+    "comment": "SIGNAL: Go UR Elementals. Panharmonicon for Elemental triggers."
+  },
+  "Unbury": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Unexpected Assistance": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    }
+  },
+  "Unforgiving Aim": {
+    "tier": "C-",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "hard"
   },
   "Unwelcome Sprite": {
     "tier": "C",
@@ -2757,100 +5629,70 @@
     "removal_type": null,
     "comment": "2-mana 2/1 flyer. Mild redundancy for Tome-Skimmer. Underwhelming alone."
   },
-  "Squawkroaster": {
-    "tier": "B",
-    "sections": [],
-    "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Vivid payoff. Expensive but powerful."
-  },
-  "Glister Bairn": {
-    "tier": "B",
-    "sections": [],
-    "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Vivid payoff. Costs substantial mana."
-  },
-  "Wildvine Pummeler": {
-    "tier": "B-",
-    "sections": [],
-    "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ],
-      "rg_vivid": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Big vivid threat. Expensive."
-  },
-  "Prismabasher": {
-    "tier": "B-",
-    "sections": [],
-    "archetypes": {
-      "ug_vivid": [
-        "payoff"
-      ],
-      "rg_vivid": [
-        "payoff"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "payoff"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Big vivid threat. Costs substantial mana."
-  },
-  "Soul Immolation": {
+  "Vibrance": {
     "tier": "B",
     "sections": [
-      "build_arounds"
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Vinebred Brawler": {
+    "tier": "C+",
+    "sections": [
+      "fillers"
+    ],
+    "tags": {
+      "roles": [
+        "filler"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Virulent Emissary": {
+    "tier": "B",
+    "sections": [
+      "buildarounds"
+    ],
+    "tags": {
+      "roles": [
+        "buildaround"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "aggro"
+      ]
+    }
+  },
+  "Voracious Tome-Skimmer": {
+    "tier": "B+",
+    "sections": [
+      "ub_faeries_payoff",
+      "build_arounds",
+      "signals"
     ],
     "archetypes": {
-      "rw_blight": [
-        "payoff"
+      "ub_faeries": [
+        "payoff",
+        "key_synergy"
       ]
     },
     "tags": {
@@ -2858,14 +5700,93 @@
         "build-around"
       ],
       "types": [
-        "sweeper"
+        "card-advantage",
+        "evasion"
       ],
       "speed": [
         "control"
       ]
     },
     "removal_type": null,
-    "comment": "Red Plague Wind with high-toughness enablers. Pair with Blighted Blackthorn."
+    "comment": "SIGNAL: Go UB Faeries. Need 3+ copies. Only strong payoff for the archetype."
+  },
+  "Wanderbrine Preacher": {
+    "tier": "C+",
+    "sections": [],
+    "archetypes": {
+      "wu_merfolk": [
+        "role_player"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "role-player"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Listed among top white commons alongside Liminal Hold."
+  },
+  "Wanderbrine Trapper": {
+    "tier": "B+",
+    "sections": [
+      "top_commons",
+      "wu_merfolk_enabler"
+    ],
+    "archetypes": {
+      "wu_merfolk": [
+        "enabler",
+        "key_synergy"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "enabler"
+      ],
+      "types": [],
+      "speed": [
+        "aggro"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Best tapper since Gideon's Lawkeeper. 1-mana 2/1 that locks down threats."
+  },
+  "Wanderwine Distracter": {
+    "tier": "C-",
+    "tags": {
+      "roles": [
+        "role_player"
+      ],
+      "types": [
+        "creature"
+      ],
+      "speed": [
+        "midrange",
+        "tempo"
+      ]
+    },
+    "removal_type": "conditional"
+  },
+  "Wanderwine Farewell": {
+    "tier": "C+",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "control"
+      ]
+    },
+    "removal_type": "conditional"
   },
   "Warren Torchmaster": {
     "tier": "C",
@@ -2890,48 +5811,124 @@
     "removal_type": null,
     "comment": "Top red common."
   },
-  "Kulrath Zealot": {
+  "Wary Farmer": {
     "tier": "C",
-    "sections": [],
+    "sections": [
+      "fillers"
+    ],
     "archetypes": {
-      "br_goblins": [
-        "role_player"
-      ],
-      "rw_blight": [
-        "role_player"
-      ]
+      "gw_kithkin": "enabler"
     },
     "tags": {
       "roles": [
-        "role-player"
+        "filler"
       ],
-      "types": [],
+      "types": [
+        "creature"
+      ],
       "speed": [
-        "aggro"
+        "tempo"
       ]
-    },
-    "removal_type": null,
-    "comment": "Top red common."
+    }
   },
-  "Sizzling Changeling": {
+  "Wild Unraveling": {
     "tier": "C",
-    "sections": [],
-    "archetypes": {
-      "br_goblins": [
-        "role_player"
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "instant"
+      ],
+      "speed": [
+        "aggro"
       ]
     },
+    "removal_type": "soft"
+  },
+  "Wildvine Pummeler": {
+    "tier": "B-",
+    "sections": [],
+    "archetypes": {
+      "ug_vivid": [
+        "payoff"
+      ],
+      "rg_vivid": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "payoff"
+      ],
+      "types": [],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Big vivid threat. Expensive."
+  },
+  "Winnowing": {
+    "tier": "C",
+    "sections": [
+      "removal"
+    ],
+    "tags": {
+      "roles": [
+        "removal"
+      ],
+      "types": [
+        "sorcery"
+      ],
+      "speed": [
+        "midrange",
+        "control"
+      ]
+    }
+  },
+  "Wistfulness": {
+    "tier": "C",
+    "sections": [],
+    "archetypes": {},
     "tags": {
       "roles": [
         "role-player"
       ],
       "types": [],
       "speed": [
-        "aggro"
+        "midrange"
       ]
     },
     "removal_type": null,
-    "comment": "Changeling for any tribal deck. Decent red body."
+    "comment": "6/5 that sometimes kills Liminal Hold and Blossombind."
+  },
+  "Ashling, Rekindled": {
+    "tier": "A",
+    "sections": [
+      "build_arounds"
+    ],
+    "archetypes": {
+      "ur_elementals": [
+        "payoff"
+      ]
+    },
+    "tags": {
+      "roles": [
+        "build-around"
+      ],
+      "types": [
+        "ramp-fixing"
+      ],
+      "speed": [
+        "midrange"
+      ]
+    },
+    "removal_type": null,
+    "comment": "Mana ramp and late-game threat rolled into one."
   },
   "Brigid, Clachan's Heart": {
     "tier": "A-",
@@ -2967,53 +5964,19 @@
     "removal_type": null,
     "comment": "Puts 6 power into play on turn 4 with constant self-mill/draw."
   },
-  "Bitterbloom Bearer": {
-    "tier": "A-",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Premium card. High win rate per 17lands data."
-  },
-  "Gnarlbark Elm": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "wb_blight": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [
-        "conditional-removal"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": "conditional",
-    "comment": "Green removal. Excels in toughness-matters with extra -1/-1 counters."
-  },
-  "Mirrorform": {
-    "tier": "B-",
+  "Bitterblossom": {
+    "tier": "A+",
     "sections": [
-      "build_arounds"
+      "bombs"
     ],
-    "archetypes": {},
+    "archetypes": {
+      "ub_faeries": [
+        "payoff"
+      ]
+    },
     "tags": {
       "roles": [
-        "build-around"
+        "bomb"
       ],
       "types": [
         "token-maker"
@@ -3023,206 +5986,6 @@
       ]
     },
     "removal_type": null,
-    "comment": "Build-around. Pair with token generators like Elder Auntie."
-  },
-  "Kinbinding": {
-    "tier": "B+",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Miserable to face. Liminal Hold is the best answer."
-  },
-  "Bark of Doran": {
-    "tier": "D+",
-    "sections": [
-      "late_pick"
-    ],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "combat-trick"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Awesome with Gravelgill Scoundrel and Tributary Vaulter. Usually tables."
-  },
-  "Great Forest Druid": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Pairs with Soul Immolation. Solid green body."
-  },
-  "Evershrike's Gift": {
-    "tier": "C-",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "evasion"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Gives flying. Helps giants/big creatures get through."
-  },
-  "Hovel Hurler": {
-    "tier": "C-",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "evasion"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Helps giants fly over."
-  },
-  "Impolite Entrance": {
-    "tier": "C-",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "combat-trick"
-      ],
-      "speed": [
-        "aggro"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Gives trample. Helps push damage."
-  },
-  "Wanderbrine Preacher": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "wu_merfolk": [
-        "role_player"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Listed among top white commons alongside Liminal Hold."
-  },
-  "Kindle the Inner Flame": {
-    "tier": "C+",
-    "sections": [],
-    "archetypes": {
-      "ur_elementals": [
-        "enabler"
-      ]
-    },
-    "tags": {
-      "roles": [
-        "enabler"
-      ],
-      "types": [
-        "combat-trick"
-      ],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Explosive synergy with Twinflame Travelers."
-  },
-  "Tend the Sprigs": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "card-advantage"
-      ],
-      "speed": [
-        "control"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Works with changeling type matters cards."
-  },
-  "Illusion Spinners": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "filler"
-      ],
-      "types": [
-        "token-maker"
-      ],
-      "speed": [
-        "control"
-      ]
-    },
-    "removal_type": null,
-    "comment": "Works with changeling type matters cards."
-  },
-  "Wistfulness": {
-    "tier": "C",
-    "sections": [],
-    "archetypes": {},
-    "tags": {
-      "roles": [
-        "role-player"
-      ],
-      "types": [],
-      "speed": [
-        "midrange"
-      ]
-    },
-    "removal_type": null,
-    "comment": "6/5 that sometimes kills Liminal Hold and Blossombind."
+    "comment": "Turn 2 Bitterblossom is the best start in the format. Insane with tribal."
   }
 }

@@ -502,95 +502,8 @@ Draft Guide
 // ── Multi-set state ──
 let CURRENT_SET = 'TMT';
 
-// ── Static constants (archetype definitions, colors, tier rankings) ──
-// These are now loaded from JSON but kept as fallback defaults
-const FALLBACK_ARCHETYPES = [
-    {
-        id: 'ur_artifacts', name: 'UR Artifacts', colors: ['U', 'R'],
-        color_hex: '#9b59b6', icon: '⚙️',
-        short: 'Artifacts-matter aggro/tempo. Play cheap artifact creatures, buff them, generate value.',
-        strategy: 'Draft artifact creatures highly. Brilliance Unleashed is the payoff. Metalhead, Buzz Bots, Mouser Foundry are key. Manhole Missile is premium removal that also makes artifacts.',
-        signposts: ['Brilliance Unleashed', 'Metalhead'],
-        payoffs: ['Brilliance Unleashed', 'Metalhead', 'Does Machines', 'Chrome Dome', 'Mouser Mark III'],
-        enablers: ['Buzz Bots', 'Mouser Foundry', 'Manhole Missile', 'Ravenous Robots', 'Sewer-veillance Cam', 'Nobody'],
-        removal: ['Manhole Missile', 'Bot Bashing Time', 'Return to the Sewers', 'Mind Transfer Protocol'],
-        role_players: ['Donatello, Turtle Techie', 'Pepperoni Shuriken'],
-        key_synergies: [
-            ['Brilliance Unleashed', 'Any artifact creature', 'Buff entire board when artifacts ETB'],
-            ['Mouser Foundry', 'Sacrifice outlet', 'Generate artifact tokens repeatedly'],
-            ['Metalhead', 'Artifact tokens', 'Copies artifact creatures for massive value'],
-        ],
-    },
-    {
-        id: 'wb_sneak', name: 'WB Sneak', colors: ['W', 'B'],
-        color_hex: '#95a5a6', icon: '🥷',
-        short: 'Evasion & disruption. Sneak creatures deal combat damage → trigger bonus effects.',
-        strategy: 'Draft Sneak creatures that get value from dealing damage. Combine evasion (flying, unblockable) with Sneak payoffs. Removal-heavy to clear path.',
-        signposts: ['Karai, Future of the Foot', 'Foot Ninjas'],
-        payoffs: ['Turncoat Kunoichi', 'Karai, Future of the Foot', 'Oroku Saki, Shredder Rising', "April O'Neil, Kunoichi Trainee"],
-        enablers: ['Foot Ninjas', 'Leonardo, Big Brother', 'Dimensional Exile', 'Grounded for Life'],
-        removal: ['Dimensional Exile', 'Stomped by the Foot', 'Anchovy & Banana Pizza', 'Grounded for Life', 'Tainted Treats'],
-        role_players: ['Mighty Mutanimals', 'Uneasy Alliance'],
-        key_synergies: [
-            ['Turncoat Kunoichi', 'Any Sneak creature', 'Repeated disruption on combat damage'],
-            ['Karai, Future of the Foot', 'Foot Ninjas', 'Signpost combo: evasive + payoff'],
-            ['Dimensional Exile', 'Any creature', 'Premium removal clears path for Sneak'],
-        ],
-    },
-    {
-        id: 'bg_disappear', name: 'BG Disappear', colors: ['B', 'G'],
-        color_hex: '#27ae60', icon: '💀',
-        short: 'Sacrifice & recursion. Cards Disappear (exile from grave) to fuel powerful effects.',
-        strategy: 'Self-mill and sacrifice to fill graveyard, then Disappear cards for value. Strong midrange/grindy plan. Courier of Comestibles is a top common.',
-        signposts: ['Slash, Reptile Rampager', 'Leatherhead, Swamp Stalker'],
-        payoffs: ['Slash, Reptile Rampager', 'Leatherhead, Swamp Stalker', 'Squirrelanoids', 'Ragamuffin Raptor'],
-        enablers: ['Frog Butler', 'Courier of Comestibles', 'Ice Cream Kitty', 'Tenderize'],
-        removal: ['Stomped by the Foot', 'Anchovy & Banana Pizza', 'Tenderize', 'Tainted Treats'],
-        role_players: ['Primordial Pachyderm', 'Michelangelo, Game Master', 'Zoo Escapees'],
-        key_synergies: [
-            ['Frog Butler', 'Sacrifice outlets', 'Recursive value engine from graveyard'],
-            ['Courier of Comestibles', 'Disappear cards', 'Food tokens + Disappear synergy'],
-            ['Slash, Reptile Rampager', 'Self-mill', 'Grows huge from Disappear count'],
-        ],
-    },
-    {
-        id: 'rw_alliance', name: 'RW Alliance', colors: ['R', 'W'],
-        color_hex: '#e74c3c', icon: '⚔️',
-        short: 'Go-wide aggro. Alliance triggers when creatures ETB. Tokens + anthems.',
-        strategy: 'Play creatures that trigger Alliance on ETB. Token generators are great. Mechanized Ninja Cavalry is a key common. Curve out aggressively.',
-        signposts: ['Groundchuck & Dirtbag', 'Mechanized Ninja Cavalry'],
-        payoffs: ['Groundchuck & Dirtbag', 'Mechanized Ninja Cavalry', "April O'Neil, Kunoichi Trainee", 'Action News Crew'],
-        enablers: ['Go Ninja Go', 'Mouser Foundry', 'Rock Soldiers', 'Manhole Missile'],
-        removal: ['Manhole Missile', 'Bot Bashing Time', 'Dimensional Exile', 'Grounded for Life'],
-        role_players: ['Mighty Mutanimals', 'Leonardo, Big Brother', 'Raph & Mikey, Troublemakers'],
-        key_synergies: [
-            ['Mechanized Ninja Cavalry', 'Token makers', 'Multiple Alliance triggers per turn'],
-            ['Groundchuck & Dirtbag', 'Go-wide board', 'Signpost gives team buffs on Alliance'],
-            ['Go Ninja Go', 'Any creatures', 'Pump + Alliance synergy'],
-        ],
-    },
-    {
-        id: 'gu_mutagen', name: 'GU Mutagen', colors: ['G', 'U'],
-        color_hex: '#2ecc71', icon: '🧬',
-        short: '+1/+1 counters & mutation. Mutagen creatures grow and gain abilities.',
-        strategy: 'Draft creatures that use +1/+1 counters and Mutagen. Build big threats over time. Tempo + size advantage. Mikey & Don, Party Planners is the top signpost.',
-        signposts: ['Mikey & Don, Party Planners', 'Slithering Cryptid'],
-        payoffs: ['Mikey & Don, Party Planners', 'Donatello, Turtle Techie', 'Slithering Cryptid'],
-        enablers: ['Return to the Sewers', 'Buzz Bots', 'Retro-Mutation', 'Frog Butler'],
-        removal: ['Return to the Sewers', 'Mind Transfer Protocol', 'Tenderize'],
-        role_players: ['Primordial Pachyderm', 'Michelangelo, Game Master', 'Courier of Comestibles'],
-        key_synergies: [
-            ['Mikey & Don, Party Planners', '+1/+1 counter cards', 'Signpost grows entire team'],
-            ['Donatello, Turtle Techie', 'Artifacts', 'Draws cards + grows with counters'],
-            ['Return to the Sewers', 'Any creature', 'Bounce + Mutagen counter'],
-        ],
-    },
-];
-
-const FALLBACK_TIERS = ['A+','A','A-','B+','B','B-','C+','C','C-','D+','D','D-','F'];
-
-// ── Dynamic constants (built from JSON or fallbacks) ──
-let ARCHETYPES = JSON.parse(JSON.stringify(FALLBACK_ARCHETYPES));
+// ── Dynamic constants (loaded from per-set JSON config) ──
+let ARCHETYPES = [];
 let DEFAULT_ARCHETYPES = [];
 let DEFAULT_TIERS = [];
 let GRADE_COLORS = {};
@@ -609,10 +522,6 @@ function buildGradeColors(tiers) {
     });
 }
 
-// Initialize with fallbacks
-buildTierRank(FALLBACK_TIERS);
-buildGradeColors(FALLBACK_TIERS);
-
 // ── State ──
 let DEFAULT_CONFIG = null; // merged card_data + card_config
 let CARD_DATA = null;       // raw 17lands/scryfall data
@@ -623,12 +532,8 @@ let editingCard = null;
 const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
 // ── Tips Data ──
-const DEFAULT_TIPS = [
-    { title: 'Mana Curve', body: '1-drops: 1-2 · 2-drops: 4-5 · 3-drops: 4-5 · 4-drops: 3-4 · 5+: 2-3\nTotal: 16-17 creatures, 6-8 spells, 16-17 lands' },
-    { title: 'Key Mechanics', body: '<b>Artifacts</b> — count for both artifact + creature synergies\n<b>Disappear</b> — exile from graveyard for effects (self-mill fills yard)\n<b>Sneak</b> — bonus on combat damage (needs evasion/removal)\n<b>Alliance</b> — triggers on creature ETB (tokens = multiple triggers)\n<b>Mutagen</b> — +1/+1 counters matter; creatures grow over time' },
-    { title: 'Format Speed', body: 'Medium speed. RW Alliance and UR Artifacts close by turn 6-7.\nBG Disappear grinds longest. Don\'t be too greedy with your curve.' },
-    { title: 'Draft Priorities', body: '<b>P1P1:</b> Bombs > Premium removal > Best uncommon signpost\n<b>Pack 1:</b> Stay open, grab the best card regardless of color\n<b>Pack 2:</b> Commit to an archetype, prioritize synergy pieces\n<b>Pack 3:</b> Fill curve gaps, grab fixing, snag last removal' }
-];
+// Tips are loaded from JSON config (_tips key). No hardcoded fallback — each set defines its own.
+let DEFAULT_TIPS = [];
 let TIPS = null;
 
 // ── Persistence (per-set keys) ──
@@ -670,13 +575,15 @@ async function loadData(setCode) {
 
         // Extract archetypes and tiers from config JSON (if present)
         // New sets (no files) start with empty archetypes and default tiers
-        const configArchetypes = isNewSet ? [] : (CARD_CONFIG._archetypes || FALLBACK_ARCHETYPES);
-        const configTiers = CARD_CONFIG._tiers || FALLBACK_TIERS;
+        const configArchetypes = isNewSet ? [] : (CARD_CONFIG._archetypes || []);
+        const configTiers = CARD_CONFIG._tiers || ['A+','A','A-','B+','B','B-','C+','C','C-','D+','D','D-','F'];
         ARCHETYPES = JSON.parse(JSON.stringify(configArchetypes));
         buildTierRank(configTiers);
         buildGradeColors(configTiers);
         DEFAULT_ARCHETYPES = JSON.parse(JSON.stringify(configArchetypes));
         DEFAULT_TIERS = [...configTiers];
+        // Load per-set tips from config JSON (no hardcoded fallback)
+        DEFAULT_TIPS = isNewSet ? [] : JSON.parse(JSON.stringify(CARD_CONFIG._tips || []));
 
         // Merge: for each card, combine data fields + config fields
         DEFAULT_CONFIG = {};
