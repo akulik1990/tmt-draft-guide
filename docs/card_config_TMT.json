@@ -116,9 +116,7 @@
   },
   "Agent Bishop, Man in Black": {
     "tier": "A-",
-    "sections": [
-      "bombs"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -131,9 +129,7 @@
   },
   "Anchovy & Banana Pizza": {
     "tier": "B",
-    "sections": [
-      "contested"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "removal"
@@ -156,7 +152,7 @@
   "April O'Neil, Hacktivist": {
     "tier": "A+",
     "sections": [
-      "signals"
+      "bombs"
     ],
     "archetypes": {},
     "tags": {
@@ -300,7 +296,8 @@
   "Brilliance Unleashed": {
     "tier": "A",
     "sections": [
-      "build_arounds"
+      "build_arounds",
+      "signals"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -336,7 +333,9 @@
   },
   "Buzz Bots": {
     "tier": "B+",
-    "sections": [],
+    "sections": [
+      "top_commons"
+    ],
     "archetypes": {
       "ur_artifacts": [
         "enabler"
@@ -387,7 +386,9 @@
   },
   "Chrome Dome": {
     "tier": "A-",
-    "sections": [],
+    "sections": [
+      "build_arounds"
+    ],
     "archetypes": {
       "ur_artifacts": [
         "payoff"
@@ -423,7 +424,8 @@
   "Courier of Comestibles": {
     "tier": "A",
     "sections": [
-      "top_commons"
+      "build_arounds",
+      "signals"
     ],
     "archetypes": {
       "bg_disappear": [
@@ -521,8 +523,7 @@
   "Dimensional Exile": {
     "tier": "B+",
     "sections": [
-      "top_commons",
-      "contested"
+      "signals"
     ],
     "archetypes": {
       "wb_sneak": [
@@ -547,9 +548,7 @@
   },
   "Does Machines": {
     "tier": "B-",
-    "sections": [
-      "top_commons"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "payoff"
@@ -568,7 +567,9 @@
   },
   "Don & Leo, Problem Solvers": {
     "tier": "A",
-    "sections": [],
+    "sections": [
+      "bombs"
+    ],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -660,7 +661,9 @@
   },
   "Donatello, Way with Machines": {
     "tier": "C",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -720,7 +723,9 @@
   },
   "Escape Tunnel": {
     "tier": "B+",
-    "sections": [],
+    "sections": [
+      "top_commons"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -736,7 +741,9 @@
   },
   "Everything Pizza": {
     "tier": "A-",
-    "sections": [],
+    "sections": [
+      "late_pick"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -813,7 +820,9 @@
   },
   "Foot Ninjas": {
     "tier": "B",
-    "sections": [],
+    "sections": [
+      "late_pick"
+    ],
     "archetypes": {
       "wb_sneak": [
         "signpost",
@@ -887,7 +896,9 @@
   },
   "General Traag, Heart of Stone": {
     "tier": "B-",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -933,9 +944,7 @@
   },
   "Groundchuck & Dirtbag": {
     "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -973,7 +982,9 @@
   },
   "Guac & Marshmallow Pizza": {
     "tier": "B-",
-    "sections": [],
+    "sections": [
+      "late_pick"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -988,7 +999,9 @@
   },
   "Hamato Guardian Stance": {
     "tier": "B",
-    "sections": [],
+    "sections": [
+      "late_pick"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -1018,7 +1031,9 @@
   },
   "Henchbots": {
     "tier": "C+",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -1143,7 +1158,9 @@
   },
   "Jennika, Bad Apple Big Sister": {
     "tier": "B",
-    "sections": [],
+    "sections": [
+      "late_pick"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -1237,9 +1254,7 @@
   },
   "Krang & Shredder": {
     "tier": "B+",
-    "sections": [
-      "bombs"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -1252,9 +1267,7 @@
   },
   "Krang, Master Mind": {
     "tier": "B-",
-    "sections": [
-      "build_arounds"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -1283,9 +1296,7 @@
   },
   "Leader's Talent": {
     "tier": "C+",
-    "sections": [
-      "build_arounds"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -1298,9 +1309,7 @@
   },
   "Leatherhead, Swamp Stalker": {
     "tier": "B-",
-    "sections": [
-      "build_arounds"
-    ],
+    "sections": [],
     "archetypes": {
       "bg_disappear": [
         "signpost",
@@ -1462,9 +1471,7 @@
   },
   "Manhole Missile": {
     "tier": "B",
-    "sections": [
-      "top_commons"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "enabler",
@@ -1513,8 +1520,8 @@
   "Metalhead": {
     "tier": "A",
     "sections": [
-      "signals",
-      "contested"
+      "build_arounds",
+      "signals"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -1616,8 +1623,8 @@
   "Mighty Mutanimals": {
     "tier": "A+",
     "sections": [
-      "signals",
-      "contested"
+      "build_arounds",
+      "signals"
     ],
     "archetypes": {
       "wb_sneak": [
@@ -1678,9 +1685,7 @@
   },
   "Mind Transfer Protocol": {
     "tier": "C+",
-    "sections": [
-      "late_pick"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "removal"
@@ -1764,7 +1769,9 @@
   },
   "Mouser Foundry": {
     "tier": "B+",
-    "sections": [],
+    "sections": [
+      "top_commons"
+    ],
     "archetypes": {
       "ur_artifacts": [
         "enabler",
@@ -1787,9 +1794,7 @@
   },
   "Mouser Mark III": {
     "tier": "C+",
-    "sections": [
-      "late_pick"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "payoff"
@@ -1838,7 +1843,8 @@
   "Mutant Town": {
     "tier": "A-",
     "sections": [
-      "late_pick"
+      "late_pick",
+      "top_commons"
     ],
     "archetypes": {},
     "tags": {
@@ -1911,7 +1917,8 @@
   "Nobody": {
     "tier": "B+",
     "sections": [
-      "late_pick"
+      "late_pick",
+      "top_commons"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -1931,9 +1938,7 @@
   },
   "North Wind Avatar": {
     "tier": "A",
-    "sections": [
-      "bombs"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2101,7 +2106,9 @@
   },
   "Pizza Face, Gastromancer": {
     "tier": "B-",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2253,7 +2260,7 @@
   "Raph & Mikey, Troublemakers": {
     "tier": "A",
     "sections": [
-      "signals"
+      "bombs"
     ],
     "archetypes": {},
     "tags": {
@@ -2321,7 +2328,9 @@
   },
   "Raphael, the Nightwatcher": {
     "tier": "A",
-    "sections": [],
+    "sections": [
+      "bombs"
+    ],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -2334,9 +2343,7 @@
   },
   "Rat King, Verminister": {
     "tier": "B",
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2351,9 +2358,7 @@
   },
   "Ravenous Robots": {
     "tier": "B-",
-    "sections": [
-      "top_commons"
-    ],
+    "sections": [],
     "archetypes": {
       "ur_artifacts": [
         "enabler"
@@ -2420,7 +2425,8 @@
   "Return to the Sewers": {
     "tier": "B+",
     "sections": [
-      "late_pick"
+      "late_pick",
+      "top_commons"
     ],
     "archetypes": {
       "ur_artifacts": [
@@ -2463,9 +2469,7 @@
   },
   "Rocksteady, Crash Courser": {
     "tier": "B-",
-    "sections": [
-      "late_pick"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2594,7 +2598,9 @@
   },
   "Shredder, Unrelenting": {
     "tier": "B-",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {},
     "tags": {
       "types": [],
@@ -2620,9 +2626,7 @@
   },
   "Slash, Reptile Rampager": {
     "tier": "C+",
-    "sections": [
-      "signals"
-    ],
+    "sections": [],
     "archetypes": {},
     "tags": {
       "types": [
@@ -2727,7 +2731,9 @@
   },
   "Squirrelanoids": {
     "tier": "B+",
-    "sections": [],
+    "sections": [
+      "top_commons"
+    ],
     "archetypes": {
       "bg_disappear": [
         "payoff"
@@ -2761,7 +2767,7 @@
   "Stomped by the Foot": {
     "tier": "B-",
     "sections": [
-      "top_commons"
+      "contested"
     ],
     "archetypes": {
       "wb_sneak": [
@@ -2816,7 +2822,8 @@
   "TCRI Building": {
     "tier": "B+",
     "sections": [
-      "late_pick"
+      "late_pick",
+      "top_commons"
     ],
     "archetypes": {},
     "tags": {
@@ -2832,7 +2839,10 @@
   },
   "Tainted Treats": {
     "tier": "A",
-    "sections": [],
+    "sections": [
+      "build_arounds",
+      "signals"
+    ],
     "archetypes": {
       "bg_disappear": [
         "removal"
@@ -3001,7 +3011,7 @@
   "Triceraton Commander": {
     "tier": "A+",
     "sections": [
-      "build_arounds"
+      "bombs"
     ],
     "archetypes": {},
     "tags": {
@@ -3031,9 +3041,7 @@
   },
   "Turncoat Kunoichi": {
     "tier": "B",
-    "sections": [
-      "build_arounds"
-    ],
+    "sections": [],
     "archetypes": {
       "wb_sneak": [
         "payoff",
@@ -3051,7 +3059,9 @@
   },
   "Turtle Blimp": {
     "tier": "A-",
-    "sections": [],
+    "sections": [
+      "late_pick"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
@@ -3167,7 +3177,9 @@
   },
   "Venus, Torn Between Worlds": {
     "tier": "C+",
-    "sections": [],
+    "sections": [
+      "contested"
+    ],
     "archetypes": {},
     "tags": {
       "types": [
