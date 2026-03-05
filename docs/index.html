@@ -673,11 +673,23 @@ function loadConfig() {
             // Restore archetypes and tiers if saved
             if (parsed._archetypes) ARCHETYPES = parsed._archetypes;
             if (parsed._tiers) { buildTierRank(parsed._tiers); buildGradeColors(parsed._tiers); }
+            // Check config version — if server config is newer, refresh tags/archetypes/sections from server
+            const serverVer = CARD_CONFIG._config_version || 0;
+            const savedVer = parsed._config_version || 0;
+            const configUpdated = serverVer > savedVer;
+            if (configUpdated) console.log(`Config updated: v${savedVer} → v${serverVer}, refreshing tags/archetypes/sections from server`);
             DB = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
             for (const [name, sc] of Object.entries(parsed)) {
                 if (name.startsWith('_')) continue;
                 if (DB[name]) {
-                    Object.assign(DB[name], sc);
+                    if (configUpdated) {
+                        // Only restore user-editable fields; keep server defaults for tags/archetypes/sections
+                        if (sc.tier !== undefined) DB[name].tier = sc.tier;
+                        if (sc.comment !== undefined) DB[name].comment = sc.comment;
+                        if (sc.removal_type !== undefined) DB[name].removal_type = sc.removal_type;
+                    } else {
+                        Object.assign(DB[name], sc);
+                    }
                 } else {
                     // Card exists in saved but not in DEFAULT_CONFIG (new set data)
                     DB[name] = JSON.parse(JSON.stringify(sc));
@@ -708,7 +720,7 @@ function loadConfig() {
 function saveConfig() {
     const tiers = Object.keys(TIER_RANK).sort((a,b) => TIER_RANK[a] - TIER_RANK[b]);
     const hasServerFiles = Object.keys(DEFAULT_CONFIG).length > 0 && !localStorage.getItem('draft_newset_' + CURRENT_SET);
-    const toSave = { _archetypes: ARCHETYPES, _tiers: tiers };
+    const toSave = { _archetypes: ARCHETYPES, _tiers: tiers, _config_version: CARD_CONFIG._config_version || 0 };
     for (const [name, c] of Object.entries(DB)) {
         if (hasServerFiles) {
             // Only save config fields — data comes from JSON files on reload

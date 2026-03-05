@@ -8,39 +8,9 @@
         "W"
       ],
       "color_hex": "#f1c40f",
-      "icon": "\ud83d\udee1\ufe0f",
+      "icon": "🛡️",
       "short": "Go-wide aggro/midrange. Kithkin tribal with anthems, convoke, and one big attacker per turn.",
       "strategy": "Curve out with Kithkin creatures and leverage Thoughtweft Lieutenant to keep them above rate. Attack with one huge buffed creature while stonewalling with the rest. Mistmeadow Council is absurd when mostly Kithkin.",
-      "signposts": [
-        "Thoughtweft Lieutenant",
-        "Eclipsed Kithkin"
-      ],
-      "payoffs": [
-        "Thoughtweft Lieutenant",
-        "Eclipsed Kithkin",
-        "Champion of the Clachan",
-        "Kinsbaile Aspirant",
-        "Thoughtweft Imbuer"
-      ],
-      "enablers": [
-        "Mistmeadow Council",
-        "Goldmeadow Nomad",
-        "Gallant Fowlknight",
-        "Crossroads Watcher",
-        "Dundoolin Weaver",
-        "Changeling Wayfinder"
-      ],
-      "removal": [
-        "Liminal Hold",
-        "Spiral into Solitude",
-        "Assert Perfection"
-      ],
-      "role_players": [
-        "Sun-Dappled Celebrant",
-        "Moon-Vigil Adherents",
-        "Pummeler for Hire",
-        "Clachan Festival"
-      ],
       "key_synergies": [
         [
           "Thoughtweft Lieutenant",
@@ -72,39 +42,9 @@
         "U"
       ],
       "color_hex": "#3498db",
-      "icon": "\ud83c\udf0a",
+      "icon": "🌊",
       "short": "Tempo/tap synergies. Merfolk tap for value, convoke spells, and fly over for damage.",
       "strategy": "Draft Merfolk that care about being tapped. Use convoke to tap creatures for value without risking combat. Wanderbrine Trapper locks down threats while triggering tap abilities. Flying keeps pressure on.",
-      "signposts": [
-        "Deepchannel Duelist",
-        "Eclipsed Merrow"
-      ],
-      "payoffs": [
-        "Deepchannel Duelist",
-        "Eclipsed Merrow",
-        "Champions of the Shoal",
-        "Silvergill Mentor",
-        "Meanders Guide"
-      ],
-      "enablers": [
-        "Wanderbrine Trapper",
-        "Silvergill Peddler",
-        "Tributary Vaulter",
-        "Disruptor of Currents",
-        "Changeling Wayfinder"
-      ],
-      "removal": [
-        "Blossombind",
-        "Liminal Hold",
-        "Spiral into Solitude",
-        "Rimekin Recluse"
-      ],
-      "role_players": [
-        "Sun-Dappled Celebrant",
-        "Flock Impostor",
-        "Glamermite",
-        "Gravelgill Scoundrel"
-      ],
       "key_synergies": [
         [
           "Wanderbrine Trapper",
@@ -136,39 +76,9 @@
         "R"
       ],
       "color_hex": "#e74c3c",
-      "icon": "\ud83d\udca3",
+      "icon": "💣",
       "short": "Blight aristocrats. Weaponize -1/-1 counters and goblin deaths for damage and value.",
       "strategy": "Flood the board with Goblin tokens, stack Blight counters where they don't matter, and sacrifice recklessly. Boggart Cursecrafter pings on each goblin death. Boggart Mischief and Retched Wretch are key engines.",
-      "signposts": [
-        "Boggart Cursecrafter",
-        "Eclipsed Boggart"
-      ],
-      "payoffs": [
-        "Boggart Cursecrafter",
-        "Eclipsed Boggart",
-        "Mudbutton Cursetosser",
-        "Grub's Command"
-      ],
-      "enablers": [
-        "Boggart Mischief",
-        "Retched Wretch",
-        "Elder Auntie",
-        "Boggart Prankster",
-        "Bogslither's Embrace"
-      ],
-      "removal": [
-        "Nameless Inversion",
-        "Sear",
-        "Cinder Strike",
-        "Boulder Dash",
-        "Bogslither's Embrace",
-        "Auntie's Sentence"
-      ],
-      "role_players": [
-        "Warren Torchmaster",
-        "Kulrath Zealot",
-        "Sizzling Changeling"
-      ],
       "key_synergies": [
         [
           "Boggart Cursecrafter",
@@ -200,44 +110,14 @@
         "R"
       ],
       "color_hex": "#9b59b6",
-      "icon": "\ud83d\udd25",
+      "icon": "🔥",
       "short": "Big spells & ETB doublers. Cast MV 4+ spells to trigger Elementals. Panharmonicon with Twinflame Travelers.",
       "strategy": "Draft Elementals with strong ETB triggers. Twinflame Travelers doubles them. Prioritize MV 4+ cards. Flamebraider ramps into big Elementals. Often splashes for vivid payoffs.",
-      "signposts": [
-        "Twinflame Travelers",
-        "Eclipsed Flamekin"
-      ],
-      "payoffs": [
-        "Twinflame Travelers",
-        "Eclipsed Flamekin",
-        "Ashling, Rekindled",
-        "Shinestriker"
-      ],
-      "enablers": [
-        "Flamebraider",
-        "Explosive Prodigy",
-        "Flame-Chain Mauler",
-        "Soulbright Seeker",
-        "Changeling Wayfinder"
-      ],
-      "removal": [
-        "Sear",
-        "Cinder Strike",
-        "Boulder Dash",
-        "Rimekin Recluse",
-        "Blossombind"
-      ],
-      "role_players": [
-        "Boldwyr Aggressor",
-        "Summit Sentinel",
-        "Kulrath Mystic",
-        "Flamekin Gildweaver"
-      ],
       "key_synergies": [
         [
           "Twinflame Travelers",
           "Elemental ETB triggers",
-          "Panharmonicon \u2014 double all elemental triggers"
+          "Panharmonicon — double all elemental triggers"
         ],
         [
           "Flamebraider",
@@ -264,41 +144,9 @@
         "G"
       ],
       "color_hex": "#27ae60",
-      "icon": "\ud83c\udf3f",
-      "short": "Graveyard grind. Elves die, return, and die again \u2014 each time generating value through recursion and tokens.",
+      "icon": "🌿",
+      "short": "Graveyard grind. Elves die, return, and die again — each time generating value through recursion and tokens.",
       "strategy": "Best archetype in the format. Fill your graveyard with Elves via self-mill and trades, then recur them for massive value. Morcant's Loyalist buffs and replaces. Play minimum 9 Elves/Changelings to enable Behold.",
-      "signposts": [
-        "Morcant's Loyalist",
-        "Eclipsed Elf"
-      ],
-      "payoffs": [
-        "Eclipsed Elf",
-        "Morcant's Loyalist",
-        "High Perfect Morcant",
-        "Morcant's Eyes",
-        "Trystan's Command",
-        "Gloom Ripper"
-      ],
-      "enablers": [
-        "Iron-Shield Elf",
-        "Graveshifter",
-        "Dawnhand Dissident",
-        "Dundoolin Weaver",
-        "Changeling Wayfinder",
-        "Blighted Blackthorn"
-      ],
-      "removal": [
-        "Nameless Inversion",
-        "Assert Perfection",
-        "Auntie's Sentence",
-        "Bogslither's Embrace"
-      ],
-      "role_players": [
-        "Dawn's Light Archer",
-        "Twilight Diviner",
-        "Bloodline Bidding",
-        "Maralen, Fae Ascendant"
-      ],
       "key_synergies": [
         [
           "Morcant's Loyalist",
@@ -308,7 +156,7 @@
         [
           "Graveshifter",
           "Milled/dead Elves",
-          "Recursion engine \u2014 every creature type too"
+          "Recursion engine — every creature type too"
         ],
         [
           "Trystan's Command",
@@ -330,34 +178,9 @@
         "B"
       ],
       "color_hex": "#8e44ad",
-      "icon": "\ud83e\uddda",
+      "icon": "🧚",
       "short": "Flash/instant control. Cast spells on opponent's turn to trigger Faerie payoffs.",
-      "strategy": "Draft Voracious Tome-Skimmer highly \u2014 you need 3+ copies. Fill deck with flash creatures and instants. Unwelcome Sprite and Nightmare Sower provide redundancy. Control the game at instant speed.",
-      "signposts": [
-        "Voracious Tome-Skimmer"
-      ],
-      "payoffs": [
-        "Voracious Tome-Skimmer",
-        "Nightmare Sower",
-        "Unwelcome Sprite",
-        "Bitterblossom"
-      ],
-      "enablers": [
-        "Flock Impostor",
-        "Disruptor of Currents",
-        "Rimekin Recluse",
-        "Nameless Inversion"
-      ],
-      "removal": [
-        "Nameless Inversion",
-        "Blossombind",
-        "Bogslither's Embrace",
-        "Auntie's Sentence"
-      ],
-      "role_players": [
-        "Graveshifter",
-        "Glamermite"
-      ],
+      "strategy": "Draft Voracious Tome-Skimmer highly — you need 3+ copies. Fill deck with flash creatures and instants. Unwelcome Sprite and Nightmare Sower provide redundancy. Control the game at instant speed.",
       "key_synergies": [
         [
           "Voracious Tome-Skimmer",
@@ -384,38 +207,14 @@
         "G"
       ],
       "color_hex": "#1abc9c",
-      "icon": "\ud83c\udf08",
+      "icon": "🌈",
       "short": "5-color good stuff. Control permanents of different colors for Vivid bonuses. Ramp into bombs.",
       "strategy": "Draft fixing (Changeling Wayfinder is key) and powerful vivid payoffs. Often splashes 3+ colors. Aurora Awakener may be the best card in the set. Prismabasher, Glister Bairn, Wildvine Pummeler are top-end threats.",
-      "signposts": [
-        "Aurora Awakener"
-      ],
-      "payoffs": [
-        "Aurora Awakener",
-        "Shinestriker",
-        "Squawkroaster",
-        "Glister Bairn",
-        "Wildvine Pummeler",
-        "Prismabasher"
-      ],
-      "enablers": [
-        "Changeling Wayfinder",
-        "Flamebraider",
-        "Vivid lands"
-      ],
-      "removal": [
-        "Rimekin Recluse",
-        "Blossombind",
-        "Assert Perfection"
-      ],
-      "role_players": [
-        "Flock Impostor"
-      ],
       "key_synergies": [
         [
           "Aurora Awakener",
           "Multicolor permanents",
-          "Best card in set \u2014 cheats mana costs"
+          "Best card in set — cheats mana costs"
         ],
         [
           "Changeling Wayfinder",
@@ -437,32 +236,9 @@
         "B"
       ],
       "color_hex": "#95a5a6",
-      "icon": "\u2620\ufe0f",
+      "icon": "☠️",
       "short": "-1/-1 counter synergies. Place counters to fuel abilities, draw cards, and reanimate.",
       "strategy": "Use Blight as a resource. Moonlit Lamenter converts -1/-1 counters into card draw. Reaping Willow reanimates creatures. Blighted Blackthorn pairs well with both. Grindy midrange/control plan.",
-      "signposts": [
-        "Reaping Willow"
-      ],
-      "payoffs": [
-        "Reaping Willow",
-        "Moonlit Lamenter",
-        "Doran, Besieged by Time"
-      ],
-      "enablers": [
-        "Blighted Blackthorn",
-        "Bogslither's Embrace",
-        "Retched Wretch"
-      ],
-      "removal": [
-        "Liminal Hold",
-        "Spiral into Solitude",
-        "Nameless Inversion",
-        "Auntie's Sentence"
-      ],
-      "role_players": [
-        "Graveshifter",
-        "Boggart Prankster"
-      ],
       "key_synergies": [
         [
           "Reaping Willow",
@@ -489,29 +265,9 @@
         "W"
       ],
       "color_hex": "#e67e22",
-      "icon": "\u2694\ufe0f",
+      "icon": "⚔️",
       "short": "Aggressive blight. Place -1/-1 counters to fuel efficient spells and pump effects.",
-      "strategy": "Use Blight aggressively \u2014 Cinder Strike becomes 1-mana deal 4. Combine with white's removal and efficient creatures. More aggressive than WB, using counters to enable cheap, powerful effects.",
-      "signposts": [],
-      "payoffs": [
-        "Soul Immolation"
-      ],
-      "enablers": [
-        "Cinder Strike",
-        "Moonlit Lamenter",
-        "Retched Wretch"
-      ],
-      "removal": [
-        "Cinder Strike",
-        "Sear",
-        "Boulder Dash",
-        "Liminal Hold",
-        "Spiral into Solitude"
-      ],
-      "role_players": [
-        "Warren Torchmaster",
-        "Kulrath Zealot"
-      ],
+      "strategy": "Use Blight aggressively — Cinder Strike becomes 1-mana deal 4. Combine with white's removal and efficient creatures. More aggressive than WB, using counters to enable cheap, powerful effects.",
       "key_synergies": [
         [
           "Cinder Strike",
@@ -533,29 +289,9 @@
         "G"
       ],
       "color_hex": "#d35400",
-      "icon": "\ud83c\udf0b",
+      "icon": "🌋",
       "short": "Ramp into big vivid threats. Giants and Elementals overlap. Often 3+ colors with UG.",
       "strategy": "Overlaps heavily with UG Vivid. Ramp with green fixing into expensive multicolor threats. Boldwyr Aggressor gives giants double strike. Usually played as Temur (URG).",
-      "signposts": [],
-      "payoffs": [
-        "Prismabasher",
-        "Wildvine Pummeler",
-        "Boldwyr Aggressor"
-      ],
-      "enablers": [
-        "Changeling Wayfinder",
-        "Flamebraider"
-      ],
-      "removal": [
-        "Sear",
-        "Cinder Strike",
-        "Boulder Dash",
-        "Assert Perfection",
-        "Giantfall"
-      ],
-      "role_players": [
-        "Soulbright Seeker"
-      ],
       "key_synergies": [
         [
           "Boldwyr Aggressor",
@@ -592,11 +328,11 @@
     },
     {
       "title": "Key Mechanics",
-      "body": "<b>Kithkin/Merfolk/Goblins/Elves/Faeries</b> \u2014 5 typal archetypes with tribal payoffs\n<b>Vivid Lands</b> \u2014 enable 3+ color 'good stuff' decks (UG/RG Vivid)\n<b>-1/-1 Counters</b> \u2014 WB/RW use Blight mechanic to shrink + remove threats\n<b>Evoke</b> \u2014 pay alternate cost for immediate ETB effect\n<b>Champion</b> \u2014 exile your creature, get it back when champion leaves"
+      "body": "<b>Kithkin/Merfolk/Goblins/Elves/Faeries</b> — 5 typal archetypes with tribal payoffs\n<b>Vivid Lands</b> — enable 3+ color 'good stuff' decks (UG/RG Vivid)\n<b>-1/-1 Counters</b> — WB/RW use Blight mechanic to shrink + remove threats\n<b>Evoke</b> — pay alternate cost for immediate ETB effect\n<b>Champion</b> — exile your creature, get it back when champion leaves"
     },
     {
       "title": "Format Speed",
-      "body": "Medium-fast format. Aggro (RW Blight, BR Goblins) can close games quickly.\nUB Faeries and UG Vivid play longer games. Respect early pressure \u2014 don't stumble on mana."
+      "body": "Medium-fast format. Aggro (RW Blight, BR Goblins) can close games quickly.\nUB Faeries and UG Vivid play longer games. Respect early pressure — don't stumble on mana."
     },
     {
       "title": "Draft Priorities",
@@ -3165,7 +2901,7 @@
       ]
     },
     "removal_type": null,
-    "comment": "One-mana Kithkin that's two bodies. Divisive \u2014 great in aggro, weak elsewhere."
+    "comment": "One-mana Kithkin that's two bodies. Divisive — great in aggro, weak elsewhere."
   },
   "Goliath Daydreamer": {
     "tier": "C",
@@ -4333,7 +4069,7 @@
       ]
     },
     "removal_type": "conditional",
-    "comment": "Best black common. 2 mana -3/-3. Every creature type \u2014 insane tribal synergy."
+    "comment": "Best black common. 2 mana -3/-3. Every creature type — insane tribal synergy."
   },
   "Nightmare Sower": {
     "tier": "D",
@@ -6558,5 +6294,6 @@
     },
     "removal_type": "hard",
     "comment": "6/5 that sometimes kills Liminal Hold and Blossombind."
-  }
+  },
+  "_config_version": 2
 }
