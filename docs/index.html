@@ -107,8 +107,6 @@ h3 { font-size:15px; color:#79c0ff; margin:4px 0 3px; }
 .arch-desc { font-size:13px; color:#8b949e; margin-bottom:4px; }
 .arch-strat { font-size:13px; color:#c9d1d9; margin-bottom:6px; }
 .arch-cat-label { font-size:12px; color:#f0883e; font-weight:bold; margin:4px 0 2px; }
-.synergy-row { display:flex; align-items:center; gap:4px; font-size:11px; color:#8b949e;
-    padding:2px 0; border-top:1px solid #21262d; margin-top:2px; }
 
 /* ── Card Browser filters ── */
 .filter-bar { display:flex; flex-wrap:wrap; gap:4px; padding:6px 0; align-items:center; }
@@ -1078,15 +1076,6 @@ function renderArchetypes() {
             html += `<div class="card-row">${catCards.map(([n]) => cardTile(n)).join('')}</div>`;
         }
 
-        if (arch.key_synergies && arch.key_synergies.length) {
-            html += '<div class="arch-cat-label">Key Synergies</div>';
-            for (const [card, partner, desc] of arch.key_synergies) {
-                html += `<div class="synergy-row">`;
-                html += cardTile(card);
-                html += `<span style="font-size:11px;color:#8b949e;padding:0 4px;">+ ${esc(partner)}: <em>${esc(desc)}</em></span>`;
-                html += '</div>';
-            }
-        }
         html += '</div>';
     }
     container.innerHTML = html;
@@ -1319,7 +1308,7 @@ function openEditPanel(name) {
 
     // Archetype Roles
     html += '<div class="ep-section"><div class="ep-section-title">Archetype Roles</div>';
-    const archCategories = ['signpost','payoff','enabler','removal','role_player','key_synergy'];
+    const archCategories = ['signpost','payoff','enabler','removal','role_player'];
     for (const arch of ARCHETYPES) {
         const myRoles = c.archetypes[arch.id] || [];
         html += `<div style="margin-bottom:4px;"><span style="font-size:11px;color:#79c0ff;">${arch.icon} ${arch.name}</span><div class="tag-chips" style="margin-top:2px;">`;
@@ -1721,7 +1710,6 @@ function openArchManager() {
             <div class="mgmt-field"><label>Icon</label><input value="${esc(a.icon||'')}" data-f="icon"></div>
             <div class="mgmt-field"><label>Short Desc</label><input value="${esc(a.short||'')}" data-f="short"></div>
             <div class="mgmt-field"><label>Strategy</label><textarea data-f="strategy" rows="2">${esc(a.strategy||'')}</textarea></div>
-            <div class="mgmt-field"><label>Signposts (comma)</label><input value="${(a.signposts||[]).join(', ')}" data-f="signposts"></div>
         </div>`;
     });
     list.innerHTML = html;
@@ -1740,13 +1728,7 @@ function addNewArchetype() {
         color_hex: '#95a5a6',
         icon: '🎴',
         short: '',
-        strategy: '',
-        signposts: [],
-        payoffs: [],
-        enablers: [],
-        removal: [],
-        role_players: [],
-        key_synergies: []
+        strategy: ''
     });
     openArchManager();
 }
@@ -1769,7 +1751,6 @@ function saveArchetypes() {
         ARCHETYPES[i].icon = get('icon').trim() || ARCHETYPES[i].icon;
         ARCHETYPES[i].short = get('short').trim();
         ARCHETYPES[i].strategy = get('strategy').trim();
-        ARCHETYPES[i].signposts = get('signposts').split(',').map(s => s.trim()).filter(Boolean);
     });
     saveConfig();
     renderAll();

@@ -10,24 +10,7 @@
       "color_hex": "#9b59b6",
       "icon": "⚙️",
       "short": "Artifacts-matter aggro/tempo. Play cheap artifact creatures, buff them, generate value.",
-      "strategy": "Draft artifact creatures highly. Brilliance Unleashed is the payoff. Metalhead, Buzz Bots, Mouser Foundry are key. Manhole Missile is premium removal that also makes artifacts.",
-      "key_synergies": [
-        [
-          "Brilliance Unleashed",
-          "Any artifact creature",
-          "Buff entire board when artifacts ETB"
-        ],
-        [
-          "Mouser Foundry",
-          "Sacrifice outlet",
-          "Generate artifact tokens repeatedly"
-        ],
-        [
-          "Metalhead",
-          "Artifact tokens",
-          "Copies artifact creatures for massive value"
-        ]
-      ]
+      "strategy": "Draft artifact creatures highly. Brilliance Unleashed is the payoff. Metalhead, Buzz Bots, Mouser Foundry are key. Manhole Missile is premium removal that also makes artifacts."
     },
     {
       "id": "wb_sneak",
@@ -39,24 +22,7 @@
       "color_hex": "#95a5a6",
       "icon": "🥷",
       "short": "Evasion & disruption. Sneak creatures deal combat damage → trigger bonus effects.",
-      "strategy": "Draft Sneak creatures that get value from dealing damage. Combine evasion (flying, unblockable) with Sneak payoffs. Removal-heavy to clear path.",
-      "key_synergies": [
-        [
-          "Turncoat Kunoichi",
-          "Any Sneak creature",
-          "Repeated disruption on combat damage"
-        ],
-        [
-          "Karai, Future of the Foot",
-          "Foot Ninjas",
-          "Signpost combo: evasive + payoff"
-        ],
-        [
-          "Dimensional Exile",
-          "Any creature",
-          "Premium removal clears path for Sneak"
-        ]
-      ]
+      "strategy": "Draft Sneak creatures that get value from dealing damage. Combine evasion (flying, unblockable) with Sneak payoffs. Removal-heavy to clear path."
     },
     {
       "id": "bg_disappear",
@@ -68,24 +34,7 @@
       "color_hex": "#27ae60",
       "icon": "💀",
       "short": "Sacrifice & recursion. Cards Disappear (exile from grave) to fuel powerful effects.",
-      "strategy": "Self-mill and sacrifice to fill graveyard, then Disappear cards for value. Strong midrange/grindy plan. Courier of Comestibles is a top common.",
-      "key_synergies": [
-        [
-          "Frog Butler",
-          "Sacrifice outlets",
-          "Recursive value engine from graveyard"
-        ],
-        [
-          "Courier of Comestibles",
-          "Disappear cards",
-          "Food tokens + Disappear synergy"
-        ],
-        [
-          "Slash, Reptile Rampager",
-          "Self-mill",
-          "Grows huge from Disappear count"
-        ]
-      ]
+      "strategy": "Self-mill and sacrifice to fill graveyard, then Disappear cards for value. Strong midrange/grindy plan. Courier of Comestibles is a top common."
     },
     {
       "id": "rw_alliance",
@@ -97,24 +46,7 @@
       "color_hex": "#e74c3c",
       "icon": "⚔️",
       "short": "Go-wide aggro. Alliance triggers when creatures ETB. Tokens + anthems.",
-      "strategy": "Play creatures that trigger Alliance on ETB. Token generators are great. Mechanized Ninja Cavalry is a key common. Curve out aggressively.",
-      "key_synergies": [
-        [
-          "Mechanized Ninja Cavalry",
-          "Token makers",
-          "Multiple Alliance triggers per turn"
-        ],
-        [
-          "Groundchuck & Dirtbag",
-          "Go-wide board",
-          "Signpost gives team buffs on Alliance"
-        ],
-        [
-          "Go Ninja Go",
-          "Any creatures",
-          "Pump + Alliance synergy"
-        ]
-      ]
+      "strategy": "Play creatures that trigger Alliance on ETB. Token generators are great. Mechanized Ninja Cavalry is a key common. Curve out aggressively."
     },
     {
       "id": "gu_mutagen",
@@ -126,24 +58,7 @@
       "color_hex": "#2ecc71",
       "icon": "🧬",
       "short": "+1/+1 counters & mutation. Mutagen creatures grow and gain abilities.",
-      "strategy": "Draft creatures that use +1/+1 counters and Mutagen. Build big threats over time. Tempo + size advantage. Mikey & Don, Party Planners is the top signpost.",
-      "key_synergies": [
-        [
-          "Mikey & Don, Party Planners",
-          "+1/+1 counter cards",
-          "Signpost grows entire team"
-        ],
-        [
-          "Donatello, Turtle Techie",
-          "Artifacts",
-          "Draws cards + grows with counters"
-        ],
-        [
-          "Return to the Sewers",
-          "Any creature",
-          "Bounce + Mutagen counter"
-        ]
-      ]
+      "strategy": "Draft creatures that use +1/+1 counters and Mutagen. Build big threats over time. Tempo + size advantage. Mikey & Don, Party Planners is the top signpost."
     }
   ],
   "_config_version": 1,
